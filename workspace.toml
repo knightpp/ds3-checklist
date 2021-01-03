@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "ds3_cheatsheet_parser",
+    "json_to_sqlite"
+]

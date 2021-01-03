@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Fading Soul",
+    "souls": 50
+  },
+  {
+    "name": "Soul of a Deserted Corpse",
+    "souls": 200
+  },
+  {
+    "name": "Large soul of a Deserted Corpse",
+    "souls": 400
+  },
+  {
+    "name": "Soul of a Proud Paladin",
+    "souls": 500
+  },
+  {
+    "name": "Soul of an Unknown Traveler",
+    "souls": 800
+  },
+  {
+    "name": "Large Soul of an Unknown Traveler",
+    "souls": 1000
+  },
+  {
+    "name": "Large Soul of a Proud Paladin",
+    "souls": 1000
+  },
+  {
+    "name": "Sovereignless Soul",
+    "souls": 2000
+  },
+  {
+    "name": "Soul of an Intrepid Hero",
+    "souls": 2000
+  },
+  {
+    "name": "Soul of a Nameless Soldier",
+    "souls": 2000
+  },
+  {
+    "name": "Large soul of an Intrepid Hero",
+    "souls": 2500
+  },
+  {
+    "name": "Large Soul of a Nameless Soldier",
+    "souls": 3000
+  },
+  {
+    "name": "Soul of a Seasoned Warrior",
+    "souls": 5000
+  },
+  {
+    "name": "Soul of a Weary Warrior",
+    "souls": 5000
+  },
+  {
+    "name": "Large Soul of a Seasoned Warrior",
+    "souls": 7500
+  },
+  {
+    "name": "Large Soul of a Weary Warrior",
+    "souls": 8000
+  },
+  {
+    "name": "Soul of a Crestfallen Knight",
+    "souls": 10000
+  },
+  {
+    "name": "Soul of an Old Hand",
+    "souls": 12500
+  },
+  {
+    "name": "Large Soul of a Crestfallen Knight",
+    "souls": 20000
+  },
+  {
+    "name": "Soul of a Venerable Old Hand",
+    "souls": 20000
+  },
+  {
+    "name": "Soul of a Champion",
+    "souls": 25000
+  },
+  {
+    "name": "Soul of a Great Champion",
+    "souls": 50000
+  }
+]

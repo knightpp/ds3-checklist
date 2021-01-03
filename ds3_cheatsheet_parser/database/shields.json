@@ -1,0 +1,87 @@
+[
+  {
+    "category": "Torches",
+    "shield_names": [
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Torch\">Torch</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Follower+Torch\">Follower Torch</a>"
+    ]
+  },
+  {
+    "category": "Small Shields",
+    "shield_names": [
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Buckler\">Buckler</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Target+Shield\">Target Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Small+Leather+Shield\">Small Leather Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Leather+Shield\">Leather Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Crimson+Parma\">Crimson Parma</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Red+and+White+Shield\">Red and White Round Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Caduceus+Round+Shield\">Caduceus Round Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Elkhorn+Round+Shield\">Elkhorn Round Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Warrior's+Round+Shield\">Warrior's Round Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Plank+Shield\">Plank Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Ghru+Rotshield\">Ghru Rotshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Iron+Round+Shield\">Iron Round Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Hawkwood's+Shield\">Hawkwood's Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Llewellyn+Shield\">Llewellyn Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Eastern+Iron+Shield\">Eastern Iron Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Golden+Falcon+Shield\">Golden Falcon Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Sacred+Bloom+Shield\">Sacred Bloom Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Dragonhead+Shield\">Dragonhead Shield</a>"
+    ]
+  },
+  {
+    "category": "Shields",
+    "shield_names": [
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Large+Leather+Shield\">Large Leather Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Shield\">Carthus Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/East-West+Shield\">East-West Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Blue+Wooden+Shield\">Blue Wooden Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Round+Shield\">Round Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Wooden+Shield\">Wooden Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Wargod+Wooden+Shield\">Wargod Wooden Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Follower+Shield\">Follower Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Kite+Shield\">Kite Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Silver+Eagle+Kite+Shield\">Silver Eagle Kite Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Knight+Shield\">Knight Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Lothric+Knight+Shield\">Lothric Knight Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Spider+Shield\">Spider Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Sunset+Shield\">Sunset Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Sunlight+Shield\">Sunlight Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Stone+Parma\">Stone Parma</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Spiked+Shield\">Spiked Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Pierce+Shield\">Pierce Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Porcine+Shield\">Porcine Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Grass+Crest+Shield\">Grass Crest Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Crest+Shield\">Crest Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Dragon+Crest+Shield\">Dragon Crest Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Spirit+Tree+Crest+Shield\">Spirit Tree Crest Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Golden+Wing+Crest+Shield\">Golden Wing Crest Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Shield\">Pontiff Knight Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Black+Knight+Shield\">Black Knight Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Silver+Knight+Shield\">Silver Knight Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Ethereal+Oak+Shield\">Ethereal Oak Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Shield+of+Want\">Shield of Want</a>"
+    ]
+  },
+  {
+    "category": "Greatshields",
+    "shield_names": [
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Twin+Dragon+Greatshield\">Twin Dragon Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Black+Iron+Greatshield\">Black Iron Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Lothric+Knight+Greatshield\">Lothric Knight Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Greatshield\">Cathedral Knight Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Stone+Greatshield\">Stone Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Bonewheel+Shield\">Bonewheel Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Ancient+Dragon+Greatshield\">Ancient Dragon Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Greatshield+of+Glory\">Greatshield of Glory</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Moaning+Shield\">Moaning Shield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Wolf+Knight's+Greatshield\">Wolf Knight's Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Havel's+Greatshield\">Havel's Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Curse+Ward+Greatshield\">Curse Ward Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Dragonslayer+Greatshield\">Dragonslayer Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Yhorm's+Greatshield\">Yhorm's Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Dragonhead+Greatshield\">Dragonhead Greatshield</a>",
+      "<a href=\"http://darksouls3.wiki.fextralife.com/Giant+Door+Shield\">Giant Door Shield</a>"
+    ]
+  }
+]

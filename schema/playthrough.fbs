@@ -1,0 +1,27 @@
+// comment
+
+namespace DS3C.Playthrough;
+
+table Location{
+  name: string;
+  link: string;
+  note: string;
+}
+
+table Task{
+  data_id: string;
+  tags: [string];
+  text: string;
+  links: [string];
+}
+
+table Playthrough{
+  location: Location;
+  tasks: [Task];
+}
+
+table PlaythroughRoot{
+  items: [Playthrough];
+}
+
+root_type PlaythroughRoot;
