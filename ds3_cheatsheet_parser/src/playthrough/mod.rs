@@ -1,7 +1,7 @@
 use anyhow::{Context, Result};
 use select::document::Document;
 use select::predicate::{And, Attr, Name, Not};
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 use url::Url;
 
 #[allow(dead_code, unused_imports)]
@@ -16,14 +16,13 @@ pub struct Playthrough {
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-pub struct Templated(String);
+pub struct Markdown(String);
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Task {
     data_id: String,
     tags: Vec<String>,
-    text: Templated,
-    links: Vec<url::Url>,
+    text: Markdown,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -89,7 +88,6 @@ pub fn parse(html: &Document) -> Result<Vec<Playthrough>> {
                     .map(ToOwned::to_owned)
                     .collect::<Vec<_>>();
                 let mut buf = String::with_capacity(256);
-                let mut links = Vec::<url::Url>::with_capacity(4);
                 for child in task.children() {
                     if let Some(text) = child.as_text() {
                         buf.push_str(text);
@@ -105,21 +103,19 @@ pub fn parse(html: &Document) -> Result<Vec<Playthrough>> {
                         if link == "#" {
                             buf.push_str(child.text().as_str());
                         } else {
-                            links.push(Url::parse(link).with_context(|| {
+                            let url = Url::parse(link).with_context(|| {
                                 println!("{}", task.html());
                                 format!("playthrough: link must be valid, link = {}", link)
-                            })?);
-                            buf.push('{');
-                            buf.push_str(child.inner_html().as_str());
-                            buf.push('}');
+                            })?;
+                            let md_link = format!("[{}]({})", child.text(), url);
+                            buf.push_str(&md_link);
                         }
                     }
                 }
                 tasks.push(Task {
                     data_id: data_id.to_owned(),
                     tags,
-                    text: Templated(buf),
-                    links,
+                    text: Markdown(buf),
                 });
             }
             tasks
@@ -139,16 +135,12 @@ pub fn gen_fb<'a, 'buf>(
         let mut tasks = Vec::with_capacity(p.tasks.len());
         for task in p.tasks.iter() {
             let data_id = builder.create_string(task.data_id.as_str());
-            let links = task.links.iter().map(|x| x.to_string()).collect::<Vec<_>>();
-            let links = links.iter().map(|x| x.as_str()).collect::<Vec<_>>();
-            let links = builder.create_vector_of_strings(links.as_slice());
             let tags = task.tags.iter().map(|x| x.as_str()).collect::<Vec<_>>();
             let tags = builder.create_vector_of_strings(tags.as_slice());
             let text = builder.create_string(task.text.0.as_str());
 
             let mut task_buidler = fb::TaskBuilder::new(&mut builder);
             task_buidler.add_data_id(data_id);
-            task_buidler.add_links(links);
             task_buidler.add_tags(tags);
             task_buidler.add_text(text);
             let task = task_buidler.finish();

@@ -2,10 +2,9 @@ use anyhow::{Context, Result};
 use ds3_cheatsheet_parser::playthrough;
 use git2::Repository;
 use select::document::Document;
-use std::{
-    fs::read_to_string,
-    path::{Path, PathBuf},
-};
+use std::{fs::read_to_string, path::Path};
+use tracing::{info, info_span, Level};
+use tracing_subscriber::FmtSubscriber;
 
 fn fast_forward(repo: &Repository) -> Result<(), git2::Error> {
     repo.find_remote("origin")?.fetch(&["master"], None, None)?;
@@ -26,7 +25,18 @@ fn fast_forward(repo: &Repository) -> Result<(), git2::Error> {
     }
 }
 
+fn setup() {
+    let subscriber = FmtSubscriber::builder()
+        // .pretty()
+        .with_max_level(Level::INFO)
+        // .with_env_filter(EnvFilter::from_default_env())
+        // .with_max_level(Level::TRACE)
+        .finish();
+    tracing::subscriber::set_global_default(subscriber).expect("setting default subscriber failed");
+}
+
 fn main() -> Result<()> {
+    setup();
     let repo_path =
         Path::new(env!("CARGO_MANIFEST_DIR")).join("target/ZKjellberg_dark-souls-3-cheat-sheet");
     let repo = if let Ok(repo) = git2::Repository::open(&repo_path) {
@@ -40,7 +50,7 @@ fn main() -> Result<()> {
         )
         .expect("could clone repository")
     };
-    fast_forward(&repo).expect("git2 error");
+    // fast_forward(&repo).expect("git2 error");
     drop(repo);
 
     let html_path = repo_path.join("index.html");
@@ -51,15 +61,21 @@ fn main() -> Result<()> {
         Document::from(html.as_str())
     };
 
-    let pt = playthrough::parse(&html)?;
-    // let mut f = std::fs::File::create("../i18n/en/playthrough.json")?;
-    // serde_json::to_writer_pretty(&mut f, &pt)?;
-    let mut buf = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024);
-    let data = playthrough::gen_fb(&pt, &mut buf);
-    // std::fs::write("../i18n/en/flatbuffers/playthrough.bfb", data)?;
-    let root = playthrough::fb::get_root_as_playthrough_root(data);
-    for item in root.items().unwrap() {
-        println!("{}", item.location().unwrap().name().unwrap());
+    {
+        let span = info_span!("Playthrough");
+        span.in_scope::<_, Result<()>>(|| {
+            info!("parsing html");
+            let pt = playthrough::parse(&html)?;
+            let mut f = std::fs::File::create("../i18n/en/playthrough.json")?;
+            info!("writing json");
+            serde_json::to_writer_pretty(&mut f, &pt)?;
+            let mut buf = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
+            info!("generating flatbuffers");
+            let data = playthrough::gen_fb(&pt, &mut buf);
+            info!("writing flatbuffers");
+            std::fs::write("../i18n/en/flatbuffers/playthrough.fb", data)?;
+            Ok(())
+        })?;
     }
 
     //achievements::generate();

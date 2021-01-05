@@ -12,7 +12,6 @@ table Task{
   data_id: string;
   tags: [string];
   text: string;
-  links: [string];
 }
 
 table Playthrough{
