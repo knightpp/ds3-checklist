@@ -1,8 +1,7 @@
 [
   {
     "location": {
-      "name": "Cemetery of Ash",
-      "link": "http://darksouls3.wiki.fextralife.com/Cemetery+of+Ash",
+      "name": "[Cemetery of Ash](http://darksouls3.wiki.fextralife.com/Cemetery+of+Ash)",
       "note": null
     },
     "tasks": [
@@ -122,7 +121,7 @@
         "tags": [
           "f_misc"
         ],
-        "text": "Continue across to the other side picking up a [Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone) from a corpse behind a tomb and another [Ember](http://darksouls3.wiki.fextralife.com/Ember) from the lower ridge "
+        "text": "Continue across to the other side picking up a [Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone) from a corpse behind a tomb and another [Ember](http://darksouls3.wiki.fextralife.com/Ember) from the lower ridge"
       },
       {
         "data_id": "playthrough_17_15",
@@ -135,8 +134,7 @@
   },
   {
     "location": {
-      "name": "Firelink Shrine",
-      "link": "http://darksouls3.wiki.fextralife.com/Firelink+Shrine",
+      "name": "[Firelink Shrine](http://darksouls3.wiki.fextralife.com/Firelink+Shrine)",
       "note": null
     },
     "tasks": [
@@ -194,7 +192,7 @@
         "tags": [
           "f_tit"
         ],
-        "text": "Just behind the roof kill the [Crystal Lizard](http://darksouls3.wiki.fextralife.com/Crystal+Lizard) to get a [Twinkling Titanite](http://darksouls3.wiki.fextralife.com/Twinkling+Titanite) "
+        "text": "Just behind the roof kill the [Crystal Lizard](http://darksouls3.wiki.fextralife.com/Crystal+Lizard) to get a [Twinkling Titanite](http://darksouls3.wiki.fextralife.com/Twinkling+Titanite)"
       },
       {
         "data_id": "playthrough_1_9",
@@ -244,7 +242,7 @@
         "tags": [
           "f_arm"
         ],
-        "text": "Go back down the lift and look down the right side. Carefully jump down to the tombstone and pick up the [Fire Keeper Set](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Set) from the corpse "
+        "text": "Go back down the lift and look down the right side. Carefully jump down to the tombstone and pick up the [Fire Keeper Set](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Set) from the corpse"
       },
       {
         "data_id": "playthrough_1_16",
@@ -257,8 +255,7 @@
   },
   {
     "location": {
-      "name": "High Wall of Lothric",
-      "link": "http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric",
+      "name": "[High Wall of Lothric](http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric)",
       "note": null
     },
     "tasks": [
@@ -594,8 +591,7 @@
   },
   {
     "location": {
-      "name": "Undead Settlement",
-      "link": "http://darksouls3.wiki.fextralife.com/Undead+Settlement",
+      "name": "[Undead Settlement](http://darksouls3.wiki.fextralife.com/Undead+Settlement)",
       "note": null
     },
     "tasks": [
@@ -1033,8 +1029,7 @@
   },
   {
     "location": {
-      "name": "Road of Sacrifices",
-      "link": "http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices",
+      "name": "[Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices)",
       "note": null
     },
     "tasks": [
@@ -1358,8 +1353,7 @@
   },
   {
     "location": {
-      "name": "Cathedral of the Deep",
-      "link": "http://darksouls3.wiki.fextralife.com/Cathedral+of+the+Deep",
+      "name": "[Cathedral of the Deep](http://darksouls3.wiki.fextralife.com/Cathedral+of+the+Deep)",
       "note": null
     },
     "tasks": [
@@ -1782,8 +1776,7 @@
   },
   {
     "location": {
-      "name": "Farron Keep",
-      "link": "http://darksouls3.wiki.fextralife.com/Farron+Keep",
+      "name": "[Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep)",
       "note": null
     },
     "tasks": [
@@ -2373,8 +2366,7 @@
   },
   {
     "location": {
-      "name": "Catacombs of Carthus",
-      "link": "http://darksouls3.wiki.fextralife.com/Catacombs+of+Carthus",
+      "name": "[Catacombs of Carthus](http://darksouls3.wiki.fextralife.com/Catacombs+of+Carthus)",
       "note": null
     },
     "tasks": [
@@ -2635,8 +2627,7 @@
   },
   {
     "location": {
-      "name": "Smouldering Lake",
-      "link": "http://darksouls3.wiki.fextralife.com/Smouldering+Lake",
+      "name": "[Smouldering Lake](http://darksouls3.wiki.fextralife.com/Smouldering+Lake)",
       "note": "(Optional)"
     },
     "tasks": [
@@ -2927,8 +2918,7 @@
   },
   {
     "location": {
-      "name": "Irithyll of the Boreal Valley",
-      "link": "http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley",
+      "name": "[Irithyll of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley)",
       "note": null
     },
     "tasks": [
@@ -3486,8 +3476,7 @@
   },
   {
     "location": {
-      "name": "Anor Londo",
-      "link": "http://darksouls3.wiki.fextralife.com/Anor+Londo",
+      "name": "[Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo)",
       "note": null
     },
     "tasks": [
@@ -3629,8 +3618,7 @@
   },
   {
     "location": {
-      "name": "Irithyll Dungeon",
-      "link": "http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon",
+      "name": "[Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
       "note": null
     },
     "tasks": [
@@ -3888,8 +3876,7 @@
   },
   {
     "location": {
-      "name": "Profaned Capital",
-      "link": "http://darksouls3.wiki.fextralife.com/Profaned+Capital",
+      "name": "[Profaned Capital](http://darksouls3.wiki.fextralife.com/Profaned+Capital)",
       "note": null
     },
     "tasks": [
@@ -4140,8 +4127,7 @@
   },
   {
     "location": {
-      "name": "Consumed King's Garden",
-      "link": "http://darksouls3.wiki.fextralife.com/Consumed+King's+Garden",
+      "name": "[Consumed King's Garden](http://darksouls3.wiki.fextralife.com/Consumed+King's+Garden)",
       "note": "(Optional)"
     },
     "tasks": [
@@ -4283,8 +4269,7 @@
   },
   {
     "location": {
-      "name": "Untended Graves",
-      "link": "http://darksouls3.wiki.fextralife.com/Untended+Graves",
+      "name": "[Untended Graves](http://darksouls3.wiki.fextralife.com/Untended+Graves)",
       "note": "(Optional)"
     },
     "tasks": [
@@ -4437,8 +4422,7 @@
   },
   {
     "location": {
-      "name": "Archdragon Peak",
-      "link": "http://darksouls3.wiki.fextralife.com/Archdragon+Peak",
+      "name": "[Archdragon Peak](http://darksouls3.wiki.fextralife.com/Archdragon+Peak)",
       "note": "(Optional)"
     },
     "tasks": [
@@ -4800,8 +4784,7 @@
   },
   {
     "location": {
-      "name": "Lothric Castle",
-      "link": "http://darksouls3.wiki.fextralife.com/Lothric+Castle",
+      "name": "[Lothric Castle](http://darksouls3.wiki.fextralife.com/Lothric+Castle)",
       "note": null
     },
     "tasks": [
@@ -5170,8 +5153,7 @@
   },
   {
     "location": {
-      "name": "Grand Archives",
-      "link": "http://darksouls3.wiki.fextralife.com/Grand+Archives",
+      "name": "[Grand Archives](http://darksouls3.wiki.fextralife.com/Grand+Archives)",
       "note": null
     },
     "tasks": [
@@ -5503,7 +5485,7 @@
         "tags": [
           "f_estus"
         ],
-        "text": "Go up the other roof where the three Gertrude's Knights are. You'll find the last [Estus Shard](http://darksouls3.wiki.fextralife.com/Estus+Shard) on the very back of this roof"
+        "text": "Go up the other roof where the three Gertrude's Knights are. You'll find the last [Estus Shard](http://darksouls3.wiki.fextralife.com/Estus+Shard ) on the very back of this roof"
       },
       {
         "data_id": "playthrough_18_44",
@@ -5632,8 +5614,7 @@
   },
   {
     "location": {
-      "name": "Kiln of the First Flame",
-      "link": "http://darksouls3.wiki.fextralife.com/Kiln+of+the+First+Flame",
+      "name": "[Kiln of the First Flame](http://darksouls3.wiki.fextralife.com/Kiln+of+the+First+Flame)",
       "note": null
     },
     "tasks": [
@@ -5708,8 +5689,7 @@
   },
   {
     "location": {
-      "name": "Painted World of Ariandel",
-      "link": "http://darksouls3.wiki.fextralife.com/Painted+World+of+Ariandel",
+      "name": "[Painted World of Ariandel](http://darksouls3.wiki.fextralife.com/Painted+World+of+Ariandel)",
       "note": "(Ashes of Ariandel DLC)"
     },
     "tasks": [
@@ -6415,8 +6395,7 @@
   },
   {
     "location": {
-      "name": "The Dreg Heap",
-      "link": "http://darksouls3.wiki.fextralife.com/The+Dreg+Heap",
+      "name": "[The Dreg Heap](http://darksouls3.wiki.fextralife.com/The+Dreg+Heap)",
       "note": "(The Ringed City DLC)"
     },
     "tasks": [
@@ -6645,7 +6624,7 @@
           "f_npc",
           "f_tit"
         ],
-        "text": "Drop down into the swamp and enter the cave to find a [Large Soul of a Weary Warrior](http://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Weary+Warrior) and a [Titanite Slab](http://darksouls3.wiki.fextralife.com/Titanite+Slab). If you have died or reloaded at least three times since talking to Lapp at the Earthen Peak Ruins bonfire, he will have gotten the Slab for you and will give it to you after talking to him. If you retrieve the Slab yourself, Lapp will give you a [Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbr%C3%A4u) the next time you talk to him"
+        "text": "Drop down into the swamp and enter the cave to find a [Large Soul of a Weary Warrior](http://darksouls3.wiki.fextralife.com/Large+Soul+of+a+Weary+Warrior) and a [Titanite Slab](http://darksouls3.wiki.fextralife.com/Titanite+Slab). If you have died or reloaded at least three times since talking to Lapp at the Earthen Peak Ruins bonfire, he will have gotten the Slab for you and will give it to you after talking to him. If you retrieve the Slab yourself, Lapp will give you a [Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbräu) the next time you talk to him"
       },
       {
         "data_id": "playthrough_21_30",
@@ -6741,7 +6720,7 @@
           "f_misc",
           "f_npc"
         ],
-        "text": "If you had Lapp get the Titanite Slab for you, you can travel back to Earthen Peak Ruins and pick up a [Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbr%C3%A4u) from where he was standing. Then return to The Demon Prince"
+        "text": "If you had Lapp get the Titanite Slab for you, you can travel back to Earthen Peak Ruins and pick up a [Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbräu) from where he was standing. Then return to The Demon Prince"
       },
       {
         "data_id": "playthrough_21_41",
@@ -6754,8 +6733,7 @@
   },
   {
     "location": {
-      "name": "The Ringed City",
-      "link": "http://darksouls3.wiki.fextralife.com/The+Ringed+City",
+      "name": "[The Ringed City](http://darksouls3.wiki.fextralife.com/The+Ringed+City)",
       "note": "(The Ringed City DLC)"
     },
     "tasks": [
@@ -6822,7 +6800,7 @@
           "f_misc",
           "f_npc"
         ],
-        "text": "After lighting the bonfire go out on the balcony and talk to [Lapp](http://darksouls3.wiki.fextralife.com/Lapp) to get a [Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbr%C3%A4u). Make sure to exhaust Lapp's dialogue here and then pick up an [Ember](http://darksouls3.wiki.fextralife.com/Ember) next to him"
+        "text": "After lighting the bonfire go out on the balcony and talk to [Lapp](http://darksouls3.wiki.fextralife.com/Lapp) to get a [Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbräu). Make sure to exhaust Lapp's dialogue here and then pick up an [Ember](http://darksouls3.wiki.fextralife.com/Ember) next to him"
       },
       {
         "data_id": "playthrough_22_10",

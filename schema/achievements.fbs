@@ -1,0 +1,18 @@
+namespace DS3C;
+
+table Achievement{
+  id: string;
+  name: string; // markdown
+  tasks: [Task];
+}
+
+table Task{
+  id: string;
+  text: string; // markdown
+}
+
+table AchievementsRoot{
+  items: [Achievement];
+}
+
+root_type AchievementsRoot;

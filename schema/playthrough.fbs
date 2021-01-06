@@ -1,17 +1,14 @@
-// comment
-
-namespace DS3C.Playthrough;
+namespace DS3C;
 
 table Location{
-  name: string;
-  link: string;
-  note: string;
+  name: string; // markdown
+  note: string; // null
 }
 
 table Task{
   data_id: string;
   tags: [string];
-  text: string;
+  text: string;	// markdown
 }
 
 table Playthrough{

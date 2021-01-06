@@ -1,11 +1,12 @@
 use anyhow::{Context, Result};
-use ds3_cheatsheet_parser::playthrough;
+use ds3_cheatsheet_parser::{achievements, playthrough};
 use git2::Repository;
 use select::document::Document;
 use std::{fs::read_to_string, path::Path};
 use tracing::{info, info_span, Level};
 use tracing_subscriber::FmtSubscriber;
 
+#[allow(dead_code)]
 fn fast_forward(repo: &Repository) -> Result<(), git2::Error> {
     repo.find_remote("origin")?.fetch(&["master"], None, None)?;
 
@@ -61,27 +62,45 @@ fn main() -> Result<()> {
         Document::from(html.as_str())
     };
 
-    {
-        let span = info_span!("Playthrough");
-        span.in_scope::<_, Result<()>>(|| {
-            info!("parsing html");
-            let pt = playthrough::parse(&html)?;
-            let mut f = std::fs::File::create("../i18n/en/playthrough.json")?;
-            info!("writing json");
-            serde_json::to_writer_pretty(&mut f, &pt)?;
-            let mut buf = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
-            info!("generating flatbuffers");
-            let data = playthrough::gen_fb(&pt, &mut buf);
-            info!("writing flatbuffers");
-            std::fs::write("../i18n/en/flatbuffers/playthrough.fb", data)?;
-            Ok(())
-        })?;
-    }
+    gen_playthrough(&html)?;
+    gen_achievements(&html)?;
 
-    //achievements::generate();
-    //weapons_shields::generate();
-    //armor::generate();
-    //trades::generate();
-    //soul_types::generate();
+    Ok(())
+}
+
+fn gen_playthrough(html: &Document) -> Result<()> {
+    let span = info_span!("Playthrough");
+    span.in_scope::<_, Result<()>>(|| {
+        info!("parsing html");
+        let pt = playthrough::parse(&html)?;
+        let mut f = std::fs::File::create("../i18n/en/playthrough.json")?;
+        info!("writing json");
+        serde_json::to_writer_pretty(&mut f, &pt)?;
+        let mut buf = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
+        info!("generating flatbuffers");
+        let data = playthrough::gen_fb(&pt, &mut buf);
+        info!("writing flatbuffers");
+        std::fs::write("../i18n/en/flatbuffers/playthrough.fb", data)?;
+        Ok(())
+    })?;
+    Ok(())
+}
+
+fn gen_achievements(html: &Document) -> Result<()> {
+    const NAME: &str = "achievements";
+    let span = info_span!(NAME);
+    span.in_scope::<_, Result<()>>(|| {
+        info!("parsing html");
+        let achs = achievements::parse(&html);
+        let mut f = std::fs::File::create(format!("../i18n/en/{}.json", NAME))?;
+        info!("writing json");
+        serde_json::to_writer_pretty(&mut f, &achs)?;
+        let mut buf = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
+        info!("generating flatbuffers");
+        let data = achievements::gen_fb(&achs, &mut buf);
+        info!("writing flatbuffers");
+        std::fs::write(format!("../i18n/en/flatbuffers/{}.fb", NAME), data)?;
+        Ok(())
+    })?;
     Ok(())
 }

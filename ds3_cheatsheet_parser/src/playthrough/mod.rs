@@ -1,22 +1,19 @@
+use crate::utils::Markdown;
 use anyhow::{Context, Result};
 use select::document::Document;
 use select::predicate::{And, Attr, Name, Not};
 use serde::{Deserialize, Serialize};
-use url::Url;
 
 #[allow(dead_code, unused_imports)]
 #[path = "../../target/flatbuffers/playthrough_generated.rs"]
 mod playthrough_generated;
-pub use playthrough_generated::ds3c::playthrough as fb;
+pub use playthrough_generated::ds3c as fb;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Playthrough {
     location: Location,
     tasks: Vec<Task>,
 }
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct Markdown(String);
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Task {
@@ -27,8 +24,7 @@ pub struct Task {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Location {
-    name: String,
-    link: url::Url,
+    name: Markdown,
     /// Optional or Require DLC
     note: Option<String>,
 }
@@ -67,7 +63,7 @@ pub fn parse(html: &Document) -> Result<Vec<Playthrough>> {
                 .children()
                 .find(|x| x.is(And(Name("a"), Not(Attr("class", ())))))
                 .context("playthrough: could not find location name/link")?;
-            let name = location.inner_html();
+            let name = location.text();
             let link = url::Url::parse(
                 location
                     .attr("href")
@@ -75,7 +71,10 @@ pub fn parse(html: &Document) -> Result<Vec<Playthrough>> {
             )
             .context("bad URL in location's name")?;
 
-            Location { name, link, note }
+            Location {
+                name: Markdown::new_link(&name, link),
+                note,
+            }
         };
         let tasks = {
             let mut tasks = Vec::<Task>::with_capacity(32);
@@ -87,35 +86,11 @@ pub fn parse(html: &Document) -> Result<Vec<Playthrough>> {
                     .split_ascii_whitespace()
                     .map(ToOwned::to_owned)
                     .collect::<Vec<_>>();
-                let mut buf = String::with_capacity(256);
-                for child in task.children() {
-                    if let Some(text) = child.as_text() {
-                        buf.push_str(text);
-                    } else if child.is(Name("span")) {
-                        buf.push_str(child.inner_html().as_str());
-                    } else {
-                        let link = child.attr("href").with_context(|| {
-                            format!(
-                                "playthrough: link in text must contain href, html = {}",
-                                child.html()
-                            )
-                        })?;
-                        if link == "#" {
-                            buf.push_str(child.text().as_str());
-                        } else {
-                            let url = Url::parse(link).with_context(|| {
-                                println!("{}", task.html());
-                                format!("playthrough: link must be valid, link = {}", link)
-                            })?;
-                            let md_link = format!("[{}]({})", child.text(), url);
-                            buf.push_str(&md_link);
-                        }
-                    }
-                }
+
                 tasks.push(Task {
                     data_id: data_id.to_owned(),
                     tags,
-                    text: Markdown(buf),
+                    text: Markdown::parse(&task),
                 });
             }
             tasks
@@ -127,9 +102,8 @@ pub fn parse(html: &Document) -> Result<Vec<Playthrough>> {
 
 pub fn gen_fb<'a, 'buf>(
     items: &'a [Playthrough],
-    mut builder: &'buf mut flatbuffers::FlatBufferBuilder,
+    builder: &'buf mut flatbuffers::FlatBufferBuilder,
 ) -> &'buf [u8] {
-    // let mut builder = flatbuffers::FlatBufferBuilder::new_with_capacity(1024);
     let mut pts = Vec::with_capacity(items.len());
     for p in items {
         let mut tasks = Vec::with_capacity(p.tasks.len());
@@ -137,9 +111,9 @@ pub fn gen_fb<'a, 'buf>(
             let data_id = builder.create_string(task.data_id.as_str());
             let tags = task.tags.iter().map(|x| x.as_str()).collect::<Vec<_>>();
             let tags = builder.create_vector_of_strings(tags.as_slice());
-            let text = builder.create_string(task.text.0.as_str());
+            let text = builder.create_string(task.text.as_str());
 
-            let mut task_buidler = fb::TaskBuilder::new(&mut builder);
+            let mut task_buidler = fb::TaskBuilder::new(builder);
             task_buidler.add_data_id(data_id);
             task_buidler.add_tags(tags);
             task_buidler.add_text(text);
@@ -149,20 +123,27 @@ pub fn gen_fb<'a, 'buf>(
         let tasks = builder.create_vector(&tasks);
 
         let name = builder.create_string(p.location.name.as_str());
-        let link = builder.create_string(p.location.link.to_string().as_str());
 
-        let mut loc_builder = fb::LocationBuilder::new(&mut builder);
-        loc_builder.add_link(link);
+        let note = if let Some(note) = p.location.note.as_ref() {
+            Some(builder.create_string(note.as_str()))
+        } else {
+            None
+        };
+        let mut loc_builder = fb::LocationBuilder::new(builder);
         loc_builder.add_name(name);
+
+        if let Some(note) = note {
+            loc_builder.add_note(note);
+        }
         let location = loc_builder.finish();
 
-        let mut pt_builder = fb::PlaythroughBuilder::new(&mut builder);
+        let mut pt_builder = fb::PlaythroughBuilder::new(builder);
         pt_builder.add_tasks(tasks);
         pt_builder.add_location(location);
         pts.push(pt_builder.finish());
     }
     let items = builder.create_vector(&pts);
-    let mut root_builder = fb::PlaythroughRootBuilder::new(&mut builder);
+    let mut root_builder = fb::PlaythroughRootBuilder::new(builder);
     root_builder.add_items(items);
     let root = root_builder.finish();
     builder.finish(root, None);
