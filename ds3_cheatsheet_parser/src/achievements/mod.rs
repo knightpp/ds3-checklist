@@ -1,6 +1,6 @@
 use crate::utils::Markdown;
-use select::document::Document;
 use select::predicate::{Attr, Name};
+use select::{document::Document, node::Node};
 use serde::{Deserialize, Serialize};
 
 #[allow(dead_code, unused_imports)]
@@ -19,6 +19,28 @@ pub struct Achievement {
 pub struct Task {
     id: String,
     text: Markdown,
+    note: Option<String>,
+}
+
+fn parse_normal<'a>(node: &Node<'a>, id: &str) -> Achievement {
+    let h3 = node.select(Attr("id", id)).next().expect("not found");
+    let ul = node
+        .select(Attr("id", format!("{}_col", id).as_str()))
+        .next()
+        .expect("not found");
+    let mut tasks = Vec::with_capacity(50);
+    for li in ul.select(Name("li")) {
+        let id = li.attr("data-id").expect("data-id not found").to_owned();
+        let md = Markdown::parse(&li);
+        tasks.push(Task {
+            id,
+            text: md,
+            note: None,
+        });
+    }
+    let name = Markdown::parse(&h3);
+    let id = h3.attr("id").expect("h3 must have id attr").to_owned();
+    Achievement { id, tasks, name }
 }
 
 pub fn parse(html: &Document) -> Vec<Achievement> {
@@ -26,23 +48,54 @@ pub fn parse(html: &Document) -> Vec<Achievement> {
         .select(Attr("id", "item_list"))
         .next()
         .expect("html element with id=item_list not found");
-    let titles = root.select(Name("h3"));
-    let lists = root.select(Name("ul"));
+    const IDS: [&str; 11] = [
+        "Master_of_Expression",
+        "Master_of_Sorceries",
+        "Master_of_Pyromancies",
+        "Master_of_Miracles",
+        "DLC_Spells",
+        "DLC_Rings",
+        "Master_of_Infusion",
+        "Ending_Achievements",
+        "Boss_Achievements",
+        "Misc_Achievements",
+        "Covenants_Achievements",
+    ];
     let mut vec = Vec::with_capacity(16);
-    for (title_node, list_node) in titles.zip(lists) {
-        let mut tasks = Vec::with_capacity(50);
-        for li in list_node.select(Name("li")) {
-            let id = li.attr("data-id").expect("data-id not found").to_owned();
-            let md = Markdown::parse(&li);
-            tasks.push(Task { id, text: md });
+    // special parsing of rings
+    {
+        let h3 = root.select(Attr("id", "Master_of_Rings")).next().unwrap();
+        let div = root
+            .select(Attr("id", "Master_of_Rings_col"))
+            .next()
+            .unwrap();
+        let h4s = div.select(Name("h4"));
+        let uls = div.select(Name("ul"));
+        assert_eq!(
+            div.select(Name("h4")).count(),
+            div.select(Name("ul")).count()
+        );
+        let mut tasks = Vec::with_capacity(64);
+        for (newgame, ul) in h4s.zip(uls) {
+            let note = newgame.text();
+            for li in ul.select(Name("li")) {
+                let id = li.attr("data-id").expect("data-id not found").to_owned();
+                let md = Markdown::parse(&li);
+                tasks.push(Task {
+                    id,
+                    text: md,
+                    note: Some(note.clone()),
+                });
+            }
         }
-        let name = Markdown::parse(&title_node);
-        let id = title_node
-            .attr("id")
-            .expect("h3 must have id attr")
-            .to_owned();
+        let id = h3.attr("id").expect("h3 must have id attr").to_owned();
+        let name = Markdown::parse(&h3);
         vec.push(Achievement { id, name, tasks });
     }
+    for id in IDS.iter() {
+        vec.push(parse_normal(&root, id));
+    }
+    vec.push(parse_normal(&root, "Master_of_Expression"));
     vec
 }
 
@@ -58,11 +111,16 @@ pub fn gen_fb<'a, 'buf>(
         for task in ach.tasks.iter() {
             let task_id = builder.create_string(task.id.as_str());
             let task_text = builder.create_string(task.text.as_str());
+            let note = task
+                .note
+                .as_ref()
+                .map(|note| builder.create_string(note.as_str()));
             let task = fb::Task::create(
                 builder,
                 &fb::TaskArgs {
                     id: Some(task_id),
                     text: Some(task_text),
+                    note,
                 },
             );
             tasks.push(task);

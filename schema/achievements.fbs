@@ -9,6 +9,7 @@ table Achievement{
 table Task{
   id: string;
   text: string; // markdown
+  note: string; // text, null for everything except Ring achievements
 }
 
 table AchievementsRoot{
