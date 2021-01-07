@@ -5,12 +5,21 @@ import 'package:dark_souls_checklist/Pages/Settings.dart';
 import 'package:dark_souls_checklist/Singletons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Constants {
   static const String Settings = "Settings";
   static const String About = "About";
 
   static const List<String> choices = <String>[Settings, About];
+}
+
+void openLink(String text, String href, String title) async {
+  if (await canLaunch(href)) {
+    await launch(href);
+  } else {
+    throw "could not launch $href";
+  }
 }
 
 class MyHome extends StatefulWidget {

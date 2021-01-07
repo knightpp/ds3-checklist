@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 class About extends StatelessWidget {
   @override
@@ -19,8 +19,9 @@ class About extends StatelessWidget {
           Divider(),
           buildListTile("Used resources"),
           ListTile(
-            title: HtmlWidget(
-                "Checkout <a href=\"https://github.com/ZKjellberg/dark-souls-3-cheat-sheet\">Dark Souls 3 Cheat Sheet</a> by Zachary Kjellberg"),
+            title: MarkdownBody(
+                data:
+                    "Checkout [Dark Souls 3 Cheat Sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet) by Zachary Kjellberg"),
             leading: Icon(Icons.recent_actors),
           ),
         ],

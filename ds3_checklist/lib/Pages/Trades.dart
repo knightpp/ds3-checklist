@@ -4,8 +4,8 @@ import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 
 import '../Models/TradesModel.dart';
 import '../Singletons.dart';
@@ -122,9 +122,9 @@ class _TradesState extends State<Trades> {
   Expanded buildTextTradesTo(int tradeIdx, BuildContext context) {
     return Expanded(
       flex: 3,
-      child: HtmlWidget(
-        model?.trades[tradeIdx].to,
-        textStyle: Theme.of(context).textTheme.bodyText1,
+      child: MarkdownBody(
+        data: model!.trades[tradeIdx].to,
+        // textStyle: Theme.of(context).textTheme.bodyText1,
       ),
     );
   }
@@ -132,9 +132,9 @@ class _TradesState extends State<Trades> {
   Expanded buildTextTradesWhat(int tradeIdx, BuildContext context) {
     return Expanded(
       flex: 4,
-      child: HtmlWidget(
-        model?.trades[tradeIdx].what,
-        textStyle: Theme.of(context).textTheme.bodyText1,
+      child: MarkdownBody(
+        data: model!.trades[tradeIdx].what,
+        // textStyle: Theme.of(context).textTheme.bodyText1,
       ),
     );
   }

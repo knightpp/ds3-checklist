@@ -2,7 +2,7 @@ name: dark_souls_checklist
 description: A new Flutter project.
 
 publish_to: "none"
-version: 1.0.1+8
+version: 2.0.0+0
 
 environment:
   sdk: ">=2.12.0-0 <3.0.0"
@@ -10,15 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_launcher_icons: ^0.8.1
-  flutter_launcher_name: ^0.0.1
-  flutter_widget_from_html: ^0.5.1+5
-  path: null
-  path_provider: ^1.6.11
-  shared_preferences: ">=0.5.12+4 <2.0.0"
-  sqflite: ^1.3.1
-  url_launcher: ^5.5.0
-  flat_buffers: ^1.12.0
+  flutter_launcher_icons: ^0.8.1-0
+  flutter_launcher_name: ^0.0.1-0
+  # flutter_widget_from_html: ^0.5.1+5
+  path: ^1.8.0-nullsafety.3
+  path_provider: ^1.6.24-0
+  shared_preferences: ">=0.5.12-0 <2.0.0"
+  sqflite: ^2.0.0-nullsafety.2
+  url_launcher: ^6.0.0-nullsafety.1
+  flat_buffers: ^1.12.0-0
+  flutter_markdown: ^0.5.2-0
 
 dev_dependencies:
   flutter_test:
@@ -38,7 +39,7 @@ flutter:
     - assets/json/
     - assets/images/
     - assets/sqlites/
-    - assets/playthrough.fb
+    - assets/flatbuffers/
   fonts:
     - family: OptimusPrinceps
       fonts:

@@ -3,7 +3,8 @@ import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import '../ItemTile.dart';
 import '../Models/WeaponsAndShieldsModel.dart' as My;
 import '../Singletons.dart';
@@ -133,9 +134,9 @@ class _ExpandableTileState extends State<ExpandableTile> {
           _updateChecked(catIdx, taskId, newVal!);
         },
         isChecked: isChecked,
-        content: HtmlWidget(
-          cat.items[taskId].name,
-          textStyle: Theme.of(context).textTheme.bodyText2,
+        content: MarkdownBody(
+          data: cat.items[taskId].name,
+          // textStyle: Theme.of(context).textTheme.bodyText2,
         ),
       ));
     }
@@ -146,9 +147,9 @@ class _ExpandableTileState extends State<ExpandableTile> {
   Widget build(BuildContext context) {
     return ExpansionTile(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      title: HtmlWidget(
-        widget.model.categories[catIdx].name,
-        textStyle: Theme.of(context).textTheme.headline2,
+      title: MarkdownBody(
+        data: widget.model.categories[catIdx].name,
+        // textStyle: Theme.of(context).textTheme.headline2,
       ),
       children: <Widget>[
         Column(

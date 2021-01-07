@@ -1,11 +1,12 @@
 import 'package:dark_souls_checklist/DatabaseManager.dart';
-import 'package:dark_souls_checklist/Models/AchievementsModel.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import '../../ItemTile.dart';
 import '../../Singletons.dart';
+import 'package:dark_souls_checklist/Generated/achievements_d_s3_c_generated.dart'
+    as fb;
 
 const String TITLE = "Achievements";
 
@@ -13,7 +14,7 @@ class AchievementPage extends StatefulWidget {
   final Widget appBarTitleWidget;
   final AssetImage image;
   final Object heroTag;
-  final List<Achievement> achs;
+  final fb.Achievement ach;
   final int achId;
   final DatabaseManager db;
   const AchievementPage(
@@ -21,7 +22,7 @@ class AchievementPage extends StatefulWidget {
       required this.appBarTitleWidget,
       required this.image,
       required this.heroTag,
-      required this.achs,
+      required this.ach,
       required this.achId,
       required this.db})
       : super(key: key);
@@ -60,25 +61,34 @@ class _AchievementPageState extends State<AchievementPage> {
         },
       ),
       body: ListView.builder(
-        itemCount: widget.achs[widget.achId].tasks.length + 1,
+        itemCount: widget.ach.tasks.length + 1,
         itemBuilder: (context, index) {
           if (index == 0) {
             // SliverList gives error, so this is a workaround
-            return Hero(tag: widget.heroTag, child: Image(image: widget.image));
+            return Padding(
+              padding: const EdgeInsets.all(24.0),
+              child:
+                  Hero(tag: widget.heroTag, child: Image(image: widget.image)),
+            );
           }
           int taskIdx = index - 1;
-          bool isChecked = widget.db.checked[widget.achId][taskIdx];
+          bool isChecked = widget.db.checked[widget.achId][taskIdx]!;
+          final task = widget.ach.tasks[taskIdx];
           return ItemTile(
             isChecked: isChecked,
             isVisible: !(_hideCompleted && isChecked),
             onChanged: (newVal) {
               _updateChecked(widget.achId, taskIdx, newVal!);
             },
-            title: HtmlWidget(widget.achs[widget.achId].tasks[taskIdx].itemName,
-                textStyle: Theme.of(context).textTheme.headline2),
-            content: HtmlWidget(
-              widget.achs[widget.achId].tasks[taskIdx].description,
-              textStyle: Theme.of(context).textTheme.bodyText1,
+            title: MarkdownBody(
+              data: task.text.split(":").first,
+              styleSheet: MarkdownStyleSheet()
+                  .copyWith(p: Theme.of(context).textTheme.headline2),
+              // textStyle: Theme.of(context).textTheme.headline2
+            ),
+            content: MarkdownBody(
+              data: task.text,
+              // textStyle: Theme.of(context).textTheme.bodyText1,
             ),
           );
         },

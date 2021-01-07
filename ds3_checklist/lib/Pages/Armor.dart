@@ -3,8 +3,9 @@ import 'package:dark_souls_checklist/AllPageFutureBuilder.dart';
 import 'package:dark_souls_checklist/ItemTile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
+// import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import '../MyAppBar.dart';
 import '../Models/ArmorModel.dart';
 import '../Singletons.dart';
@@ -96,8 +97,9 @@ class _ArmorState extends State<Armor> {
                           _updateChecked(catIndex, taskIdx, newVal!);
                         },
                         isChecked: isChecked,
-                        content: HtmlWidget(
-                            model!.categories[catIndex].items[taskIdx].name),
+                        content: MarkdownBody(
+                            data: model!
+                                .categories[catIndex].items[taskIdx].name),
                       );
                     },
                     itemCount: model!.categories[catIndex].items.length,
