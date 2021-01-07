@@ -1,0 +1,12 @@
+namespace DS3C;
+
+table Trade{
+  what: string; // markdown
+  for: string; // markdown
+}
+
+table TradesRoot{
+  items: [Trade];
+}
+
+root_type TradesRoot;

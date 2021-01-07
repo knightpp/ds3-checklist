@@ -1,0 +1,12 @@
+namespace DS3C;
+
+table ArmorCategory{
+  name: string;
+  gear_names: [string]; // markdown
+}
+
+table ArmorRoot{
+  items: [ArmorCategory];
+}
+
+root_type ArmorRoot;

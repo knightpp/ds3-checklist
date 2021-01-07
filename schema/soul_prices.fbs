@@ -1,0 +1,12 @@
+namespace DS3C;
+
+table Soul{
+  name: string;
+  price: uint16;
+}
+
+table SoulPricesRoot{
+  items: [Soul];
+}
+
+root_type SoulPricesRoot;

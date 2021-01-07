@@ -1,3 +1,5 @@
 pub mod achievements;
+pub mod armor;
 pub mod playthrough;
-pub(crate) mod utils;
+pub mod trades;
+pub mod utils;

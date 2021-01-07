@@ -7,6 +7,7 @@ library d_s3_c;
 import 'dart:typed_data' show Uint8List;
 import 'package:flat_buffers/flat_buffers.dart' as fb;
 
+
 class Achievement {
   Achievement._(this._bc, this._bcOffset);
   factory Achievement(List<int> bytes) {
@@ -21,8 +22,7 @@ class Achievement {
 
   String get id => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
   String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
-  List<Task> get tasks =>
-      const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 8, null);
+  List<Task> get tasks => const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 8, null);
 
   @override
   String toString() {
@@ -34,8 +34,8 @@ class _AchievementReader extends fb.TableReader<Achievement> {
   const _AchievementReader();
 
   @override
-  Achievement createObject(fb.BufferContext bc, int offset) =>
-      new Achievement._(bc, offset);
+  Achievement createObject(fb.BufferContext bc, int offset) => 
+    new Achievement._(bc, offset);
 }
 
 class AchievementBuilder {
@@ -53,12 +53,10 @@ class AchievementBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-
   int addNameOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
-
   int addTasksOffset(int offset) {
     fbBuilder.addOffset(2, offset);
     return fbBuilder.offset;
@@ -78,19 +76,20 @@ class AchievementObjectBuilder extends fb.ObjectBuilder {
     String id,
     String name,
     List<TaskObjectBuilder> tasks,
-  })  : _id = id,
+  })
+      : _id = id,
         _name = name,
         _tasks = tasks;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int idOffset = fbBuilder.writeString(_id);
     final int nameOffset = fbBuilder.writeString(_name);
     final int tasksOffset = _tasks?.isNotEmpty == true
-        ? fbBuilder.writeList(
-            _tasks.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
+        ? fbBuilder.writeList(_tasks.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
 
     fbBuilder.startTable();
@@ -114,7 +113,6 @@ class AchievementObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.finish(offset, fileIdentifier);
   }
 }
-
 class Task {
   Task._(this._bc, this._bcOffset);
   factory Task(List<int> bytes) {
@@ -141,7 +139,8 @@ class _TaskReader extends fb.TableReader<Task> {
   const _TaskReader();
 
   @override
-  Task createObject(fb.BufferContext bc, int offset) => new Task._(bc, offset);
+  Task createObject(fb.BufferContext bc, int offset) => 
+    new Task._(bc, offset);
 }
 
 class TaskBuilder {
@@ -159,12 +158,10 @@ class TaskBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-
   int addTextOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
-
   int addNoteOffset(int offset) {
     fbBuilder.addOffset(2, offset);
     return fbBuilder.offset;
@@ -184,13 +181,15 @@ class TaskObjectBuilder extends fb.ObjectBuilder {
     String id,
     String text,
     String note,
-  })  : _id = id,
+  })
+      : _id = id,
         _text = text,
         _note = note;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int idOffset = fbBuilder.writeString(_id);
     final int textOffset = fbBuilder.writeString(_text);
@@ -217,7 +216,6 @@ class TaskObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.finish(offset, fileIdentifier);
   }
 }
-
 class AchievementsRoot {
   AchievementsRoot._(this._bc, this._bcOffset);
   factory AchievementsRoot(List<int> bytes) {
@@ -225,15 +223,12 @@ class AchievementsRoot {
     return reader.read(rootRef, 0);
   }
 
-  static const fb.Reader<AchievementsRoot> reader =
-      const _AchievementsRootReader();
+  static const fb.Reader<AchievementsRoot> reader = const _AchievementsRootReader();
 
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  List<Achievement> get items =>
-      const fb.ListReader<Achievement>(Achievement.reader)
-          .vTableGet(_bc, _bcOffset, 4, null);
+  List<Achievement> get items => const fb.ListReader<Achievement>(Achievement.reader).vTableGet(_bc, _bcOffset, 4, null);
 
   @override
   String toString() {
@@ -245,8 +240,8 @@ class _AchievementsRootReader extends fb.TableReader<AchievementsRoot> {
   const _AchievementsRootReader();
 
   @override
-  AchievementsRoot createObject(fb.BufferContext bc, int offset) =>
-      new AchievementsRoot._(bc, offset);
+  AchievementsRoot createObject(fb.BufferContext bc, int offset) => 
+    new AchievementsRoot._(bc, offset);
 }
 
 class AchievementsRootBuilder {
@@ -275,15 +270,16 @@ class AchievementsRootObjectBuilder extends fb.ObjectBuilder {
 
   AchievementsRootObjectBuilder({
     List<AchievementObjectBuilder> items,
-  }) : _items = items;
+  })
+      : _items = items;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int itemsOffset = _items?.isNotEmpty == true
-        ? fbBuilder.writeList(
-            _items.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
+        ? fbBuilder.writeList(_items.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
 
     fbBuilder.startTable();

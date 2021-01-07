@@ -7,6 +7,7 @@ library d_s3_c;
 import 'dart:typed_data' show Uint8List;
 import 'package:flat_buffers/flat_buffers.dart' as fb;
 
+
 class Location {
   Location._(this._bc, this._bcOffset);
   factory Location(List<int> bytes) {
@@ -32,8 +33,8 @@ class _LocationReader extends fb.TableReader<Location> {
   const _LocationReader();
 
   @override
-  Location createObject(fb.BufferContext bc, int offset) =>
-      new Location._(bc, offset);
+  Location createObject(fb.BufferContext bc, int offset) => 
+    new Location._(bc, offset);
 }
 
 class LocationBuilder {
@@ -51,7 +52,6 @@ class LocationBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-
   int addNoteOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
@@ -69,12 +69,14 @@ class LocationObjectBuilder extends fb.ObjectBuilder {
   LocationObjectBuilder({
     String name,
     String note,
-  })  : _name = name,
+  })
+      : _name = name,
         _note = note;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int nameOffset = fbBuilder.writeString(_name);
     final int noteOffset = fbBuilder.writeString(_note);
@@ -97,7 +99,6 @@ class LocationObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.finish(offset, fileIdentifier);
   }
 }
-
 class Task {
   Task._(this._bc, this._bcOffset);
   factory Task(List<int> bytes) {
@@ -110,10 +111,8 @@ class Task {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String get dataId =>
-      const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  List<String> get tags => const fb.ListReader<String>(const fb.StringReader())
-      .vTableGet(_bc, _bcOffset, 6, null);
+  String get dataId => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
+  List<String> get tags => const fb.ListReader<String>(const fb.StringReader()).vTableGet(_bc, _bcOffset, 6, null);
   String get text => const fb.StringReader().vTableGet(_bc, _bcOffset, 8, null);
 
   @override
@@ -126,7 +125,8 @@ class _TaskReader extends fb.TableReader<Task> {
   const _TaskReader();
 
   @override
-  Task createObject(fb.BufferContext bc, int offset) => new Task._(bc, offset);
+  Task createObject(fb.BufferContext bc, int offset) => 
+    new Task._(bc, offset);
 }
 
 class TaskBuilder {
@@ -144,12 +144,10 @@ class TaskBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-
   int addTagsOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
-
   int addTextOffset(int offset) {
     fbBuilder.addOffset(2, offset);
     return fbBuilder.offset;
@@ -169,18 +167,19 @@ class TaskObjectBuilder extends fb.ObjectBuilder {
     String dataId,
     List<String> tags,
     String text,
-  })  : _dataId = dataId,
+  })
+      : _dataId = dataId,
         _tags = tags,
         _text = text;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int dataIdOffset = fbBuilder.writeString(_dataId);
     final int tagsOffset = _tags?.isNotEmpty == true
-        ? fbBuilder
-            .writeList(_tags.map((b) => fbBuilder.writeString(b)).toList())
+        ? fbBuilder.writeList(_tags.map((b) => fbBuilder.writeString(b)).toList())
         : null;
     final int textOffset = fbBuilder.writeString(_text);
 
@@ -205,7 +204,6 @@ class TaskObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.finish(offset, fileIdentifier);
   }
 }
-
 class Playthrough {
   Playthrough._(this._bc, this._bcOffset);
   factory Playthrough(List<int> bytes) {
@@ -219,8 +217,7 @@ class Playthrough {
   final int _bcOffset;
 
   Location get location => Location.reader.vTableGet(_bc, _bcOffset, 4, null);
-  List<Task> get tasks =>
-      const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 6, null);
+  List<Task> get tasks => const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 6, null);
 
   @override
   String toString() {
@@ -232,8 +229,8 @@ class _PlaythroughReader extends fb.TableReader<Playthrough> {
   const _PlaythroughReader();
 
   @override
-  Playthrough createObject(fb.BufferContext bc, int offset) =>
-      new Playthrough._(bc, offset);
+  Playthrough createObject(fb.BufferContext bc, int offset) => 
+    new Playthrough._(bc, offset);
 }
 
 class PlaythroughBuilder {
@@ -251,7 +248,6 @@ class PlaythroughBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-
   int addTasksOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
@@ -269,17 +265,18 @@ class PlaythroughObjectBuilder extends fb.ObjectBuilder {
   PlaythroughObjectBuilder({
     LocationObjectBuilder location,
     List<TaskObjectBuilder> tasks,
-  })  : _location = location,
+  })
+      : _location = location,
         _tasks = tasks;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int locationOffset = _location?.getOrCreateOffset(fbBuilder);
     final int tasksOffset = _tasks?.isNotEmpty == true
-        ? fbBuilder.writeList(
-            _tasks.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
+        ? fbBuilder.writeList(_tasks.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
 
     fbBuilder.startTable();
@@ -300,7 +297,6 @@ class PlaythroughObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.finish(offset, fileIdentifier);
   }
 }
-
 class PlaythroughRoot {
   PlaythroughRoot._(this._bc, this._bcOffset);
   factory PlaythroughRoot(List<int> bytes) {
@@ -308,15 +304,12 @@ class PlaythroughRoot {
     return reader.read(rootRef, 0);
   }
 
-  static const fb.Reader<PlaythroughRoot> reader =
-      const _PlaythroughRootReader();
+  static const fb.Reader<PlaythroughRoot> reader = const _PlaythroughRootReader();
 
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  List<Playthrough> get items =>
-      const fb.ListReader<Playthrough>(Playthrough.reader)
-          .vTableGet(_bc, _bcOffset, 4, null);
+  List<Playthrough> get items => const fb.ListReader<Playthrough>(Playthrough.reader).vTableGet(_bc, _bcOffset, 4, null);
 
   @override
   String toString() {
@@ -328,8 +321,8 @@ class _PlaythroughRootReader extends fb.TableReader<PlaythroughRoot> {
   const _PlaythroughRootReader();
 
   @override
-  PlaythroughRoot createObject(fb.BufferContext bc, int offset) =>
-      new PlaythroughRoot._(bc, offset);
+  PlaythroughRoot createObject(fb.BufferContext bc, int offset) => 
+    new PlaythroughRoot._(bc, offset);
 }
 
 class PlaythroughRootBuilder {
@@ -358,15 +351,16 @@ class PlaythroughRootObjectBuilder extends fb.ObjectBuilder {
 
   PlaythroughRootObjectBuilder({
     List<PlaythroughObjectBuilder> items,
-  }) : _items = items;
+  })
+      : _items = items;
 
   /// Finish building, and store into the [fbBuilder].
   @override
-  int finish(fb.Builder fbBuilder) {
+  int finish(
+    fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int itemsOffset = _items?.isNotEmpty == true
-        ? fbBuilder.writeList(
-            _items.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
+        ? fbBuilder.writeList(_items.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
 
     fbBuilder.startTable();

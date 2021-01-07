@@ -1,0 +1,438 @@
+[
+  {
+    "category": "Torches",
+    "item_names": [
+      "[Torch](http://darksouls3.wiki.fextralife.com/Torch)",
+      "[Follower Torch](http://darksouls3.wiki.fextralife.com/Follower+Torch)"
+    ]
+  },
+  {
+    "category": "Small Shields",
+    "item_names": [
+      "[Buckler](http://darksouls3.wiki.fextralife.com/Buckler)",
+      "[Target Shield](http://darksouls3.wiki.fextralife.com/Target+Shield)",
+      "[Small Leather Shield](http://darksouls3.wiki.fextralife.com/Small+Leather+Shield)",
+      "[Leather Shield](http://darksouls3.wiki.fextralife.com/Leather+Shield)",
+      "[Crimson Parma](http://darksouls3.wiki.fextralife.com/Crimson+Parma)",
+      "[Red and White Round Shield](http://darksouls3.wiki.fextralife.com/Red+and+White+Shield)",
+      "[Caduceus Round Shield](http://darksouls3.wiki.fextralife.com/Caduceus+Round+Shield)",
+      "[Elkhorn Round Shield](http://darksouls3.wiki.fextralife.com/Elkhorn+Round+Shield)",
+      "[Warrior's Round Shield](http://darksouls3.wiki.fextralife.com/Warrior's+Round+Shield)",
+      "[Plank Shield](http://darksouls3.wiki.fextralife.com/Plank+Shield)",
+      "[Ghru Rotshield](http://darksouls3.wiki.fextralife.com/Ghru+Rotshield)",
+      "[Iron Round Shield](http://darksouls3.wiki.fextralife.com/Iron+Round+Shield)",
+      "[Hawkwood's Shield](http://darksouls3.wiki.fextralife.com/Hawkwood's+Shield)",
+      "[Llewellyn Shield](http://darksouls3.wiki.fextralife.com/Llewellyn+Shield)",
+      "[Eastern Iron Shield](http://darksouls3.wiki.fextralife.com/Eastern+Iron+Shield)",
+      "[Golden Falcon Shield](http://darksouls3.wiki.fextralife.com/Golden+Falcon+Shield)",
+      "[Sacred Bloom Shield](http://darksouls3.wiki.fextralife.com/Sacred+Bloom+Shield)",
+      "[Dragonhead Shield](http://darksouls3.wiki.fextralife.com/Dragonhead+Shield)"
+    ]
+  },
+  {
+    "category": "Shields",
+    "item_names": [
+      "[Large Leather Shield](http://darksouls3.wiki.fextralife.com/Large+Leather+Shield)",
+      "[Carthus Shield](http://darksouls3.wiki.fextralife.com/Carthus+Shield)",
+      "[East-West Shield](http://darksouls3.wiki.fextralife.com/East-West+Shield)",
+      "[Blue Wooden Shield](http://darksouls3.wiki.fextralife.com/Blue+Wooden+Shield)",
+      "[Round Shield](http://darksouls3.wiki.fextralife.com/Round+Shield)",
+      "[Wooden Shield](http://darksouls3.wiki.fextralife.com/Wooden+Shield)",
+      "[Wargod Wooden Shield](http://darksouls3.wiki.fextralife.com/Wargod+Wooden+Shield)",
+      "[Follower Shield](http://darksouls3.wiki.fextralife.com/Follower+Shield)",
+      "[Kite Shield](http://darksouls3.wiki.fextralife.com/Kite+Shield)",
+      "[Silver Eagle Kite Shield](http://darksouls3.wiki.fextralife.com/Silver+Eagle+Kite+Shield)",
+      "[Knight Shield](http://darksouls3.wiki.fextralife.com/Knight+Shield)",
+      "[Lothric Knight Shield](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Shield)",
+      "[Spider Shield](http://darksouls3.wiki.fextralife.com/Spider+Shield)",
+      "[Sunset Shield](http://darksouls3.wiki.fextralife.com/Sunset+Shield)",
+      "[Sunlight Shield](http://darksouls3.wiki.fextralife.com/Sunlight+Shield)",
+      "[Stone Parma](http://darksouls3.wiki.fextralife.com/Stone+Parma)",
+      "[Spiked Shield](http://darksouls3.wiki.fextralife.com/Spiked+Shield)",
+      "[Pierce Shield](http://darksouls3.wiki.fextralife.com/Pierce+Shield)",
+      "[Porcine Shield](http://darksouls3.wiki.fextralife.com/Porcine+Shield)",
+      "[Grass Crest Shield](http://darksouls3.wiki.fextralife.com/Grass+Crest+Shield)",
+      "[Crest Shield](http://darksouls3.wiki.fextralife.com/Crest+Shield)",
+      "[Dragon Crest Shield](http://darksouls3.wiki.fextralife.com/Dragon+Crest+Shield)",
+      "[Spirit Tree Crest Shield](http://darksouls3.wiki.fextralife.com/Spirit+Tree+Crest+Shield)",
+      "[Golden Wing Crest Shield](http://darksouls3.wiki.fextralife.com/Golden+Wing+Crest+Shield)",
+      "[Pontiff Knight Shield](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Shield)",
+      "[Black Knight Shield](http://darksouls3.wiki.fextralife.com/Black+Knight+Shield)",
+      "[Silver Knight Shield](http://darksouls3.wiki.fextralife.com/Silver+Knight+Shield)",
+      "[Ethereal Oak Shield](http://darksouls3.wiki.fextralife.com/Ethereal+Oak+Shield)",
+      "[Shield of Want](http://darksouls3.wiki.fextralife.com/Shield+of+Want)"
+    ]
+  },
+  {
+    "category": "Greatshields",
+    "item_names": [
+      "[Twin Dragon Greatshield](http://darksouls3.wiki.fextralife.com/Twin+Dragon+Greatshield)",
+      "[Black Iron Greatshield](http://darksouls3.wiki.fextralife.com/Black+Iron+Greatshield)",
+      "[Lothric Knight Greatshield](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Greatshield)",
+      "[Cathedral Knight Greatshield](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Greatshield)",
+      "[Stone Greatshield](http://darksouls3.wiki.fextralife.com/Stone+Greatshield)",
+      "[Bonewheel Shield](http://darksouls3.wiki.fextralife.com/Bonewheel+Shield)",
+      "[Ancient Dragon Greatshield](http://darksouls3.wiki.fextralife.com/Ancient+Dragon+Greatshield)",
+      "[Greatshield of Glory](http://darksouls3.wiki.fextralife.com/Greatshield+of+Glory)",
+      "[Moaning Shield](http://darksouls3.wiki.fextralife.com/Moaning+Shield)",
+      "[Wolf Knight's Greatshield](http://darksouls3.wiki.fextralife.com/Wolf+Knight's+Greatshield)",
+      "[Havel's Greatshield](http://darksouls3.wiki.fextralife.com/Havel's+Greatshield)",
+      "[Curse Ward Greatshield](http://darksouls3.wiki.fextralife.com/Curse+Ward+Greatshield)",
+      "[Dragonslayer Greatshield](http://darksouls3.wiki.fextralife.com/Dragonslayer+Greatshield)",
+      "[Yhorm's Greatshield](http://darksouls3.wiki.fextralife.com/Yhorm's+Greatshield)",
+      "[Dragonhead Greatshield](http://darksouls3.wiki.fextralife.com/Dragonhead+Greatshield)",
+      "[Giant Door Shield](http://darksouls3.wiki.fextralife.com/Giant+Door+Shield)"
+    ]
+  },
+  {
+    "category": "Daggers",
+    "item_names": [
+      "[Dagger](http://darksouls3.wiki.fextralife.com/Dagger)",
+      "[Parrying Dagger](http://darksouls3.wiki.fextralife.com/Parrying+Dagger)",
+      "[Mail Breaker](http://darksouls3.wiki.fextralife.com/Mail+Breaker)",
+      "[Harpe](http://darksouls3.wiki.fextralife.com/Harpe)",
+      "[Bandit's Knife](http://darksouls3.wiki.fextralife.com/Bandit's+Knife)",
+      "[Rotten Ghru Dagger](http://darksouls3.wiki.fextralife.com/Rotten+Ghru+Dagger)",
+      "[Corvian Greatknife](http://darksouls3.wiki.fextralife.com/Corvian+Greatknife)",
+      "[Murky Hand Scythe](http://darksouls3.wiki.fextralife.com/Murky+Hand+Scythe)",
+      "[Handmaid's Dagger](http://darksouls3.wiki.fextralife.com/Handmaid's+Dagger)",
+      "[Scholar's Candlestick](http://darksouls3.wiki.fextralife.com/Scholar's+Candlestick)",
+      "[Aquamarine Dagger](http://darksouls3.wiki.fextralife.com/Aquamarine+Dagger)",
+      "[Tailbone Short Sword](http://darksouls3.wiki.fextralife.com/Tailbone+Short+Sword)",
+      "[Brigand Twindaggers](http://darksouls3.wiki.fextralife.com/Brigand+Twindaggers)"
+    ]
+  },
+  {
+    "category": "Straight Swords",
+    "item_names": [
+      "[Shortsword](http://darksouls3.wiki.fextralife.com/Shortsword)",
+      "[Long Sword](http://darksouls3.wiki.fextralife.com/Long+Sword)",
+      "[Broadsword](http://darksouls3.wiki.fextralife.com/Broadsword)",
+      "[Broken Straight Sword](http://darksouls3.wiki.fextralife.com/Broken+Straight+Sword)",
+      "[Astora Straight Sword](http://darksouls3.wiki.fextralife.com/Astora+Straight+Sword)",
+      "[Lothric Knight Sword](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Sword)",
+      "[Barbed Straight Sword](http://darksouls3.wiki.fextralife.com/Barbed+Straight+Sword)",
+      "[Dark Sword](http://darksouls3.wiki.fextralife.com/Dark+Sword)",
+      "[Cleric's Candlestick](http://darksouls3.wiki.fextralife.com/Cleric's+Candlestick)",
+      "[Irithyll Straight Sword](http://darksouls3.wiki.fextralife.com/Irithyll+Straight+Sword)",
+      "[Anri's Straight Sword](http://darksouls3.wiki.fextralife.com/Anri's+Straight+Sword)",
+      "[Sunlight Straight Sword](http://darksouls3.wiki.fextralife.com/Sunlight+Straight+Sword)",
+      "[Morion Blade](http://darksouls3.wiki.fextralife.com/Morion+Blade)",
+      "[Ringed Knight Straight Sword](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Straight+Sword)",
+      "[Lothric's Holy Sword](http://darksouls3.wiki.fextralife.com/Lothric's+Holy+Sword)",
+      "[Gotthard Twinswords](http://darksouls3.wiki.fextralife.com/Gotthard+Twinswords)",
+      "[Valorheart](http://darksouls3.wiki.fextralife.com/Valorheart)"
+    ]
+  },
+  {
+    "category": "Greatswords",
+    "item_names": [
+      "[Bastard Sword](http://darksouls3.wiki.fextralife.com/Bastard+Sword)",
+      "[Claymore](http://darksouls3.wiki.fextralife.com/Claymore)",
+      "[Flamberge](http://darksouls3.wiki.fextralife.com/Flamberge)",
+      "[Drakeblood Greatsword](http://darksouls3.wiki.fextralife.com/Drakeblood+Greatsword)",
+      "[Executioner's Greatsword](http://darksouls3.wiki.fextralife.com/Executioner's+Greatsword)",
+      "[Black Knight Sword](http://darksouls3.wiki.fextralife.com/Black+Knight+Sword)",
+      "[Onyx Blade](http://darksouls3.wiki.fextralife.com/Onyx+Blade)",
+      "[Hollowslayer Greatsword](http://darksouls3.wiki.fextralife.com/Hollowslayer+Greatsword)",
+      "[Wolnir's Holy Sword](http://darksouls3.wiki.fextralife.com/Wolnir's+Holy+Sword)",
+      "[Greatsword of Judgment](http://darksouls3.wiki.fextralife.com/Greatsword+of+Judgment)",
+      "[Storm Ruler](http://darksouls3.wiki.fextralife.com/Storm+Ruler)",
+      "[Wolf Knight's Greatsword](http://darksouls3.wiki.fextralife.com/Wolf+Knight's+Greatsword)",
+      "[Moonlight Greatsword](http://darksouls3.wiki.fextralife.com/Moonlight+Greatsword)",
+      "[Firelink Greatsword](http://darksouls3.wiki.fextralife.com/Firelink+Greatsword)",
+      "[Twin Princes' Greatsword](http://darksouls3.wiki.fextralife.com/Twin+Princes'+Greatsword)",
+      "[Gael's Greatsword](http://darksouls3.wiki.fextralife.com/Gael's+Greatsword)"
+    ]
+  },
+  {
+    "category": "Ultra Greatswords",
+    "item_names": [
+      "[Zweihander](http://darksouls3.wiki.fextralife.com/Zweihander)",
+      "[Greatsword](http://darksouls3.wiki.fextralife.com/Greatsword)",
+      "[Astora Greatsword](http://darksouls3.wiki.fextralife.com/Astora+Greatsword)",
+      "[Lothric Knight Greatsword](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Greatsword)",
+      "[Cathedral Knight Greatsword](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Greatsword)",
+      "[Black Knight Greatsword](http://darksouls3.wiki.fextralife.com/Black+Knight+Greatsword)",
+      "[Fume Ultra Greatsword](http://darksouls3.wiki.fextralife.com/Fume+Ultra+Greatsword)",
+      "[Profaned Greatsword](http://darksouls3.wiki.fextralife.com/Profaned+Greatsword)",
+      "[Lorian's Greatsword](http://darksouls3.wiki.fextralife.com/Lorian's+Greatsword)",
+      "[Ringed Knight Paired Greatswords](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Paired+Greatswords)",
+      "[Farron Greatsword](http://darksouls3.wiki.fextralife.com/Farron+Greatsword)"
+    ]
+  },
+  {
+    "category": "Curved Swords",
+    "item_names": [
+      "[Scimitar](http://darksouls3.wiki.fextralife.com/Scimitar)",
+      "[Falchion](http://darksouls3.wiki.fextralife.com/Falchion)",
+      "[Shotel](http://darksouls3.wiki.fextralife.com/Shotel)",
+      "[Carthus Curved Sword](http://darksouls3.wiki.fextralife.com/Carthus+Curved+Sword)",
+      "[Carthus Shotel](http://darksouls3.wiki.fextralife.com/Carthus+Shotel)",
+      "[Rotten Ghru Curved Sword](http://darksouls3.wiki.fextralife.com/Rotten+Ghru+Curved+Sword)",
+      "[Painting Guardian's Curved Sword](http://darksouls3.wiki.fextralife.com/Painting+Guardian's+Curved+Sword)",
+      "[Follower Sabre](http://darksouls3.wiki.fextralife.com/Follower+Sabre)",
+      "[Pontiff Knight Curved Sword](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Curved+Sword)",
+      "[Crescent Moon Sword](http://darksouls3.wiki.fextralife.com/Crescent+Moon+Sword)",
+      "[Storm Curved Sword](http://darksouls3.wiki.fextralife.com/Storm+Curved+Sword)",
+      "[Demon's Scar](http://darksouls3.wiki.fextralife.com/Demon's+Scar)",
+      "[Sellsword Twinblades](http://darksouls3.wiki.fextralife.com/Sellsword+Twinblades)",
+      "[Warden Twinblades](http://darksouls3.wiki.fextralife.com/Warden+Twinblades)",
+      "[Dancer's Enchanted Swords](http://darksouls3.wiki.fextralife.com/Dancer's+Enchanted+Swords)"
+    ]
+  },
+  {
+    "category": "Curved Greatswords",
+    "item_names": [
+      "[Murakumo](http://darksouls3.wiki.fextralife.com/Murakumo)",
+      "[Carthus Curved Greatsword](http://darksouls3.wiki.fextralife.com/Carthus+Curved+Greatsword)",
+      "[Exile Greatsword](http://darksouls3.wiki.fextralife.com/Exile+Greatsword)",
+      "[Harald Curved Greatsword](http://darksouls3.wiki.fextralife.com/Harald+Curved+Greatsword)",
+      "[Old Wolf Curved Sword](http://darksouls3.wiki.fextralife.com/Old+Wolf+Curved+Sword)"
+    ]
+  },
+  {
+    "category": "Thrusting Swords",
+    "item_names": [
+      "[Rapier](http://darksouls3.wiki.fextralife.com/Rapier)",
+      "[Estoc](http://darksouls3.wiki.fextralife.com/Estoc)",
+      "[Ricard's Rapier](http://darksouls3.wiki.fextralife.com/Ricard's+Rapier)",
+      "[Irithyll Rapier](http://darksouls3.wiki.fextralife.com/Irithyll+Rapier)",
+      "[Crystal Sage's Rapier](http://darksouls3.wiki.fextralife.com/Crystal+Sage's+Rapier)",
+      "[Crow Quills](http://darksouls3.wiki.fextralife.com/Crow+Quills)"
+    ]
+  },
+  {
+    "category": "Katanas",
+    "item_names": [
+      "[Uchigatana](http://darksouls3.wiki.fextralife.com/Uchigatana)",
+      "[Washing Pole](http://darksouls3.wiki.fextralife.com/Washing+Pole)",
+      "[Black Blade](http://darksouls3.wiki.fextralife.com/Black+Blade)",
+      "[Bloodlust](http://darksouls3.wiki.fextralife.com/Bloodlust)",
+      "[Chaos Blade](http://darksouls3.wiki.fextralife.com/Chaos+Blade)",
+      "[Darkdrift](http://darksouls3.wiki.fextralife.com/Darkdrift)",
+      "[Frayed Blade](http://darksouls3.wiki.fextralife.com/Frayed+Blade)",
+      "[Onikiri and Ubadachi](http://darksouls3.wiki.fextralife.com/Onikiri+and+Ubadachi)"
+    ]
+  },
+  {
+    "category": "Axes",
+    "item_names": [
+      "[Hand Axe](http://darksouls3.wiki.fextralife.com/Hand+Axe)",
+      "[Thrall Axe](http://darksouls3.wiki.fextralife.com/Thrall+Axe)",
+      "[Battle Axe](http://darksouls3.wiki.fextralife.com/Battle+Axe)",
+      "[Brigand Axe](http://darksouls3.wiki.fextralife.com/Brigand+Axe)",
+      "[Dragonslayer's Axe](http://darksouls3.wiki.fextralife.com/Dragonslayer's+Axe)",
+      "[Millwood Battle Axe](http://darksouls3.wiki.fextralife.com/Millwood+Battle+Axe)",
+      "[Man Serpent Hatchet](http://darksouls3.wiki.fextralife.com/Man+Serpent+Hatchet)",
+      "[Butcher Knife](http://darksouls3.wiki.fextralife.com/Butcher+Knife)",
+      "[Eleonora](http://darksouls3.wiki.fextralife.com/Eleonora)",
+      "[Winged Knight Twinaxes](http://darksouls3.wiki.fextralife.com/Winged+Knight+Twinaxes)"
+    ]
+  },
+  {
+    "category": "Greataxes",
+    "item_names": [
+      "[Greataxe](http://darksouls3.wiki.fextralife.com/Greataxe)",
+      "[Great Machete](http://darksouls3.wiki.fextralife.com/Great+Machete)",
+      "[Black Knight Greataxe](http://darksouls3.wiki.fextralife.com/Black+Knight+Greataxe)",
+      "[Demon's Greataxe](http://darksouls3.wiki.fextralife.com/Demon's+Greataxe)",
+      "[Dragonslayer Greataxe](http://darksouls3.wiki.fextralife.com/Dragonslayer+Greataxe)",
+      "[Yhorm's Great Machete](http://darksouls3.wiki.fextralife.com/Yhorm's+Great+Machete)",
+      "[Earth Seeker](http://darksouls3.wiki.fextralife.com/Earth+Seeker)"
+    ]
+  },
+  {
+    "category": "Hammers",
+    "item_names": [
+      "[Club](http://darksouls3.wiki.fextralife.com/Club)",
+      "[Reinforced Club](http://darksouls3.wiki.fextralife.com/Reinforced+Club)",
+      "[Mace](http://darksouls3.wiki.fextralife.com/Mace)",
+      "[Morning Star](http://darksouls3.wiki.fextralife.com/Morning+Star)",
+      "[Warpick](http://darksouls3.wiki.fextralife.com/Warpick)",
+      "[Blacksmith Hammer](http://darksouls3.wiki.fextralife.com/Blacksmith+Hammer)",
+      "[Heysel Pick](http://darksouls3.wiki.fextralife.com/Heysel+Pick)",
+      "[Drang Hammers](http://darksouls3.wiki.fextralife.com/Drang+Hammers)"
+    ]
+  },
+  {
+    "category": "Great Hammers",
+    "item_names": [
+      "[Large Club](http://darksouls3.wiki.fextralife.com/Large+Club)",
+      "[Great Club](http://darksouls3.wiki.fextralife.com/Great+Club)",
+      "[Great Mace](http://darksouls3.wiki.fextralife.com/Great+Mace)",
+      "[Spiked Mace](http://darksouls3.wiki.fextralife.com/Spiked+Mace)",
+      "[Pickaxe](http://darksouls3.wiki.fextralife.com/Pickaxe)",
+      "[Great Wooden Hammer](http://darksouls3.wiki.fextralife.com/Great+Wooden+Hammer)",
+      "[Gargoyle Flame Hammer](http://darksouls3.wiki.fextralife.com/Gargoyle+Flame+Hammer)",
+      "[Morne's Great Hammer](http://darksouls3.wiki.fextralife.com/Morne's+Great+Hammer)",
+      "[Smough's Great Hammer](http://darksouls3.wiki.fextralife.com/Smough's+Great+Hammer)",
+      "[Quakestone Hammer](http://darksouls3.wiki.fextralife.com/Quakestone+Hammer)",
+      "[Ledo's Great Hammer](http://darksouls3.wiki.fextralife.com/Ledo's+Great+Hammer)",
+      "[Vordt's Great Hammer](http://darksouls3.wiki.fextralife.com/Vordt's+Great+Hammer)",
+      "[Old King's Great Hammer](http://darksouls3.wiki.fextralife.com/Old+King's+Great+Hammer)",
+      "[Dragon Tooth](http://darksouls3.wiki.fextralife.com/Dragon+Tooth)"
+    ]
+  },
+  {
+    "category": "Spears",
+    "item_names": [
+      "[Spear](http://darksouls3.wiki.fextralife.com/Spear)",
+      "[Winged Spear](http://darksouls3.wiki.fextralife.com/Winged+Spear)",
+      "[Partizan](http://darksouls3.wiki.fextralife.com/Partizan)",
+      "[Rotten Ghru Spear](http://darksouls3.wiki.fextralife.com/Rotten+Ghru+Spear)",
+      "[Four-Pronged Plow](http://darksouls3.wiki.fextralife.com/Four-Pronged+Plow)",
+      "[Saint Bident](http://darksouls3.wiki.fextralife.com/Saint+Bident)",
+      "[Follower Javelin](http://darksouls3.wiki.fextralife.com/Follower+Javelin)",
+      "[Gargoyle Flame Spear](http://darksouls3.wiki.fextralife.com/Gargoyle+Flame+Spear)",
+      "[Soldering Iron](http://darksouls3.wiki.fextralife.com/Soldering+Iron)",
+      "[Yorshka's Spear](http://darksouls3.wiki.fextralife.com/Yorshka's+Spear)",
+      "[Dragonslayer Spear](http://darksouls3.wiki.fextralife.com/Dragonslayer+Spear)",
+      "[Golden Ritual Spear](http://darksouls3.wiki.fextralife.com/Golden+Ritual+Spear)",
+      "[Tailbone Spear](http://darksouls3.wiki.fextralife.com/Tailbone+Spear)",
+      "[Arstor's Spear](http://darksouls3.wiki.fextralife.com/Arstor's+Spear)",
+      "[Dragonslayer Swordspear](http://darksouls3.wiki.fextralife.com/Dragonslayer+Swordspear)",
+      "[Drang Twinspears](http://darksouls3.wiki.fextralife.com/Drang+Twinspears)"
+    ]
+  },
+  {
+    "category": "Pikes",
+    "item_names": [
+      "[Pike](http://darksouls3.wiki.fextralife.com/Pike)",
+      "[Greatlance](http://darksouls3.wiki.fextralife.com/Greatlance)",
+      "[Lothric Knight Long Spear](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Long+Spear)",
+      "[Lothric War Banner](http://darksouls3.wiki.fextralife.com/Lothric+War+Banner)",
+      "[Ringed Knight Spear](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Spear)"
+    ]
+  },
+  {
+    "category": "Halberds",
+    "item_names": [
+      "[Halberd](http://darksouls3.wiki.fextralife.com/Halberd)",
+      "[Red Hilted Halberd](http://darksouls3.wiki.fextralife.com/Red+Hilted+Halberd)",
+      "[Lucerne](http://darksouls3.wiki.fextralife.com/Lucerne)",
+      "[Glaive](http://darksouls3.wiki.fextralife.com/Glaive)",
+      "[Crescent Axe](http://darksouls3.wiki.fextralife.com/Crescent+Axe)",
+      "[Winged Knight Halberd](http://darksouls3.wiki.fextralife.com/Winged+Knight+Halberd)",
+      "[Splitleaf Greatsword](http://darksouls3.wiki.fextralife.com/Splitleaf+Greatsword)",
+      "[Black Knight Glaive](http://darksouls3.wiki.fextralife.com/Black+Knight+Glaive)",
+      "[Crucifix of the Mad King](http://darksouls3.wiki.fextralife.com/Crucifix+of+the+Mad+King)",
+      "[Immolation Tinder](http://darksouls3.wiki.fextralife.com/Immolation+Tinder)",
+      "[Gundyr's Halberd](http://darksouls3.wiki.fextralife.com/Gundyr's+Halberd)"
+    ]
+  },
+  {
+    "category": "Reapers",
+    "item_names": [
+      "[Great Scythe](http://darksouls3.wiki.fextralife.com/Great+Scythe)",
+      "[Great Corvian Scythe](http://darksouls3.wiki.fextralife.com/Great+Corvian+Scythe)",
+      "[Pontiff Knight Great Scythe](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Great+Scythe)",
+      "[Friede's Great Scythe](http://darksouls3.wiki.fextralife.com/Friede's+Great+Scythe)"
+    ]
+  },
+  {
+    "category": "Whips",
+    "item_names": [
+      "[Whip](http://darksouls3.wiki.fextralife.com/Whip)",
+      "[Notched Whip](http://darksouls3.wiki.fextralife.com/Notched+Whip)",
+      "[Spotted Whip](http://darksouls3.wiki.fextralife.com/Spotted+Whip)",
+      "[Witch's Locks](http://darksouls3.wiki.fextralife.com/Witch's+Locks)",
+      "[Rose of Ariandel](http://darksouls3.wiki.fextralife.com/Rose+of+Ariandel)"
+    ]
+  },
+  {
+    "category": "Fists",
+    "item_names": [
+      "[Caestus](http://darksouls3.wiki.fextralife.com/Caestus)",
+      "[Demon's Fist](http://darksouls3.wiki.fextralife.com/Demon's+Fist)",
+      "[Dark Hand](http://darksouls3.wiki.fextralife.com/Dark+Hand)"
+    ]
+  },
+  {
+    "category": "Claws",
+    "item_names": [
+      "[Claw](http://darksouls3.wiki.fextralife.com/Claw)",
+      "[Manikin Claws](http://darksouls3.wiki.fextralife.com/Manikin+Claws)",
+      "[Crow Talons](http://darksouls3.wiki.fextralife.com/Crow+Talons)"
+    ]
+  },
+  {
+    "category": "Bows",
+    "item_names": [
+      "[Short Bow](http://darksouls3.wiki.fextralife.com/Short+Bow)",
+      "[Composite Bow](http://darksouls3.wiki.fextralife.com/Composite+Bow)",
+      "[Longbow](http://darksouls3.wiki.fextralife.com/Longbow)",
+      "[Black Bow of Pharis](http://darksouls3.wiki.fextralife.com/Black+Bow+of+Pharis)",
+      "[White Birch Bow](http://darksouls3.wiki.fextralife.com/White+Birch+Bow)",
+      "[Dragonrider Bow](http://darksouls3.wiki.fextralife.com/Dragonrider+Bow)",
+      "[Darkmoon Longbow](http://darksouls3.wiki.fextralife.com/Darkmoon+Longbow)"
+    ]
+  },
+  {
+    "category": "Greatbows",
+    "item_names": [
+      "[Dragonslayer Greatbow](http://darksouls3.wiki.fextralife.com/Dragonslayer+Greatbow)",
+      "[Onislayer Greatbow](http://darksouls3.wiki.fextralife.com/Onislayer+Greatbow)",
+      "[Millwood Greatbow](http://darksouls3.wiki.fextralife.com/Millwood+Greatbow)"
+    ]
+  },
+  {
+    "category": "Crossbows",
+    "item_names": [
+      "[Light Crossbow](http://darksouls3.wiki.fextralife.com/Light+Crossbow)",
+      "[Heavy Crossbow](http://darksouls3.wiki.fextralife.com/Heavy+Crossbow)",
+      "[Sniper Crossbow](http://darksouls3.wiki.fextralife.com/Sniper+Crossbow)",
+      "[Arbalest](http://darksouls3.wiki.fextralife.com/Arbalest)",
+      "[Knight's Crossbow](http://darksouls3.wiki.fextralife.com/Knight's+Crossbow)",
+      "[Avelyn](http://darksouls3.wiki.fextralife.com/Avelyn)",
+      "[Repeating Crossbow](http://darksouls3.wiki.fextralife.com/Repeating+Crossbow)"
+    ]
+  },
+  {
+    "category": "Staves",
+    "item_names": [
+      "[Sorcerer's Staff](http://darksouls3.wiki.fextralife.com/Sorcerer's+Staff)",
+      "[Heretic's Staff](http://darksouls3.wiki.fextralife.com/Heretic's+Staff)",
+      "[Court Sorcerer's Staff](http://darksouls3.wiki.fextralife.com/Court+Sorcerer's+Staff)",
+      "[Witchtree Branch](http://darksouls3.wiki.fextralife.com/Witchtree+Branch)",
+      "[Storyteller's Staff](http://darksouls3.wiki.fextralife.com/Storyteller's+Staff)",
+      "[Mendicant's Staff](http://darksouls3.wiki.fextralife.com/Mendicant's+Staff)",
+      "[Murky Longstaff](http://darksouls3.wiki.fextralife.com/Murky+Longstaff)",
+      "[Izalith Staff](http://darksouls3.wiki.fextralife.com/Izalith+Staff)",
+      "[Archdeacon's Great Staff](http://darksouls3.wiki.fextralife.com/Archdeacon's+Great+Staff)",
+      "[Man-grub's Staff](http://darksouls3.wiki.fextralife.com/Man-grub's+Staff)",
+      "[Preacher's Right Arm](http://darksouls3.wiki.fextralife.com/Preacher's+Right+Arm)",
+      "[Sage's Crystal Staff](http://darksouls3.wiki.fextralife.com/Sage's+Crystal+Staff)"
+    ]
+  },
+  {
+    "category": "Pyromancy Flames",
+    "item_names": [
+      "[Pyromancy Flame](http://darksouls3.wiki.fextralife.com/Pyromancy+Flame)",
+      "[Pyromancer's Parting Flame](http://darksouls3.wiki.fextralife.com/Pyromancer's+Parting+Flame)"
+    ]
+  },
+  {
+    "category": "Talismans",
+    "item_names": [
+      "[Talisman](http://darksouls3.wiki.fextralife.com/Talisman)",
+      "[Canvas Talisman](http://darksouls3.wiki.fextralife.com/Canvas+Talisman)",
+      "[Saint's Talisman](http://darksouls3.wiki.fextralife.com/Saint's+Talisman)",
+      "[Sunlight Talisman](http://darksouls3.wiki.fextralife.com/Sunlight+Talisman)",
+      "[Sunless Talisman](http://darksouls3.wiki.fextralife.com/Sunless+Talisman)",
+      "[White Hair Talisman](http://darksouls3.wiki.fextralife.com/White+Hair+Talisman)"
+    ]
+  },
+  {
+    "category": "Sacred Chimes",
+    "item_names": [
+      "[Cleric's Sacred Chime](http://darksouls3.wiki.fextralife.com/Cleric's+Sacred+Chime)",
+      "[Priest's Chime](http://darksouls3.wiki.fextralife.com/Priest's+Chime)",
+      "[Saint-tree Bellvine](http://darksouls3.wiki.fextralife.com/Saint-tree+Bellvine)",
+      "[Yorshka's Chime](http://darksouls3.wiki.fextralife.com/Yorshka's+Chime)",
+      "[Caitha's Chime](http://darksouls3.wiki.fextralife.com/Caitha's+Chime)",
+      "[Crystal Chime](http://darksouls3.wiki.fextralife.com/Crystal+Chime)",
+      "[Sacred Chime of Filianore](http://darksouls3.wiki.fextralife.com/Sacred+Chime+of+Filianore)"
+    ]
+  }
+]

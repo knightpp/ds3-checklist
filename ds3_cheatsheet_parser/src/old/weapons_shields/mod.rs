@@ -37,8 +37,9 @@ fn parse_weapons(tree: ElementRef) -> Vec<WeaponCategory> {
         for name in names.select(&sinpitem) {
             item_names.push(name.inner_html());
         }
-        weapons.push(WeaponCategory{
-            category, weapon_names: item_names,
+        weapons.push(WeaponCategory {
+            category,
+            weapon_names: item_names,
         })
     }
 
@@ -60,7 +61,10 @@ fn parse_shields(tree: ElementRef) -> Vec<ShieldCategory> {
         for name in names.select(&sinpitem) {
             item_names.push(name.inner_html());
         }
-        shields.push(ShieldCategory{category, shield_names: item_names});
+        shields.push(ShieldCategory {
+            category,
+            shield_names: item_names,
+        });
     }
 
     shields

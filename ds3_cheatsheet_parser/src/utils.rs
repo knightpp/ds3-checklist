@@ -1,3 +1,5 @@
+use anyhow::Result;
+use select::document::Document;
 use serde::{Deserialize, Serialize};
 use tracing::warn;
 
@@ -51,5 +53,20 @@ impl Markdown {
         }
         recursive(node, &mut buf);
         Markdown(buf.trim().to_owned())
+    }
+}
+
+pub trait Utils {
+    type Input;
+    fn gen_fb<'i>(
+        input: &'i [Self::Input],
+        builder: &'i mut flatbuffers::FlatBufferBuilder,
+    ) -> &'i [u8];
+
+    fn parse_json(input: &str) -> Result<Vec<Self::Input>>;
+
+    #[allow(unused_variables)]
+    fn parse_html(html: &Document) -> Result<Vec<Self::Input>> {
+        todo!()
     }
 }
