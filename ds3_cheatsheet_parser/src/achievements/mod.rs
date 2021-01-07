@@ -15,6 +15,12 @@ pub struct Achievement {
     tasks: Vec<Task>,
 }
 
+impl Achievement {
+    pub fn name(&self) -> &Markdown {
+        &self.name
+    }
+}
+
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Task {
     id: String,
@@ -53,13 +59,13 @@ pub fn parse(html: &Document) -> Vec<Achievement> {
         "Master_of_Sorceries",
         "Master_of_Pyromancies",
         "Master_of_Miracles",
-        "DLC_Spells",
-        "DLC_Rings",
         "Master_of_Infusion",
         "Ending_Achievements",
         "Boss_Achievements",
         "Misc_Achievements",
         "Covenants_Achievements",
+        "DLC_Spells",
+        "DLC_Rings",
     ];
     let mut vec = Vec::with_capacity(16);
     // special parsing of rings
@@ -92,10 +98,12 @@ pub fn parse(html: &Document) -> Vec<Achievement> {
         let name = Markdown::parse(&h3);
         vec.push(Achievement { id, name, tasks });
     }
+
     for id in IDS.iter() {
         vec.push(parse_normal(&root, id));
     }
-    vec.push(parse_normal(&root, "Master_of_Expression"));
+    let rings = vec.remove(0);
+    vec.insert(9, rings);
     vec
 }
 
