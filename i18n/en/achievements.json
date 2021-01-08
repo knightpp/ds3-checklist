@@ -1,1574 +1,1574 @@
 [
-  {
-    "id": "Master_of_Expression",
-    "name": "Master of Expression: Learn all [gestures](http://darksouls3.wiki.fextralife.com/Gestures)",
-    "tasks": [
-      {
-        "id": "checklist_1_1",
-        "text": "**Beckon**: Talk to [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor) not far from the Foot of the High Wall bonfire",
-        "note": null
-      },
-      {
-        "id": "checklist_1_2",
-        "text": "**Call Over**: Received after trading a [Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone) with [Pickle Pee, Pump-a-Rum Crow](http://darksouls3.wiki.fextralife.com/Pickle+Pee,+Pump-a-Rum+Crow)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_3",
-        "text": "**Welcome**: Talk to the [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) in the Undead Settlement, and accept his services. Talk to him again at Firelink Shrine to get the gesture",
-        "note": null
-      },
-      {
-        "id": "checklist_1_4",
-        "text": "**Applause**: Received by talking to [Leonhard](http://darksouls3.wiki.fextralife.com/Leonhard) after defeating the Darkwraith in [High Wall of Lothric](http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric) at his request",
-        "note": null
-      },
-      {
-        "id": "checklist_1_5",
-        "text": "**Quiet Resolve**: Finish [Anri of Astora](http://darksouls3.wiki.fextralife.com/Anri+of+Astora)'s questline up to Irithyll of the Boreal Valley. They will grant you the gesture when speaking to them at the Church of Yorshka Bonfire",
-        "note": null
-      },
-      {
-        "id": "checklist_1_6",
-        "text": "**Rejoice**: Received during the [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) questline",
-        "note": null
-      },
-      {
-        "id": "checklist_1_7",
-        "text": "**Hurrah!**: Talk to [Blacksmith Andre](http://darksouls3.wiki.fextralife.com/Blacksmith+Andre)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_8",
-        "text": "**Praise the Sun**: Received from praying at the Altar of Sunlight in [Lothric Castle](http://darksouls3.wiki.fextralife.com/Lothric+Castle), near the [Dragonslayer Armour](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour) boss fight",
-        "note": null
-      },
-      {
-        "id": "checklist_1_9",
-        "text": "**My Thanks!**: Obtained from [Knight Slayer Tsorig](http://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig) deep in the Demon Ruins, regardless of who wins the fight",
-        "note": null
-      },
-      {
-        "id": "checklist_1_10",
-        "text": "**Proper Bow**: Kill [Yellowfinger Heysel](http://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel), the NPC invader in Farron Keep. Then give a pale tongue to the Rosaria's Fingers covenant. Yellowfinger Heysel's summon sign appears next to the tower full of slugs near the Keep Ruins bonfire. Summon her to receive the gesture. Abyss Watchers must be alive",
-        "note": null
-      },
-      {
-        "id": "checklist_1_11",
-        "text": "**Dignified Bow**: Received from meeting [Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria+of+Londor)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_12",
-        "text": "**Duel Bow**: Received after summoning [Londor Pale Shade](http://darksouls3.wiki.fextralife.com/Londor+Pale+Shade) before [Abyss Watchers](http://darksouls3.wiki.fextralife.com/Abyss+Watchers) or [Pontiff Sulyvahn](http://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_13",
-        "text": "**Legion Etiquette**: Pray to the Old Wolf of Farron in the Farron Swamp",
-        "note": null
-      },
-      {
-        "id": "checklist_1_14",
-        "text": "**Darkmoon Loyalty**: Received from speaking with [Sirris of the Sunless Realms](http://darksouls3.wiki.fextralife.com/Sirris+of+the+Sunless+Realms) in Firelink Shrine after she arrives",
-        "note": null
-      },
-      {
-        "id": "checklist_1_15",
-        "text": "**By My Sword**: Received from summoning [Black Hand Gotthard](http://darksouls3.wiki.fextralife.com/Black+Hand+Gotthard). He will perform the gesture as he is summoned",
-        "note": null
-      },
-      {
-        "id": "checklist_1_16",
-        "text": "**Prayer**: Received from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_17",
-        "text": "**Silent Ally**: Given by [Orbeck of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+of+Vinheim) once you buy Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook",
-        "note": null
-      },
-      {
-        "id": "checklist_1_18",
-        "text": "**Rest**: Received after resting at a bonfire for the first time",
-        "note": null
-      },
-      {
-        "id": "checklist_1_19",
-        "text": "**Collapse**: Received from meeting [Hawkwood](http://darksouls3.wiki.fextralife.com/Hawkwood)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_20",
-        "text": "**Patches Squat**: Talk to [Patches](http://darksouls3.wiki.fextralife.com/Unbreakable+Patches) while he's sitting in Firelink Shrine",
-        "note": null
-      },
-      {
-        "id": "checklist_1_21",
-        "text": "**Prostration**: Received from [Patches](http://darksouls3.wiki.fextralife.com/Unbreakable+Patches) after replying no when he asks for forgiveness, or after confronting him in the Cathedral of the Deep after he lowers the bridge with \"You know who I am\"",
-        "note": null
-      },
-      {
-        "id": "checklist_1_22",
-        "text": "**Toast**: Received by talking to [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) after defeating the demon in Undead Settlement",
-        "note": null
-      },
-      {
-        "id": "checklist_1_23",
-        "text": "**Sleep**: After receiving the Toast gesture from [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina), wait for him to go to sleep. Then talk to him again",
-        "note": null
-      },
-      {
-        "id": "checklist_1_24",
-        "text": "**Curl Up**: Talk to [Greirat of the Undead Settlement](http://darksouls3.wiki.fextralife.com/Greirat+of+the+Undead+Settlement) after giving him [Loretta's bone](http://darksouls3.wiki.fextralife.com/Loretta's+bone) and resting at the bonfire",
-        "note": null
-      },
-      {
-        "id": "checklist_1_25",
-        "text": "**Stretch Out**: Found on the corpse of Laddersmith Gilligan on the first bonfire in [Profaned Capital](http://darksouls3.wiki.fextralife.com/Profaned+Capital)",
-        "note": null
-      },
-      {
-        "id": "checklist_1_26",
-        "text": "**Path of The Dragon**: Received from corpse after [Oceiros, the Consumed King](http://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King)",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Master_of_Sorceries",
-    "name": "Master of Sorceries: Acquire all [sorceries](http://darksouls3.wiki.fextralife.com/Sorceries)",
-    "tasks": [
-      {
-        "id": "checklist_2_1",
-        "text": "[Soul Arrow](http://darksouls3.wiki.fextralife.com/Soul+Arrow): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) / [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_2",
-        "text": "[Great Soul Arrow](http://darksouls3.wiki.fextralife.com/Great+Soul+Arrow): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_3",
-        "text": "[Heavy Soul Arrow](http://darksouls3.wiki.fextralife.com/Heavy+Soul+Arrow): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) / [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_4",
-        "text": "[Great Heavy Soul Arrow](http://darksouls3.wiki.fextralife.com/Great+Heavy+Soul+Arrow): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 4000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_5",
-        "text": "[Farron Dart](http://darksouls3.wiki.fextralife.com/Farron+Dart): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 500 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_6",
-        "text": "[Great Farron Dart](http://darksouls3.wiki.fextralife.com/Great+Farron+Dart): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls. Requires [Sage's Scroll](http://darksouls3.wiki.fextralife.com/Sage's+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_7",
-        "text": "[Farron Hail](http://darksouls3.wiki.fextralife.com/Farron+Hail): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 5000 souls. Requires [Sage's Scroll](http://darksouls3.wiki.fextralife.com/Sage's+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_8",
-        "text": "[Homing Soulmass](http://darksouls3.wiki.fextralife.com/Homing+Soulmass): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 6000 souls. Requires [Logan's Scroll](http://darksouls3.wiki.fextralife.com/Logan's+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_9",
-        "text": "[Homing Crystal Soulmass](http://darksouls3.wiki.fextralife.com/Homing+Crystal+Soulmass): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 18,000 souls. Requires [Crystal Scroll](http://darksouls3.wiki.fextralife.com/Crystal+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_10",
-        "text": "[Crystal Hail](http://darksouls3.wiki.fextralife.com/Crystal+Hail): Obtained by [Soul of a Crystal Sage](http://darksouls3.wiki.fextralife.com/Soul%20of+a+Crystal+Sage) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_2_11",
-        "text": "[Soul Spear](http://darksouls3.wiki.fextralife.com/Soul+Spear): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 5000 souls. Requires [Logan's Scroll](http://darksouls3.wiki.fextralife.com/Logan's+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_12",
-        "text": "[Crystal Soul Spear](http://darksouls3.wiki.fextralife.com/Crystal+Soul+Spear): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 15,000 souls. Requires [Crystal Scroll](http://darksouls3.wiki.fextralife.com/Crystal+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_13",
-        "text": "[White Dragon Breath](http://darksouls3.wiki.fextralife.com/White+Dragon+Breath): Obtained by [Soul of Consumed Oceiros](http://darksouls3.wiki.fextralife.com/Soul+of+Consumed+Oceiros) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_2_14",
-        "text": "[Soul Stream](http://darksouls3.wiki.fextralife.com/Soul+Stream): Found in the Grand Archive behind an illusory wall near the Boreal Outrider Knight",
-        "note": null
-      },
-      {
-        "id": "checklist_2_15",
-        "text": "[Soul Greatsword](http://darksouls3.wiki.fextralife.com/Soul+Greatsword): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) / [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 5000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_16",
-        "text": "[Farron Flashsword](http://darksouls3.wiki.fextralife.com/Farron+Flashsword): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_17",
-        "text": "[Magic Weapon](http://darksouls3.wiki.fextralife.com/Magic+Weapon): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) for 4500 and [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_18",
-        "text": "[Great Magic Weapon](http://darksouls3.wiki.fextralife.com/Great+Magic+Weapon): From the Farron Keep Perimeter bonfire, turn around 180 and head towards the shortcut gate to Road of Sacrifices. The spell will be on a corpse at the gate",
-        "note": null
-      },
-      {
-        "id": "checklist_2_19",
-        "text": "[Crystal Magic Weapon](http://darksouls3.wiki.fextralife.com/Crystal+Magic+Weapon): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 10,000 souls. Requires [Crystal Scroll](http://darksouls3.wiki.fextralife.com/Crystal+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_20",
-        "text": "[Magic Shield](http://darksouls3.wiki.fextralife.com/Magic+Shield): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) for 4500 and [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_21",
-        "text": "[Great Magic Shield](http://darksouls3.wiki.fextralife.com/Great+Magic+Shield): Found in [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_22",
-        "text": "[Spook](http://darksouls3.wiki.fextralife.com/Spook): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_23",
-        "text": "[Aural Decoy](http://darksouls3.wiki.fextralife.com/Aural+Decoy): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_24",
-        "text": "[Pestilent Mist](http://darksouls3.wiki.fextralife.com/Pestilent+Mist): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1000 souls. Requires any scroll",
-        "note": null
-      },
-      {
-        "id": "checklist_2_25",
-        "text": "[Cast Light](http://darksouls3.wiki.fextralife.com/Cast%20Light): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_26",
-        "text": "[Repair](http://darksouls3.wiki.fextralife.com/Repair): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_27",
-        "text": "[Hidden Weapon](http://darksouls3.wiki.fextralife.com/Hidden+Weapon): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1500 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_28",
-        "text": "[Hidden Body](http://darksouls3.wiki.fextralife.com/Hidden+Body): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_29",
-        "text": "[Chameleon](http://darksouls3.wiki.fextralife.com/Chameleon): Found in the Church of Yorshka bonfire in [Irithyll of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley) during Anri's questline. The spell will drop from an assassin disguised as a statue. Found in Darkmoon Tomb on the pilgrim's corpse",
-        "note": null
-      },
-      {
-        "id": "checklist_2_30",
-        "text": "[Twisted Wall of Light](http://darksouls3.wiki.fextralife.com/Twisted+Wall+of+Light): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 6000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
-        "note": null
-      },
-      {
-        "id": "checklist_2_31",
-        "text": "[Deep Soul](http://darksouls3.wiki.fextralife.com/Deep+Soul): Obtained by [Soul of Deacons of the Deep](http://darksouls3.wiki.fextralife.com/Soul%20of+Deacons+of+the+Deep) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_2_32",
-        "text": "[Great Deep Soul](http://darksouls3.wiki.fextralife.com/Great+Deep+Soul): [Aldrich Faithful](http://darksouls3.wiki.fextralife.com/Aldrich+Faithful) Rank 1 reward",
-        "note": null
-      },
-      {
-        "id": "checklist_2_33",
-        "text": "[Affinity](http://darksouls3.wiki.fextralife.com/Affinity): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 15,000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_2_34",
-        "text": "[Dark Edge](http://darksouls3.wiki.fextralife.com/Dark+Edge): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 8000 souls",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Master_of_Pyromancies",
-    "name": "Master of Pyromancies: Acquire all [pyromancies](http://darksouls3.wiki.fextralife.com/Pyromancies)",
-    "tasks": [
-      {
-        "id": "checklist_3_1",
-        "text": "[Fireball](http://darksouls3.wiki.fextralife.com/Fireball): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 1000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_3_2",
-        "text": "[Fire Orb](http://darksouls3.wiki.fextralife.com/Fire+Orb): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 3000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_3",
-        "text": "[Bursting Fireball](http://darksouls3.wiki.fextralife.com/Bursting+Fireball): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 5000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_4",
-        "text": "[Great Chaos Fire Orb](http://darksouls3.wiki.fextralife.com/Great%20Chaos+Fire+Orb): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 10,000 souls. Requires [Izalith Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Izalith+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_5",
-        "text": "[Chaos Bed Vestiges](http://darksouls3.wiki.fextralife.com/Chaos+Bed+Vestiges): Acquired from [Soul of the Old Demon King](http://darksouls3.wiki.fextralife.com/Soul+of+the+Old+Demon+King) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_3_6",
-        "text": "[Fire Surge](http://darksouls3.wiki.fextralife.com/Fire+Surge): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 1000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_3_7",
-        "text": "[Fire Whip](http://darksouls3.wiki.fextralife.com/Fire+Whip): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 10,000 souls. Requires [Quelana Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_8",
-        "text": "[Firestorm](http://darksouls3.wiki.fextralife.com/Firestorm): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 15,000 souls. Requires [Quelana Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_9",
-        "text": "[Chaos Storm](http://darksouls3.wiki.fextralife.com/Chaos+Storm): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 12,000 souls. Requires [Izalith Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Izalith+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_10",
-        "text": "[Great Combustion](http://darksouls3.wiki.fextralife.com/Great+Combustion): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 3,000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_3_11",
-        "text": "[Sacred Flame](http://darksouls3.wiki.fextralife.com/Sacred+Flame): Found within the lava area of [Smouldering Lake](http://darksouls3.wiki.fextralife.com/Smouldering+Lake) where you fight Knight Slayer Tsorig",
-        "note": null
-      },
-      {
-        "id": "checklist_3_12",
-        "text": "[Profaned Flame](http://darksouls3.wiki.fextralife.com/Profaned+Flame): Found at the foot of the Giant in [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_13",
-        "text": "[Poison Mist](http://darksouls3.wiki.fextralife.com/Poison+Mist): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 2,000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_14",
-        "text": "[Toxic Mist](http://darksouls3.wiki.fextralife.com/Toxic+Mist): Found on corpse in lava area of the [Catacombs of Carthus](http://darksouls3.wiki.fextralife.com/Catacombs+of+Carthus)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_15",
-        "text": "[Acid Surge](http://darksouls3.wiki.fextralife.com/Acid+Surge): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 6,000 souls. Requires [Carthus Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_16",
-        "text": "[Flash Sweat](http://darksouls3.wiki.fextralife.com/Flash+Sweat): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 1,000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_3_17",
-        "text": "[Profuse Sweat](http://darksouls3.wiki.fextralife.com/Profuse+Sweat): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 2,000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_18",
-        "text": "[Iron Flesh](http://darksouls3.wiki.fextralife.com/Iron+Flesh): Found in the [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep) swamp",
-        "note": null
-      },
-      {
-        "id": "checklist_3_19",
-        "text": "[Power Within](http://darksouls3.wiki.fextralife.com/Power%20Within): Found on a corpse behind a hidden wall in [Grand Archives](http://darksouls3.wiki.fextralife.com/Grand+Archives)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_20",
-        "text": "[Carthus Beacon](http://darksouls3.wiki.fextralife.com/Carthus+Beacon): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 8,000 souls. Requires [Carthus Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_21",
-        "text": "[Carthus Flame Arc](http://darksouls3.wiki.fextralife.com/Carthus+Flame+Arc): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 10,000 souls. Requires [Carthus Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_22",
-        "text": "[Warmth](http://darksouls3.wiki.fextralife.com/Warmth): [Mound Makers](http://darksouls3.wiki.fextralife.com/Mound-Maker) Rank 2 reward",
-        "note": null
-      },
-      {
-        "id": "checklist_3_23",
-        "text": "[Rapport](http://darksouls3.wiki.fextralife.com/Rapport): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 7000 souls. Requires [Quelana Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_24",
-        "text": "[Boulder Heave](http://darksouls3.wiki.fextralife.com/Boulder%20Heave): Acquired from [Soul of a Stray Demon](http://darksouls3.wiki.fextralife.com/Soul+of+a+Stray+Demon) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_3_25",
-        "text": "[Black Flame](http://darksouls3.wiki.fextralife.com/Black+Flame): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 10,000 souls. Requires [Grave Warden Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Grave+Warden+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_26",
-        "text": "[Black Fire Orb](http://darksouls3.wiki.fextralife.com/Black+Fire+Orb): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 10,000 souls. Requires [Grave Warden Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Grave+Warden+Pyromancy+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_3_27",
-        "text": "[Black Serpent](http://darksouls3.wiki.fextralife.com/Black+Serpent): Acquired from [Soul of High Lord Wolnir](http://darksouls3.wiki.fextralife.com/High+Lord+Wolnir) Transposition",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Master_of_Miracles",
-    "name": "Master of Miracles: Acquire all [miracles](http://darksouls3.wiki.fextralife.com/Miracles)",
-    "tasks": [
-      {
-        "id": "checklist_4_1",
-        "text": "[Heal Aid](http://darksouls3.wiki.fextralife.com/Heal+Aid): Purchased from [Shrine Handmaid](http://darksouls3.wiki.fextralife.com/Shrine+Handmaid) for 500 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_4_2",
-        "text": "[Heal](http://darksouls3.wiki.fextralife.com/Heal): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_4_3",
-        "text": "[Med Heal](http://darksouls3.wiki.fextralife.com/Med+Heal): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 3500 souls. Requires [Braille Divine Tome of Carim](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_4",
-        "text": "[Great Heal](http://darksouls3.wiki.fextralife.com/Great+Heal): Found on corpse in the [Irithyll of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_5",
-        "text": "[Soothing Sunlight](http://darksouls3.wiki.fextralife.com/Soothing+Sunlight): Acquired by [Soul of the Dancer](http://darksouls3.wiki.fextralife.com/Soul+of+the+Dancer) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_4_6",
-        "text": "[Replenishment](http://darksouls3.wiki.fextralife.com/Replenishment): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_4_7",
-        "text": "[Bountiful Light](http://darksouls3.wiki.fextralife.com/Bountiful+Light): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 5000 souls. Requires [Braille Divine Tome of Lothric](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_8",
-        "text": "[Bountiful Sunlight](http://darksouls3.wiki.fextralife.com/Bountiful+Sunlight): Acquired by [Soul of Rosaria](http://darksouls3.wiki.fextralife.com/Soul+of+Rosaria) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_4_9",
-        "text": "[Caressing Tears](http://darksouls3.wiki.fextralife.com/Caressing%20Tears): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1500 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_4_10",
-        "text": "[Tears of Denial](http://darksouls3.wiki.fextralife.com/Tears+of+Denial): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 10,000 souls. Requires [Braille Divine Tome of Carim](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_11",
-        "text": "[Homeward](http://darksouls3.wiki.fextralife.com/Homeward): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 3000 souls",
-        "note": null
-      },
-      {
-        "id": "checklist_4_12",
-        "text": "[Seek Guidance](http://darksouls3.wiki.fextralife.com/Seek+Guidance): Looted from a corpse in Cathedral of the Deep. Just past the first giant and down the stairs to the left. It's a sort of dark ish room above the Cathedral Knight with the mace",
-        "note": null
-      },
-      {
-        "id": "checklist_4_13",
-        "text": "[Sacred Oath](http://darksouls3.wiki.fextralife.com/Sacred+Oath): [Warriors of Sunlight](http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight) Rank 1 reward",
-        "note": null
-      },
-      {
-        "id": "checklist_4_14",
-        "text": "[Force](http://darksouls3.wiki.fextralife.com/Force): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1000 souls. Requires [Braille Divine Tome of Carim](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_15",
-        "text": "[Emit Force](http://darksouls3.wiki.fextralife.com/Emit+Force): Acquired by [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) during third encounter. Below Irithyll of the Boreal Valley in a kitchen just after a sewer area",
-        "note": null
-      },
-      {
-        "id": "checklist_4_16",
-        "text": "[Wrath of the Gods](http://darksouls3.wiki.fextralife.com/Wrath+of+the+Gods): Acquired by dropping from the ledge near the spellcaster on the roof in Profaned Capital",
-        "note": null
-      },
-      {
-        "id": "checklist_4_17",
-        "text": "[Lightning Spear](http://darksouls3.wiki.fextralife.com/Lightning+Spear): Use the elevator near the Old Wolf of Farron and take the stairs up. Turn to the right and run to the closed gate. On the right side of the gate drop down and follow the path, one of the items there is Lightning Spear",
-        "note": null
-      },
-      {
-        "id": "checklist_4_18",
-        "text": "[Great Lightning Spear](http://darksouls3.wiki.fextralife.com/Great+Lightning+Spear): [Warriors of Sunlight](http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight) Rank 2 reward",
-        "note": null
-      },
-      {
-        "id": "checklist_4_19",
-        "text": "[Sunlight Spear](http://darksouls3.wiki.fextralife.com/Sunlight+Spear): Acquired by [Soul of the Lords](http://darksouls3.wiki.fextralife.com/Soul+of+the+Lords) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_4_20",
-        "text": "[Lightning Stake](http://darksouls3.wiki.fextralife.com/Lightning+Stake): Dropped by the [Carthus Sandworm](http://darksouls3.wiki.fextralife.com/Carthus+Sandworm) before the [Old Demon King](http://darksouls3.wiki.fextralife.com/Old+Demon+King) boss fight",
-        "note": null
-      },
-      {
-        "id": "checklist_4_21",
-        "text": "[Lightning Storm](http://darksouls3.wiki.fextralife.com/Lightning+Storm): Acquired by [Soul of the Nameless King](http://darksouls3.wiki.fextralife.com/Soul+of+the+Nameless+King) Transposition",
-        "note": null
-      },
-      {
-        "id": "checklist_4_22",
-        "text": "[Divine Pillars of Light](http://darksouls3.wiki.fextralife.com/Divine+Pillars+of+Light): Found at the top of [Lothric Castle](http://darksouls3.wiki.fextralife.com/Lothric+Castle)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_23",
-        "text": "[Blessed Weapon](http://darksouls3.wiki.fextralife.com/Blessed+Weapon): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 8,000 souls. Requires [Braille Divine Tome of Lothric](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_24",
-        "text": "[Lightning Blade](http://darksouls3.wiki.fextralife.com/Lightning+Blade): Located in [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_25",
-        "text": "[Darkmoon Blade](http://darksouls3.wiki.fextralife.com/Darkmoon%20Blade): [Blade of the Darkmoon](http://darksouls3.wiki.fextralife.com/Blades+of+the+Darkmoon) covenant Rank 2 reward",
-        "note": null
-      },
-      {
-        "id": "checklist_4_26",
-        "text": "[Magic Barrier](http://darksouls3.wiki.fextralife.com/Magic+Barrier): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 5000 souls. Requires [Braille Divine Tome of Lothric](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_27",
-        "text": "[Great Magic Barrier](http://darksouls3.wiki.fextralife.com/Great+Magic+Barrier): Archdragon Peak found off a ledge where you find Havel and a dead dragon",
-        "note": null
-      },
-      {
-        "id": "checklist_4_28",
-        "text": "[Dark Blade](http://darksouls3.wiki.fextralife.com/Dark+Blade): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 10,000 souls. Requires [Londor Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_29",
-        "text": "[Vow of Silence](http://darksouls3.wiki.fextralife.com/Vow+of+Silence): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 15,000 souls. Requires [Londor Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_30",
-        "text": "[Dead Again](http://darksouls3.wiki.fextralife.com/Dead+Again): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 5000 souls. Requires [Londor Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_31",
-        "text": "[Atonement](http://darksouls3.wiki.fextralife.com/Atonement): Farron Keep Perimeter bonfire. Turn around 180 degrees and follow the path until you reach a hole in the wall on your right. Drop down on the ledge below. The spell will be on a corpse",
-        "note": null
-      },
-      {
-        "id": "checklist_4_32",
-        "text": "[Deep Protection](http://darksouls3.wiki.fextralife.com/Deep+Protection): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 4000 souls. Requires [Deep Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Deep+Braille+Divine+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_33",
-        "text": "[Gnaw](http://darksouls3.wiki.fextralife.com/Gnaw): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 2000 souls. Requires [Deep Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Deep+Braille+Divine+Tome)",
-        "note": null
-      },
-      {
-        "id": "checklist_4_34",
-        "text": "[Dorhys' Gnawing](http://darksouls3.wiki.fextralife.com/Dorhy's+Gnawing): Guaranteed kill reward for the screaming Evangelist in Irithyll of the Boreal Valley, found behind an illusionary fence",
-        "note": null
-      },
-      {
-        "id": "checklist_4_35",
-        "text": "[Lifehunt Scythe](http://darksouls3.wiki.fextralife.com/Lifehunt+Scythe): Acquired from [Soul of Aldrich](http://darksouls3.wiki.fextralife.com/Soul+of+Aldrich) Transposition",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Master_of_Infusion",
-    "name": "Master of Infusion: Perform all forms of [infusion](http://darksouls3.wiki.fextralife.com/Upgrades)",
-    "tasks": [
-      {
-        "id": "checklist_6_1",
-        "text": "Refined: Available from start, requires [Refined Gem](http://darksouls3.wiki.fextralife.com/Refined+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_2",
-        "text": "Raw: Available from start, requires [Raw Gem](http://darksouls3.wiki.fextralife.com/Raw+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_3",
-        "text": "Fire: Available from start, requires [Fire Gem](http://darksouls3.wiki.fextralife.com/Fire+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_4",
-        "text": "Heavy: Available after acquiring [Farron Coal](http://darksouls3.wiki.fextralife.com/Farron+Coal) from [Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices), requires [Heavy Gem](http://darksouls3.wiki.fextralife.com/Heavy+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_5",
-        "text": "Sharp: Available after acquiring [Farron Coal](http://darksouls3.wiki.fextralife.com/Farron+Coal) from [Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices), requires [Sharp Gem](http://darksouls3.wiki.fextralife.com/Sharp+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_6",
-        "text": "Poison: Available after acquiring [Farron Coal](http://darksouls3.wiki.fextralife.com/Farron+Coal) from [Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices), requires [Poison Gem](http://darksouls3.wiki.fextralife.com/Poison+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_7",
-        "text": "Crystal: Available after acquiring [Sage's Coal](http://darksouls3.wiki.fextralife.com/Sage's+Coal) from [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep), requires [Crystal Gem](http://darksouls3.wiki.fextralife.com/Crystal+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_8",
-        "text": "Blessed: Available after acquiring [Sage's Coal](http://darksouls3.wiki.fextralife.com/Sage's+Coal) from [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep), requires [Blessed Gem](http://darksouls3.wiki.fextralife.com/Blessed+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_9",
-        "text": "Deep: Available after acquiring [Sage's Coal](http://darksouls3.wiki.fextralife.com/Sage's+Coal) from [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep), requires [Deep Gem](http://darksouls3.wiki.fextralife.com/Deep+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_10",
-        "text": "Dark: Available after acquiring [Profaned Coal](http://darksouls3.wiki.fextralife.com/Profaned+Coal) from [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon), requires [Dark Gem](http://darksouls3.wiki.fextralife.com/Dark+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_11",
-        "text": "Blood: Available after acquiring [Profaned Coal](http://darksouls3.wiki.fextralife.com/Profaned+Coal) from [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon), requires [Blood Gem](http://darksouls3.wiki.fextralife.com/Blood+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_12",
-        "text": "Hollow: Available after acquiring [Profaned Coal](http://darksouls3.wiki.fextralife.com/Profaned+Coal) from [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon), requires [Hollow Gem](http://darksouls3.wiki.fextralife.com/Hollow+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_13",
-        "text": "Lightning: Available after acquiring [Giant's Coal](http://darksouls3.wiki.fextralife.com/Giant's+Coal) from [Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo), requires [Lightning Gem](http://darksouls3.wiki.fextralife.com/Lightning+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_14",
-        "text": "Simple: Available after acquiring [Giant's Coal](http://darksouls3.wiki.fextralife.com/Giant's+Coal) from [Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo), requires [Simple Gem](http://darksouls3.wiki.fextralife.com/Simple+Gem)",
-        "note": null
-      },
-      {
-        "id": "checklist_6_15",
-        "text": "Chaos: Available after acquiring [Giant's Coal](http://darksouls3.wiki.fextralife.com/Giant's+Coal) from [Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo), requires [Chaos Gem](http://darksouls3.wiki.fextralife.com/Chaos+Gem)",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Ending_Achievements",
-    "name": "Ending Achievements",
-    "tasks": [
-      {
-        "id": "checklist_7_1",
-        "text": "[To Link the First Flame](http://darksouls3.wiki.fextralife.com/Endings): Reach \"To Link the First Flame\" ending",
-        "note": null
-      },
-      {
-        "id": "checklist_7_2",
-        "text": "[The End of Fire](http://darksouls3.wiki.fextralife.com/Endings): Reach \"The End of Fire\" ending",
-        "note": null
-      },
-      {
-        "id": "checklist_7_3",
-        "text": "[The Usurpation of Fire](http://darksouls3.wiki.fextralife.com/Endings): Reach \"The Usurpation of Fire\" ending",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Boss_Achievements",
-    "name": "Boss Achievements",
-    "tasks": [
-      {
-        "id": "checklist_8_1",
-        "text": "[Iudex Gundyr](http://darksouls3.wiki.fextralife.com/Iudex+Gundyr): Defeat \"Heir of Fire\" Iudex Gundyr",
-        "note": null
-      },
-      {
-        "id": "checklist_8_2",
-        "text": "[Vordt of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Vordt+of+the+Boreal+Valley): Defeat Vordt of the Boreal Valley",
-        "note": null
-      },
-      {
-        "id": "checklist_8_3",
-        "text": "[Curse-rotted Greatwood](http://darksouls3.wiki.fextralife.com/Curse-Rotted+Greatwood): Defeat the Curse-rotted Greatwood",
-        "note": null
-      },
-      {
-        "id": "checklist_8_4",
-        "text": "[Crystal Sage](http://darksouls3.wiki.fextralife.com/Crystal+Sage): Defeat Crystal Sage",
-        "note": null
-      },
-      {
-        "id": "checklist_8_5",
-        "text": "[Lords of Cinder: Abyss Watchers](http://darksouls3.wiki.fextralife.com/Abyss+Watchers): Defeat the Abyss Watchers, Lords of Cinder",
-        "note": null
-      },
-      {
-        "id": "checklist_8_6",
-        "text": "[Deacons of the Deep](http://darksouls3.wiki.fextralife.com/Deacons+of+the+Deep): Defeat the Deacons of the Deep",
-        "note": null
-      },
-      {
-        "id": "checklist_8_7",
-        "text": "[High Lord Wolnir](http://darksouls3.wiki.fextralife.com/High+Lord+Wolnir): Defeat High Lord Wolnir",
-        "note": null
-      },
-      {
-        "id": "checklist_8_8",
-        "text": "[Old Demon King](http://darksouls3.wiki.fextralife.com/Old+Demon+King): Defeat Old Demon King",
-        "note": null
-      },
-      {
-        "id": "checklist_8_9",
-        "text": "[Pontiff Sulyvahn](http://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn): Defeat Pontiff Sulyvahn",
-        "note": null
-      },
-      {
-        "id": "checklist_8_10",
-        "text": "[Lord of Cinder: Yhorm the Giant](http://darksouls3.wiki.fextralife.com/Yhorm+the+Giant): Defeat Yhorm the Giant, Lord of Cinder",
-        "note": null
-      },
-      {
-        "id": "checklist_8_11",
-        "text": "[Lord of Cinder: Aldrich, Devourer of Gods](http://darksouls3.wiki.fextralife.com/Aldrich,+Devourer+of+Gods): Defeat Aldrich, Devourer of Gods, Lord of Cinder",
-        "note": null
-      },
-      {
-        "id": "checklist_8_12",
-        "text": "[Dancer of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Dancer+of+the+Boreal+Valley): Defeat Dancer of the Boreal Valley",
-        "note": null
-      },
-      {
-        "id": "checklist_8_13",
-        "text": "[Dragonslayer Armour](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour): Defeat Dragonslayer Armour",
-        "note": null
-      },
-      {
-        "id": "checklist_8_14",
-        "text": "[Oceiros, the Consumed King](http://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King): Defeat Oceiros, the Consumed King",
-        "note": null
-      },
-      {
-        "id": "checklist_8_15",
-        "text": "[Champion Gundyr](http://darksouls3.wiki.fextralife.com/Champion+Gundyr): Defeat Champion Gundyr",
-        "note": null
-      },
-      {
-        "id": "checklist_8_16",
-        "text": "[Lord of Cinder: Lothric, Younger Prince](http://darksouls3.wiki.fextralife.com/Lothric,+Younger+Prince): Defeat Lothric, Younger Prince, Lord of Cinder",
-        "note": null
-      },
-      {
-        "id": "checklist_8_17",
-        "text": "[Ancient Wyvern](http://darksouls3.wiki.fextralife.com/Ancient+Wyvern): Defeat Ancient Wyvern",
-        "note": null
-      },
-      {
-        "id": "checklist_8_18",
-        "text": "[The Nameless King](http://darksouls3.wiki.fextralife.com/Nameless+King): Defeat Nameless King",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Misc_Achievements",
-    "name": "Misc Achievements",
-    "tasks": [
-      {
-        "id": "checklist_9_1",
-        "text": "Supreme Weapon Reinforcement: Reinforce any weapon to the highest level",
-        "note": null
-      },
-      {
-        "id": "checklist_9_2",
-        "text": "Ultimate Bonfire: Reinforce a bonfire to the highest level",
-        "note": null
-      },
-      {
-        "id": "checklist_9_3",
-        "text": "Ultimate Estus: Reinforce the Estus Flask to the highest level",
-        "note": null
-      },
-      {
-        "id": "checklist_9_4",
-        "text": "Untended Graves: Reach the Untended Graves",
-        "note": null
-      },
-      {
-        "id": "checklist_9_5",
-        "text": "Archdragon Peak: Reach Archdragon Peak",
-        "note": null
-      },
-      {
-        "id": "checklist_9_6",
-        "text": "Enkindle: Light a bonfire flame for the first time",
-        "note": null
-      },
-      {
-        "id": "checklist_9_7",
-        "text": "Embrace the Flame: Become a Host of Embers for the first time",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Covenants_Achievements",
-    "name": "Covenant Achievements",
-    "tasks": [
-      {
-        "id": "checklist_10_1",
-        "text": "Covenant: [Warrior of Sunlight](http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight): Discover Warrior of Sunlight covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_2",
-        "text": "Covenant: [Way of Blue](http://darksouls3.wiki.fextralife.com/Way+of+Blue): Discover Way of Blue covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_3",
-        "text": "Covenant: [Blue Sentinels](http://darksouls3.wiki.fextralife.com/Blue+Sentinels): Discover Blue Sentinels covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_4",
-        "text": "Covenant: [Blade of the Darkmoon](http://darksouls3.wiki.fextralife.com/Blades+of+the+Darkmoon): Discover Blade of the Darkmoon covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_5",
-        "text": "Covenant: [Rosaria's Fingers](http://darksouls3.wiki.fextralife.com/Rosaria's+Fingers): Discover Rosaria's Fingers covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_6",
-        "text": "Covenant: [Mound-makers ](http://darksouls3.wiki.fextralife.com/Mound-Makers): Discover Mound-makers covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_7",
-        "text": "Covenant: [Watchdogs of Farron](http://darksouls3.wiki.fextralife.com/Watchdogs+of+Farron): Discover Watchdogs of Farron covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_8",
-        "text": "Covenant: [Aldrich Faithful](http://darksouls3.wiki.fextralife.com/Aldrich+Faithful): Discover Aldrich Faithful covenant",
-        "note": null
-      },
-      {
-        "id": "checklist_10_9",
-        "text": "(No Achievement) Covenant: [Spears of the Church](http://darksouls3.wiki.fextralife.com/Spears+of+the+Church) (The Ringed City DLC)",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "Master_of_Rings",
-    "name": "Master of Rings: Acquire all [rings](http://darksouls3.wiki.fextralife.com/Rings)",
-    "tasks": [
-      {
-        "id": "checklist_5_1",
-        "text": "[Life Ring](http://darksouls3.wiki.fextralife.com/Life+Ring): Starting gift or sold by the [Shrine Handmaid](http://darksouls3.wiki.fextralife.com/Shrine+Handmaid) in Firelink Shrine for 1500 souls",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_2",
-        "text": "[Sun Princess Ring](http://darksouls3.wiki.fextralife.com/Sun+Princess+Ring): Found in Gwynevere's Chamber above the Aldrich, Devourer of Gods bonfire",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_3",
-        "text": "[Estus Ring](http://darksouls3.wiki.fextralife.com/Estus+Ring): Behind the locked door on the left side of Firelink Shrine accessible by going through the locked door on the right side of the area (which requires the 20k souls key from the [Shrine Handmaid](http://darksouls3.wiki.fextralife.com/Shrine+Handmaid) to unlock) and dropping down via coffins sticking out of the wall",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_4",
-        "text": "[Ashen Estus Ring](http://darksouls3.wiki.fextralife.com/Ashen+Estus+Ring): Proceed from the Untended Graves bonfire and take left path. The ring is on a corpse behind some crow enemies",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_5",
-        "text": "[Chloranthy Ring](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): Under breakable crates/barrels in the bottom of the tower that you go through to exit the Siegward/Fire Demon area in Undead Settlement",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_6",
-        "text": "[Havel's Ring](http://darksouls3.wiki.fextralife.com/Havel's+Ring): Trade with Ludleth of Courland for the Soul of a Stray Demon",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_7",
-        "text": "[Ring of Favor](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): Defeat the guard dogs near [Archdeacon McDonnell](http://darksouls3.wiki.fextralife.com/Archdeacon+McDonnell)",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_8",
-        "text": "[Prisoner's Chain](http://darksouls3.wiki.fextralife.com/Prisoner's+Chain): Trade with Ludleth of Courland for the Soul of Champion Gundyr",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_9",
-        "text": "[Ring of Steel Protection](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): In the Ancient Wyvern area, take the right path to the end and go around a railing",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_10",
-        "text": "[Magic Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring): Dropped by one of the knights outside Oceiros' boss door",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_11",
-        "text": "[Flame Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring): On a corpse hanging from a tree in the Undead Settlement by the Mound Makers cage guy. It may drop all the way down to in front of the building with the lift that leads to the giant",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_12",
-        "text": "[Thunder Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring): Proceed from the Dragon-Kin Mausoleum bonfire until you reach an outside area with some scaffolding. Climb a ladder in this area to reach the platform where the ring is located",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_13",
-        "text": "[Dark Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring): In the lower area to the left of the open area with giants just past the Pontiff Sulyvahn bonfire",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_14",
-        "text": "[Speckled Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Speckled+Stoneplate+Ring): Behind a breakable wall in the Smoldering Lake area of the Catacombs of Carthus (must be broken by ballista fire)",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_15",
-        "text": "[Bloodbite Ring](http://darksouls3.wiki.fextralife.com/Bloodbite+Ring): Obtained by killing the large rat in the area across the bridge from the Dilapidated Bridge bonfire in the Undead Settlement",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_16",
-        "text": "[Poisonbite Ring](http://darksouls3.wiki.fextralife.com/Poisonbite+Ring): From the cleansing Chapel bonfire, head outside and turn right from where the four enemies are praying, Drop down and follow the path around until you reach an area with a large crystal enemy among some blue crystals. There will be an entrance to a grey stone area nearby where the ring is inside on a corpse",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_17",
-        "text": "[Cursebite Ring](http://darksouls3.wiki.fextralife.com/Cursebite+Ring): From the Profaned Capital bonfire, work your way to the area with the toxic swamp. The ring is on a corpse in the cave that you can drop into via the building above",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_18",
-        "text": "[Fleshbite Ring](http://darksouls3.wiki.fextralife.com/Fleshbite+Ring): In the Grand Archives, cross the bridge and proceed past the shortcut ladder by four Mage enemies and some bookshelves. The ring is on a corpse one level up next in an area with a bunch of books and cursed hands",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_19",
-        "text": "[Knight's Ring](http://darksouls3.wiki.fextralife.com/Knight's+Ring): In Lothric Caste in a room before the Sunlight Altar",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_20",
-        "text": "[Hunter's Ring](http://darksouls3.wiki.fextralife.com/Hunter's+Ring): Climb high onto the roof of the Grand Archives where three flying knights engage you. The ring is on a corpse at the top of the central tower in this area",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_21",
-        "text": "[Scholar Ring](http://darksouls3.wiki.fextralife.com/Scholar+Ring): You can pull a lever next to the bridge in the center of the Grand Archives to lower an adjacent bookshelf revealing a corpse with the ring",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_22",
-        "text": "[Priestess Ring](http://darksouls3.wiki.fextralife.com/Priestess+Ring): Sold by the Handmaid in Dark Firelink",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_23",
-        "text": "[Covetous Gold Serpent Ring](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): In the locked cell with Siegward in Irithyll Dungeons. The key to the cell is in the right side chest at the end of a hallway leading away from the area with the giant",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_24",
-        "text": "[Covetous Silver Serpent Ring](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): Behind an illusory wall above the main Firelink bonfire, requires key from Handmaid for 20k souls",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_25",
-        "text": "[Saint's Ring](http://darksouls3.wiki.fextralife.com/Saint%27s+Ring): Sold by Irina of Carim in Firelink",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_26",
-        "text": "[Deep Ring](http://darksouls3.wiki.fextralife.com/Deep+Ring): Dropped by an enemy in a tower accessible by a lift near the Cleansing Chapel bonfire",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_27",
-        "text": "[Darkmoon Ring](http://darksouls3.wiki.fextralife.com/Darkmoon%20Ring): Reward for reaching rank 1 in the Blade of the Darkmoon covenant. The Silver Knights in Anor Londo can drop the covenant item (very rare), and you need 10 to reach rank 1",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_28",
-        "text": "[Young Dragon Ring](http://darksouls3.wiki.fextralife.com/Young+Dragon+Ring): Given by Orbeck of Vinheim after returning a scroll and buying 3 sorceries",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_29",
-        "text": "[Bellowing Dragoncrest Ring](http://darksouls3.wiki.fextralife.com/Bellowing+Dragoncrest+Ring): From the Irithyll Dungeon bonfire, proceed into the large room and follow the hallway to the right to a locked door. Open this door with the key from a cell upstairs on the other side of the large room and drop to a platform where this ring is on a corpse",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_30",
-        "text": "[Great Swamp Ring](http://darksouls3.wiki.fextralife.com/Great+Swamp+Ring): Dropped by a large crab in the Crucifixion Woods",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_31",
-        "text": "[Witch's Ring](http://darksouls3.wiki.fextralife.com/Witch's+ring): On an alter at the end of the hallway just before the Abandoned Tomb bonfire in the Catacombs of Carthus",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_32",
-        "text": "[Morne's Ring](http://darksouls3.wiki.fextralife.com/Morne's+Ring): Backtrack from the Halfway Keep bonfire in Crucifixion Woods to a bridge. You can drop to a ledge below and the ring is on a corpse nearby",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_33",
-        "text": "[Ring of the Sun's First Born](http://darksouls3.wiki.fextralife.com/Ring+of+the+Sun's+First+Born): Backtrack from the Pontiff Sulhvahn bonfire and fall off the ledge to a platform below",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_34",
-        "text": "[Lingering Dragoncrest Ring](http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring): Obtained upon killing one of the giant crabs in Farron Keep",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_35",
-        "text": "[Sage Ring](http://darksouls3.wiki.fextralife.com/Sage+Ring): From the Crucifixion Woods bonfire, drop into the water and follow the wall until you see an opening. The ring is on a corpse in this area",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_36",
-        "text": "[Dusk Crown Ring](http://darksouls3.wiki.fextralife.com/Dusk+Crown+Ring): On a corpse in a cell in the lowest level of Irithyll Dungeon",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_37",
-        "text": "[Leo Ring](http://darksouls3.wiki.fextralife.com/Leo+Ring): In a chest on the second level of the large room just beyond the kitchen area in Irithyll of the Boreal Valley somehwat close to the Distant Manor bonfire",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_38",
-        "text": "[Wolf Ring](http://darksouls3.wiki.fextralife.com/Wolf+Ring): Obtained by reaching rank 2 in Watchdogs of Farron covenant",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_39",
-        "text": "[Hawk Ring](http://darksouls3.wiki.fextralife.com/Hawk+Ring): Dropped by the giant atop the tower in the Undead Settlement",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_40",
-        "text": "[Hornet Ring](http://darksouls3.wiki.fextralife.com/Hornet+Ring): On a path to the right of Dark Firelink shrine",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_41",
-        "text": "[Knight Slayer's Ring](http://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring): Obtained by killing the phantom invader [Knight Slayer Tsorig](http://darksouls3.wiki.fextralife.com/Knight%20Slayer+Tsorig) near the bridge in the Catacombs of Carthus",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_42",
-        "text": "[Ring of the Evil Eye](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): Given by Anri of Astora either in the Catacombs of Carthus (if you tell of Horace's location) or at the Church of Yorshka bonfire. You must have first talked to Anri at the Halfway Fortress bonfire, then at Firelink, then in two places in the Catacombs of Carthus",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_43",
-        "text": "[Farron Ring](http://darksouls3.wiki.fextralife.com/Farron+Ring): Acquired by talking to Hawkwood after defeating the Abyss Watchers",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_44",
-        "text": "[Dragonscale Ring](http://darksouls3.wiki.fextralife.com/Dragonscale+Ring): Take the shortcut lift down to the toxic swamp before Oceiros' room but jump off early to access the path where the ring is on a corpse",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_45",
-        "text": "[Horsehoof Ring](http://darksouls3.wiki.fextralife.com/Horsehoof+Ring): Sold by Patches in Firelink",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_46",
-        "text": "[Wood Grain Ring](http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring): Sold by the Handmaid in Firelink (requires Easterner's Ashes from the area just past the Pontiff Sulyvahn bonfire)",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_47",
-        "text": "[Flynn's Ring](http://darksouls3.wiki.fextralife.com/Flynn's+Ring): On the highest roof in the area where you fight the Fire Demon with Siegward in the Undead Settlement",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_48",
-        "text": "[Magic Clutch Ring](http://darksouls3.wiki.fextralife.com/Magic+Clutch+Ring): Behind an illusory wall near the Church of Yorshka bonfire (sort of under the Pontiff Sulyvahn fog door)",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_49",
-        "text": "[Lightning Clutch Ring](http://darksouls3.wiki.fextralife.com/Lightning+Clutch+Ring): In an alcove to the left of the Ancient Wyvern area",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_50",
-        "text": "[Fire Clutch Ring](http://darksouls3.wiki.fextralife.com/Fire+Clutch+Ring): In the Undead Settlement near the Cliff Underside bonfire. It's on a wooden structure dangling off a cliff",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_51",
-        "text": "[Dark Clutch Ring](http://darksouls3.wiki.fextralife.com/Dark+Clutch+Ring): In a Mimic chest at the end of a sewer hallway that connects to the large lower level of Irithyll Dungeon",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_52",
-        "text": "[Red Tearstone Ring](http://darksouls3.wiki.fextralife.com/Red+Tearstone+Ring): Backtrack from the Dragonslayer Armour boss room and go into the building on the left (with a lift). You can access a ledge via a hole in the wall where the ring is on a corpse",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_53",
-        "text": "[Blue Tearstone Ring](http://darksouls3.wiki.fextralife.com/Blue+Tearstone+Ring): Given by Greirat in High Wall",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_54",
-        "text": "[Lloyd's Sword Ring](http://darksouls3.wiki.fextralife.com/Lloyd's+Sword+Ring): On a corpse on the ledge that you run around to get past the giant in the Cathedral of the Deep",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_55",
-        "text": "[Lloyd's Shield Ring](http://darksouls3.wiki.fextralife.com/Lloyd's+Shield+Ring): Sold by the Handmaid in Firelink after the Paladin's Ashes are returned",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_56",
-        "text": "[Carthus Milkring](http://darksouls3.wiki.fextralife.com/Carthus+Milkring): In an area with many breakable pots just before the Catacombs of Carthus bonfire",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_57",
-        "text": "[Carthus Bloodring](http://darksouls3.wiki.fextralife.com/Carthus+Bloodring): Head left from the Catacombs of Carthus bonfire, then take two rights and follow a path that leads to some wheel skeleton guys. The ring is on a corpse at the end of this path",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_58",
-        "text": "[Pontiff's Right Eye](http://darksouls3.wiki.fextralife.com/Pontiff's+Right+Eye): Obtained by killing the [Sulyvahn's Beast](http://darksouls3.wiki.fextralife.com/Sulyvahn's+Beast) on the bridge upon entering Itithyll of the Boreal Valley",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_59",
-        "text": "[Pontiff's Left Eye](http://darksouls3.wiki.fextralife.com/Pontiff's+Left+Eye): Trade with Ludleth of Courland for the Soul of Boreal Valley Vordt",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_60",
-        "text": "[Aldrich's Ruby](http://darksouls3.wiki.fextralife.com/Aldrich's+Ruby): Dropped by the [Deep Accursed](http://darksouls3.wiki.fextralife.com/Deep+Accursed) behind the main gate in Anor Londo",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_61",
-        "text": "[Aldrich's Sapphire](http://darksouls3.wiki.fextralife.com/Aldrich's+Sapphire): Dropped by the [Deep Accursed](http://darksouls3.wiki.fextralife.com/Deep+Accursed) in Cathedral of the Deep",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_62",
-        "text": "[Silvercat Ring](http://darksouls3.wiki.fextralife.com/Silvercat+Ring): Given by Sirris in Firelink after using her summon sign on the Boreal Valley bridge and defeating the enemy",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_63",
-        "text": "[Slumbering Dragoncrest Ring](http://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring): Given by Orbeck of Vinheim after buying Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_64",
-        "text": "[Obscuring Ring](http://darksouls3.wiki.fextralife.com/Obscuring+Ring): Reward for reaching rank 1 in Rosaria's Fingers",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_65",
-        "text": "[Untrue Dark Ring](http://darksouls3.wiki.fextralife.com/Untrue+Dark+Ring): Sold by Yuriel of Londor for 5000 souls",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_66",
-        "text": "[Untrue White Ring](http://darksouls3.wiki.fextralife.com/Untrue%20White+Ring): Sold by Yuriel of Londor for 5000 souls",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_67",
-        "text": "[Reversal Ring](http://darksouls3.wiki.fextralife.com/Reversal+Ring): In the Darkmoon Tomb right before entering Anor Londo",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_68",
-        "text": "[Skull Ring](http://darksouls3.wiki.fextralife.com/Skull+Ring): Appears on Ludleth's corpse in Firelink after killing the four lords of cinder, placing their remains on their thrones, and interacting with the bonfire",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_69",
-        "text": "[Calamity Ring](http://darksouls3.wiki.fextralife.com/Calamity+Ring): Use the Path of the Dragon gesture by the altar right next to the Dragon-Kin Mausoleum bonfire in Archdragon Peak",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_70",
-        "text": "[Ring of Sacrifice](http://darksouls3.wiki.fextralife.com/Ring+of+Sacrifice): Found on an ledge/awning above a courtyard in High Wall of Lothric. Found in the watery area between the Church of Yorshka and Distant Manor Bonfires. Sold by Yuria in Firelink",
-        "note": "New Game (First Playthrough)"
-      },
-      {
-        "id": "checklist_5_71",
-        "text": "[Life Ring+1](http://darksouls3.wiki.fextralife.com/Life+Ring): On a ledge where you meet Siegward in the Undead Settlement that is accessed by jumping off the lift before it reaches the top",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_72",
-        "text": "[Life Ring+2](http://darksouls3.wiki.fextralife.com/Life+Ring): From the Dragon Barracks bonfire, cross the bridge and enter the room on the right. Climb a ladder and then exit through the door on the left. Once outside, head around to the right and look for the ring on a ledge below",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_74",
-        "text": "[Chloranthy Ring+1](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): From the Pontiff Sulyvahn bonfire, leave through the initial entrance and drop off a ledge straight ahead to land on a structure below. The ring in on ground level behind this structure",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_76",
-        "text": "[Havel's Ring+1](http://darksouls3.wiki.fextralife.com/Havel's+Ring): From the Great Belfry bonfire in Archdragon Peak, head outside and follow the path towards the altar. It's on the left side in a corner just through the second stone arch",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_78",
-        "text": "[Ring of Favor+1](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): In a walkway above the Pontiff Sulyvahn bonfire",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_80",
-        "text": "[Ring of Steel Protection+1](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): At Dark Firelink Shrine behind the tower on the far right",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_82",
-        "text": "[Magic Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring): Head to the right from the Farron Keep bonfire to an area with curse frogs. It's on a corpse in this area",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_84",
-        "text": "[Flame Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring): Near the Profaned Capital bonfire, in an alcove on the roof of the front of building with the three big rhino/hand guys in the toxic water area",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_86",
-        "text": "[Thunder Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring): In an area with many breakable pots just before the Catacombs of Carthus bonfire",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_88",
-        "text": "[Dark Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring): Backtrack from the Dragonslayer Armour bonfire and drop through a break in the railing on the right side of the area to access a room. The ring is on a ledge outside of this room",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_90",
-        "text": "[Speckled Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Speckled+Stoneplate+Ring): From where you start each playthrough, proceed straight ahead and then to the right to an area with a crystal enemy. The ring is in this area",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_91",
-        "text": "[Bloodbite Ring+1](http://darksouls3.wiki.fextralife.com/Bloodbite+Ring): Near the giant ballista above Smoldering Lake deep in the Catacombs of Carthus",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_92",
-        "text": "[Poisonbite Ring+1](http://darksouls3.wiki.fextralife.com/Poisonbite+Ring): Behind a well in the cemetery area of the Undead Settlement (where arrows rain down on you)",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_93",
-        "text": "[Fleshbite Ring+1](http://darksouls3.wiki.fextralife.com/Fleshbite+Ring): On a roof not far from the Tower on the Wall bonfire. Head out onto a large roof with one of the transforming monsters and go to the ladder where you will see the ring on the next roof over",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_94",
-        "text": "[Covetous Gold Serpent Ring+1](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): From the Church of Yorshka bonfire in Irithyll of the Boreal Valley, proceed beyond the graveyard to the dark room with all the ghosts inside. Just outside the exit, take a right and drop down to a small rocky ledge below",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_96",
-        "text": "[Covetous Silver Serpent Ring+1](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): Take the shortcut door to next to the Irithyll Dungeon bonfire to a lift. Jump off early to reach a platform where the ring is on a corpse",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_98",
-        "text": "[Lingering Dragoncrest Ring+1](http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring): On a corpse in the water area of Crucifixion Woods near the giant crabs",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_100",
-        "text": "[Sage Ring+1](http://darksouls3.wiki.fextralife.com/Sage+Ring): Climb out onto the roof of the Grand Archives where three flying knights engage you. High atop this roof, you can drop into the inside of the building and then work your way down some rafters. The ring is on a corpse on one of the rafters",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_102",
-        "text": "[Wolf Ring+1](http://darksouls3.wiki.fextralife.com/Wolf+Ring): From the Keep Ruins bonfire, exit and circle the building",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_104",
-        "text": "[Ring of the Evil Eye+1](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): Behind the large structure right before the Deacons of the Deep boss room",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_106",
-        "text": "[Wood Grain Ring+1](http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring): From the Dancer of the Boreal Valley bonfire, climb the stairs and head left. Continue to the lift and go down. The ring is behind the lift at the bottom",
-        "note": "NG+ (Second Playthrough)"
-      },
-      {
-        "id": "checklist_5_73",
-        "text": "[Life Ring+3](http://darksouls3.wiki.fextralife.com/Life+Ring): Behind the large throne in Dark Firelink",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_75",
-        "text": "[Chloranthy Ring+2](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): On a ledge under a bridge that you cross as you progress from the Road of Sacrifices bonfire",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_77",
-        "text": "[Havel's Ring+2](http://darksouls3.wiki.fextralife.com/Havel's+Ring): On a wooden beam below the Prison Tower bonfire in Anor Londo",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_79",
-        "text": "[Ring of Favor+2](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): From the Cleansing Chapel bonfire, head through the door on the left and take a lift up to a tower. Go around the outside of the tower and climb a ladder to the top and then drop down to a slanted platform that leads up to a roof. Turn left and an axe wielding enemy will come out of an alcove. The ring is in this alcove",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_81",
-        "text": "[Ring of Steel Protection+2](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): Visible on a platform in the catacombs off the left side of the first long bridge",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_83",
-        "text": "[Magic Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring): From the Profaned Capital bonfire, climb down the interior ladder, exit through the hole in the wall, and turn right. The ring will be towards the end of this path",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_85",
-        "text": "[Flame Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring): Located in the [Smouldering Lake](http://darksouls3.wiki.fextralife.com/Smouldering%20Lake), near Demon Ruins bonfire. Behind a hidden wall where the Black Knight with axe is found. Right beside the Black Knight Sword",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_87",
-        "text": "[Thunder Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring): Backtrack from Dragonslayer Armour bonfire and go left into the building with a lift. Go through an opening on the left to get outside on a ledge. Drop down from that ledge onto a roof and the ring is on the right side",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_89",
-        "text": "[Dark Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring): From the Keep Ruins bonfire, look behind the building beyond the three enemies on the bridge",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_95",
-        "text": "[Covetous Gold Serpent Ring+2](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): In the area accessible after defeating the Nameless King",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_97",
-        "text": "[Covetous Silver Serpent Ring+2](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): Visible on a ledge just below Flynn's Ring in the Siegward/Fire Demon area of the Undead Settlement",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_99",
-        "text": "[Lingering Dragoncrest Ring+2](http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring): Climb high onto the roof of the Grand Archives where three flying knights engage you. The ring is in an alcove on the roof immediately above the area where the knights land",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_101",
-        "text": "[Sage Ring+2](http://darksouls3.wiki.fextralife.com/Sage+Ring): From the Dancer of the Boreal Valley bonfire, climb the ladder and head left. Once outside, follow the path to a lift and jump off halfway down. Head left and fall onto a platform, then jump to an adjacent platform where the ring is",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_103",
-        "text": "[Wolf Ring+2](http://darksouls3.wiki.fextralife.com/Wolf+Ring): On the left immediately outside the first boss door",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_105",
-        "text": "[Ring of the Evil Eye+2](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): In a corner behind some barrels in the room in High Wall of Lothric where Greirat's cell key and the first Estus Shard is found",
-        "note": "NG++ (Third Playthrough)"
-      },
-      {
-        "id": "checklist_5_107",
-        "text": "[Wood Grain Ring+2](http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring): In Irithyll of the Boreal Valley, after exiting the building with a Silver Knight shooting you with a greatbow, there are stairs to the left but instead turn right and look around the corner for the ring",
-        "note": "NG++ (Third Playthrough)"
-      }
-    ]
-  },
-  {
-    "id": "DLC_Spells",
-    "name": "DLC Spells",
-    "tasks": [
-      {
-        "id": "checklist_11_1",
-        "text": "[Way of White Corona](http://darksouls3.wiki.fextralife.com/Way+of+White+Corona): Found on a corpse in the Corvian settlement church (Ashes of Ariandel DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_2",
-        "text": "[Floating Chaos](http://darksouls3.wiki.fextralife.com/Floating+Chaos): Acquired after defeating Livid Pyromancer Dunnel on a tower behind an illusory wall (Ashes of Ariandel DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_3",
-        "text": "[Frozen Weapon](http://darksouls3.wiki.fextralife.com/Frozen+Weapon): In the red pit near the Drop Bridge Cave bonfire (Ashes of Ariandel DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_4",
-        "text": "[Snap Freeze](http://darksouls3.wiki.fextralife.com/Snap+Freeze): Guarded by a mad tree near the Depths of the Painting bonfire (Ashes of Ariandel DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_5",
-        "text": "[Lightning Arrow](http://darksouls3.wiki.fextralife.com/Lightning+Arrow): After fighting the dragon after the Shared Grave bonfire, it's just inside the building next to the stairs with crystal lizard, behind 3 illusory walls (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_6",
-        "text": "[Projected Heal](http://darksouls3.wiki.fextralife.com/Projected+Heal): A hidden area just shortly after you meet Lapp for the first time before Earthen Peak Ruins bonfire (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_7",
-        "text": "[Flame Fan](http://darksouls3.wiki.fextralife.com/Flame+Fan): Acquired after defeating Desert Pyromancer Zoey (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_8",
-        "text": "[Seething Chaos](http://darksouls3.wiki.fextralife.com/Seething+Chaos): Obtained by [Soul of the Demon Prince](http://darksouls3.wiki.fextralife.com/Soul+of+the+Demon+Prince) Transposition (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_9",
-        "text": "[Great Soul Dregs](http://darksouls3.wiki.fextralife.com/Great+Soul+Dregs): After you see the first Cursed Angel, proceed forward through the arched doorway ahead. Looking towards the 2 knights at the end of the room take the arched doorway to the right. Turn right and head up to the back of the area and through another arched doorway. Proceed up the stairs and into through the doorway into a dead end room. Attack the wall on the left to reveal an illusionary wall. Proceed up the stairs until you come to the final room. The sorcery is at the back of the room next to the Murkman (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_11_10",
-        "text": "[Old Moonlight](http://darksouls3.wiki.fextralife.com/Old+Moonlight): Obtained by [Soul of Darkeater Midir](http://darksouls3.wiki.fextralife.com/Soul+of+Darkeater+Midir) Transposition (The Ringed City DLC)",
-        "note": null
-      }
-    ]
-  },
-  {
-    "id": "DLC_Rings",
-    "name": "DLC Rings",
-    "tasks": [
-      {
-        "id": "checklist_12_1",
-        "text": "[Chillbite Ring](http://darksouls3.wiki.fextralife.com/Chillbite+Ring): Given by Sister Friede after talking to her twice (Ashes of Ariandel DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_2",
-        "text": "[Chloranthy Ring+3](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): From the Shared Grave Bonfire follow the path up past the bridge and into the Church. Take a left up the stairs. On the right theres should be an invisible wall/ path to an elevator. Take it up and on your right is a alcove you roll/walk into. Make a right from there and fall through the hole and pick up the ring (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_3",
-        "text": "[Ring of Steel Protection+3](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): Immediately after The Dreg Heap bonfire, head forward and past the horde of enemies to a corpse. When you try to grab it you will fall and the ceiling will break, and you will fall. Once at the bottom, out the only door, there will be an angel-like hollow firing projectiles at you. Drop down and run past it and take cover behind the building. Now circle around to the other side of the building along the planks (leaving yourself exposed to the Angel's beams) to find a corpse with the ring (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_4",
-        "text": "[Wolf Ring+3](http://darksouls3.wiki.fextralife.com/Wolf+Ring): Dropped by Seeker of the Spurned (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_5",
-        "text": "[Ring of Favor+3](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): Can be found on a corpse in The Dreg Heap, up a large root in the swamp just after the Earthen Peak Ruins bonfire (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_6",
-        "text": "[Covetous Gold Serpent Ring+3](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): All the way down the stairs from the Shira and and left and up the ladder immediately on your left in the swamp. Double back across the bridge, defeating the two Ringed Knights. On a corpse in a room past them with Lapp inside (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_7",
-        "text": "[Covetous Silver Serpent Ring+3](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): After meeting the first angel that shoots at you fall down onto the perch and continue into the open door archway. From there you should see 2 Knight enemies and on the right hand side there is an area you enter. You make a right and you should be in some small quarter areas. Proceed all the way to the furthest wall north of you. Turn to the left and hit it to reveal a fog wall. Climb the stairs there and just before you obtain Great Soul Dreg on your left, is a balcony. From that balcony you must drop down and there is your ring (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_8",
-        "text": "[Havel's Ring+3](http://darksouls3.wiki.fextralife.com/Havel's+Ring): Just below where you get invaded by Dark Spirit Ledo, on the ledges above the swamp (The Ringed City DLC)",
-        "note": null
-      },
-      {
-        "id": "checklist_12_9",
-        "text": "[Ring of the Evil Eye+3](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): Dropped from a mimic inside the spiral crypt across the bridge from the Ringed City Streets bonfire shortcut (The Ringed City DLC)",
-        "note": null
-      }
-    ]
-  }
+    {
+        "id": "Master_of_Expression",
+        "name": "Master of Expression: Learn all [gestures](http://darksouls3.wiki.fextralife.com/Gestures)",
+        "tasks": [
+            {
+                "id": "checklist_1_1",
+                "text": "**Beckon**: Talk to [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor) not far from the Foot of the High Wall bonfire",
+                "note": null
+            },
+            {
+                "id": "checklist_1_2",
+                "text": "**Call Over**: Received after trading a [Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone) with [Pickle Pee, Pump-a-Rum Crow](http://darksouls3.wiki.fextralife.com/Pickle+Pee,+Pump-a-Rum+Crow)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_3",
+                "text": "**Welcome**: Talk to the [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) in the Undead Settlement, and accept his services. Talk to him again at Firelink Shrine to get the gesture",
+                "note": null
+            },
+            {
+                "id": "checklist_1_4",
+                "text": "**Applause**: Received by talking to [Leonhard](http://darksouls3.wiki.fextralife.com/Leonhard) after defeating the Darkwraith in [High Wall of Lothric](http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric) at his request",
+                "note": null
+            },
+            {
+                "id": "checklist_1_5",
+                "text": "**Quiet Resolve**: Finish [Anri of Astora](http://darksouls3.wiki.fextralife.com/Anri+of+Astora)'s questline up to Irithyll of the Boreal Valley. They will grant you the gesture when speaking to them at the Church of Yorshka Bonfire",
+                "note": null
+            },
+            {
+                "id": "checklist_1_6",
+                "text": "**Rejoice**: Received during the [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) questline",
+                "note": null
+            },
+            {
+                "id": "checklist_1_7",
+                "text": "**Hurrah!**: Talk to [Blacksmith Andre](http://darksouls3.wiki.fextralife.com/Blacksmith+Andre)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_8",
+                "text": "**Praise the Sun**: Received from praying at the Altar of Sunlight in [Lothric Castle](http://darksouls3.wiki.fextralife.com/Lothric+Castle), near the [Dragonslayer Armour](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour) boss fight",
+                "note": null
+            },
+            {
+                "id": "checklist_1_9",
+                "text": "**My Thanks!**: Obtained from [Knight Slayer Tsorig](http://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig) deep in the Demon Ruins, regardless of who wins the fight",
+                "note": null
+            },
+            {
+                "id": "checklist_1_10",
+                "text": "**Proper Bow**: Kill [Yellowfinger Heysel](http://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel), the NPC invader in Farron Keep. Then give a pale tongue to the Rosaria's Fingers covenant. Yellowfinger Heysel's summon sign appears next to the tower full of slugs near the Keep Ruins bonfire. Summon her to receive the gesture. Abyss Watchers must be alive",
+                "note": null
+            },
+            {
+                "id": "checklist_1_11",
+                "text": "**Dignified Bow**: Received from meeting [Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria+of+Londor)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_12",
+                "text": "**Duel Bow**: Received after summoning [Londor Pale Shade](http://darksouls3.wiki.fextralife.com/Londor+Pale+Shade) before [Abyss Watchers](http://darksouls3.wiki.fextralife.com/Abyss+Watchers) or [Pontiff Sulyvahn](http://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_13",
+                "text": "**Legion Etiquette**: Pray to the Old Wolf of Farron in the Farron Swamp",
+                "note": null
+            },
+            {
+                "id": "checklist_1_14",
+                "text": "**Darkmoon Loyalty**: Received from speaking with [Sirris of the Sunless Realms](http://darksouls3.wiki.fextralife.com/Sirris+of+the+Sunless+Realms) in Firelink Shrine after she arrives",
+                "note": null
+            },
+            {
+                "id": "checklist_1_15",
+                "text": "**By My Sword**: Received from summoning [Black Hand Gotthard](http://darksouls3.wiki.fextralife.com/Black+Hand+Gotthard). He will perform the gesture as he is summoned",
+                "note": null
+            },
+            {
+                "id": "checklist_1_16",
+                "text": "**Prayer**: Received from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_17",
+                "text": "**Silent Ally**: Given by [Orbeck of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+of+Vinheim) once you buy Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook",
+                "note": null
+            },
+            {
+                "id": "checklist_1_18",
+                "text": "**Rest**: Received after resting at a bonfire for the first time",
+                "note": null
+            },
+            {
+                "id": "checklist_1_19",
+                "text": "**Collapse**: Received from meeting [Hawkwood](http://darksouls3.wiki.fextralife.com/Hawkwood)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_20",
+                "text": "**Patches Squat**: Talk to [Patches](http://darksouls3.wiki.fextralife.com/Unbreakable+Patches) while he's sitting in Firelink Shrine",
+                "note": null
+            },
+            {
+                "id": "checklist_1_21",
+                "text": "**Prostration**: Received from [Patches](http://darksouls3.wiki.fextralife.com/Unbreakable+Patches) after replying no when he asks for forgiveness, or after confronting him in the Cathedral of the Deep after he lowers the bridge with \"You know who I am\"",
+                "note": null
+            },
+            {
+                "id": "checklist_1_22",
+                "text": "**Toast**: Received by talking to [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) after defeating the demon in Undead Settlement",
+                "note": null
+            },
+            {
+                "id": "checklist_1_23",
+                "text": "**Sleep**: After receiving the Toast gesture from [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina), wait for him to go to sleep. Then talk to him again",
+                "note": null
+            },
+            {
+                "id": "checklist_1_24",
+                "text": "**Curl Up**: Talk to [Greirat of the Undead Settlement](http://darksouls3.wiki.fextralife.com/Greirat+of+the+Undead+Settlement) after giving him [Loretta's bone](http://darksouls3.wiki.fextralife.com/Loretta's+bone) and resting at the bonfire",
+                "note": null
+            },
+            {
+                "id": "checklist_1_25",
+                "text": "**Stretch Out**: Found on the corpse of Laddersmith Gilligan on the first bonfire in [Profaned Capital](http://darksouls3.wiki.fextralife.com/Profaned+Capital)",
+                "note": null
+            },
+            {
+                "id": "checklist_1_26",
+                "text": "**Path of The Dragon**: Received from corpse after [Oceiros, the Consumed King](http://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King)",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Master_of_Sorceries",
+        "name": "Master of Sorceries: Acquire all [sorceries](http://darksouls3.wiki.fextralife.com/Sorceries)",
+        "tasks": [
+            {
+                "id": "checklist_2_1",
+                "text": "[Soul Arrow](http://darksouls3.wiki.fextralife.com/Soul+Arrow): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) / [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_2",
+                "text": "[Great Soul Arrow](http://darksouls3.wiki.fextralife.com/Great+Soul+Arrow): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_3",
+                "text": "[Heavy Soul Arrow](http://darksouls3.wiki.fextralife.com/Heavy+Soul+Arrow): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) / [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_4",
+                "text": "[Great Heavy Soul Arrow](http://darksouls3.wiki.fextralife.com/Great+Heavy+Soul+Arrow): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 4000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_5",
+                "text": "[Farron Dart](http://darksouls3.wiki.fextralife.com/Farron+Dart): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 500 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_6",
+                "text": "[Great Farron Dart](http://darksouls3.wiki.fextralife.com/Great+Farron+Dart): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls. Requires [Sage's Scroll](http://darksouls3.wiki.fextralife.com/Sage's+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_7",
+                "text": "[Farron Hail](http://darksouls3.wiki.fextralife.com/Farron+Hail): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 5000 souls. Requires [Sage's Scroll](http://darksouls3.wiki.fextralife.com/Sage's+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_8",
+                "text": "[Homing Soulmass](http://darksouls3.wiki.fextralife.com/Homing+Soulmass): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 6000 souls. Requires [Logan's Scroll](http://darksouls3.wiki.fextralife.com/Logan's+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_9",
+                "text": "[Homing Crystal Soulmass](http://darksouls3.wiki.fextralife.com/Homing+Crystal+Soulmass): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 18,000 souls. Requires [Crystal Scroll](http://darksouls3.wiki.fextralife.com/Crystal+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_10",
+                "text": "[Crystal Hail](http://darksouls3.wiki.fextralife.com/Crystal+Hail): Obtained by [Soul of a Crystal Sage](http://darksouls3.wiki.fextralife.com/Soul%20of+a+Crystal+Sage) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_2_11",
+                "text": "[Soul Spear](http://darksouls3.wiki.fextralife.com/Soul+Spear): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 5000 souls. Requires [Logan's Scroll](http://darksouls3.wiki.fextralife.com/Logan's+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_12",
+                "text": "[Crystal Soul Spear](http://darksouls3.wiki.fextralife.com/Crystal+Soul+Spear): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 15,000 souls. Requires [Crystal Scroll](http://darksouls3.wiki.fextralife.com/Crystal+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_13",
+                "text": "[White Dragon Breath](http://darksouls3.wiki.fextralife.com/White+Dragon+Breath): Obtained by [Soul of Consumed Oceiros](http://darksouls3.wiki.fextralife.com/Soul+of+Consumed+Oceiros) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_2_14",
+                "text": "[Soul Stream](http://darksouls3.wiki.fextralife.com/Soul+Stream): Found in the Grand Archive behind an illusory wall near the Boreal Outrider Knight",
+                "note": null
+            },
+            {
+                "id": "checklist_2_15",
+                "text": "[Soul Greatsword](http://darksouls3.wiki.fextralife.com/Soul+Greatsword): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) / [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 5000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_16",
+                "text": "[Farron Flashsword](http://darksouls3.wiki.fextralife.com/Farron+Flashsword): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_17",
+                "text": "[Magic Weapon](http://darksouls3.wiki.fextralife.com/Magic+Weapon): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) for 4500 and [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_18",
+                "text": "[Great Magic Weapon](http://darksouls3.wiki.fextralife.com/Great+Magic+Weapon): From the Farron Keep Perimeter bonfire, turn around 180 and head towards the shortcut gate to Road of Sacrifices. The spell will be on a corpse at the gate",
+                "note": null
+            },
+            {
+                "id": "checklist_2_19",
+                "text": "[Crystal Magic Weapon](http://darksouls3.wiki.fextralife.com/Crystal+Magic+Weapon): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 10,000 souls. Requires [Crystal Scroll](http://darksouls3.wiki.fextralife.com/Crystal+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_20",
+                "text": "[Magic Shield](http://darksouls3.wiki.fextralife.com/Magic+Shield): Sold by [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor)/[Yuria of Londor](http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor) for 4500 and [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_21",
+                "text": "[Great Magic Shield](http://darksouls3.wiki.fextralife.com/Great+Magic+Shield): Found in [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_22",
+                "text": "[Spook](http://darksouls3.wiki.fextralife.com/Spook): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_23",
+                "text": "[Aural Decoy](http://darksouls3.wiki.fextralife.com/Aural+Decoy): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_24",
+                "text": "[Pestilent Mist](http://darksouls3.wiki.fextralife.com/Pestilent+Mist): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1000 souls. Requires any scroll",
+                "note": null
+            },
+            {
+                "id": "checklist_2_25",
+                "text": "[Cast Light](http://darksouls3.wiki.fextralife.com/Cast%20Light): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_26",
+                "text": "[Repair](http://darksouls3.wiki.fextralife.com/Repair): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 2000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_27",
+                "text": "[Hidden Weapon](http://darksouls3.wiki.fextralife.com/Hidden+Weapon): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 1500 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_28",
+                "text": "[Hidden Body](http://darksouls3.wiki.fextralife.com/Hidden+Body): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 3000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_29",
+                "text": "[Chameleon](http://darksouls3.wiki.fextralife.com/Chameleon): Found in the Church of Yorshka bonfire in [Irithyll of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley) during Anri's questline. The spell will drop from an assassin disguised as a statue. Found in Darkmoon Tomb on the pilgrim's corpse",
+                "note": null
+            },
+            {
+                "id": "checklist_2_30",
+                "text": "[Twisted Wall of Light](http://darksouls3.wiki.fextralife.com/Twisted+Wall+of+Light): Sold by [Orbeck Of Vinheim](http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim) for 6000 souls. Requires [Golden Scroll](http://darksouls3.wiki.fextralife.com/Golden+Scroll)",
+                "note": null
+            },
+            {
+                "id": "checklist_2_31",
+                "text": "[Deep Soul](http://darksouls3.wiki.fextralife.com/Deep+Soul): Obtained by [Soul of Deacons of the Deep](http://darksouls3.wiki.fextralife.com/Soul%20of+Deacons+of+the+Deep) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_2_32",
+                "text": "[Great Deep Soul](http://darksouls3.wiki.fextralife.com/Great+Deep+Soul): [Aldrich Faithful](http://darksouls3.wiki.fextralife.com/Aldrich+Faithful) Rank 1 reward",
+                "note": null
+            },
+            {
+                "id": "checklist_2_33",
+                "text": "[Affinity](http://darksouls3.wiki.fextralife.com/Affinity): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 15,000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_2_34",
+                "text": "[Dark Edge](http://darksouls3.wiki.fextralife.com/Dark+Edge): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 8000 souls",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Master_of_Pyromancies",
+        "name": "Master of Pyromancies: Acquire all [pyromancies](http://darksouls3.wiki.fextralife.com/Pyromancies)",
+        "tasks": [
+            {
+                "id": "checklist_3_1",
+                "text": "[Fireball](http://darksouls3.wiki.fextralife.com/Fireball): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 1000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_3_2",
+                "text": "[Fire Orb](http://darksouls3.wiki.fextralife.com/Fire+Orb): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 3000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_3",
+                "text": "[Bursting Fireball](http://darksouls3.wiki.fextralife.com/Bursting+Fireball): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 5000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_4",
+                "text": "[Great Chaos Fire Orb](http://darksouls3.wiki.fextralife.com/Great%20Chaos+Fire+Orb): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 10,000 souls. Requires [Izalith Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Izalith+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_5",
+                "text": "[Chaos Bed Vestiges](http://darksouls3.wiki.fextralife.com/Chaos+Bed+Vestiges): Acquired from [Soul of the Old Demon King](http://darksouls3.wiki.fextralife.com/Soul+of+the+Old+Demon+King) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_3_6",
+                "text": "[Fire Surge](http://darksouls3.wiki.fextralife.com/Fire+Surge): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 1000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_3_7",
+                "text": "[Fire Whip](http://darksouls3.wiki.fextralife.com/Fire+Whip): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 10,000 souls. Requires [Quelana Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_8",
+                "text": "[Firestorm](http://darksouls3.wiki.fextralife.com/Firestorm): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 15,000 souls. Requires [Quelana Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_9",
+                "text": "[Chaos Storm](http://darksouls3.wiki.fextralife.com/Chaos+Storm): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 12,000 souls. Requires [Izalith Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Izalith+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_10",
+                "text": "[Great Combustion](http://darksouls3.wiki.fextralife.com/Great+Combustion): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 3,000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_3_11",
+                "text": "[Sacred Flame](http://darksouls3.wiki.fextralife.com/Sacred+Flame): Found within the lava area of [Smouldering Lake](http://darksouls3.wiki.fextralife.com/Smouldering+Lake) where you fight Knight Slayer Tsorig",
+                "note": null
+            },
+            {
+                "id": "checklist_3_12",
+                "text": "[Profaned Flame](http://darksouls3.wiki.fextralife.com/Profaned+Flame): Found at the foot of the Giant in [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_13",
+                "text": "[Poison Mist](http://darksouls3.wiki.fextralife.com/Poison+Mist): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 2,000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_14",
+                "text": "[Toxic Mist](http://darksouls3.wiki.fextralife.com/Toxic+Mist): Found on corpse in lava area of the [Catacombs of Carthus](http://darksouls3.wiki.fextralife.com/Catacombs+of+Carthus)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_15",
+                "text": "[Acid Surge](http://darksouls3.wiki.fextralife.com/Acid+Surge): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 6,000 souls. Requires [Carthus Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_16",
+                "text": "[Flash Sweat](http://darksouls3.wiki.fextralife.com/Flash+Sweat): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 1,000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_3_17",
+                "text": "[Profuse Sweat](http://darksouls3.wiki.fextralife.com/Profuse+Sweat): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 2,000 souls. Requires [Great Swamp Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_18",
+                "text": "[Iron Flesh](http://darksouls3.wiki.fextralife.com/Iron+Flesh): Found in the [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep) swamp",
+                "note": null
+            },
+            {
+                "id": "checklist_3_19",
+                "text": "[Power Within](http://darksouls3.wiki.fextralife.com/Power%20Within): Found on a corpse behind a hidden wall in [Grand Archives](http://darksouls3.wiki.fextralife.com/Grand+Archives)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_20",
+                "text": "[Carthus Beacon](http://darksouls3.wiki.fextralife.com/Carthus+Beacon): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 8,000 souls. Requires [Carthus Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_21",
+                "text": "[Carthus Flame Arc](http://darksouls3.wiki.fextralife.com/Carthus+Flame+Arc): Sold by [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) for 10,000 souls. Requires [Carthus Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_22",
+                "text": "[Warmth](http://darksouls3.wiki.fextralife.com/Warmth): [Mound Makers](http://darksouls3.wiki.fextralife.com/Mound-Maker) Rank 2 reward",
+                "note": null
+            },
+            {
+                "id": "checklist_3_23",
+                "text": "[Rapport](http://darksouls3.wiki.fextralife.com/Rapport): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 7000 souls. Requires [Quelana Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_24",
+                "text": "[Boulder Heave](http://darksouls3.wiki.fextralife.com/Boulder%20Heave): Acquired from [Soul of a Stray Demon](http://darksouls3.wiki.fextralife.com/Soul+of+a+Stray+Demon) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_3_25",
+                "text": "[Black Flame](http://darksouls3.wiki.fextralife.com/Black+Flame): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 10,000 souls. Requires [Grave Warden Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Grave+Warden+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_26",
+                "text": "[Black Fire Orb](http://darksouls3.wiki.fextralife.com/Black+Fire+Orb): Sold by [Karla](http://darksouls3.wiki.fextralife.com/Karla) for 10,000 souls. Requires [Grave Warden Pyromancy Tome](http://darksouls3.wiki.fextralife.com/Grave+Warden+Pyromancy+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_3_27",
+                "text": "[Black Serpent](http://darksouls3.wiki.fextralife.com/Black+Serpent): Acquired from [Soul of High Lord Wolnir](http://darksouls3.wiki.fextralife.com/High+Lord+Wolnir) Transposition",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Master_of_Miracles",
+        "name": "Master of Miracles: Acquire all [miracles](http://darksouls3.wiki.fextralife.com/Miracles)",
+        "tasks": [
+            {
+                "id": "checklist_4_1",
+                "text": "[Heal Aid](http://darksouls3.wiki.fextralife.com/Heal+Aid): Purchased from [Shrine Handmaid](http://darksouls3.wiki.fextralife.com/Shrine+Handmaid) for 500 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_4_2",
+                "text": "[Heal](http://darksouls3.wiki.fextralife.com/Heal): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_4_3",
+                "text": "[Med Heal](http://darksouls3.wiki.fextralife.com/Med+Heal): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 3500 souls. Requires [Braille Divine Tome of Carim](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_4",
+                "text": "[Great Heal](http://darksouls3.wiki.fextralife.com/Great+Heal): Found on corpse in the [Irithyll of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_5",
+                "text": "[Soothing Sunlight](http://darksouls3.wiki.fextralife.com/Soothing+Sunlight): Acquired by [Soul of the Dancer](http://darksouls3.wiki.fextralife.com/Soul+of+the+Dancer) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_4_6",
+                "text": "[Replenishment](http://darksouls3.wiki.fextralife.com/Replenishment): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_4_7",
+                "text": "[Bountiful Light](http://darksouls3.wiki.fextralife.com/Bountiful+Light): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 5000 souls. Requires [Braille Divine Tome of Lothric](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_8",
+                "text": "[Bountiful Sunlight](http://darksouls3.wiki.fextralife.com/Bountiful+Sunlight): Acquired by [Soul of Rosaria](http://darksouls3.wiki.fextralife.com/Soul+of+Rosaria) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_4_9",
+                "text": "[Caressing Tears](http://darksouls3.wiki.fextralife.com/Caressing%20Tears): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1500 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_4_10",
+                "text": "[Tears of Denial](http://darksouls3.wiki.fextralife.com/Tears+of+Denial): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 10,000 souls. Requires [Braille Divine Tome of Carim](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_11",
+                "text": "[Homeward](http://darksouls3.wiki.fextralife.com/Homeward): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 3000 souls",
+                "note": null
+            },
+            {
+                "id": "checklist_4_12",
+                "text": "[Seek Guidance](http://darksouls3.wiki.fextralife.com/Seek+Guidance): Looted from a corpse in Cathedral of the Deep. Just past the first giant and down the stairs to the left. It's a sort of dark ish room above the Cathedral Knight with the mace",
+                "note": null
+            },
+            {
+                "id": "checklist_4_13",
+                "text": "[Sacred Oath](http://darksouls3.wiki.fextralife.com/Sacred+Oath): [Warriors of Sunlight](http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight) Rank 1 reward",
+                "note": null
+            },
+            {
+                "id": "checklist_4_14",
+                "text": "[Force](http://darksouls3.wiki.fextralife.com/Force): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 1000 souls. Requires [Braille Divine Tome of Carim](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_15",
+                "text": "[Emit Force](http://darksouls3.wiki.fextralife.com/Emit+Force): Acquired by [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) during third encounter. Below Irithyll of the Boreal Valley in a kitchen just after a sewer area",
+                "note": null
+            },
+            {
+                "id": "checklist_4_16",
+                "text": "[Wrath of the Gods](http://darksouls3.wiki.fextralife.com/Wrath+of+the+Gods): Acquired by dropping from the ledge near the spellcaster on the roof in Profaned Capital",
+                "note": null
+            },
+            {
+                "id": "checklist_4_17",
+                "text": "[Lightning Spear](http://darksouls3.wiki.fextralife.com/Lightning+Spear): Use the elevator near the Old Wolf of Farron and take the stairs up. Turn to the right and run to the closed gate. On the right side of the gate drop down and follow the path, one of the items there is Lightning Spear",
+                "note": null
+            },
+            {
+                "id": "checklist_4_18",
+                "text": "[Great Lightning Spear](http://darksouls3.wiki.fextralife.com/Great+Lightning+Spear): [Warriors of Sunlight](http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight) Rank 2 reward",
+                "note": null
+            },
+            {
+                "id": "checklist_4_19",
+                "text": "[Sunlight Spear](http://darksouls3.wiki.fextralife.com/Sunlight+Spear): Acquired by [Soul of the Lords](http://darksouls3.wiki.fextralife.com/Soul+of+the+Lords) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_4_20",
+                "text": "[Lightning Stake](http://darksouls3.wiki.fextralife.com/Lightning+Stake): Dropped by the [Carthus Sandworm](http://darksouls3.wiki.fextralife.com/Carthus+Sandworm) before the [Old Demon King](http://darksouls3.wiki.fextralife.com/Old+Demon+King) boss fight",
+                "note": null
+            },
+            {
+                "id": "checklist_4_21",
+                "text": "[Lightning Storm](http://darksouls3.wiki.fextralife.com/Lightning+Storm): Acquired by [Soul of the Nameless King](http://darksouls3.wiki.fextralife.com/Soul+of+the+Nameless+King) Transposition",
+                "note": null
+            },
+            {
+                "id": "checklist_4_22",
+                "text": "[Divine Pillars of Light](http://darksouls3.wiki.fextralife.com/Divine+Pillars+of+Light): Found at the top of [Lothric Castle](http://darksouls3.wiki.fextralife.com/Lothric+Castle)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_23",
+                "text": "[Blessed Weapon](http://darksouls3.wiki.fextralife.com/Blessed+Weapon): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 8,000 souls. Requires [Braille Divine Tome of Lothric](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_24",
+                "text": "[Lightning Blade](http://darksouls3.wiki.fextralife.com/Lightning+Blade): Located in [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_25",
+                "text": "[Darkmoon Blade](http://darksouls3.wiki.fextralife.com/Darkmoon%20Blade): [Blade of the Darkmoon](http://darksouls3.wiki.fextralife.com/Blades+of+the+Darkmoon) covenant Rank 2 reward",
+                "note": null
+            },
+            {
+                "id": "checklist_4_26",
+                "text": "[Magic Barrier](http://darksouls3.wiki.fextralife.com/Magic+Barrier): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 5000 souls. Requires [Braille Divine Tome of Lothric](http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_27",
+                "text": "[Great Magic Barrier](http://darksouls3.wiki.fextralife.com/Great+Magic+Barrier): Archdragon Peak found off a ledge where you find Havel and a dead dragon",
+                "note": null
+            },
+            {
+                "id": "checklist_4_28",
+                "text": "[Dark Blade](http://darksouls3.wiki.fextralife.com/Dark+Blade): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 10,000 souls. Requires [Londor Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_29",
+                "text": "[Vow of Silence](http://darksouls3.wiki.fextralife.com/Vow+of+Silence): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 15,000 souls. Requires [Londor Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_30",
+                "text": "[Dead Again](http://darksouls3.wiki.fextralife.com/Dead+Again): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 5000 souls. Requires [Londor Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_31",
+                "text": "[Atonement](http://darksouls3.wiki.fextralife.com/Atonement): Farron Keep Perimeter bonfire. Turn around 180 degrees and follow the path until you reach a hole in the wall on your right. Drop down on the ledge below. The spell will be on a corpse",
+                "note": null
+            },
+            {
+                "id": "checklist_4_32",
+                "text": "[Deep Protection](http://darksouls3.wiki.fextralife.com/Deep+Protection): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 4000 souls. Requires [Deep Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Deep+Braille+Divine+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_33",
+                "text": "[Gnaw](http://darksouls3.wiki.fextralife.com/Gnaw): Purchased from [Irina of Carim](http://darksouls3.wiki.fextralife.com/Irina+of+Carim) for 2000 souls. Requires [Deep Braille Divine Tome](http://darksouls3.wiki.fextralife.com/Deep+Braille+Divine+Tome)",
+                "note": null
+            },
+            {
+                "id": "checklist_4_34",
+                "text": "[Dorhys' Gnawing](http://darksouls3.wiki.fextralife.com/Dorhy's+Gnawing): Guaranteed kill reward for the screaming Evangelist in Irithyll of the Boreal Valley, found behind an illusionary fence",
+                "note": null
+            },
+            {
+                "id": "checklist_4_35",
+                "text": "[Lifehunt Scythe](http://darksouls3.wiki.fextralife.com/Lifehunt+Scythe): Acquired from [Soul of Aldrich](http://darksouls3.wiki.fextralife.com/Soul+of+Aldrich) Transposition",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Master_of_Infusion",
+        "name": "Master of Infusion: Perform all forms of [infusion](http://darksouls3.wiki.fextralife.com/Upgrades)",
+        "tasks": [
+            {
+                "id": "checklist_6_1",
+                "text": "Refined: Available from start, requires [Refined Gem](http://darksouls3.wiki.fextralife.com/Refined+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_2",
+                "text": "Raw: Available from start, requires [Raw Gem](http://darksouls3.wiki.fextralife.com/Raw+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_3",
+                "text": "Fire: Available from start, requires [Fire Gem](http://darksouls3.wiki.fextralife.com/Fire+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_4",
+                "text": "Heavy: Available after acquiring [Farron Coal](http://darksouls3.wiki.fextralife.com/Farron+Coal) from [Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices), requires [Heavy Gem](http://darksouls3.wiki.fextralife.com/Heavy+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_5",
+                "text": "Sharp: Available after acquiring [Farron Coal](http://darksouls3.wiki.fextralife.com/Farron+Coal) from [Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices), requires [Sharp Gem](http://darksouls3.wiki.fextralife.com/Sharp+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_6",
+                "text": "Poison: Available after acquiring [Farron Coal](http://darksouls3.wiki.fextralife.com/Farron+Coal) from [Road of Sacrifices](http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices), requires [Poison Gem](http://darksouls3.wiki.fextralife.com/Poison+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_7",
+                "text": "Crystal: Available after acquiring [Sage's Coal](http://darksouls3.wiki.fextralife.com/Sage's+Coal) from [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep), requires [Crystal Gem](http://darksouls3.wiki.fextralife.com/Crystal+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_8",
+                "text": "Blessed: Available after acquiring [Sage's Coal](http://darksouls3.wiki.fextralife.com/Sage's+Coal) from [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep), requires [Blessed Gem](http://darksouls3.wiki.fextralife.com/Blessed+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_9",
+                "text": "Deep: Available after acquiring [Sage's Coal](http://darksouls3.wiki.fextralife.com/Sage's+Coal) from [Farron Keep](http://darksouls3.wiki.fextralife.com/Farron+Keep), requires [Deep Gem](http://darksouls3.wiki.fextralife.com/Deep+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_10",
+                "text": "Dark: Available after acquiring [Profaned Coal](http://darksouls3.wiki.fextralife.com/Profaned+Coal) from [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon), requires [Dark Gem](http://darksouls3.wiki.fextralife.com/Dark+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_11",
+                "text": "Blood: Available after acquiring [Profaned Coal](http://darksouls3.wiki.fextralife.com/Profaned+Coal) from [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon), requires [Blood Gem](http://darksouls3.wiki.fextralife.com/Blood+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_12",
+                "text": "Hollow: Available after acquiring [Profaned Coal](http://darksouls3.wiki.fextralife.com/Profaned+Coal) from [Irithyll Dungeon](http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon), requires [Hollow Gem](http://darksouls3.wiki.fextralife.com/Hollow+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_13",
+                "text": "Lightning: Available after acquiring [Giant's Coal](http://darksouls3.wiki.fextralife.com/Giant's+Coal) from [Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo), requires [Lightning Gem](http://darksouls3.wiki.fextralife.com/Lightning+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_14",
+                "text": "Simple: Available after acquiring [Giant's Coal](http://darksouls3.wiki.fextralife.com/Giant's+Coal) from [Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo), requires [Simple Gem](http://darksouls3.wiki.fextralife.com/Simple+Gem)",
+                "note": null
+            },
+            {
+                "id": "checklist_6_15",
+                "text": "Chaos: Available after acquiring [Giant's Coal](http://darksouls3.wiki.fextralife.com/Giant's+Coal) from [Anor Londo](http://darksouls3.wiki.fextralife.com/Anor+Londo), requires [Chaos Gem](http://darksouls3.wiki.fextralife.com/Chaos+Gem)",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Ending_Achievements",
+        "name": "Ending Achievements",
+        "tasks": [
+            {
+                "id": "checklist_7_1",
+                "text": "[To Link the First Flame](http://darksouls3.wiki.fextralife.com/Endings): Reach \"To Link the First Flame\" ending",
+                "note": null
+            },
+            {
+                "id": "checklist_7_2",
+                "text": "[The End of Fire](http://darksouls3.wiki.fextralife.com/Endings): Reach \"The End of Fire\" ending",
+                "note": null
+            },
+            {
+                "id": "checklist_7_3",
+                "text": "[The Usurpation of Fire](http://darksouls3.wiki.fextralife.com/Endings): Reach \"The Usurpation of Fire\" ending",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Boss_Achievements",
+        "name": "Boss Achievements",
+        "tasks": [
+            {
+                "id": "checklist_8_1",
+                "text": "[Iudex Gundyr](http://darksouls3.wiki.fextralife.com/Iudex+Gundyr): Defeat \"Heir of Fire\" Iudex Gundyr",
+                "note": null
+            },
+            {
+                "id": "checklist_8_2",
+                "text": "[Vordt of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Vordt+of+the+Boreal+Valley): Defeat Vordt of the Boreal Valley",
+                "note": null
+            },
+            {
+                "id": "checklist_8_3",
+                "text": "[Curse-rotted Greatwood](http://darksouls3.wiki.fextralife.com/Curse-Rotted+Greatwood): Defeat the Curse-rotted Greatwood",
+                "note": null
+            },
+            {
+                "id": "checklist_8_4",
+                "text": "[Crystal Sage](http://darksouls3.wiki.fextralife.com/Crystal+Sage): Defeat Crystal Sage",
+                "note": null
+            },
+            {
+                "id": "checklist_8_5",
+                "text": "[Lords of Cinder: Abyss Watchers](http://darksouls3.wiki.fextralife.com/Abyss+Watchers): Defeat the Abyss Watchers, Lords of Cinder",
+                "note": null
+            },
+            {
+                "id": "checklist_8_6",
+                "text": "[Deacons of the Deep](http://darksouls3.wiki.fextralife.com/Deacons+of+the+Deep): Defeat the Deacons of the Deep",
+                "note": null
+            },
+            {
+                "id": "checklist_8_7",
+                "text": "[High Lord Wolnir](http://darksouls3.wiki.fextralife.com/High+Lord+Wolnir): Defeat High Lord Wolnir",
+                "note": null
+            },
+            {
+                "id": "checklist_8_8",
+                "text": "[Old Demon King](http://darksouls3.wiki.fextralife.com/Old+Demon+King): Defeat Old Demon King",
+                "note": null
+            },
+            {
+                "id": "checklist_8_9",
+                "text": "[Pontiff Sulyvahn](http://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn): Defeat Pontiff Sulyvahn",
+                "note": null
+            },
+            {
+                "id": "checklist_8_10",
+                "text": "[Lord of Cinder: Yhorm the Giant](http://darksouls3.wiki.fextralife.com/Yhorm+the+Giant): Defeat Yhorm the Giant, Lord of Cinder",
+                "note": null
+            },
+            {
+                "id": "checklist_8_11",
+                "text": "[Lord of Cinder: Aldrich, Devourer of Gods](http://darksouls3.wiki.fextralife.com/Aldrich,+Devourer+of+Gods): Defeat Aldrich, Devourer of Gods, Lord of Cinder",
+                "note": null
+            },
+            {
+                "id": "checklist_8_12",
+                "text": "[Dancer of the Boreal Valley](http://darksouls3.wiki.fextralife.com/Dancer+of+the+Boreal+Valley): Defeat Dancer of the Boreal Valley",
+                "note": null
+            },
+            {
+                "id": "checklist_8_13",
+                "text": "[Dragonslayer Armour](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour): Defeat Dragonslayer Armour",
+                "note": null
+            },
+            {
+                "id": "checklist_8_14",
+                "text": "[Oceiros, the Consumed King](http://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King): Defeat Oceiros, the Consumed King",
+                "note": null
+            },
+            {
+                "id": "checklist_8_15",
+                "text": "[Champion Gundyr](http://darksouls3.wiki.fextralife.com/Champion+Gundyr): Defeat Champion Gundyr",
+                "note": null
+            },
+            {
+                "id": "checklist_8_16",
+                "text": "[Lord of Cinder: Lothric, Younger Prince](http://darksouls3.wiki.fextralife.com/Lothric,+Younger+Prince): Defeat Lothric, Younger Prince, Lord of Cinder",
+                "note": null
+            },
+            {
+                "id": "checklist_8_17",
+                "text": "[Ancient Wyvern](http://darksouls3.wiki.fextralife.com/Ancient+Wyvern): Defeat Ancient Wyvern",
+                "note": null
+            },
+            {
+                "id": "checklist_8_18",
+                "text": "[The Nameless King](http://darksouls3.wiki.fextralife.com/Nameless+King): Defeat Nameless King",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Misc_Achievements",
+        "name": "Misc Achievements",
+        "tasks": [
+            {
+                "id": "checklist_9_1",
+                "text": "Supreme Weapon Reinforcement: Reinforce any weapon to the highest level",
+                "note": null
+            },
+            {
+                "id": "checklist_9_2",
+                "text": "Ultimate Bonfire: Reinforce a bonfire to the highest level",
+                "note": null
+            },
+            {
+                "id": "checklist_9_3",
+                "text": "Ultimate Estus: Reinforce the Estus Flask to the highest level",
+                "note": null
+            },
+            {
+                "id": "checklist_9_4",
+                "text": "Untended Graves: Reach the Untended Graves",
+                "note": null
+            },
+            {
+                "id": "checklist_9_5",
+                "text": "Archdragon Peak: Reach Archdragon Peak",
+                "note": null
+            },
+            {
+                "id": "checklist_9_6",
+                "text": "Enkindle: Light a bonfire flame for the first time",
+                "note": null
+            },
+            {
+                "id": "checklist_9_7",
+                "text": "Embrace the Flame: Become a Host of Embers for the first time",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Covenants_Achievements",
+        "name": "Covenant Achievements",
+        "tasks": [
+            {
+                "id": "checklist_10_1",
+                "text": "Covenant: [Warrior of Sunlight](http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight): Discover Warrior of Sunlight covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_2",
+                "text": "Covenant: [Way of Blue](http://darksouls3.wiki.fextralife.com/Way+of+Blue): Discover Way of Blue covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_3",
+                "text": "Covenant: [Blue Sentinels](http://darksouls3.wiki.fextralife.com/Blue+Sentinels): Discover Blue Sentinels covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_4",
+                "text": "Covenant: [Blade of the Darkmoon](http://darksouls3.wiki.fextralife.com/Blades+of+the+Darkmoon): Discover Blade of the Darkmoon covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_5",
+                "text": "Covenant: [Rosaria's Fingers](http://darksouls3.wiki.fextralife.com/Rosaria's+Fingers): Discover Rosaria's Fingers covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_6",
+                "text": "Covenant: [Mound-makers ](http://darksouls3.wiki.fextralife.com/Mound-Makers): Discover Mound-makers covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_7",
+                "text": "Covenant: [Watchdogs of Farron](http://darksouls3.wiki.fextralife.com/Watchdogs+of+Farron): Discover Watchdogs of Farron covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_8",
+                "text": "Covenant: [Aldrich Faithful](http://darksouls3.wiki.fextralife.com/Aldrich+Faithful): Discover Aldrich Faithful covenant",
+                "note": null
+            },
+            {
+                "id": "checklist_10_9",
+                "text": "(No Achievement) Covenant: [Spears of the Church](http://darksouls3.wiki.fextralife.com/Spears+of+the+Church) (The Ringed City DLC)",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "Master_of_Rings",
+        "name": "Master of Rings: Acquire all [rings](http://darksouls3.wiki.fextralife.com/Rings)",
+        "tasks": [
+            {
+                "id": "checklist_5_1",
+                "text": "[Life Ring](http://darksouls3.wiki.fextralife.com/Life+Ring): Starting gift or sold by the [Shrine Handmaid](http://darksouls3.wiki.fextralife.com/Shrine+Handmaid) in Firelink Shrine for 1500 souls",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_2",
+                "text": "[Sun Princess Ring](http://darksouls3.wiki.fextralife.com/Sun+Princess+Ring): Found in Gwynevere's Chamber above the Aldrich, Devourer of Gods bonfire",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_3",
+                "text": "[Estus Ring](http://darksouls3.wiki.fextralife.com/Estus+Ring): Behind the locked door on the left side of Firelink Shrine accessible by going through the locked door on the right side of the area (which requires the 20k souls key from the [Shrine Handmaid](http://darksouls3.wiki.fextralife.com/Shrine+Handmaid) to unlock) and dropping down via coffins sticking out of the wall",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_4",
+                "text": "[Ashen Estus Ring](http://darksouls3.wiki.fextralife.com/Ashen+Estus+Ring): Proceed from the Untended Graves bonfire and take left path. The ring is on a corpse behind some crow enemies",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_5",
+                "text": "[Chloranthy Ring](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): Under breakable crates/barrels in the bottom of the tower that you go through to exit the Siegward/Fire Demon area in Undead Settlement",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_6",
+                "text": "[Havel's Ring](http://darksouls3.wiki.fextralife.com/Havel's+Ring): Trade with Ludleth of Courland for the Soul of a Stray Demon",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_7",
+                "text": "[Ring of Favor](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): Defeat the guard dogs near [Archdeacon McDonnell](http://darksouls3.wiki.fextralife.com/Archdeacon+McDonnell)",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_8",
+                "text": "[Prisoner's Chain](http://darksouls3.wiki.fextralife.com/Prisoner's+Chain): Trade with Ludleth of Courland for the Soul of Champion Gundyr",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_9",
+                "text": "[Ring of Steel Protection](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): In the Ancient Wyvern area, take the right path to the end and go around a railing",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_10",
+                "text": "[Magic Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring): Dropped by one of the knights outside Oceiros' boss door",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_11",
+                "text": "[Flame Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring): On a corpse hanging from a tree in the Undead Settlement by the Mound Makers cage guy. It may drop all the way down to in front of the building with the lift that leads to the giant",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_12",
+                "text": "[Thunder Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring): Proceed from the Dragon-Kin Mausoleum bonfire until you reach an outside area with some scaffolding. Climb a ladder in this area to reach the platform where the ring is located",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_13",
+                "text": "[Dark Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring): In the lower area to the left of the open area with giants just past the Pontiff Sulyvahn bonfire",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_14",
+                "text": "[Speckled Stoneplate Ring](http://darksouls3.wiki.fextralife.com/Speckled+Stoneplate+Ring): Behind a breakable wall in the Smoldering Lake area of the Catacombs of Carthus (must be broken by ballista fire)",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_15",
+                "text": "[Bloodbite Ring](http://darksouls3.wiki.fextralife.com/Bloodbite+Ring): Obtained by killing the large rat in the area across the bridge from the Dilapidated Bridge bonfire in the Undead Settlement",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_16",
+                "text": "[Poisonbite Ring](http://darksouls3.wiki.fextralife.com/Poisonbite+Ring): From the cleansing Chapel bonfire, head outside and turn right from where the four enemies are praying, Drop down and follow the path around until you reach an area with a large crystal enemy among some blue crystals. There will be an entrance to a grey stone area nearby where the ring is inside on a corpse",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_17",
+                "text": "[Cursebite Ring](http://darksouls3.wiki.fextralife.com/Cursebite+Ring): From the Profaned Capital bonfire, work your way to the area with the toxic swamp. The ring is on a corpse in the cave that you can drop into via the building above",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_18",
+                "text": "[Fleshbite Ring](http://darksouls3.wiki.fextralife.com/Fleshbite+Ring): In the Grand Archives, cross the bridge and proceed past the shortcut ladder by four Mage enemies and some bookshelves. The ring is on a corpse one level up next in an area with a bunch of books and cursed hands",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_19",
+                "text": "[Knight's Ring](http://darksouls3.wiki.fextralife.com/Knight's+Ring): In Lothric Caste in a room before the Sunlight Altar",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_20",
+                "text": "[Hunter's Ring](http://darksouls3.wiki.fextralife.com/Hunter's+Ring): Climb high onto the roof of the Grand Archives where three flying knights engage you. The ring is on a corpse at the top of the central tower in this area",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_21",
+                "text": "[Scholar Ring](http://darksouls3.wiki.fextralife.com/Scholar+Ring): You can pull a lever next to the bridge in the center of the Grand Archives to lower an adjacent bookshelf revealing a corpse with the ring",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_22",
+                "text": "[Priestess Ring](http://darksouls3.wiki.fextralife.com/Priestess+Ring): Sold by the Handmaid in Dark Firelink",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_23",
+                "text": "[Covetous Gold Serpent Ring](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): In the locked cell with Siegward in Irithyll Dungeons. The key to the cell is in the right side chest at the end of a hallway leading away from the area with the giant",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_24",
+                "text": "[Covetous Silver Serpent Ring](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): Behind an illusory wall above the main Firelink bonfire, requires key from Handmaid for 20k souls",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_25",
+                "text": "[Saint's Ring](http://darksouls3.wiki.fextralife.com/Saint%27s+Ring): Sold by Irina of Carim in Firelink",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_26",
+                "text": "[Deep Ring](http://darksouls3.wiki.fextralife.com/Deep+Ring): Dropped by an enemy in a tower accessible by a lift near the Cleansing Chapel bonfire",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_27",
+                "text": "[Darkmoon Ring](http://darksouls3.wiki.fextralife.com/Darkmoon%20Ring): Reward for reaching rank 1 in the Blade of the Darkmoon covenant. The Silver Knights in Anor Londo can drop the covenant item (very rare), and you need 10 to reach rank 1",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_28",
+                "text": "[Young Dragon Ring](http://darksouls3.wiki.fextralife.com/Young+Dragon+Ring): Given by Orbeck of Vinheim after returning a scroll and buying 3 sorceries",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_29",
+                "text": "[Bellowing Dragoncrest Ring](http://darksouls3.wiki.fextralife.com/Bellowing+Dragoncrest+Ring): From the Irithyll Dungeon bonfire, proceed into the large room and follow the hallway to the right to a locked door. Open this door with the key from a cell upstairs on the other side of the large room and drop to a platform where this ring is on a corpse",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_30",
+                "text": "[Great Swamp Ring](http://darksouls3.wiki.fextralife.com/Great+Swamp+Ring): Dropped by a large crab in the Crucifixion Woods",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_31",
+                "text": "[Witch's Ring](http://darksouls3.wiki.fextralife.com/Witch's+ring): On an alter at the end of the hallway just before the Abandoned Tomb bonfire in the Catacombs of Carthus",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_32",
+                "text": "[Morne's Ring](http://darksouls3.wiki.fextralife.com/Morne's+Ring): Backtrack from the Halfway Keep bonfire in Crucifixion Woods to a bridge. You can drop to a ledge below and the ring is on a corpse nearby",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_33",
+                "text": "[Ring of the Sun's First Born](http://darksouls3.wiki.fextralife.com/Ring+of+the+Sun's+First+Born): Backtrack from the Pontiff Sulhvahn bonfire and fall off the ledge to a platform below",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_34",
+                "text": "[Lingering Dragoncrest Ring](http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring): Obtained upon killing one of the giant crabs in Farron Keep",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_35",
+                "text": "[Sage Ring](http://darksouls3.wiki.fextralife.com/Sage+Ring): From the Crucifixion Woods bonfire, drop into the water and follow the wall until you see an opening. The ring is on a corpse in this area",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_36",
+                "text": "[Dusk Crown Ring](http://darksouls3.wiki.fextralife.com/Dusk+Crown+Ring): On a corpse in a cell in the lowest level of Irithyll Dungeon",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_37",
+                "text": "[Leo Ring](http://darksouls3.wiki.fextralife.com/Leo+Ring): In a chest on the second level of the large room just beyond the kitchen area in Irithyll of the Boreal Valley somehwat close to the Distant Manor bonfire",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_38",
+                "text": "[Wolf Ring](http://darksouls3.wiki.fextralife.com/Wolf+Ring): Obtained by reaching rank 2 in Watchdogs of Farron covenant",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_39",
+                "text": "[Hawk Ring](http://darksouls3.wiki.fextralife.com/Hawk+Ring): Dropped by the giant atop the tower in the Undead Settlement",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_40",
+                "text": "[Hornet Ring](http://darksouls3.wiki.fextralife.com/Hornet+Ring): On a path to the right of Dark Firelink shrine",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_41",
+                "text": "[Knight Slayer's Ring](http://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring): Obtained by killing the phantom invader [Knight Slayer Tsorig](http://darksouls3.wiki.fextralife.com/Knight%20Slayer+Tsorig) near the bridge in the Catacombs of Carthus",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_42",
+                "text": "[Ring of the Evil Eye](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): Given by Anri of Astora either in the Catacombs of Carthus (if you tell of Horace's location) or at the Church of Yorshka bonfire. You must have first talked to Anri at the Halfway Fortress bonfire, then at Firelink, then in two places in the Catacombs of Carthus",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_43",
+                "text": "[Farron Ring](http://darksouls3.wiki.fextralife.com/Farron+Ring): Acquired by talking to Hawkwood after defeating the Abyss Watchers",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_44",
+                "text": "[Dragonscale Ring](http://darksouls3.wiki.fextralife.com/Dragonscale+Ring): Take the shortcut lift down to the toxic swamp before Oceiros' room but jump off early to access the path where the ring is on a corpse",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_45",
+                "text": "[Horsehoof Ring](http://darksouls3.wiki.fextralife.com/Horsehoof+Ring): Sold by Patches in Firelink",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_46",
+                "text": "[Wood Grain Ring](http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring): Sold by the Handmaid in Firelink (requires Easterner's Ashes from the area just past the Pontiff Sulyvahn bonfire)",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_47",
+                "text": "[Flynn's Ring](http://darksouls3.wiki.fextralife.com/Flynn's+Ring): On the highest roof in the area where you fight the Fire Demon with Siegward in the Undead Settlement",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_48",
+                "text": "[Magic Clutch Ring](http://darksouls3.wiki.fextralife.com/Magic+Clutch+Ring): Behind an illusory wall near the Church of Yorshka bonfire (sort of under the Pontiff Sulyvahn fog door)",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_49",
+                "text": "[Lightning Clutch Ring](http://darksouls3.wiki.fextralife.com/Lightning+Clutch+Ring): In an alcove to the left of the Ancient Wyvern area",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_50",
+                "text": "[Fire Clutch Ring](http://darksouls3.wiki.fextralife.com/Fire+Clutch+Ring): In the Undead Settlement near the Cliff Underside bonfire. It's on a wooden structure dangling off a cliff",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_51",
+                "text": "[Dark Clutch Ring](http://darksouls3.wiki.fextralife.com/Dark+Clutch+Ring): In a Mimic chest at the end of a sewer hallway that connects to the large lower level of Irithyll Dungeon",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_52",
+                "text": "[Red Tearstone Ring](http://darksouls3.wiki.fextralife.com/Red+Tearstone+Ring): Backtrack from the Dragonslayer Armour boss room and go into the building on the left (with a lift). You can access a ledge via a hole in the wall where the ring is on a corpse",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_53",
+                "text": "[Blue Tearstone Ring](http://darksouls3.wiki.fextralife.com/Blue+Tearstone+Ring): Given by Greirat in High Wall",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_54",
+                "text": "[Lloyd's Sword Ring](http://darksouls3.wiki.fextralife.com/Lloyd's+Sword+Ring): On a corpse on the ledge that you run around to get past the giant in the Cathedral of the Deep",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_55",
+                "text": "[Lloyd's Shield Ring](http://darksouls3.wiki.fextralife.com/Lloyd's+Shield+Ring): Sold by the Handmaid in Firelink after the Paladin's Ashes are returned",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_56",
+                "text": "[Carthus Milkring](http://darksouls3.wiki.fextralife.com/Carthus+Milkring): In an area with many breakable pots just before the Catacombs of Carthus bonfire",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_57",
+                "text": "[Carthus Bloodring](http://darksouls3.wiki.fextralife.com/Carthus+Bloodring): Head left from the Catacombs of Carthus bonfire, then take two rights and follow a path that leads to some wheel skeleton guys. The ring is on a corpse at the end of this path",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_58",
+                "text": "[Pontiff's Right Eye](http://darksouls3.wiki.fextralife.com/Pontiff's+Right+Eye): Obtained by killing the [Sulyvahn's Beast](http://darksouls3.wiki.fextralife.com/Sulyvahn's+Beast) on the bridge upon entering Itithyll of the Boreal Valley",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_59",
+                "text": "[Pontiff's Left Eye](http://darksouls3.wiki.fextralife.com/Pontiff's+Left+Eye): Trade with Ludleth of Courland for the Soul of Boreal Valley Vordt",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_60",
+                "text": "[Aldrich's Ruby](http://darksouls3.wiki.fextralife.com/Aldrich's+Ruby): Dropped by the [Deep Accursed](http://darksouls3.wiki.fextralife.com/Deep+Accursed) behind the main gate in Anor Londo",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_61",
+                "text": "[Aldrich's Sapphire](http://darksouls3.wiki.fextralife.com/Aldrich's+Sapphire): Dropped by the [Deep Accursed](http://darksouls3.wiki.fextralife.com/Deep+Accursed) in Cathedral of the Deep",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_62",
+                "text": "[Silvercat Ring](http://darksouls3.wiki.fextralife.com/Silvercat+Ring): Given by Sirris in Firelink after using her summon sign on the Boreal Valley bridge and defeating the enemy",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_63",
+                "text": "[Slumbering Dragoncrest Ring](http://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring): Given by Orbeck of Vinheim after buying Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_64",
+                "text": "[Obscuring Ring](http://darksouls3.wiki.fextralife.com/Obscuring+Ring): Reward for reaching rank 1 in Rosaria's Fingers",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_65",
+                "text": "[Untrue Dark Ring](http://darksouls3.wiki.fextralife.com/Untrue+Dark+Ring): Sold by Yuriel of Londor for 5000 souls",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_66",
+                "text": "[Untrue White Ring](http://darksouls3.wiki.fextralife.com/Untrue%20White+Ring): Sold by Yuriel of Londor for 5000 souls",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_67",
+                "text": "[Reversal Ring](http://darksouls3.wiki.fextralife.com/Reversal+Ring): In the Darkmoon Tomb right before entering Anor Londo",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_68",
+                "text": "[Skull Ring](http://darksouls3.wiki.fextralife.com/Skull+Ring): Appears on Ludleth's corpse in Firelink after killing the four lords of cinder, placing their remains on their thrones, and interacting with the bonfire",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_69",
+                "text": "[Calamity Ring](http://darksouls3.wiki.fextralife.com/Calamity+Ring): Use the Path of the Dragon gesture by the altar right next to the Dragon-Kin Mausoleum bonfire in Archdragon Peak",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_70",
+                "text": "[Ring of Sacrifice](http://darksouls3.wiki.fextralife.com/Ring+of+Sacrifice): Found on an ledge/awning above a courtyard in High Wall of Lothric. Found in the watery area between the Church of Yorshka and Distant Manor Bonfires. Sold by Yuria in Firelink",
+                "note": "New Game (First Playthrough)"
+            },
+            {
+                "id": "checklist_5_71",
+                "text": "[Life Ring+1](http://darksouls3.wiki.fextralife.com/Life+Ring): On a ledge where you meet Siegward in the Undead Settlement that is accessed by jumping off the lift before it reaches the top",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_72",
+                "text": "[Life Ring+2](http://darksouls3.wiki.fextralife.com/Life+Ring): From the Dragon Barracks bonfire, cross the bridge and enter the room on the right. Climb a ladder and then exit through the door on the left. Once outside, head around to the right and look for the ring on a ledge below",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_74",
+                "text": "[Chloranthy Ring+1](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): From the Pontiff Sulyvahn bonfire, leave through the initial entrance and drop off a ledge straight ahead to land on a structure below. The ring in on ground level behind this structure",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_76",
+                "text": "[Havel's Ring+1](http://darksouls3.wiki.fextralife.com/Havel's+Ring): From the Great Belfry bonfire in Archdragon Peak, head outside and follow the path towards the altar. It's on the left side in a corner just through the second stone arch",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_78",
+                "text": "[Ring of Favor+1](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): In a walkway above the Pontiff Sulyvahn bonfire",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_80",
+                "text": "[Ring of Steel Protection+1](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): At Dark Firelink Shrine behind the tower on the far right",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_82",
+                "text": "[Magic Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring): Head to the right from the Farron Keep bonfire to an area with curse frogs. It's on a corpse in this area",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_84",
+                "text": "[Flame Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring): Near the Profaned Capital bonfire, in an alcove on the roof of the front of building with the three big rhino/hand guys in the toxic water area",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_86",
+                "text": "[Thunder Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring): In an area with many breakable pots just before the Catacombs of Carthus bonfire",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_88",
+                "text": "[Dark Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring): Backtrack from the Dragonslayer Armour bonfire and drop through a break in the railing on the right side of the area to access a room. The ring is on a ledge outside of this room",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_90",
+                "text": "[Speckled Stoneplate Ring+1](http://darksouls3.wiki.fextralife.com/Speckled+Stoneplate+Ring): From where you start each playthrough, proceed straight ahead and then to the right to an area with a crystal enemy. The ring is in this area",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_91",
+                "text": "[Bloodbite Ring+1](http://darksouls3.wiki.fextralife.com/Bloodbite+Ring): Near the giant ballista above Smoldering Lake deep in the Catacombs of Carthus",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_92",
+                "text": "[Poisonbite Ring+1](http://darksouls3.wiki.fextralife.com/Poisonbite+Ring): Behind a well in the cemetery area of the Undead Settlement (where arrows rain down on you)",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_93",
+                "text": "[Fleshbite Ring+1](http://darksouls3.wiki.fextralife.com/Fleshbite+Ring): On a roof not far from the Tower on the Wall bonfire. Head out onto a large roof with one of the transforming monsters and go to the ladder where you will see the ring on the next roof over",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_94",
+                "text": "[Covetous Gold Serpent Ring+1](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): From the Church of Yorshka bonfire in Irithyll of the Boreal Valley, proceed beyond the graveyard to the dark room with all the ghosts inside. Just outside the exit, take a right and drop down to a small rocky ledge below",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_96",
+                "text": "[Covetous Silver Serpent Ring+1](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): Take the shortcut door to next to the Irithyll Dungeon bonfire to a lift. Jump off early to reach a platform where the ring is on a corpse",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_98",
+                "text": "[Lingering Dragoncrest Ring+1](http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring): On a corpse in the water area of Crucifixion Woods near the giant crabs",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_100",
+                "text": "[Sage Ring+1](http://darksouls3.wiki.fextralife.com/Sage+Ring): Climb out onto the roof of the Grand Archives where three flying knights engage you. High atop this roof, you can drop into the inside of the building and then work your way down some rafters. The ring is on a corpse on one of the rafters",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_102",
+                "text": "[Wolf Ring+1](http://darksouls3.wiki.fextralife.com/Wolf+Ring): From the Keep Ruins bonfire, exit and circle the building",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_104",
+                "text": "[Ring of the Evil Eye+1](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): Behind the large structure right before the Deacons of the Deep boss room",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_106",
+                "text": "[Wood Grain Ring+1](http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring): From the Dancer of the Boreal Valley bonfire, climb the stairs and head left. Continue to the lift and go down. The ring is behind the lift at the bottom",
+                "note": "NG+ (Second Playthrough)"
+            },
+            {
+                "id": "checklist_5_73",
+                "text": "[Life Ring+3](http://darksouls3.wiki.fextralife.com/Life+Ring): Behind the large throne in Dark Firelink",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_75",
+                "text": "[Chloranthy Ring+2](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): On a ledge under a bridge that you cross as you progress from the Road of Sacrifices bonfire",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_77",
+                "text": "[Havel's Ring+2](http://darksouls3.wiki.fextralife.com/Havel's+Ring): On a wooden beam below the Prison Tower bonfire in Anor Londo",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_79",
+                "text": "[Ring of Favor+2](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): From the Cleansing Chapel bonfire, head through the door on the left and take a lift up to a tower. Go around the outside of the tower and climb a ladder to the top and then drop down to a slanted platform that leads up to a roof. Turn left and an axe wielding enemy will come out of an alcove. The ring is in this alcove",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_81",
+                "text": "[Ring of Steel Protection+2](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): Visible on a platform in the catacombs off the left side of the first long bridge",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_83",
+                "text": "[Magic Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring): From the Profaned Capital bonfire, climb down the interior ladder, exit through the hole in the wall, and turn right. The ring will be towards the end of this path",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_85",
+                "text": "[Flame Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring): Located in the [Smouldering Lake](http://darksouls3.wiki.fextralife.com/Smouldering%20Lake), near Demon Ruins bonfire. Behind a hidden wall where the Black Knight with axe is found. Right beside the Black Knight Sword",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_87",
+                "text": "[Thunder Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring): Backtrack from Dragonslayer Armour bonfire and go left into the building with a lift. Go through an opening on the left to get outside on a ledge. Drop down from that ledge onto a roof and the ring is on the right side",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_89",
+                "text": "[Dark Stoneplate Ring+2](http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring): From the Keep Ruins bonfire, look behind the building beyond the three enemies on the bridge",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_95",
+                "text": "[Covetous Gold Serpent Ring+2](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): In the area accessible after defeating the Nameless King",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_97",
+                "text": "[Covetous Silver Serpent Ring+2](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): Visible on a ledge just below Flynn's Ring in the Siegward/Fire Demon area of the Undead Settlement",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_99",
+                "text": "[Lingering Dragoncrest Ring+2](http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring): Climb high onto the roof of the Grand Archives where three flying knights engage you. The ring is in an alcove on the roof immediately above the area where the knights land",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_101",
+                "text": "[Sage Ring+2](http://darksouls3.wiki.fextralife.com/Sage+Ring): From the Dancer of the Boreal Valley bonfire, climb the ladder and head left. Once outside, follow the path to a lift and jump off halfway down. Head left and fall onto a platform, then jump to an adjacent platform where the ring is",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_103",
+                "text": "[Wolf Ring+2](http://darksouls3.wiki.fextralife.com/Wolf+Ring): On the left immediately outside the first boss door",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_105",
+                "text": "[Ring of the Evil Eye+2](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): In a corner behind some barrels in the room in High Wall of Lothric where Greirat's cell key and the first Estus Shard is found",
+                "note": "NG++ (Third Playthrough)"
+            },
+            {
+                "id": "checklist_5_107",
+                "text": "[Wood Grain Ring+2](http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring): In Irithyll of the Boreal Valley, after exiting the building with a Silver Knight shooting you with a greatbow, there are stairs to the left but instead turn right and look around the corner for the ring",
+                "note": "NG++ (Third Playthrough)"
+            }
+        ]
+    },
+    {
+        "id": "DLC_Spells",
+        "name": "DLC Spells",
+        "tasks": [
+            {
+                "id": "checklist_11_1",
+                "text": "[Way of White Corona](http://darksouls3.wiki.fextralife.com/Way+of+White+Corona): Found on a corpse in the Corvian settlement church (Ashes of Ariandel DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_2",
+                "text": "[Floating Chaos](http://darksouls3.wiki.fextralife.com/Floating+Chaos): Acquired after defeating Livid Pyromancer Dunnel on a tower behind an illusory wall (Ashes of Ariandel DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_3",
+                "text": "[Frozen Weapon](http://darksouls3.wiki.fextralife.com/Frozen+Weapon): In the red pit near the Drop Bridge Cave bonfire (Ashes of Ariandel DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_4",
+                "text": "[Snap Freeze](http://darksouls3.wiki.fextralife.com/Snap+Freeze): Guarded by a mad tree near the Depths of the Painting bonfire (Ashes of Ariandel DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_5",
+                "text": "[Lightning Arrow](http://darksouls3.wiki.fextralife.com/Lightning+Arrow): After fighting the dragon after the Shared Grave bonfire, it's just inside the building next to the stairs with crystal lizard, behind 3 illusory walls (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_6",
+                "text": "[Projected Heal](http://darksouls3.wiki.fextralife.com/Projected+Heal): A hidden area just shortly after you meet Lapp for the first time before Earthen Peak Ruins bonfire (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_7",
+                "text": "[Flame Fan](http://darksouls3.wiki.fextralife.com/Flame+Fan): Acquired after defeating Desert Pyromancer Zoey (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_8",
+                "text": "[Seething Chaos](http://darksouls3.wiki.fextralife.com/Seething+Chaos): Obtained by [Soul of the Demon Prince](http://darksouls3.wiki.fextralife.com/Soul+of+the+Demon+Prince) Transposition (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_9",
+                "text": "[Great Soul Dregs](http://darksouls3.wiki.fextralife.com/Great+Soul+Dregs): After you see the first Cursed Angel, proceed forward through the arched doorway ahead. Looking towards the 2 knights at the end of the room take the arched doorway to the right. Turn right and head up to the back of the area and through another arched doorway. Proceed up the stairs and into through the doorway into a dead end room. Attack the wall on the left to reveal an illusionary wall. Proceed up the stairs until you come to the final room. The sorcery is at the back of the room next to the Murkman (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_11_10",
+                "text": "[Old Moonlight](http://darksouls3.wiki.fextralife.com/Old+Moonlight): Obtained by [Soul of Darkeater Midir](http://darksouls3.wiki.fextralife.com/Soul+of+Darkeater+Midir) Transposition (The Ringed City DLC)",
+                "note": null
+            }
+        ]
+    },
+    {
+        "id": "DLC_Rings",
+        "name": "DLC Rings",
+        "tasks": [
+            {
+                "id": "checklist_12_1",
+                "text": "[Chillbite Ring](http://darksouls3.wiki.fextralife.com/Chillbite+Ring): Given by Sister Friede after talking to her twice (Ashes of Ariandel DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_2",
+                "text": "[Chloranthy Ring+3](http://darksouls3.wiki.fextralife.com/Chloranthy+Ring): From the Shared Grave Bonfire follow the path up past the bridge and into the Church. Take a left up the stairs. On the right theres should be an invisible wall/ path to an elevator. Take it up and on your right is a alcove you roll/walk into. Make a right from there and fall through the hole and pick up the ring (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_3",
+                "text": "[Ring of Steel Protection+3](http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection): Immediately after The Dreg Heap bonfire, head forward and past the horde of enemies to a corpse. When you try to grab it you will fall and the ceiling will break, and you will fall. Once at the bottom, out the only door, there will be an angel-like hollow firing projectiles at you. Drop down and run past it and take cover behind the building. Now circle around to the other side of the building along the planks (leaving yourself exposed to the Angel's beams) to find a corpse with the ring (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_4",
+                "text": "[Wolf Ring+3](http://darksouls3.wiki.fextralife.com/Wolf+Ring): Dropped by Seeker of the Spurned (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_5",
+                "text": "[Ring of Favor+3](http://darksouls3.wiki.fextralife.com/Ring+of+Favor): Can be found on a corpse in The Dreg Heap, up a large root in the swamp just after the Earthen Peak Ruins bonfire (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_6",
+                "text": "[Covetous Gold Serpent Ring+3](http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring): All the way down the stairs from the Shira and and left and up the ladder immediately on your left in the swamp. Double back across the bridge, defeating the two Ringed Knights. On a corpse in a room past them with Lapp inside (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_7",
+                "text": "[Covetous Silver Serpent Ring+3](http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring): After meeting the first angel that shoots at you fall down onto the perch and continue into the open door archway. From there you should see 2 Knight enemies and on the right hand side there is an area you enter. You make a right and you should be in some small quarter areas. Proceed all the way to the furthest wall north of you. Turn to the left and hit it to reveal a fog wall. Climb the stairs there and just before you obtain Great Soul Dreg on your left, is a balcony. From that balcony you must drop down and there is your ring (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_8",
+                "text": "[Havel's Ring+3](http://darksouls3.wiki.fextralife.com/Havel's+Ring): Just below where you get invaded by Dark Spirit Ledo, on the ledges above the swamp (The Ringed City DLC)",
+                "note": null
+            },
+            {
+                "id": "checklist_12_9",
+                "text": "[Ring of the Evil Eye+3](http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye): Dropped from a mimic inside the spiral crypt across the bridge from the Ringed City Streets bonfire shortcut (The Ringed City DLC)",
+                "note": null
+            }
+        ]
+    }
 ]
