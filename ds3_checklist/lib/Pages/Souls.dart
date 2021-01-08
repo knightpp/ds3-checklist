@@ -1,10 +1,28 @@
-import 'dart:convert';
+import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../Models/SoulPricesModel.dart';
+import 'package:dark_souls_checklist/Generated/souls_d_s3_c_generated.dart'
+    as fb;
 
-class SoulPrices extends StatelessWidget {
-  static SoulPricesModel? model;
+const String SOULS_FB = "Cached.Flatbuffer.Souls";
+
+class Souls extends StatefulWidget {
+  @override
+  _SoulsState createState() => _SoulsState();
+}
+
+class _SoulsState extends State<Souls> {
+  late List<fb.Soul> souls;
+
+  Future setup() async {
+    souls = await CacheManager.getOrInit(SOULS_FB, () async {
+      var data = await DefaultAssetBundle.of(context)
+          .load('assets/flatbuffers/souls.fb');
+      return fb.SoulsRoot(data.buffer.asInt8List()).items;
+    });
+
+    return 1;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -16,18 +34,13 @@ class SoulPrices extends StatelessWidget {
         ),
       ),
       body: FutureBuilder(
-          future: DefaultAssetBundle.of(context)
-              .loadString('assets/json/soul_prices.json'),
+          future: setup(),
           builder: (context, snapshot) {
             if (snapshot.hasError) {
               return Text("Error");
             } else if (snapshot.hasData) {
-              if (model == null) {
-                model = SoulPricesModel.fromJson(
-                    json.decode(snapshot.data.toString()));
-              }
               return ListView.builder(
-                  itemCount: model!.souls.length,
+                  itemCount: souls.length,
                   itemBuilder: (context, soulIdx) {
                     return buildCardSoulPrices(soulIdx, context);
                   });
@@ -52,7 +65,7 @@ class SoulPrices extends StatelessWidget {
             Expanded(
                 flex: 8,
                 child: Text(
-                  model!.souls[soulIdx].name,
+                  souls[soulIdx].name,
                   style: Theme.of(context).textTheme.bodyText2,
                 )),
             Expanded(
@@ -63,7 +76,7 @@ class SoulPrices extends StatelessWidget {
             ),
             Expanded(
               flex: 3,
-              child: Text(model!.souls[soulIdx].price.toString(),
+              child: Text(souls[soulIdx].souls.toString(),
                   style: Theme.of(context).textTheme.bodyText2),
             )
           ],

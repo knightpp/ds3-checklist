@@ -36,7 +36,6 @@ flutter_launcher_name:
 flutter:
   uses-material-design: true
   assets:
-    - assets/json/
     - assets/images/
     - assets/sqlites/
     - assets/flatbuffers/

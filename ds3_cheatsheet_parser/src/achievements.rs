@@ -1,4 +1,5 @@
 use crate::utils::{Markdown, Utils};
+use anyhow::Context;
 use select::predicate::{Attr, Name};
 use select::{document::Document, node::Node};
 use serde::{Deserialize, Serialize};
@@ -31,10 +32,10 @@ pub struct Task {
 pub struct Achievements;
 
 impl Utils for Achievements {
-    type Input = Achievement;
+    type Item = Achievement;
 
     fn gen_fb<'i>(
-        items: &'i [Self::Input],
+        items: &'i [Self::Item],
         builder: &'i mut flatbuffers::FlatBufferBuilder,
     ) -> &'i [u8] {
         let mut achs = Vec::with_capacity(items.len());
@@ -79,11 +80,11 @@ impl Utils for Achievements {
         builder.finished_data()
     }
 
-    fn parse_json(input: &str) -> anyhow::Result<Vec<Self::Input>> {
-        todo!()
+    fn parse_json(input: &str) -> anyhow::Result<Vec<Self::Item>> {
+        serde_json::from_str(input).context("achievements json parsing failed")
     }
 
-    fn parse_html(html: &Document) -> anyhow::Result<Vec<Self::Input>> {
+    fn parse_html(html: &Document) -> anyhow::Result<Vec<Self::Item>> {
         let root = html
             .select(Attr("id", "item_list"))
             .next()

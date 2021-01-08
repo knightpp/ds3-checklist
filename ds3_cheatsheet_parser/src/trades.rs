@@ -10,16 +10,15 @@ pub use trades_generated::ds3c as fb;
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Trade {
     what: Markdown,
-    #[serde(rename = "for")]
     for_: Markdown,
 }
 #[derive(Debug, Clone, Copy)]
 pub struct Trades;
 impl Utils for Trades {
-    type Input = Trade;
+    type Item = Trade;
 
     fn gen_fb<'i>(
-        input: &'i [Self::Input],
+        input: &'i [Self::Item],
         builder: &'i mut flatbuffers::FlatBufferBuilder,
     ) -> &'i [u8] {
         let mut trades = Vec::with_capacity(input.len());
@@ -45,7 +44,7 @@ impl Utils for Trades {
         builder.finished_data()
     }
 
-    fn parse_json(input: &str) -> Result<Vec<Self::Input>> {
+    fn parse_json(input: &str) -> Result<Vec<Self::Item>> {
         serde_json::from_str(input).context("trades json parsing failed")
     }
 }

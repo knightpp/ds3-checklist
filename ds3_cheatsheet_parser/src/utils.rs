@@ -57,16 +57,16 @@ impl Markdown {
 }
 
 pub trait Utils {
-    type Input;
+    type Item;
     fn gen_fb<'i>(
-        input: &'i [Self::Input],
+        input: &'i [Self::Item],
         builder: &'i mut flatbuffers::FlatBufferBuilder,
     ) -> &'i [u8];
 
-    fn parse_json(input: &str) -> Result<Vec<Self::Input>>;
+    fn parse_json(input: &str) -> Result<Vec<Self::Item>>;
 
     #[allow(unused_variables)]
-    fn parse_html(html: &Document) -> Result<Vec<Self::Input>> {
+    fn parse_html(html: &Document) -> Result<Vec<Self::Item>> {
         todo!()
     }
 }

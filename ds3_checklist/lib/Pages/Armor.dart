@@ -1,15 +1,19 @@
 import 'dart:convert';
 import 'package:dark_souls_checklist/AllPageFutureBuilder.dart';
+import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/ItemTile.dart';
+import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import '../MyAppBar.dart';
-import '../Models/ArmorModel.dart';
 import '../Singletons.dart';
+import 'package:dark_souls_checklist/Generated/armor_d_s3_c_generated.dart'
+    as fb;
 
+const String ARMORS_KEY = "Cached.Flatbuffer.Armor";
 const String TITLE = "Armor";
 
 List<Map<int, bool>> expensiveComputation(List dbResp) {
@@ -27,8 +31,7 @@ bool _hideCompleted = false;
 
 class Armor extends StatefulWidget {
   static void resetStatics() {
-    _ArmorState.db.reset();
-    _ArmorState.model = null;
+    // _ArmorState.db.reset();
   }
 
   @override
@@ -39,7 +42,7 @@ class _ArmorState extends State<Armor> {
   static DatabaseManager db =
       DatabaseManager(expensiveComputation, DbFor.Armor);
   int selectedCatIdx = 0;
-  static ArmorModel? model;
+  late List<fb.ArmorCategory> armors;
 
   @override
   void initState() {
@@ -54,22 +57,24 @@ class _ArmorState extends State<Armor> {
     db.updateRecord([newVal, taskId, catId]);
   }
 
+  Future setup() async {
+    await db.openDbAndParse();
+    armors = await CacheManager.getOrInit(ARMORS_KEY, () async {
+      var data = await DefaultAssetBundle.of(context)
+          .load('assets/flatbuffers/armor.fb');
+
+      return fb.ArmorRoot(data.buffer.asInt8List()).items!;
+    });
+    return 1;
+  }
+
   @override
   Widget build(BuildContext context) {
     return AllPageFutureBuilder(
-        future: Future.wait([
-          db.openDbAndParse(),
-          () async {
-            if (model == null) {
-              var js = await DefaultAssetBundle.of(context)
-                  .loadString('assets/json/armor.json');
-              model = ArmorModel.fromJson(json.decode(js));
-            }
-          }()
-        ]),
+        future: setup(),
         buildOnLoad: (context, snapshot) {
           return DefaultTabController(
-            length: model!.categories.length,
+            length: armors.length,
             child: Scaffold(
               appBar: MyAppBar(
                 onHideButton: (newVal) {
@@ -79,14 +84,14 @@ class _ArmorState extends State<Armor> {
                 },
                 title: TITLE,
                 bottom: TabsForAppBar(
-                  tabs: model!.categories.map((cat) => Text(cat.name)).toList(),
+                  tabs: armors.map((cat) => Text(cat.name)).toList(),
                   onChangeTab: (int newTabIdx) {
                     selectedCatIdx = newTabIdx;
                   },
                 ),
               ),
               body: MyTabBarView(
-                categoriesLength: model!.categories.length,
+                categoriesLength: armors.length,
                 categoryBuilder: (context, catIndex) {
                   return ListView.builder(
                     itemBuilder: (context, taskIdx) {
@@ -98,11 +103,11 @@ class _ArmorState extends State<Armor> {
                         },
                         isChecked: isChecked,
                         content: MarkdownBody(
-                            data: model!
-                                .categories[catIndex].items[taskIdx].name),
+                            onTapLink: openLink,
+                            data: armors[catIndex].gearNames[taskIdx]),
                       );
                     },
-                    itemCount: model!.categories[catIndex].items.length,
+                    itemCount: armors[catIndex].gearNames.length,
                   );
                 },
               ),

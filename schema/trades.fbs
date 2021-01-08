@@ -2,7 +2,7 @@ namespace DS3C;
 
 table Trade{
   what: string; // markdown
-  for: string; // markdown
+  for_: string;  // markdown
 }
 
 table TradesRoot{

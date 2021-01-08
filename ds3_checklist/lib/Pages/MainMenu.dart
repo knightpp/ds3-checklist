@@ -1,6 +1,6 @@
 import 'package:dark_souls_checklist/Pages/Achievements/Achievements.dart';
 import 'package:dark_souls_checklist/Pages/Armor.dart';
-import 'package:dark_souls_checklist/Pages/SoulPrices.dart';
+import 'package:dark_souls_checklist/Pages/Souls.dart';
 import 'package:dark_souls_checklist/Pages/Trades.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -58,7 +58,7 @@ List<Widget> makeMenuTiles(BuildContext context) {
             MenuBlock(title: "Weapons/Shields", navigate: WeaponsAndShield())),
     Expanded(child: MenuBlock(title: "Armor", navigate: Armor())),
     Expanded(child: MenuBlock(title: "Trades", navigate: Trades())),
-    Expanded(child: MenuBlock(title: "Soul Prices", navigate: SoulPrices())),
+    Expanded(child: MenuBlock(title: "Soul Prices", navigate: Souls())),
     SizedBox(
       height: 10,
     )

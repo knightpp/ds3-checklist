@@ -2,11 +2,11 @@ namespace DS3C;
 
 table Soul{
   name: string;
-  price: uint16;
+  souls: uint16;
 }
 
-table SoulPricesRoot{
+table SoulsRoot{
   items: [Soul];
 }
 
-root_type SoulPricesRoot;
+root_type SoulsRoot;

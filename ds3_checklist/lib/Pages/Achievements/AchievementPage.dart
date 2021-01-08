@@ -1,5 +1,6 @@
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
+import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
@@ -81,12 +82,14 @@ class _AchievementPageState extends State<AchievementPage> {
               _updateChecked(widget.achId, taskIdx, newVal!);
             },
             title: MarkdownBody(
+              onTapLink: openLink,
               data: task.text.split(":").first,
               styleSheet: MarkdownStyleSheet()
                   .copyWith(p: Theme.of(context).textTheme.headline2),
               // textStyle: Theme.of(context).textTheme.headline2
             ),
             content: MarkdownBody(
+              onTapLink: openLink,
               data: task.text,
               // textStyle: Theme.of(context).textTheme.bodyText1,
             ),

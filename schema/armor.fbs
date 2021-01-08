@@ -1,7 +1,7 @@
 namespace DS3C;
 
 table ArmorCategory{
-  name: string;
+  category: string;
   gear_names: [string]; // markdown
 }
 

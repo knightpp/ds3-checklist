@@ -1,20 +1,21 @@
-import 'dart:convert';
+import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
+import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-// import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import '../ItemTile.dart';
-import '../Models/WeaponsAndShieldsModel.dart' as My;
 import '../Singletons.dart';
+import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
+    as fb;
 
+const String WS_FB_KEY = "Cached.Flatbuffer.WS";
 const String TITLE = "Weapons and Shields";
 
 class WeaponsAndShield extends StatefulWidget {
   static void resetStatics() {
     _WeaponsAndShieldState.db.reset();
-    _WeaponsAndShieldState.model = null;
   }
 
   @override
@@ -35,7 +36,7 @@ List<Map<int, bool>> expensiveComputation(List dbResp) {
 bool _hideCompleted = false;
 
 class _WeaponsAndShieldState extends State<WeaponsAndShield> {
-  static My.WaSModel? model;
+  late List<fb.Category> weapsShields;
   static DatabaseManager db =
       DatabaseManager(expensiveComputation, DbFor.WeapsShields);
 
@@ -43,6 +44,17 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
   void initState() {
     super.initState();
     _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
+  }
+
+  Future setup() async {
+    await db.openDbAndParse();
+
+    this.weapsShields = await CacheManager.getOrInit(WS_FB_KEY, () async {
+      final data = await DefaultAssetBundle.of(context)
+          .load('assets/flatbuffers/weapons_and_shields.fb');
+      return fb.WeaponsAndShieldsRoot(data.buffer.asInt8List()).items;
+    });
+    return 1;
   }
 
   @override
@@ -61,26 +73,17 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
       ),
       body: Container(
         child: FutureBuilder(
-            future: Future.wait([
-              db.openDbAndParse(),
-              () async {
-                if (model == null) {
-                  var js = await DefaultAssetBundle.of(context)
-                      .loadString('assets/json/weapons_and_shields.json');
-                  model = My.WaSModel.fromJson(json.decode(js));
-                }
-              }()
-            ]),
+            future: setup(),
             builder: (context, snapshot) {
               if (snapshot.hasError) {
                 return Text("Error");
               } else if (snapshot.hasData) {
                 return ListView.builder(
                     shrinkWrap: true,
-                    itemCount: model?.categories.length,
+                    itemCount: weapsShields.length,
                     itemBuilder: (context, index) {
                       return ExpandableTile(
-                          model: model!, index: index, db: db);
+                          cat: weapsShields[index], index: index, db: db);
                     });
               } else {
                 return Center(
@@ -94,15 +97,15 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
 }
 
 class ExpandableTile extends StatefulWidget {
-  final My.WaSModel model;
+  final fb.Category cat;
   final int index;
   final DatabaseManager db;
 
   const ExpandableTile({
     Key? key,
-    required this.model,
     required this.index,
     required this.db,
+    required this.cat,
   }) : super(key: key);
   @override
   _ExpandableTileState createState() => _ExpandableTileState();
@@ -124,7 +127,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
     super.initState();
   }
 
-  List<Widget> _buildExpandableContent(My.Category cat, int catIdx) {
+  List<Widget> _buildExpandableContent(fb.Category cat, int catIdx) {
     List<Widget> widgets = [];
     for (int taskId = 0; taskId < cat.items.length; ++taskId) {
       bool isChecked = widget.db.checked[catIdx][taskId];
@@ -135,7 +138,8 @@ class _ExpandableTileState extends State<ExpandableTile> {
         },
         isChecked: isChecked,
         content: MarkdownBody(
-          data: cat.items[taskId].name,
+          onTapLink: openLink,
+          data: cat.items[taskId],
           // textStyle: Theme.of(context).textTheme.bodyText2,
         ),
       ));
@@ -148,13 +152,13 @@ class _ExpandableTileState extends State<ExpandableTile> {
     return ExpansionTile(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       title: MarkdownBody(
-        data: widget.model.categories[catIdx].name,
+        onTapLink: openLink,
+        data: widget.cat.name,
         // textStyle: Theme.of(context).textTheme.headline2,
       ),
       children: <Widget>[
         Column(
-          children:
-              _buildExpandableContent(widget.model.categories[catIdx], catIdx),
+          children: _buildExpandableContent(widget.cat, catIdx),
         )
       ],
     );

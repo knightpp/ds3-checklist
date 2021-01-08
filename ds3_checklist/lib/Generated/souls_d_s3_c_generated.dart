@@ -21,11 +21,11 @@ class Soul {
   final int _bcOffset;
 
   String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  int get price => const fb.Uint16Reader().vTableGet(_bc, _bcOffset, 6, 0);
+  int get souls => const fb.Uint16Reader().vTableGet(_bc, _bcOffset, 6, 0);
 
   @override
   String toString() {
-    return 'Soul{name: $name, price: $price}';
+    return 'Soul{name: $name, souls: $souls}';
   }
 }
 
@@ -52,8 +52,8 @@ class SoulBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-  int addPrice(int price) {
-    fbBuilder.addUint16(1, price);
+  int addSouls(int souls) {
+    fbBuilder.addUint16(1, souls);
     return fbBuilder.offset;
   }
 
@@ -64,14 +64,14 @@ class SoulBuilder {
 
 class SoulObjectBuilder extends fb.ObjectBuilder {
   final String _name;
-  final int _price;
+  final int _souls;
 
   SoulObjectBuilder({
     String name,
-    int price,
+    int souls,
   })
       : _name = name,
-        _price = price;
+        _souls = souls;
 
   /// Finish building, and store into the [fbBuilder].
   @override
@@ -84,7 +84,7 @@ class SoulObjectBuilder extends fb.ObjectBuilder {
     if (nameOffset != null) {
       fbBuilder.addOffset(0, nameOffset);
     }
-    fbBuilder.addUint16(1, _price);
+    fbBuilder.addUint16(1, _souls);
     return fbBuilder.endTable();
   }
 
@@ -96,14 +96,14 @@ class SoulObjectBuilder extends fb.ObjectBuilder {
     return fbBuilder.finish(offset, fileIdentifier);
   }
 }
-class SoulPricesRoot {
-  SoulPricesRoot._(this._bc, this._bcOffset);
-  factory SoulPricesRoot(List<int> bytes) {
+class SoulsRoot {
+  SoulsRoot._(this._bc, this._bcOffset);
+  factory SoulsRoot(List<int> bytes) {
     fb.BufferContext rootRef = new fb.BufferContext.fromBytes(bytes);
     return reader.read(rootRef, 0);
   }
 
-  static const fb.Reader<SoulPricesRoot> reader = const _SoulPricesRootReader();
+  static const fb.Reader<SoulsRoot> reader = const _SoulsRootReader();
 
   final fb.BufferContext _bc;
   final int _bcOffset;
@@ -112,20 +112,20 @@ class SoulPricesRoot {
 
   @override
   String toString() {
-    return 'SoulPricesRoot{items: $items}';
+    return 'SoulsRoot{items: $items}';
   }
 }
 
-class _SoulPricesRootReader extends fb.TableReader<SoulPricesRoot> {
-  const _SoulPricesRootReader();
+class _SoulsRootReader extends fb.TableReader<SoulsRoot> {
+  const _SoulsRootReader();
 
   @override
-  SoulPricesRoot createObject(fb.BufferContext bc, int offset) => 
-    new SoulPricesRoot._(bc, offset);
+  SoulsRoot createObject(fb.BufferContext bc, int offset) => 
+    new SoulsRoot._(bc, offset);
 }
 
-class SoulPricesRootBuilder {
-  SoulPricesRootBuilder(this.fbBuilder) {
+class SoulsRootBuilder {
+  SoulsRootBuilder(this.fbBuilder) {
     assert(fbBuilder != null);
   }
 
@@ -145,10 +145,10 @@ class SoulPricesRootBuilder {
   }
 }
 
-class SoulPricesRootObjectBuilder extends fb.ObjectBuilder {
+class SoulsRootObjectBuilder extends fb.ObjectBuilder {
   final List<SoulObjectBuilder> _items;
 
-  SoulPricesRootObjectBuilder({
+  SoulsRootObjectBuilder({
     List<SoulObjectBuilder> items,
   })
       : _items = items;

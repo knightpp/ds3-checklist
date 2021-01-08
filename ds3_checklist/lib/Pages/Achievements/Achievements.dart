@@ -74,7 +74,7 @@ class _AchievementsState extends State<Achievements> {
 
   int titleIndex = 0;
 
-  Future<bool> setup() async {
+  Future setup() async {
     db = await CacheManager.getOrInit(Cached.Database.uniqueStr(), () async {
       final db = DatabaseManager(expensiveComputation, DbFor.Achievements);
       await db.openDbAndParse();
@@ -94,7 +94,7 @@ class _AchievementsState extends State<Achievements> {
     //   // achs = AchsModel.fromJson(json.decode(js));
     // }
 
-    return true;
+    return 1;
   }
 
   @override

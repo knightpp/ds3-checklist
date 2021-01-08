@@ -33,10 +33,10 @@ pub struct Location {
 pub struct Playthroughs;
 
 impl<'p> Utils for Playthroughs {
-    type Input = Playthrough;
+    type Item = Playthrough;
 
     fn gen_fb<'i>(
-        items: &'i [Self::Input],
+        items: &'i [Self::Item],
         builder: &'i mut flatbuffers::FlatBufferBuilder,
     ) -> &'i [u8] {
         let mut pts = Vec::with_capacity(items.len());
@@ -85,11 +85,11 @@ impl<'p> Utils for Playthroughs {
         builder.finished_data()
     }
     #[allow(unused_variables)]
-    fn parse_json(input: &str) -> Result<Vec<Self::Input>> {
-        todo!()
+    fn parse_json(input: &str) -> Result<Vec<Self::Item>> {
+        serde_json::from_str(input).context("playthrough json parsing failed")
     }
 
-    fn parse_html(html: &Document) -> Result<Vec<Self::Input>> {
+    fn parse_html(html: &Document) -> Result<Vec<Self::Item>> {
         let list = html
             .select(Attr("id", "playthrough_list"))
             .next()

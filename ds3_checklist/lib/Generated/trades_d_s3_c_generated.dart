@@ -21,11 +21,11 @@ class Trade {
   final int _bcOffset;
 
   String get what => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  String get for => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+  String get for_ => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
 
   @override
   String toString() {
-    return 'Trade{what: $what, for: $for}';
+    return 'Trade{what: $what, for_: $for_}';
   }
 }
 
@@ -52,7 +52,7 @@ class TradeBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-  int addForOffset(int offset) {
+  int addFor_Offset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
@@ -64,14 +64,14 @@ class TradeBuilder {
 
 class TradeObjectBuilder extends fb.ObjectBuilder {
   final String _what;
-  final String _for;
+  final String _for_;
 
   TradeObjectBuilder({
     String what,
-    String for,
+    String for_,
   })
       : _what = what,
-        _for = for;
+        _for_ = for_;
 
   /// Finish building, and store into the [fbBuilder].
   @override
@@ -79,14 +79,14 @@ class TradeObjectBuilder extends fb.ObjectBuilder {
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int whatOffset = fbBuilder.writeString(_what);
-    final int forOffset = fbBuilder.writeString(_for);
+    final int for_Offset = fbBuilder.writeString(_for_);
 
     fbBuilder.startTable();
     if (whatOffset != null) {
       fbBuilder.addOffset(0, whatOffset);
     }
-    if (forOffset != null) {
-      fbBuilder.addOffset(1, forOffset);
+    if (for_Offset != null) {
+      fbBuilder.addOffset(1, for_Offset);
     }
     return fbBuilder.endTable();
   }

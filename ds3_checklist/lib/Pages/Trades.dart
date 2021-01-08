@@ -1,15 +1,17 @@
-import 'dart:convert';
-import 'package:dark_souls_checklist/Models/TradesModel.dart';
+import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-
-import '../Models/TradesModel.dart';
 import '../Singletons.dart';
+import 'package:dark_souls_checklist/Generated/trades_d_s3_c_generated.dart'
+    as fb;
 
+import '../main.dart';
+
+const String TRADES_FB_KEY = "Cached.Flatbuffer.Trades";
 const String TITLE = "Trades";
 
 Map<int, bool> expensiveComputation(List dbResp) {
@@ -27,7 +29,6 @@ bool _hideCompleted = false;
 class Trades extends StatefulWidget {
   static void resetStatics() {
     _TradesState.db.reset();
-    _TradesState.model = null;
   }
 
   @override
@@ -35,14 +36,14 @@ class Trades extends StatefulWidget {
 }
 
 class _TradesState extends State<Trades> {
-  static TradesModel? model;
+  late List<fb.Trade> trades;
   static DatabaseManager db =
       DatabaseManager(expensiveComputation, DbFor.Trades);
 
   @override
   void initState() {
-    _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
     super.initState();
+    _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
   }
 
   void _updateChecked(int tradeId, bool newVal) async {
@@ -50,6 +51,15 @@ class _TradesState extends State<Trades> {
       db.checked[tradeId] = newVal;
     });
     db.updateRecord([newVal, tradeId]);
+  }
+
+  Future setup() async {
+    await db.openDbAndParse();
+    trades = await CacheManager.getOrInit(TRADES_FB_KEY, () async {
+      var data = await rootBundle.load('assets/flatbuffers/trades.fb');
+      return fb.TradesRoot(data.buffer.asInt8List()).items!;
+    });
+    return 1;
   }
 
   @override
@@ -65,21 +75,13 @@ class _TradesState extends State<Trades> {
         },
       ),
       body: FutureBuilder(
-          future: Future.wait([
-            db.openDbAndParse(),
-            () async {
-              if (model == null) {
-                var js = await rootBundle.loadString('assets/json/trades.json');
-                model = TradesModel.fromJson(json.decode(js));
-              }
-            }()
-          ]),
+          future: setup(),
           builder: (context, snapshot) {
             if (snapshot.hasError) {
               return Text("Error");
             } else if (snapshot.hasData) {
               return ListView.builder(
-                itemCount: model?.trades.length,
+                itemCount: trades.length,
                 itemBuilder: (context, tradeIdx) {
                   bool isChecked = db.checked[tradeIdx];
                   return Visibility(
@@ -123,7 +125,8 @@ class _TradesState extends State<Trades> {
     return Expanded(
       flex: 3,
       child: MarkdownBody(
-        data: model!.trades[tradeIdx].to,
+        onTapLink: openLink,
+        data: trades[tradeIdx].for_,
         // textStyle: Theme.of(context).textTheme.bodyText1,
       ),
     );
@@ -133,7 +136,8 @@ class _TradesState extends State<Trades> {
     return Expanded(
       flex: 4,
       child: MarkdownBody(
-        data: model!.trades[tradeIdx].what,
+        onTapLink: openLink,
+        data: trades[tradeIdx].what,
         // textStyle: Theme.of(context).textTheme.bodyText1,
       ),
     );
