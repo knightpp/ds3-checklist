@@ -5,5 +5,8 @@
 
 
 ## Translations
-This project uses Weblate to manage translations. Join us!
-[![Translation Status](https://hosted.weblate.org/widgets/ds3-checklist/-/open-graph.png)](https://hosted.weblate.org/engage/ds3-checklist/)
+This project uses Crowdin to manage translations. Join us!
+
+[![ru translation](https://img.shields.io/badge/dynamic/json?color=blue&label=ru&style=flat&query=%24.progress.0.data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-13072808-435288.json)](https://crowdin.com/project/darksouls-3-checklist)
+
+[![chart](https://badges.awesome-crowdin.com/translation-13072808-435288.png)](https://crowdin.com/project/darksouls-3-checklist)
