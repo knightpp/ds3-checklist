@@ -2,7 +2,7 @@ namespace DS3C;
 
 table Soul{
   name: string;
-  souls: uint16;
+  price: uint16;
 }
 
 table SoulsRoot{

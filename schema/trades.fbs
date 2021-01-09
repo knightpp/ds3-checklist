@@ -1,6 +1,7 @@
 namespace DS3C;
 
 table Trade{
+  id: uint32;
   what: string; // markdown
   for_: string;  // markdown
 }

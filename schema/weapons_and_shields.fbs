@@ -1,12 +1,17 @@
 namespace DS3C;
 
-table Category{
+table WSCategory{
   name: string;
-  items: [string]; // markdown
+  items: [Item];
+}
+
+table Item{
+  id: uint32;
+  name: string; // markdown
 }
 
 table WeaponsAndShieldsRoot{
-  items: [Category];
+  items: [WSCategory];
 }
 
 root_type WeaponsAndShieldsRoot;

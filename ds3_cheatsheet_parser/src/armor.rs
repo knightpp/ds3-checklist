@@ -3,9 +3,15 @@ use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Deserialize, Serialize)]
-pub struct Armor {
+pub struct ArmorCategory {
     category: String,
-    gear_names: Vec<Markdown>,
+    #[serde(rename = "gear_names")]
+    gears: Vec<Gear>,
+}
+#[derive(Debug, Deserialize, Serialize)]
+pub struct Gear {
+    id: u32,
+    name: Markdown,
 }
 
 #[allow(dead_code, unused_imports)]
@@ -17,7 +23,7 @@ pub use armor_generated::ds3c as fb;
 pub struct Armors;
 
 impl Utils for Armors {
-    type Item = Armor;
+    type Item = ArmorCategory;
 
     fn gen_fb<'i>(
         input: &'i [Self::Item],
@@ -26,17 +32,25 @@ impl Utils for Armors {
         let mut v = Vec::with_capacity(input.len());
         for armor in input {
             let cat = builder.create_string(armor.category.as_str());
-            let gear_names = builder.create_vector_of_strings(
-                &armor
-                    .gear_names
-                    .iter()
-                    .map(|a| a.as_str())
-                    .collect::<Box<_>>(),
-            );
+            let gears = armor
+                .gears
+                .iter()
+                .map(|g| {
+                    let name = builder.create_string(g.name.as_str());
+                    fb::Gear::create(
+                        builder,
+                        &fb::GearArgs {
+                            id: g.id,
+                            name: Some(name),
+                        },
+                    )
+                })
+                .collect::<Vec<_>>();
+            let gears = builder.create_vector(&gears);
             v.push(fb::ArmorCategory::create(
                 builder,
                 &fb::ArmorCategoryArgs {
-                    gear_names: Some(gear_names),
+                    gears: Some(gears),
                     category: Some(cat),
                 },
             ));

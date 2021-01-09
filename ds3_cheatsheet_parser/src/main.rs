@@ -37,11 +37,13 @@ fn main() -> Result<()> {
 
     // let html_path = repo_path.join("index.html");
     // let html = {
-    //     let html = read_to_string(&html_path)
+    //     let html = std::fs::read_to_string(&html_path)
     //         .with_context(|| format!("cannot read or open: {}", html_path.display()))?;
 
-    //     Document::from(html.as_str())
+    //     select::document::Document::from(html.as_str())
     // };
+    // parse_html("achievements", &html, achievements::Achievements)?;
+
     gen_fb_for_json("achievements", achievements::Achievements)?;
     gen_fb_for_json("armor", armor::Armors)?;
     gen_fb_for_json("playthrough", playthrough::Playthroughs)?;
@@ -56,14 +58,28 @@ fn gen_fb_for_json<T: Utils>(basename: &str, _: T) -> Result<()> {
     let mut builder = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
     let input_path = format!("../i18n/en/{}.json", basename);
     let output_path = format!("../i18n/en/flatbuffers/{}.fb", basename);
-    trace!(?input_path, ?output_path);
     let json = std::fs::read_to_string(input_path.as_str())
         .with_context(|| format!("file not found: {}", input_path.as_str()))?;
-    trace!("parsing json");
+    trace!("parsing json from file: {:?}", &input_path);
     let input = T::parse_json(json.as_str())?;
-    trace!("generating flatbuffer");
+    trace!("generating flatbuffer: {:?}", &output_path);
     let flat = T::gen_fb(input.as_slice(), &mut builder);
     std::fs::write(output_path.as_str(), flat)
         .with_context(|| format!("file not found: {}", output_path.as_str()))?;
+    Ok(())
+}
+
+#[instrument(skip(html))]
+fn parse_html<U>(basename: &str, html: &select::document::Document, _: U) -> Result<()>
+where
+    U: Utils,
+    U::Item: serde::Serialize,
+{
+    trace!("parsing html");
+    let data = U::parse_html(&html)?;
+    let path = format!("../i18n/en/{}.json", basename);
+    let mut out_file = std::fs::File::create(&path)?;
+    trace!("writting json to {:?}", &path);
+    serde_json::to_writer_pretty(&mut out_file, &data)?;
     Ok(())
 }

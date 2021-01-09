@@ -9,9 +9,11 @@ pub use trades_generated::ds3c as fb;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Trade {
+    id: u32,
     what: Markdown,
     for_: Markdown,
 }
+
 #[derive(Debug, Clone, Copy)]
 pub struct Trades;
 impl Utils for Trades {
@@ -21,18 +23,21 @@ impl Utils for Trades {
         input: &'i [Self::Item],
         builder: &'i mut flatbuffers::FlatBufferBuilder,
     ) -> &'i [u8] {
-        let mut trades = Vec::with_capacity(input.len());
-        for trade in input {
-            let for_ = builder.create_string(trade.for_.as_str());
-            let what = builder.create_string(trade.what.as_str());
-            trades.push(fb::Trade::create(
-                builder,
-                &fb::TradeArgs {
-                    for_: Some(for_),
-                    what: Some(what),
-                },
-            ));
-        }
+        let trades = input
+            .iter()
+            .map(|t| {
+                let what = builder.create_string(t.what.as_str());
+                let for_ = builder.create_string(t.for_.as_str());
+                fb::Trade::create(
+                    builder,
+                    &fb::TradeArgs {
+                        id: t.id,
+                        what: Some(what),
+                        for_: Some(for_),
+                    },
+                )
+            })
+            .collect::<Vec<_>>();
         let trades = builder.create_vector(&trades);
         let root = fb::TradesRoot::create(
             builder,

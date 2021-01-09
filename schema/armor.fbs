@@ -2,7 +2,12 @@ namespace DS3C;
 
 table ArmorCategory{
   category: string;
-  gear_names: [string]; // markdown
+  gears: [Gear];
+}
+
+table Gear{
+  id: uint32;
+  name: string; // markdown
 }
 
 table ArmorRoot{

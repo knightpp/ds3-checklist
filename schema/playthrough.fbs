@@ -6,7 +6,7 @@ table Location{
 }
 
 table Task{
-  data_id: string;
+  id: uint32;
   tags: [string];
   text: string;	// markdown
 }

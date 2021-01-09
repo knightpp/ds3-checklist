@@ -9,20 +9,20 @@ use serde::{Deserialize, Serialize};
 mod playthrough_generated;
 pub use playthrough_generated::ds3c as fb;
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Playthrough {
     location: Location,
     tasks: Vec<Task>,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Task {
-    data_id: String,
+    id: u32,
     tags: Vec<String>,
     text: Markdown,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Location {
     name: Markdown,
     /// Optional or Require DLC
@@ -41,41 +41,52 @@ impl<'p> Utils for Playthroughs {
     ) -> &'i [u8] {
         let mut pts = Vec::with_capacity(items.len());
         for p in items {
-            let mut tasks = Vec::with_capacity(p.tasks.len());
-            for task in p.tasks.iter() {
-                let data_id = builder.create_string(task.data_id.as_str());
-                let tags = task.tags.iter().map(|x| x.as_str()).collect::<Vec<_>>();
-                let tags = builder.create_vector_of_strings(tags.as_slice());
-                let text = builder.create_string(task.text.as_str());
-
-                let mut task_buidler = fb::TaskBuilder::new(builder);
-                task_buidler.add_data_id(data_id);
-                task_buidler.add_tags(tags);
-                task_buidler.add_text(text);
-                let task = task_buidler.finish();
-                tasks.push(task);
-            }
-            let tasks = builder.create_vector(&tasks);
-
-            let name = builder.create_string(p.location.name.as_str());
-
-            let note = if let Some(note) = p.location.note.as_ref() {
-                Some(builder.create_string(note.as_str()))
-            } else {
-                None
+            let tasks = {
+                let tasks = p
+                    .tasks
+                    .iter()
+                    .map(|task| {
+                        let tags = builder.create_vector_of_strings(
+                            &task.tags.iter().map(|x| x.as_str()).collect::<Vec<_>>(),
+                        );
+                        let text = builder.create_string(task.text.as_str());
+                        fb::Task::create(
+                            builder,
+                            &fb::TaskArgs {
+                                id: task.id,
+                                tags: Some(tags),
+                                text: Some(text),
+                            },
+                        )
+                    })
+                    .collect::<Vec<_>>();
+                builder.create_vector(&tasks)
             };
-            let mut loc_builder = fb::LocationBuilder::new(builder);
-            loc_builder.add_name(name);
 
-            if let Some(note) = note {
-                loc_builder.add_note(note);
-            }
-            let location = loc_builder.finish();
+            let loc = {
+                let name = builder.create_string(p.location.name.as_str());
+                let note = p
+                    .location
+                    .note
+                    .as_ref()
+                    .map(|note| builder.create_string(note.as_str()));
+                fb::Location::create(
+                    builder,
+                    &fb::LocationArgs {
+                        name: Some(name),
+                        note: note,
+                    },
+                )
+            };
+            let pt = fb::Playthrough::create(
+                builder,
+                &fb::PlaythroughArgs {
+                    location: Some(loc),
+                    tasks: Some(tasks),
+                },
+            );
 
-            let mut pt_builder = fb::PlaythroughBuilder::new(builder);
-            pt_builder.add_tasks(tasks);
-            pt_builder.add_location(location);
-            pts.push(pt_builder.finish());
+            pts.push(pt);
         }
         let items = builder.create_vector(&pts);
         let mut root_builder = fb::PlaythroughRootBuilder::new(builder);
@@ -103,6 +114,7 @@ impl<'p> Utils for Playthroughs {
         let task_lists = list.select(ul);
 
         let mut v = Vec::<Playthrough>::with_capacity(20);
+        let mut task_id = 0;
         for (location, task_list) in location_names.zip(task_lists) {
             let note = {
                 let note = location
@@ -139,7 +151,7 @@ impl<'p> Utils for Playthroughs {
             let tasks = {
                 let mut tasks = Vec::<Task>::with_capacity(32);
                 for task in task_list.select(li) {
-                    let data_id = task.attr("data-id").context("no data-id in task")?;
+                    // let data_id = task.attr("data-id").context("no data-id in task")?;
                     let tags = task
                         .attr("class")
                         .context("playthrough: no class in task")?
@@ -148,10 +160,11 @@ impl<'p> Utils for Playthroughs {
                         .collect::<Vec<_>>();
 
                     tasks.push(Task {
-                        data_id: data_id.to_owned(),
+                        id: task_id,
                         tags,
                         text: Markdown::parse(&task),
                     });
+                    task_id += 1;
                 }
                 tasks
             };

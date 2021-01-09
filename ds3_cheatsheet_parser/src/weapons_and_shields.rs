@@ -12,8 +12,15 @@ pub struct WSCategory {
     #[serde(rename = "category")]
     name: String,
     #[serde(rename = "item_names")]
-    items: Vec<Markdown>,
+    items: Vec<Item>,
 }
+
+#[derive(Debug, Deserialize, Serialize)]
+pub struct Item {
+    id: u32,
+    name: Markdown,
+}
+
 #[derive(Debug, Clone, Copy)]
 pub struct WSCategories;
 
@@ -26,15 +33,27 @@ impl Utils for WSCategories {
     ) -> &'i [u8] {
         let mut v = Vec::with_capacity(input.len());
         for cat in input {
-            let name = builder.create_string(cat.name.as_str());
-            let items = builder.create_vector_of_strings(
-                &cat.items.iter().map(|x| x.as_str()).collect::<Box<_>>(),
-            );
-            let cat = fb::Category::create(
+            let cat_name = builder.create_string(cat.name.as_str());
+            let items = cat
+                .items
+                .iter()
+                .map(|item| {
+                    let item_name = builder.create_string(item.name.as_str());
+                    fb::Item::create(
+                        builder,
+                        &fb::ItemArgs {
+                            id: item.id,
+                            name: Some(item_name),
+                        },
+                    )
+                })
+                .collect::<Vec<_>>();
+            let items = builder.create_vector(&items);
+            let cat = fb::WSCategory::create(
                 builder,
-                &fb::CategoryArgs {
+                &fb::WSCategoryArgs {
+                    name: Some(cat_name),
                     items: Some(items),
-                    name: Some(name),
                 },
             );
             v.push(cat);

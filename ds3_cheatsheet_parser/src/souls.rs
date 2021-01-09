@@ -10,7 +10,7 @@ pub use soul_prices_generated::ds3c as fb;
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Soul {
     name: String,
-    souls: u16,
+    price: u16,
 }
 #[derive(Debug, Clone, Copy)]
 pub struct Souls;
@@ -29,7 +29,7 @@ impl Utils for Souls {
                 builder,
                 &fb::SoulArgs {
                     name: Some(name),
-                    souls: soul.souls,
+                    price: soul.price,
                 },
             );
             v.push(soul);

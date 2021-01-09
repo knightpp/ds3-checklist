@@ -3,7 +3,7 @@ use select::document::Document;
 use serde::{Deserialize, Serialize};
 use tracing::warn;
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Markdown(String);
 
 impl Markdown {

@@ -1,13 +1,12 @@
 namespace DS3C;
 
 table Achievement{
-  id: string;
   name: string; // markdown
   tasks: [Task];
 }
 
 table Task{
-  id: string;
+  id: uint32;
   text: string; // markdown
   note: string; // text, null for everything except Ring achievements
 }
