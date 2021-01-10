@@ -10,11 +10,11 @@ import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import '../MyAppBar.dart';
 import '../Singletons.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:dark_souls_checklist/Generated/armor_d_s3_c_generated.dart'
     as fb;
 
 const String ARMORS_KEY = "Cached.Flatbuffer.Armor";
-const String TITLE = "Armor";
 
 List<Map<int, bool>> expensiveComputation(List dbResp) {
   print("(expensive) Running computation");
@@ -47,7 +47,7 @@ class _ArmorState extends State<Armor> {
   @override
   void initState() {
     super.initState();
-    _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
+    _hideCompleted = Prefs.inst.getBool("Armor") ?? false;
   }
 
   void _updateChecked(int catId, int taskId, bool newVal) async {
@@ -70,6 +70,7 @@ class _ArmorState extends State<Armor> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return AllPageFutureBuilder(
         future: setup(),
         buildOnLoad: (context, snapshot) {
@@ -82,9 +83,9 @@ class _ArmorState extends State<Armor> {
                     _hideCompleted = newVal;
                   });
                 },
-                title: TITLE,
+                title: loc.armorPageTitle,
                 bottom: TabsForAppBar(
-                  tabs: armors.map((cat) => Text(cat.name)).toList(),
+                  tabs: armors.map((cat) => Text(cat.category)).toList(),
                   onChangeTab: (int newTabIdx) {
                     selectedCatIdx = newTabIdx;
                   },
@@ -104,10 +105,10 @@ class _ArmorState extends State<Armor> {
                         isChecked: isChecked,
                         content: MarkdownBody(
                             onTapLink: openLink,
-                            data: armors[catIndex].gearNames[taskIdx]),
+                            data: armors[catIndex].gears[taskIdx].name),
                       );
                     },
-                    itemCount: armors[catIndex].gearNames.length,
+                    itemCount: armors[catIndex].gears.length,
                   );
                 },
               ),

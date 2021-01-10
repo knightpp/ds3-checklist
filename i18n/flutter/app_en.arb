@@ -1,0 +1,29 @@
+{
+  "mainMenuSettingsPopUp": "Menu",
+  "usedResources": "Used resources",
+  "createdBy": "Created by",
+  "aboutUsedResource": "Check out $link by Zachary Kjellberg",
+  "aboutTitle": "About",
+  "achievementsPageTitle": "Achievements",
+  "armorPageTitle": "Armor",
+  "playthroughPageTitle": "Playthrough",
+  "tradesPageTitle": "Trades",
+  "weaponsShieldsPageTitle": "Weapons and Shields",
+  "soulPrices": "Soul Prices",
+  "settingsTitle": "Settings",
+  "settingsPlaythroughProgress": "Playthrough progress",
+  "settingsTradesProgress": "Trades progress",
+  "settingsAchievementsProgress": "Achievements progress",
+  "settingsWeapsShieldsProgress": "Weapons/Shields progress",
+  "settingsArmorProgress": "Armor progress",
+  "settingsResetSuccessful": "$contentText was reset",
+  "settingsResetButtonText": "Reset",
+  "settingsConfirmationDialogText": "Are you sure?",
+  "settingsConfirmationDialogTitle": "Reset $contentText",
+  "settingsConfirmationDialogAccept": "Yes",
+  "settingsConfirmationDialogCancel": "No",
+
+  "settingsCautionText": "Be careful, do you really want to reset this?"
+
+}
+

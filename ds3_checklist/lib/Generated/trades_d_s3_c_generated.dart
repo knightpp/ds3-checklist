@@ -20,12 +20,13 @@ class Trade {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String get what => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  String get for_ => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+  int get id => const fb.Uint32Reader().vTableGet(_bc, _bcOffset, 4, 0);
+  String get what => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+  String get for_ => const fb.StringReader().vTableGet(_bc, _bcOffset, 8, null);
 
   @override
   String toString() {
-    return 'Trade{what: $what, for_: $for_}';
+    return 'Trade{id: $id, what: $what, for_: $for_}';
   }
 }
 
@@ -48,12 +49,16 @@ class TradeBuilder {
     fbBuilder.startTable();
   }
 
+  int addId(int id) {
+    fbBuilder.addUint32(0, id);
+    return fbBuilder.offset;
+  }
   int addWhatOffset(int offset) {
-    fbBuilder.addOffset(0, offset);
+    fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
   int addFor_Offset(int offset) {
-    fbBuilder.addOffset(1, offset);
+    fbBuilder.addOffset(2, offset);
     return fbBuilder.offset;
   }
 
@@ -63,14 +68,17 @@ class TradeBuilder {
 }
 
 class TradeObjectBuilder extends fb.ObjectBuilder {
+  final int _id;
   final String _what;
   final String _for_;
 
   TradeObjectBuilder({
+    int id,
     String what,
     String for_,
   })
-      : _what = what,
+      : _id = id,
+        _what = what,
         _for_ = for_;
 
   /// Finish building, and store into the [fbBuilder].
@@ -82,11 +90,12 @@ class TradeObjectBuilder extends fb.ObjectBuilder {
     final int for_Offset = fbBuilder.writeString(_for_);
 
     fbBuilder.startTable();
+    fbBuilder.addUint32(0, _id);
     if (whatOffset != null) {
-      fbBuilder.addOffset(0, whatOffset);
+      fbBuilder.addOffset(1, whatOffset);
     }
     if (for_Offset != null) {
-      fbBuilder.addOffset(1, for_Offset);
+      fbBuilder.addOffset(2, for_Offset);
     }
     return fbBuilder.endTable();
   }

@@ -20,13 +20,12 @@ class Achievement {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String get id => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
-  List<Task> get tasks => const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 8, null);
+  String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
+  List<Task> get tasks => const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 6, null);
 
   @override
   String toString() {
-    return 'Achievement{id: $id, name: $name, tasks: $tasks}';
+    return 'Achievement{name: $name, tasks: $tasks}';
   }
 }
 
@@ -49,16 +48,12 @@ class AchievementBuilder {
     fbBuilder.startTable();
   }
 
-  int addIdOffset(int offset) {
+  int addNameOffset(int offset) {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-  int addNameOffset(int offset) {
-    fbBuilder.addOffset(1, offset);
-    return fbBuilder.offset;
-  }
   int addTasksOffset(int offset) {
-    fbBuilder.addOffset(2, offset);
+    fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
 
@@ -68,17 +63,14 @@ class AchievementBuilder {
 }
 
 class AchievementObjectBuilder extends fb.ObjectBuilder {
-  final String _id;
   final String _name;
   final List<TaskObjectBuilder> _tasks;
 
   AchievementObjectBuilder({
-    String id,
     String name,
     List<TaskObjectBuilder> tasks,
   })
-      : _id = id,
-        _name = name,
+      : _name = name,
         _tasks = tasks;
 
   /// Finish building, and store into the [fbBuilder].
@@ -86,21 +78,17 @@ class AchievementObjectBuilder extends fb.ObjectBuilder {
   int finish(
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
-    final int idOffset = fbBuilder.writeString(_id);
     final int nameOffset = fbBuilder.writeString(_name);
     final int tasksOffset = _tasks?.isNotEmpty == true
         ? fbBuilder.writeList(_tasks.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
 
     fbBuilder.startTable();
-    if (idOffset != null) {
-      fbBuilder.addOffset(0, idOffset);
-    }
     if (nameOffset != null) {
-      fbBuilder.addOffset(1, nameOffset);
+      fbBuilder.addOffset(0, nameOffset);
     }
     if (tasksOffset != null) {
-      fbBuilder.addOffset(2, tasksOffset);
+      fbBuilder.addOffset(1, tasksOffset);
     }
     return fbBuilder.endTable();
   }
@@ -125,7 +113,7 @@ class Task {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String get id => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
+  int get id => const fb.Uint32Reader().vTableGet(_bc, _bcOffset, 4, 0);
   String get text => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
   String get note => const fb.StringReader().vTableGet(_bc, _bcOffset, 8, null);
 
@@ -154,8 +142,8 @@ class TaskBuilder {
     fbBuilder.startTable();
   }
 
-  int addIdOffset(int offset) {
-    fbBuilder.addOffset(0, offset);
+  int addId(int id) {
+    fbBuilder.addUint32(0, id);
     return fbBuilder.offset;
   }
   int addTextOffset(int offset) {
@@ -173,12 +161,12 @@ class TaskBuilder {
 }
 
 class TaskObjectBuilder extends fb.ObjectBuilder {
-  final String _id;
+  final int _id;
   final String _text;
   final String _note;
 
   TaskObjectBuilder({
-    String id,
+    int id,
     String text,
     String note,
   })
@@ -191,14 +179,11 @@ class TaskObjectBuilder extends fb.ObjectBuilder {
   int finish(
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
-    final int idOffset = fbBuilder.writeString(_id);
     final int textOffset = fbBuilder.writeString(_text);
     final int noteOffset = fbBuilder.writeString(_note);
 
     fbBuilder.startTable();
-    if (idOffset != null) {
-      fbBuilder.addOffset(0, idOffset);
-    }
+    fbBuilder.addUint32(0, _id);
     if (textOffset != null) {
       fbBuilder.addOffset(1, textOffset);
     }

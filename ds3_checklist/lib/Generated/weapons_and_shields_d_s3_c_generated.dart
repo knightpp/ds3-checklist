@@ -8,37 +8,37 @@ import 'dart:typed_data' show Uint8List;
 import 'package:flat_buffers/flat_buffers.dart' as fb;
 
 
-class Category {
-  Category._(this._bc, this._bcOffset);
-  factory Category(List<int> bytes) {
+class WSCategory {
+  WSCategory._(this._bc, this._bcOffset);
+  factory WSCategory(List<int> bytes) {
     fb.BufferContext rootRef = new fb.BufferContext.fromBytes(bytes);
     return reader.read(rootRef, 0);
   }
 
-  static const fb.Reader<Category> reader = const _CategoryReader();
+  static const fb.Reader<WSCategory> reader = const _WSCategoryReader();
 
   final fb.BufferContext _bc;
   final int _bcOffset;
 
   String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  List<String> get items => const fb.ListReader<String>(const fb.StringReader()).vTableGet(_bc, _bcOffset, 6, null);
+  List<Item> get items => const fb.ListReader<Item>(Item.reader).vTableGet(_bc, _bcOffset, 6, null);
 
   @override
   String toString() {
-    return 'Category{name: $name, items: $items}';
+    return 'WSCategory{name: $name, items: $items}';
   }
 }
 
-class _CategoryReader extends fb.TableReader<Category> {
-  const _CategoryReader();
+class _WSCategoryReader extends fb.TableReader<WSCategory> {
+  const _WSCategoryReader();
 
   @override
-  Category createObject(fb.BufferContext bc, int offset) => 
-    new Category._(bc, offset);
+  WSCategory createObject(fb.BufferContext bc, int offset) => 
+    new WSCategory._(bc, offset);
 }
 
-class CategoryBuilder {
-  CategoryBuilder(this.fbBuilder) {
+class WSCategoryBuilder {
+  WSCategoryBuilder(this.fbBuilder) {
     assert(fbBuilder != null);
   }
 
@@ -62,13 +62,13 @@ class CategoryBuilder {
   }
 }
 
-class CategoryObjectBuilder extends fb.ObjectBuilder {
+class WSCategoryObjectBuilder extends fb.ObjectBuilder {
   final String _name;
-  final List<String> _items;
+  final List<ItemObjectBuilder> _items;
 
-  CategoryObjectBuilder({
+  WSCategoryObjectBuilder({
     String name,
-    List<String> items,
+    List<ItemObjectBuilder> items,
   })
       : _name = name,
         _items = items;
@@ -80,7 +80,7 @@ class CategoryObjectBuilder extends fb.ObjectBuilder {
     assert(fbBuilder != null);
     final int nameOffset = fbBuilder.writeString(_name);
     final int itemsOffset = _items?.isNotEmpty == true
-        ? fbBuilder.writeList(_items.map((b) => fbBuilder.writeString(b)).toList())
+        ? fbBuilder.writeList(_items.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
 
     fbBuilder.startTable();
@@ -89,6 +89,94 @@ class CategoryObjectBuilder extends fb.ObjectBuilder {
     }
     if (itemsOffset != null) {
       fbBuilder.addOffset(1, itemsOffset);
+    }
+    return fbBuilder.endTable();
+  }
+
+  /// Convenience method to serialize to byte list.
+  @override
+  Uint8List toBytes([String fileIdentifier]) {
+    fb.Builder fbBuilder = new fb.Builder();
+    int offset = finish(fbBuilder);
+    return fbBuilder.finish(offset, fileIdentifier);
+  }
+}
+class Item {
+  Item._(this._bc, this._bcOffset);
+  factory Item(List<int> bytes) {
+    fb.BufferContext rootRef = new fb.BufferContext.fromBytes(bytes);
+    return reader.read(rootRef, 0);
+  }
+
+  static const fb.Reader<Item> reader = const _ItemReader();
+
+  final fb.BufferContext _bc;
+  final int _bcOffset;
+
+  int get id => const fb.Uint32Reader().vTableGet(_bc, _bcOffset, 4, 0);
+  String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+
+  @override
+  String toString() {
+    return 'Item{id: $id, name: $name}';
+  }
+}
+
+class _ItemReader extends fb.TableReader<Item> {
+  const _ItemReader();
+
+  @override
+  Item createObject(fb.BufferContext bc, int offset) => 
+    new Item._(bc, offset);
+}
+
+class ItemBuilder {
+  ItemBuilder(this.fbBuilder) {
+    assert(fbBuilder != null);
+  }
+
+  final fb.Builder fbBuilder;
+
+  void begin() {
+    fbBuilder.startTable();
+  }
+
+  int addId(int id) {
+    fbBuilder.addUint32(0, id);
+    return fbBuilder.offset;
+  }
+  int addNameOffset(int offset) {
+    fbBuilder.addOffset(1, offset);
+    return fbBuilder.offset;
+  }
+
+  int finish() {
+    return fbBuilder.endTable();
+  }
+}
+
+class ItemObjectBuilder extends fb.ObjectBuilder {
+  final int _id;
+  final String _name;
+
+  ItemObjectBuilder({
+    int id,
+    String name,
+  })
+      : _id = id,
+        _name = name;
+
+  /// Finish building, and store into the [fbBuilder].
+  @override
+  int finish(
+    fb.Builder fbBuilder) {
+    assert(fbBuilder != null);
+    final int nameOffset = fbBuilder.writeString(_name);
+
+    fbBuilder.startTable();
+    fbBuilder.addUint32(0, _id);
+    if (nameOffset != null) {
+      fbBuilder.addOffset(1, nameOffset);
     }
     return fbBuilder.endTable();
   }
@@ -113,7 +201,7 @@ class WeaponsAndShieldsRoot {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  List<Category> get items => const fb.ListReader<Category>(Category.reader).vTableGet(_bc, _bcOffset, 4, null);
+  List<WSCategory> get items => const fb.ListReader<WSCategory>(WSCategory.reader).vTableGet(_bc, _bcOffset, 4, null);
 
   @override
   String toString() {
@@ -151,10 +239,10 @@ class WeaponsAndShieldsRootBuilder {
 }
 
 class WeaponsAndShieldsRootObjectBuilder extends fb.ObjectBuilder {
-  final List<CategoryObjectBuilder> _items;
+  final List<WSCategoryObjectBuilder> _items;
 
   WeaponsAndShieldsRootObjectBuilder({
-    List<CategoryObjectBuilder> items,
+    List<WSCategoryObjectBuilder> items,
   })
       : _items = items;
 

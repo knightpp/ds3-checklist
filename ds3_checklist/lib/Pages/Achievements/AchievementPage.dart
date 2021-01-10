@@ -6,10 +6,9 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import '../../ItemTile.dart';
 import '../../Singletons.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:dark_souls_checklist/Generated/achievements_d_s3_c_generated.dart'
     as fb;
-
-const String TITLE = "Achievements";
 
 class AchievementPage extends StatefulWidget {
   final Widget appBarTitleWidget;
@@ -37,8 +36,8 @@ class _AchievementPageState extends State<AchievementPage> {
 
   @override
   void initState() {
-    _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
     super.initState();
+    _hideCompleted = Prefs.inst.getBool("Achievements") ?? false;
   }
 
   void _updateChecked(int achId, int taskId, bool newVal) async {
@@ -52,7 +51,7 @@ class _AchievementPageState extends State<AchievementPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar(
-        customPrefString: TITLE,
+        customPrefString: AppLocalizations.of(context)!.achievementsPageTitle,
         prefSize: Size.fromHeight(55),
         customTitleWidget: widget.appBarTitleWidget,
         onHideButton: (newVal) {

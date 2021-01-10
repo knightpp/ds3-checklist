@@ -6,6 +6,8 @@ import 'package:dark_souls_checklist/Singletons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Constants {
   static const String Settings = "Settings";
@@ -49,8 +51,7 @@ class _MyHomeState extends State<MyHome> {
 
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Prefs.init();
-
+  await Prefs.init();
   runApp(MyApp());
 }
 
@@ -65,7 +66,8 @@ class _MyAppState extends State<MyApp> {
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
     return MaterialApp(
-      // debugShowCheckedModeBanner: true,
+      supportedLocales: AppLocalizations.supportedLocales, // Add this line
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
       home: MyHome(),
       theme: ThemeData(
           fontFamily: "OptimusPrinceps",
@@ -155,7 +157,7 @@ class CustomPopupMenu extends StatelessWidget {
     return PopupMenuButton<String>(
         offset: Offset(0, 20),
         color: Colors.grey[200],
-        tooltip: "Menu",
+        tooltip: AppLocalizations.of(context)!.mainMenuSettingsPopUp,
         elevation: 3,
         initialValue: Constants.choices[0],
         onSelected: _onSelected,

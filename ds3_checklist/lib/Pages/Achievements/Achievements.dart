@@ -24,8 +24,6 @@ const IMAGES = [
   _DLCS,
 ];
 
-const String TITLE = "Achievements";
-
 enum Cached {
   Flatbuffer,
   Database,
@@ -102,7 +100,7 @@ class _AchievementsState extends State<Achievements> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          TITLE,
+          "TITLE", // AppLocalizations.of(context)!.achievementsPageTitle,
           style: Theme.of(context).appBarTheme.textTheme?.caption,
         ),
       ),

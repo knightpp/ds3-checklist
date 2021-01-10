@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/Pages/Playthrought.dart';
 import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MenuBlock extends StatelessWidget {
   final String title;
@@ -43,6 +44,7 @@ class MenuBlock extends StatelessWidget {
 }
 
 List<Widget> makeMenuTiles(BuildContext context) {
+  final loc = AppLocalizations.of(context)!;
   return [
     Image(
       image: AssetImage("assets/images/bonfire.gif"),
@@ -51,14 +53,18 @@ List<Widget> makeMenuTiles(BuildContext context) {
     SizedBox(
       height: 10,
     ),
-    Expanded(child: MenuBlock(title: "Playthrough", navigate: Playthrough())),
-    Expanded(child: MenuBlock(title: "Achievements", navigate: Achievements())),
     Expanded(
-        child:
-            MenuBlock(title: "Weapons/Shields", navigate: WeaponsAndShield())),
-    Expanded(child: MenuBlock(title: "Armor", navigate: Armor())),
-    Expanded(child: MenuBlock(title: "Trades", navigate: Trades())),
-    Expanded(child: MenuBlock(title: "Soul Prices", navigate: Souls())),
+        child: MenuBlock(
+            title: loc.playthroughPageTitle, navigate: Playthrough())),
+    Expanded(
+        child: MenuBlock(
+            title: loc.achievementsPageTitle, navigate: Achievements())),
+    Expanded(
+        child: MenuBlock(
+            title: loc.weaponsShieldsPageTitle, navigate: WeaponsAndShield())),
+    Expanded(child: MenuBlock(title: loc.armorPageTitle, navigate: Armor())),
+    Expanded(child: MenuBlock(title: loc.tradesPageTitle, navigate: Trades())),
+    Expanded(child: MenuBlock(title: loc.soulPrices, navigate: Souls())),
     SizedBox(
       height: 10,
     )

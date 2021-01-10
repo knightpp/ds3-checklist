@@ -9,9 +9,9 @@ import '../ItemTile.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
     as fb;
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 const String WS_FB_KEY = "Cached.Flatbuffer.WS";
-const String TITLE = "Weapons and Shields";
 
 class WeaponsAndShield extends StatefulWidget {
   static void resetStatics() {
@@ -36,14 +36,14 @@ List<Map<int, bool>> expensiveComputation(List dbResp) {
 bool _hideCompleted = false;
 
 class _WeaponsAndShieldState extends State<WeaponsAndShield> {
-  late List<fb.Category> weapsShields;
+  late List<fb.WSCategory> weapsShields;
   static DatabaseManager db =
       DatabaseManager(expensiveComputation, DbFor.WeapsShields);
 
   @override
   void initState() {
     super.initState();
-    _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
+    _hideCompleted = Prefs.inst.getBool("Weapons and Shields") ?? false;
   }
 
   Future setup() async {
@@ -59,11 +59,12 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(60),
         child: MyAppBar(
-          title: TITLE,
+          title: loc.weaponsShieldsPageTitle,
           onHideButton: (newVal) {
             setState(() {
               _hideCompleted = newVal;
@@ -76,7 +77,7 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
             future: setup(),
             builder: (context, snapshot) {
               if (snapshot.hasError) {
-                return Text("Error");
+                return Text("Error:\n${snapshot.error}");
               } else if (snapshot.hasData) {
                 return ListView.builder(
                     shrinkWrap: true,
@@ -97,7 +98,7 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
 }
 
 class ExpandableTile extends StatefulWidget {
-  final fb.Category cat;
+  final fb.WSCategory cat;
   final int index;
   final DatabaseManager db;
 
@@ -127,7 +128,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
     super.initState();
   }
 
-  List<Widget> _buildExpandableContent(fb.Category cat, int catIdx) {
+  List<Widget> _buildExpandableContent(fb.WSCategory cat, int catIdx) {
     List<Widget> widgets = [];
     for (int taskId = 0; taskId < cat.items.length; ++taskId) {
       bool isChecked = widget.db.checked[catIdx][taskId];
@@ -139,7 +140,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
         isChecked: isChecked,
         content: MarkdownBody(
           onTapLink: openLink,
-          data: cat.items[taskId],
+          data: cat.items[taskId].name,
           // textStyle: Theme.of(context).textTheme.bodyText2,
         ),
       ));

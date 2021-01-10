@@ -8,11 +8,10 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/trades_d_s3_c_generated.dart'
     as fb;
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../main.dart';
 
 const String TRADES_FB_KEY = "Cached.Flatbuffer.Trades";
-const String TITLE = "Trades";
 
 Map<int, bool> expensiveComputation(List dbResp) {
   print("(expensive) Running computation");
@@ -43,7 +42,7 @@ class _TradesState extends State<Trades> {
   @override
   void initState() {
     super.initState();
-    _hideCompleted = Prefs.inst.getBool(TITLE) ?? false;
+    _hideCompleted = Prefs.inst.getBool("Trades") ?? false;
   }
 
   void _updateChecked(int tradeId, bool newVal) async {
@@ -64,9 +63,10 @@ class _TradesState extends State<Trades> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: MyAppBar(
-        title: TITLE,
+        title: loc.tradesPageTitle,
         prefSize: Size.fromHeight(60),
         onHideButton: (newVal) {
           setState(() {

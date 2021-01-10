@@ -21,11 +21,11 @@ class Soul {
   final int _bcOffset;
 
   String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  int get souls => const fb.Uint16Reader().vTableGet(_bc, _bcOffset, 6, 0);
+  int get price => const fb.Uint16Reader().vTableGet(_bc, _bcOffset, 6, 0);
 
   @override
   String toString() {
-    return 'Soul{name: $name, souls: $souls}';
+    return 'Soul{name: $name, price: $price}';
   }
 }
 
@@ -52,8 +52,8 @@ class SoulBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-  int addSouls(int souls) {
-    fbBuilder.addUint16(1, souls);
+  int addPrice(int price) {
+    fbBuilder.addUint16(1, price);
     return fbBuilder.offset;
   }
 
@@ -64,14 +64,14 @@ class SoulBuilder {
 
 class SoulObjectBuilder extends fb.ObjectBuilder {
   final String _name;
-  final int _souls;
+  final int _price;
 
   SoulObjectBuilder({
     String name,
-    int souls,
+    int price,
   })
       : _name = name,
-        _souls = souls;
+        _price = price;
 
   /// Finish building, and store into the [fbBuilder].
   @override
@@ -84,7 +84,7 @@ class SoulObjectBuilder extends fb.ObjectBuilder {
     if (nameOffset != null) {
       fbBuilder.addOffset(0, nameOffset);
     }
-    fbBuilder.addUint16(1, _souls);
+    fbBuilder.addUint16(1, _price);
     return fbBuilder.endTable();
   }
 

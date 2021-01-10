@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/Generated/souls_d_s3_c_generated.dart'
     as fb;
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 const String SOULS_FB = "Cached.Flatbuffer.Souls";
 
@@ -26,10 +27,11 @@ class _SoulsState extends State<Souls> {
 
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Soul Prices",
+          loc.soulPrices,
           style: Theme.of(context).appBarTheme.textTheme?.caption,
         ),
       ),
@@ -76,7 +78,7 @@ class _SoulsState extends State<Souls> {
             ),
             Expanded(
               flex: 3,
-              child: Text(souls[soulIdx].souls.toString(),
+              child: Text(souls[soulIdx].price.toString(),
                   style: Theme.of(context).textTheme.bodyText2),
             )
           ],

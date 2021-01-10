@@ -10,8 +10,7 @@ import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/playthrough_d_s3_c_generated.dart'
     as fb;
 import '../CacheManager.dart';
-
-const String TITLE = "Playthrough";
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 enum Cached {
   Flatbuffer,
@@ -43,7 +42,7 @@ class _PlaythroughState extends State<Playthrough> {
   @override
   void initState() {
     super.initState();
-    _hideCompleted = Prefs.inst.getBool(TITLE) ?? _hideCompleted;
+    _hideCompleted = Prefs.inst.getBool("Playthrough") ?? _hideCompleted;
     _initialIndex = Prefs.inst.getInt("PLAYTHROUGH-LAST-TAB") ?? _initialIndex;
   }
 
@@ -90,6 +89,7 @@ class _PlaythroughState extends State<Playthrough> {
     return AllPageFutureBuilder(
       future: setup(context),
       buildOnLoad: (context, snapshot) {
+        final loc = AppLocalizations.of(context)!;
         return DefaultTabController(
           initialIndex: _initialIndex,
           length: _flat.length,
@@ -120,7 +120,7 @@ class _PlaythroughState extends State<Playthrough> {
                   await Prefs.inst.setInt("PLAYTHROUGH-LAST-TAB", p);
                 },
               ),
-              title: TITLE,
+              title: loc.playthroughPageTitle,
               onHideButton: (newVal) {
                 setState(() {
                   _hideCompleted = newVal;

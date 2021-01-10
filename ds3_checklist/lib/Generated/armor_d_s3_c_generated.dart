@@ -20,12 +20,12 @@ class ArmorCategory {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  List<String> get gearNames => const fb.ListReader<String>(const fb.StringReader()).vTableGet(_bc, _bcOffset, 6, null);
+  String get category => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
+  List<Gear> get gears => const fb.ListReader<Gear>(Gear.reader).vTableGet(_bc, _bcOffset, 6, null);
 
   @override
   String toString() {
-    return 'ArmorCategory{name: $name, gearNames: $gearNames}';
+    return 'ArmorCategory{category: $category, gears: $gears}';
   }
 }
 
@@ -48,11 +48,11 @@ class ArmorCategoryBuilder {
     fbBuilder.startTable();
   }
 
-  int addNameOffset(int offset) {
+  int addCategoryOffset(int offset) {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-  int addGearNamesOffset(int offset) {
+  int addGearsOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
@@ -63,15 +63,108 @@ class ArmorCategoryBuilder {
 }
 
 class ArmorCategoryObjectBuilder extends fb.ObjectBuilder {
-  final String _name;
-  final List<String> _gearNames;
+  final String _category;
+  final List<GearObjectBuilder> _gears;
 
   ArmorCategoryObjectBuilder({
-    String name,
-    List<String> gearNames,
+    String category,
+    List<GearObjectBuilder> gears,
   })
-      : _name = name,
-        _gearNames = gearNames;
+      : _category = category,
+        _gears = gears;
+
+  /// Finish building, and store into the [fbBuilder].
+  @override
+  int finish(
+    fb.Builder fbBuilder) {
+    assert(fbBuilder != null);
+    final int categoryOffset = fbBuilder.writeString(_category);
+    final int gearsOffset = _gears?.isNotEmpty == true
+        ? fbBuilder.writeList(_gears.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
+        : null;
+
+    fbBuilder.startTable();
+    if (categoryOffset != null) {
+      fbBuilder.addOffset(0, categoryOffset);
+    }
+    if (gearsOffset != null) {
+      fbBuilder.addOffset(1, gearsOffset);
+    }
+    return fbBuilder.endTable();
+  }
+
+  /// Convenience method to serialize to byte list.
+  @override
+  Uint8List toBytes([String fileIdentifier]) {
+    fb.Builder fbBuilder = new fb.Builder();
+    int offset = finish(fbBuilder);
+    return fbBuilder.finish(offset, fileIdentifier);
+  }
+}
+class Gear {
+  Gear._(this._bc, this._bcOffset);
+  factory Gear(List<int> bytes) {
+    fb.BufferContext rootRef = new fb.BufferContext.fromBytes(bytes);
+    return reader.read(rootRef, 0);
+  }
+
+  static const fb.Reader<Gear> reader = const _GearReader();
+
+  final fb.BufferContext _bc;
+  final int _bcOffset;
+
+  int get id => const fb.Uint32Reader().vTableGet(_bc, _bcOffset, 4, 0);
+  String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+
+  @override
+  String toString() {
+    return 'Gear{id: $id, name: $name}';
+  }
+}
+
+class _GearReader extends fb.TableReader<Gear> {
+  const _GearReader();
+
+  @override
+  Gear createObject(fb.BufferContext bc, int offset) => 
+    new Gear._(bc, offset);
+}
+
+class GearBuilder {
+  GearBuilder(this.fbBuilder) {
+    assert(fbBuilder != null);
+  }
+
+  final fb.Builder fbBuilder;
+
+  void begin() {
+    fbBuilder.startTable();
+  }
+
+  int addId(int id) {
+    fbBuilder.addUint32(0, id);
+    return fbBuilder.offset;
+  }
+  int addNameOffset(int offset) {
+    fbBuilder.addOffset(1, offset);
+    return fbBuilder.offset;
+  }
+
+  int finish() {
+    return fbBuilder.endTable();
+  }
+}
+
+class GearObjectBuilder extends fb.ObjectBuilder {
+  final int _id;
+  final String _name;
+
+  GearObjectBuilder({
+    int id,
+    String name,
+  })
+      : _id = id,
+        _name = name;
 
   /// Finish building, and store into the [fbBuilder].
   @override
@@ -79,16 +172,11 @@ class ArmorCategoryObjectBuilder extends fb.ObjectBuilder {
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int nameOffset = fbBuilder.writeString(_name);
-    final int gearNamesOffset = _gearNames?.isNotEmpty == true
-        ? fbBuilder.writeList(_gearNames.map((b) => fbBuilder.writeString(b)).toList())
-        : null;
 
     fbBuilder.startTable();
+    fbBuilder.addUint32(0, _id);
     if (nameOffset != null) {
-      fbBuilder.addOffset(0, nameOffset);
-    }
-    if (gearNamesOffset != null) {
-      fbBuilder.addOffset(1, gearNamesOffset);
+      fbBuilder.addOffset(1, nameOffset);
     }
     return fbBuilder.endTable();
   }

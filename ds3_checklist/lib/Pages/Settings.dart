@@ -1,55 +1,56 @@
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
-
 import 'package:dark_souls_checklist/Pages/Achievements/Achievements.dart';
 import 'package:dark_souls_checklist/Pages/Armor.dart';
 import 'package:dark_souls_checklist/Pages/Playthrought.dart' as pt;
 import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'Trades.dart';
 
 class Settings extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
         title: FittedBox(
             fit: BoxFit.fitWidth,
             child: Text(
-              "Settings",
+              loc.settingsTitle,
               style: Theme.of(context).appBarTheme.textTheme?.caption,
             )),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: SettingsPage(),
+        child: SettingsPage(loc),
       ),
     );
   }
 }
 
 class SettingsPage extends StatelessWidget {
-  const SettingsPage({
-    Key? key,
-  }) : super(key: key);
+  final AppLocalizations loc;
+  SettingsPage(this.loc);
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         ResetRow(
-          contentText: "Playthrough progress",
+          loc: loc,
+          contentText: loc.settingsPlaythroughProgress,
           pressType: PressType.Normal,
           pressCallback: () {
-            CacheManager.invalidate(pt.Cached.Database);
+            CacheManager.invalidate(pt.Cached.Database.uniqueStr());
             DatabaseManager.resetDb(0xB16B00B5, DbFor.Playthrough);
           },
         ),
         Divider(),
         ResetRow(
-          contentText: "Trades progress",
+          loc: loc,
+          contentText: loc.settingsTradesProgress,
           pressType: PressType.Normal,
           pressCallback: () {
             Trades.resetStatics();
@@ -61,7 +62,7 @@ class SettingsPage extends StatelessWidget {
           height: 40,
         ),
         Text(
-          "Be careful, do you really want to reset this?",
+          loc.settingsCautionText,
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 14,
@@ -72,7 +73,8 @@ class SettingsPage extends StatelessWidget {
         ),
         Divider(),
         ResetRow(
-          contentText: "Achievements progress",
+          loc: loc,
+          contentText: loc.settingsAchievementsProgress,
           pressType: PressType.Long,
           pressCallback: () {
             Achievements.resetStatics();
@@ -81,7 +83,8 @@ class SettingsPage extends StatelessWidget {
         ),
         Divider(),
         ResetRow(
-          contentText: "Weapons/Shields progress",
+          loc: loc,
+          contentText: loc.settingsWeapsShieldsProgress,
           pressType: PressType.Long,
           pressCallback: () {
             WeaponsAndShield.resetStatics();
@@ -90,7 +93,8 @@ class SettingsPage extends StatelessWidget {
         ),
         Divider(),
         ResetRow(
-          contentText: "Armor progress",
+          loc: loc,
+          contentText: loc.settingsArmorProgress,
           pressType: PressType.Long,
           pressCallback: () {
             Armor.resetStatics();
@@ -109,6 +113,7 @@ enum PressType {
 }
 
 class ResetRow extends StatelessWidget {
+  final AppLocalizations loc;
   final String contentText;
   final PressType pressType;
   final VoidCallback pressCallback;
@@ -118,9 +123,11 @@ class ResetRow extends StatelessWidget {
       {Key? key,
       required this.contentText,
       required this.pressType,
-      required this.pressCallback})
+      required this.pressCallback,
+      required this.loc})
       : snackBar = SnackBar(
-          content: Text("$contentText was reset"),
+          content: Text(loc.settingsResetSuccessful
+              .replaceFirst("\$contentText", contentText)),
         ),
         super(key: key);
   @override
@@ -132,11 +139,12 @@ class ResetRow extends StatelessWidget {
       await showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          content: Text("Are you sure?"),
-          title: Text("Reset $contentText"),
+          content: Text(loc.settingsConfirmationDialogText),
+          title: Text(loc.settingsConfirmationDialogTitle
+              .replaceFirst("\$contentText", contentText)),
           actions: <Widget>[
             FlatButton(
-              child: Text("Yes"),
+              child: Text(loc.settingsConfirmationDialogAccept),
               onPressed: () {
                 result = true;
                 Navigator.pop(context);
@@ -144,7 +152,7 @@ class ResetRow extends StatelessWidget {
             ),
             Divider(),
             FlatButton(
-              child: Text("No"),
+              child: Text(loc.settingsConfirmationDialogCancel),
               onPressed: () {
                 result = false;
                 Navigator.pop(context);
@@ -183,7 +191,7 @@ class ResetRow extends StatelessWidget {
             onLongPress: _onLongPress,
             color: Color.fromARGB(255, 188, 50, 50),
             child: Text(
-              "Reset",
+              loc.settingsResetButtonText,
               style: TextStyle(
                 color: Colors.black87,
                 fontSize: 14,
@@ -199,49 +207,49 @@ class ResetRow extends StatelessWidget {
   }
 }
 
-class SwipeDelete extends StatelessWidget {
-  final String text;
+// class SwipeDelete extends StatelessWidget {
+//   final String text;
 
-  const SwipeDelete({Key? key, required this.text}) : super(key: key);
+//   const SwipeDelete({Key? key, required this.text}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return Dismissible(
-      key: UniqueKey(),
-      child: Card(
-        child: Padding(
-          child: Text(text),
-          padding: EdgeInsets.all(15),
-        ),
-      ),
-      confirmDismiss: (direction) {
-        bool result = false;
+//   @override
+//   Widget build(BuildContext context) {
+//     return Dismissible(
+//       key: UniqueKey(),
+//       child: Card(
+//         child: Padding(
+//           child: Text(text),
+//           padding: EdgeInsets.all(15),
+//         ),
+//       ),
+//       confirmDismiss: (direction) {
+//         bool result = false;
 
-        return showDialog(
-          context: context,
-          builder: (context) => AlertDialog(
-            content: Text("Are you sure?"),
-            title: Text("Reset $text"),
-            actions: <Widget>[
-              FlatButton(
-                child: Text("Yes"),
-                onPressed: () {
-                  result = true;
-                  Navigator.pop(context);
-                },
-              ),
-              Divider(),
-              FlatButton(
-                child: Text("No"),
-                onPressed: () {
-                  result = false;
-                  Navigator.pop(context);
-                },
-              )
-            ],
-          ),
-        ).then((value) => result);
-      },
-    );
-  }
-}
+//         return showDialog(
+//           context: context,
+//           builder: (context) => AlertDialog(
+//             content: Text("Are you sure?"),
+//             title: Text("Reset $text"),
+//             actions: <Widget>[
+//               FlatButton(
+//                 child: Text("Yes"),
+//                 onPressed: () {
+//                   result = true;
+//                   Navigator.pop(context);
+//                 },
+//               ),
+//               Divider(),
+//               FlatButton(
+//                 child: Text("No"),
+//                 onPressed: () {
+//                   result = false;
+//                   Navigator.pop(context);
+//                 },
+//               )
+//             ],
+//           ),
+//         ).then((value) => result);
+//       },
+//     );
+//   }
+// }

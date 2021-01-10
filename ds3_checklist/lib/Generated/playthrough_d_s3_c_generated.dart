@@ -111,13 +111,13 @@ class Task {
   final fb.BufferContext _bc;
   final int _bcOffset;
 
-  String get dataId => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
+  int get id => const fb.Uint32Reader().vTableGet(_bc, _bcOffset, 4, 0);
   List<String> get tags => const fb.ListReader<String>(const fb.StringReader()).vTableGet(_bc, _bcOffset, 6, null);
   String get text => const fb.StringReader().vTableGet(_bc, _bcOffset, 8, null);
 
   @override
   String toString() {
-    return 'Task{dataId: $dataId, tags: $tags, text: $text}';
+    return 'Task{id: $id, tags: $tags, text: $text}';
   }
 }
 
@@ -140,8 +140,8 @@ class TaskBuilder {
     fbBuilder.startTable();
   }
 
-  int addDataIdOffset(int offset) {
-    fbBuilder.addOffset(0, offset);
+  int addId(int id) {
+    fbBuilder.addUint32(0, id);
     return fbBuilder.offset;
   }
   int addTagsOffset(int offset) {
@@ -159,16 +159,16 @@ class TaskBuilder {
 }
 
 class TaskObjectBuilder extends fb.ObjectBuilder {
-  final String _dataId;
+  final int _id;
   final List<String> _tags;
   final String _text;
 
   TaskObjectBuilder({
-    String dataId,
+    int id,
     List<String> tags,
     String text,
   })
-      : _dataId = dataId,
+      : _id = id,
         _tags = tags,
         _text = text;
 
@@ -177,16 +177,13 @@ class TaskObjectBuilder extends fb.ObjectBuilder {
   int finish(
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
-    final int dataIdOffset = fbBuilder.writeString(_dataId);
     final int tagsOffset = _tags?.isNotEmpty == true
         ? fbBuilder.writeList(_tags.map((b) => fbBuilder.writeString(b)).toList())
         : null;
     final int textOffset = fbBuilder.writeString(_text);
 
     fbBuilder.startTable();
-    if (dataIdOffset != null) {
-      fbBuilder.addOffset(0, dataIdOffset);
-    }
+    fbBuilder.addUint32(0, _id);
     if (tagsOffset != null) {
       fbBuilder.addOffset(1, tagsOffset);
     }

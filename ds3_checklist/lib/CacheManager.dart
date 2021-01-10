@@ -7,12 +7,11 @@ class CacheManager {
     return _cache[key];
   }
 
-  static void invalidate<K>(K k) {
-    _cache.remove(k.toString());
+  static void invalidate(String k) {
+    _cache.remove(k);
   }
 
   static Future<T> getOrInit<T>(String key, Future<T> init()) async {
-    print("CacheManager got key = $key");
     if (_cache.containsKey(key)) {
       return _cache[key];
     } else {
