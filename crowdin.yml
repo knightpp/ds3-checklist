@@ -1,3 +1,5 @@
 files:
   - source: /i18n/en/*.json
     translation: /i18n/%two_letters_code%/%original_file_name%
+  - source: /i18n/flutter/app_en.arb
+    translation: /i18n/flutter/app_%two_letters_code%.arb
