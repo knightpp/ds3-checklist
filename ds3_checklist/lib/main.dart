@@ -9,13 +9,6 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-class Constants {
-  static const String Settings = "Settings";
-  static const String About = "About";
-
-  static const List<String> choices = <String>[Settings, About];
-}
-
 void openLink(String text, String href, String title) async {
   if (await canLaunch(href)) {
     await launch(href);
@@ -137,37 +130,38 @@ class _MyAppState extends State<MyApp> {
 class CustomPopupMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    void _onSelected(String choice) {
-      switch (choice) {
-        case Constants.Settings:
-          {
-            Navigator.of(context)
-                .push(MaterialPageRoute(builder: (context) => Settings()));
-            break;
-          }
-        case Constants.About:
-          {
-            Navigator.of(context)
-                .push(MaterialPageRoute(builder: (context) => About()));
-            break;
-          }
-      }
-    }
+    final loc = AppLocalizations.of(context)!;
+    final settings = loc.mainMenuItemSettings;
+    final about = loc.mainMenuItemAbout;
 
     return PopupMenuButton<String>(
         offset: Offset(0, 20),
         color: Colors.grey[200],
-        tooltip: AppLocalizations.of(context)!.mainMenuSettingsPopUp,
+        tooltip: loc.mainMenuSettingsPopUp,
         elevation: 3,
-        initialValue: Constants.choices[0],
-        onSelected: _onSelected,
+        initialValue: settings,
+        onSelected: (choice) {
+          if (choice == settings) {
+            Navigator.of(context)
+                .push(MaterialPageRoute(builder: (context) => Settings()));
+          } else if (choice == about) {
+            Navigator.of(context)
+                .push(MaterialPageRoute(builder: (context) => About()));
+          } else {
+            print("Warn: not settings nor about = $choice");
+          }
+        },
         itemBuilder: (context) {
-          return Constants.choices.map((String choice) {
-            return PopupMenuItem(
-              child: Text(choice),
-              value: choice,
-            );
-          }).toList();
+          return [
+            PopupMenuItem(
+              child: Text(settings),
+              value: settings,
+            ),
+            PopupMenuItem(
+              child: Text(about),
+              value: about,
+            ),
+          ];
         });
   }
 }

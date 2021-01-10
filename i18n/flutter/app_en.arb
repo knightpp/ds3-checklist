@@ -1,5 +1,7 @@
 {
   "mainMenuSettingsPopUp": "Menu",
+  "mainMenuItemSettings": "Settings",
+  "mainMenuItemAbout": "About",
   "usedResources": "Used resources",
   "createdBy": "Created by",
   "aboutUsedResource": "Check out $link by Zachary Kjellberg",
