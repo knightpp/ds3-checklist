@@ -284,64 +284,64 @@
         "item_names": [
             {
                 "id": 65,
-                "name": "[Dagger](http://darksouls3.wiki.fextralife.com/Dagger)"
+                "name": "[Кинжал](https://darksouls.fandom.com/ru/wiki/Кинжал_(Dark_Souls_III))"
             },
             {
                 "id": 66,
-                "name": "[Parrying Dagger](http://darksouls3.wiki.fextralife.com/Parrying+Dagger)"
+                "name": "[Дага](https://darksouls.fandom.com/ru/wiki/Дага_(Dark_Souls_III))"
             },
             {
                 "id": 67,
-                "name": "[Mail Breaker](http://darksouls3.wiki.fextralife.com/Mail+Breaker)"
+                "name": "[Панцербрехер](https://darksouls.fandom.com/ru/wiki/Панцербрехер_(Dark_Souls_III))"
             },
             {
                 "id": 68,
-                "name": "[Harpe](http://darksouls3.wiki.fextralife.com/Harpe)"
+                "name": "[Серп](https://darksouls.fandom.com/ru/wiki/Серп)"
             },
             {
                 "id": 69,
-                "name": "[Bandit's Knife](http://darksouls3.wiki.fextralife.com/Bandit's+Knife)"
+                "name": "[Нож бандита](https://darksouls.fandom.com/ru/wiki/Нож_бандита_(Dark_Souls_III))"
             },
             {
                 "id": 70,
-                "name": "[Rotten Ghru Dagger](http://darksouls3.wiki.fextralife.com/Rotten+Ghru+Dagger)"
+                "name": "[Ржавый кинжал мозгляка](https://darksouls.fandom.com/ru/wiki/Ржавый_кинжал_мозгляка)"
             },
             {
                 "id": 71,
-                "name": "[Corvian Greatknife](http://darksouls3.wiki.fextralife.com/Corvian+Greatknife)"
+                "name": "[Тесак демона-ворона](https://darksouls.fandom.com/ru/wiki/Тесак_демона-ворона)"
             },
             {
                 "id": 72,
-                "name": "[Murky Hand Scythe](http://darksouls3.wiki.fextralife.com/Murky+Hand+Scythe)"
+                "name": "[Мрачный серп](https://darksouls.fandom.com/ru/wiki/Мрачный_серп)"
             },
             {
                 "id": 73,
-                "name": "[Handmaid's Dagger](http://darksouls3.wiki.fextralife.com/Handmaid's+Dagger)"
+                "name": "[Кинжал служанки](https://darksouls.fandom.com/ru/wiki/Кинжал_служанки)"
             },
             {
                 "id": 74,
-                "name": "[Scholar's Candlestick](http://darksouls3.wiki.fextralife.com/Scholar's+Candlestick)"
+                "name": "[Канделябр ученого](https://darksouls.fandom.com/ru/wiki/Канделябр_ученого)"
             },
             {
                 "id": 75,
-                "name": "[Aquamarine Dagger](http://darksouls3.wiki.fextralife.com/Aquamarine+Dagger)"
+                "name": "[Аквамариновый кинжал](https://darksouls.fandom.com/ru/wiki/Аквамариновый_кинжал)"
             },
             {
                 "id": 76,
-                "name": "[Tailbone Short Sword](http://darksouls3.wiki.fextralife.com/Tailbone+Short+Sword)"
+                "name": "[Костяной кинжал](https://darksouls.fandom.com/ru/wiki/Костяной_кинжал)"
             },
             {
                 "id": 77,
-                "name": "[Brigand Twindaggers](http://darksouls3.wiki.fextralife.com/Brigand+Twindaggers)"
+                "name": "[Кинжалы разбойника](https://darksouls.fandom.com/ru/wiki/Кинжалы_разбойника)"
             }
         ]
     },
     {
-        "category": "Straight Swords",
+        "category": "Мечи",
         "item_names": [
             {
                 "id": 78,
-                "name": "[Shortsword](http://darksouls3.wiki.fextralife.com/Shortsword)"
+                "name": "[Короткий меч](https://darksouls.fandom.com/ru/wiki/Короткий_меч_(Dark_Souls_III))"
             },
             {
                 "id": 79,
