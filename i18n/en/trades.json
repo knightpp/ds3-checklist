@@ -1,117 +1,117 @@
 [
-    {
-        "id": 0,
-        "what": "[Firebomb](http://darksouls3.wiki.fextralife.com/Firebomb) or [Rope Firebomb](http://darksouls3.wiki.fextralife.com/Rope+Firebomb)",
-        "for_": "[Large Titanite Shard](http://darksouls3.wiki.fextralife.com/Large+Titanite+Shard)"
-    },
-    {
-        "id": 1,
-        "what": "[Black Firebomb](http://darksouls3.wiki.fextralife.com/Black+Firebomb) or [Rope Black Firebomb](http://darksouls3.wiki.fextralife.com/Rope+Black+Firebomb)",
-        "for_": "[Titanite Chunk](http://darksouls3.wiki.fextralife.com/Titanite+Chunk)"
-    },
-    {
-        "id": 2,
-        "what": "[Prism Stone](http://darksouls3.wiki.fextralife.com/Prism+Stone)",
-        "for_": "[Twinkling Titanite](http://darksouls3.wiki.fextralife.com/Twinkling+Titanite)"
-    },
-    {
-        "id": 3,
-        "what": "[Loretta's Bone](http://darksouls3.wiki.fextralife.com/Loretta's+Bone)",
-        "for_": "[Ring of Sacrifice](http://darksouls3.wiki.fextralife.com/Ring+of+Sacrifice)"
-    },
-    {
-        "id": 4,
-        "what": "[Avelyn](http://darksouls3.wiki.fextralife.com/+Avelyn)",
-        "for_": "[Titanite Scale x3](http://darksouls3.wiki.fextralife.com/Titanite+Scale)"
-    },
-    {
-        "id": 5,
-        "what": "[Coiled Sword Fragment](http://darksouls3.wiki.fextralife.com/Coiled+Sword+Fragment)",
-        "for_": "[Titanite Slab](http://darksouls3.wiki.fextralife.com/Titanite+Slab)"
-    },
-    {
-        "id": 6,
-        "what": "[Lightning Urn](http://darksouls3.wiki.fextralife.com/Lightning+Urn)",
-        "for_": "[Iron Helm](http://darksouls3.wiki.fextralife.com/Iron+Helm)"
-    },
-    {
-        "id": 7,
-        "what": "[Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone)",
-        "for_": "[Iron Bracelets](http://darksouls3.wiki.fextralife.com/Iron+Bracelets)"
-    },
-    {
-        "id": 8,
-        "what": "[Seed of a Giant Tree](http://darksouls3.wiki.fextralife.com/Seed+of+a+Giant+Tree)",
-        "for_": "[Iron Leggings](http://darksouls3.wiki.fextralife.com/Iron+Leggings)"
-    },
-    {
-        "id": 9,
-        "what": "[Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbrau)",
-        "for_": "[Armor of the Sun](http://darksouls3.wiki.fextralife.com/Armor+of+the+Sun)"
-    },
-    {
-        "id": 10,
-        "what": "[Vertebra Shackle](http://darksouls3.wiki.fextralife.com/Vertebra+Shackle)",
-        "for_": "[Lucatiel Mask](http://darksouls3.wiki.fextralife.com/Lucatiel+Mask)"
-    },
-    {
-        "id": 11,
-        "what": "[Divine Blessing](http://darksouls3.wiki.fextralife.com/Divine+Blessing)",
-        "for_": "[Very Good Carving](http://darksouls3.wiki.fextralife.com/Very+Good+Carving)"
-    },
-    {
-        "id": 12,
-        "what": "[Hidden Blessing](http://darksouls3.wiki.fextralife.com/Hidden+Blessing)",
-        "for_": "[Thank You Carving](http://darksouls3.wiki.fextralife.com/Thank+You+Carving)"
-    },
-    {
-        "id": 13,
-        "what": "[Alluring Skull](http://darksouls3.wiki.fextralife.com/Alluring+Skull)",
-        "for_": "[Hello Carving](http://darksouls3.wiki.fextralife.com/Hello+Carving)"
-    },
-    {
-        "id": 14,
-        "what": "[Undead Bone Shard](http://darksouls3.wiki.fextralife.com/Undead+Bone+Shard)",
-        "for_": "[Porcine Shield](http://darksouls3.wiki.fextralife.com/Porcine+Shield)"
-    },
-    {
-        "id": 15,
-        "what": "any [Sacred Chime](http://darksouls3.wiki.fextralife.com/Sacred+Chimes)",
-        "for_": "[Help Me Carving](http://darksouls3.wiki.fextralife.com/Help+Me+Carving)"
-    },
-    {
-        "id": 16,
-        "what": "[Shriving Stone](http://darksouls3.wiki.fextralife.com/Shriving+Stone)",
-        "for_": "[I'm Sorry Carving](http://darksouls3.wiki.fextralife.com/I'm+Sorry+Carving)"
-    },
-    {
-        "id": 17,
-        "what": "[Xanthous Crown](http://darksouls3.wiki.fextralife.com/Xanthous+Crown)",
-        "for_": "[Lightning Gem](http://darksouls3.wiki.fextralife.com/Lightning+Gem)"
-    },
-    {
-        "id": 18,
-        "what": "[Mendicant's Staff](http://darksouls3.wiki.fextralife.com/Mendicant's+Staff)",
-        "for_": "[Sunlight Shield](http://darksouls3.wiki.fextralife.com/Sunlight+Shield)"
-    },
-    {
-        "id": 19,
-        "what": "[Blacksmith Hammer](http://darksouls3.wiki.fextralife.com/Blacksmith+Hammer)",
-        "for_": "[Titanite Scale](http://darksouls3.wiki.fextralife.com/Titanite+Scale)"
-    },
-    {
-        "id": 20,
-        "what": "[Large Leather Shield](http://darksouls3.wiki.fextralife.com/Large+Leather+Shield)",
-        "for_": "[Twinkling Titanite](http://darksouls3.wiki.fextralife.com/Twinkling+Titanite)"
-    },
-    {
-        "id": 21,
-        "what": "[Moaning Shield](http://darksouls3.wiki.fextralife.com/Moaning+Shield)",
-        "for_": "[Blessed Gem](http://darksouls3.wiki.fextralife.com/Blessed+Gem)"
-    },
-    {
-        "id": 22,
-        "what": "[Eleonora](http://darksouls3.wiki.fextralife.com/Eleonora)",
-        "for_": "[Hollow Gem](http://darksouls3.wiki.fextralife.com/Hollow+Gem)"
-    }
+  {
+    "id": 0,
+    "what": "[Firebomb](http://darksouls3.wiki.fextralife.com/Firebomb) or [Rope Firebomb](http://darksouls3.wiki.fextralife.com/Rope+Firebomb)",
+    "for_": "[Large Titanite Shard](http://darksouls3.wiki.fextralife.com/Large+Titanite+Shard)"
+  },
+  {
+    "id": 1,
+    "what": "[Black Firebomb](http://darksouls3.wiki.fextralife.com/Black+Firebomb) or [Rope Black Firebomb](http://darksouls3.wiki.fextralife.com/Rope+Black+Firebomb)",
+    "for_": "[Titanite Chunk](http://darksouls3.wiki.fextralife.com/Titanite+Chunk)"
+  },
+  {
+    "id": 2,
+    "what": "[Prism Stone](http://darksouls3.wiki.fextralife.com/Prism+Stone)",
+    "for_": "[Twinkling Titanite](http://darksouls3.wiki.fextralife.com/Twinkling+Titanite)"
+  },
+  {
+    "id": 3,
+    "what": "[Loretta's Bone](http://darksouls3.wiki.fextralife.com/Loretta's+Bone)",
+    "for_": "[Ring of Sacrifice](http://darksouls3.wiki.fextralife.com/Ring+of+Sacrifice)"
+  },
+  {
+    "id": 4,
+    "what": "[Avelyn](http://darksouls3.wiki.fextralife.com/+Avelyn)",
+    "for_": "[Titanite Scale x3](http://darksouls3.wiki.fextralife.com/Titanite+Scale)"
+  },
+  {
+    "id": 5,
+    "what": "[Coiled Sword Fragment](http://darksouls3.wiki.fextralife.com/Coiled+Sword+Fragment)",
+    "for_": "[Titanite Slab](http://darksouls3.wiki.fextralife.com/Titanite+Slab)"
+  },
+  {
+    "id": 6,
+    "what": "[Lightning Urn](http://darksouls3.wiki.fextralife.com/Lightning+Urn)",
+    "for_": "[Iron Helm](http://darksouls3.wiki.fextralife.com/Iron+Helm)"
+  },
+  {
+    "id": 7,
+    "what": "[Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone)",
+    "for_": "[Iron Bracelets](http://darksouls3.wiki.fextralife.com/Iron+Bracelets)"
+  },
+  {
+    "id": 8,
+    "what": "[Seed of a Giant Tree](http://darksouls3.wiki.fextralife.com/Seed+of+a+Giant+Tree)",
+    "for_": "[Iron Leggings](http://darksouls3.wiki.fextralife.com/Iron+Leggings)"
+  },
+  {
+    "id": 9,
+    "what": "[Siegbräu](http://darksouls3.wiki.fextralife.com/Siegbrau)",
+    "for_": "[Armor of the Sun](http://darksouls3.wiki.fextralife.com/Armor+of+the+Sun)"
+  },
+  {
+    "id": 10,
+    "what": "[Vertebra Shackle](http://darksouls3.wiki.fextralife.com/Vertebra+Shackle)",
+    "for_": "[Lucatiel Mask](http://darksouls3.wiki.fextralife.com/Lucatiel+Mask)"
+  },
+  {
+    "id": 11,
+    "what": "[Divine Blessing](http://darksouls3.wiki.fextralife.com/Divine+Blessing)",
+    "for_": "[Very Good Carving](http://darksouls3.wiki.fextralife.com/Very+Good+Carving)"
+  },
+  {
+    "id": 12,
+    "what": "[Hidden Blessing](http://darksouls3.wiki.fextralife.com/Hidden+Blessing)",
+    "for_": "[Thank You Carving](http://darksouls3.wiki.fextralife.com/Thank+You+Carving)"
+  },
+  {
+    "id": 13,
+    "what": "[Alluring Skull](http://darksouls3.wiki.fextralife.com/Alluring+Skull)",
+    "for_": "[Hello Carving](http://darksouls3.wiki.fextralife.com/Hello+Carving)"
+  },
+  {
+    "id": 14,
+    "what": "[Undead Bone Shard](http://darksouls3.wiki.fextralife.com/Undead+Bone+Shard)",
+    "for_": "[Porcine Shield](http://darksouls3.wiki.fextralife.com/Porcine+Shield)"
+  },
+  {
+    "id": 15,
+    "what": "any [Sacred Chime](http://darksouls3.wiki.fextralife.com/Sacred+Chimes)",
+    "for_": "[Help Me Carving](http://darksouls3.wiki.fextralife.com/Help+Me+Carving)"
+  },
+  {
+    "id": 16,
+    "what": "[Shriving Stone](http://darksouls3.wiki.fextralife.com/Shriving+Stone)",
+    "for_": "[I'm Sorry Carving](http://darksouls3.wiki.fextralife.com/I'm+Sorry+Carving)"
+  },
+  {
+    "id": 17,
+    "what": "[Xanthous Crown](http://darksouls3.wiki.fextralife.com/Xanthous+Crown)",
+    "for_": "[Lightning Gem](http://darksouls3.wiki.fextralife.com/Lightning+Gem)"
+  },
+  {
+    "id": 18,
+    "what": "[Mendicant's Staff](http://darksouls3.wiki.fextralife.com/Mendicant's+Staff)",
+    "for_": "[Sunlight Shield](http://darksouls3.wiki.fextralife.com/Sunlight+Shield)"
+  },
+  {
+    "id": 19,
+    "what": "[Blacksmith Hammer](http://darksouls3.wiki.fextralife.com/Blacksmith+Hammer)",
+    "for_": "[Titanite Scale](http://darksouls3.wiki.fextralife.com/Titanite+Scale)"
+  },
+  {
+    "id": 20,
+    "what": "[Large Leather Shield](http://darksouls3.wiki.fextralife.com/Large+Leather+Shield)",
+    "for_": "[Twinkling Titanite](http://darksouls3.wiki.fextralife.com/Twinkling+Titanite)"
+  },
+  {
+    "id": 21,
+    "what": "[Moaning Shield](http://darksouls3.wiki.fextralife.com/Moaning+Shield)",
+    "for_": "[Blessed Gem](http://darksouls3.wiki.fextralife.com/Blessed+Gem)"
+  },
+  {
+    "id": 22,
+    "what": "[Eleonora](http://darksouls3.wiki.fextralife.com/Eleonora)",
+    "for_": "[Hollow Gem](http://darksouls3.wiki.fextralife.com/Hollow+Gem)"
+  }
 ]
