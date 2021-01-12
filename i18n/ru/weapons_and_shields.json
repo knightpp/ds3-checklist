@@ -369,202 +369,202 @@
             },
             {
                 "id": 85,
-                "name": "[Dark Sword](http://darksouls3.wiki.fextralife.com/Dark+Sword)"
+                "name": "[Меч тьмы](https://darksouls.fandom.com/ru/wiki/Меч_тьмы_(Dark_Souls_III))"
             },
             {
                 "id": 86,
-                "name": "[Cleric's Candlestick](http://darksouls3.wiki.fextralife.com/Cleric's+Candlestick)"
+                "name": "[Канделябр клирика](https://darksouls.fandom.com/ru/wiki/Канделябр_клирика)"
             },
             {
                 "id": 87,
-                "name": "[Irithyll Straight Sword](http://darksouls3.wiki.fextralife.com/Irithyll+Straight+Sword)"
+                "name": "[Иритилльский меч](https://darksouls.fandom.com/ru/wiki/Иритилльский_меч)"
             },
             {
                 "id": 88,
-                "name": "[Anri's Straight Sword](http://darksouls3.wiki.fextralife.com/Anri's+Straight+Sword)"
+                "name": "[Меч Анри](https://darksouls.fandom.com/ru/wiki/Меч_Анри)"
             },
             {
                 "id": 89,
-                "name": "[Sunlight Straight Sword](http://darksouls3.wiki.fextralife.com/Sunlight+Straight+Sword)"
+                "name": "[Меч Солнца](https://darksouls.fandom.com/ru/wiki/Меч_Солнца_(Dark_Souls_III))"
             },
             {
                 "id": 90,
-                "name": "[Morion Blade](http://darksouls3.wiki.fextralife.com/Morion+Blade)"
+                "name": "[Морионовый клинок](https://darksouls.fandom.com/ru/wiki/Морионовый_клинок)"
             },
             {
                 "id": 91,
-                "name": "[Ringed Knight Straight Sword](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Straight+Sword)"
+                "name": "[Меч рыцаря из города за стеной](https://darksouls.fandom.com/ru/wiki/Меч_рыцаря_из_города_за_стеной)"
             },
             {
                 "id": 92,
-                "name": "[Lothric's Holy Sword](http://darksouls3.wiki.fextralife.com/Lothric's+Holy+Sword)"
+                "name": "[Священный меч Лотрика](https://darksouls.fandom.com/ru/wiki/Священный_меч_Лотрика)"
             },
             {
                 "id": 93,
-                "name": "[Gotthard Twinswords](http://darksouls3.wiki.fextralife.com/Gotthard+Twinswords)"
+                "name": "[Мечи Готтарда](https://darksouls.fandom.com/ru/wiki/Мечи_Готтарда)"
             },
             {
                 "id": 94,
-                "name": "[Valorheart](http://darksouls3.wiki.fextralife.com/Valorheart)"
+                "name": "[Храброе сердце](https://darksouls.fandom.com/ru/wiki/Храброе_сердце)"
             }
         ]
     },
     {
-        "category": "Greatswords",
+        "category": "Двуручные мечи",
         "item_names": [
             {
                 "id": 95,
-                "name": "[Bastard Sword](http://darksouls3.wiki.fextralife.com/Bastard+Sword)"
+                "name": "[Полуторный меч](https://darksouls.fandom.com/ru/wiki/Полуторный_меч_(Dark_Souls_III))"
             },
             {
                 "id": 96,
-                "name": "[Claymore](http://darksouls3.wiki.fextralife.com/Claymore)"
+                "name": "[Клеймор](https://darksouls.fandom.com/ru/wiki/Клеймор_(Dark_Souls_III))"
             },
             {
                 "id": 97,
-                "name": "[Flamberge](http://darksouls3.wiki.fextralife.com/Flamberge)"
+                "name": "[Фламберг](https://darksouls.fandom.com/ru/wiki/Фламберг_(Dark_Souls_III))"
             },
             {
                 "id": 98,
-                "name": "[Drakeblood Greatsword](http://darksouls3.wiki.fextralife.com/Drakeblood+Greatsword)"
+                "name": "[Меч крови дракона](https://darksouls.fandom.com/ru/wiki/Меч_крови_дракона_(Dark_Souls_III))"
             },
             {
                 "id": 99,
-                "name": "[Executioner's Greatsword](http://darksouls3.wiki.fextralife.com/Executioner's+Greatsword)"
+                "name": "[Двуручный меч палача](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_палача)"
             },
             {
                 "id": 100,
-                "name": "[Black Knight Sword](http://darksouls3.wiki.fextralife.com/Black+Knight+Sword)"
+                "name": "[Меч черного рыцаря](https://darksouls.fandom.com/ru/wiki/Меч_черного_рыцаря_(Dark_Souls_III))"
             },
             {
                 "id": 101,
-                "name": "[Onyx Blade](http://darksouls3.wiki.fextralife.com/Onyx+Blade)"
+                "name": "[Ониксовый клинок](https://darksouls.fandom.com/ru/wiki/Ониксовый_клинок)"
             },
             {
                 "id": 102,
-                "name": "[Hollowslayer Greatsword](http://darksouls3.wiki.fextralife.com/Hollowslayer+Greatsword)"
+                "name": "[Меч убийцы нежити](https://darksouls.fandom.com/ru/wiki/Меч_убийцы_нежити)"
             },
             {
                 "id": 103,
-                "name": "[Wolnir's Holy Sword](http://darksouls3.wiki.fextralife.com/Wolnir's+Holy+Sword)"
+                "name": "[Священный меч Вольнира](https://darksouls.fandom.com/ru/wiki/Священный_меч_Вольнира)"
             },
             {
                 "id": 104,
-                "name": "[Greatsword of Judgment](http://darksouls3.wiki.fextralife.com/Greatsword+of+Judgment)"
+                "name": "[Меч правосудия](https://darksouls.fandom.com/ru/wiki/Меч_правосудия)"
             },
             {
                 "id": 105,
-                "name": "[Storm Ruler](http://darksouls3.wiki.fextralife.com/Storm+Ruler)"
+                "name": "[Повелитель Бурь](https://darksouls.fandom.com/ru/wiki/Повелитель_Бурь)"
             },
             {
                 "id": 106,
-                "name": "[Wolf Knight's Greatsword](http://darksouls3.wiki.fextralife.com/Wolf+Knight's+Greatsword)"
+                "name": "[Меч волчьего рыцаря](https://darksouls.fandom.com/ru/wiki/Меч_волчьего_рыцаря)"
             },
             {
                 "id": 107,
-                "name": "[Moonlight Greatsword](http://darksouls3.wiki.fextralife.com/Moonlight+Greatsword)"
+                "name": "[Меч лунного света](https://darksouls.fandom.com/ru/wiki/Меч_лунного_света_(Dark_Souls_III))"
             },
             {
                 "id": 108,
-                "name": "[Firelink Greatsword](http://darksouls3.wiki.fextralife.com/Firelink+Greatsword)"
+                "name": "[Двуручный меч огня](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_огня)"
             },
             {
                 "id": 109,
-                "name": "[Twin Princes' Greatsword](http://darksouls3.wiki.fextralife.com/Twin+Princes'+Greatsword)"
+                "name": "[Меч принцев-близнецов](https://darksouls.fandom.com/ru/wiki/Меч_принцев-близнецов)"
             },
             {
                 "id": 110,
-                "name": "[Gael's Greatsword](http://darksouls3.wiki.fextralife.com/Gael's+Greatsword)"
+                "name": "[Двуручный меч Гаэля](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_Гаэля)"
             }
         ]
     },
     {
-        "category": "Ultra Greatswords",
+        "category": "Гигантские мечи",
         "item_names": [
             {
                 "id": 111,
-                "name": "[Zweihander](http://darksouls3.wiki.fextralife.com/Zweihander)"
+                "name": "[Цвайхендер](https://darksouls.fandom.com/ru/wiki/Цвайхендер_(Dark_Souls_III))"
             },
             {
                 "id": 112,
-                "name": "[Greatsword](http://darksouls3.wiki.fextralife.com/Greatsword)"
+                "name": "[Двуручный меч](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_(Dark_Souls_III))"
             },
             {
                 "id": 113,
-                "name": "[Astora Greatsword](http://darksouls3.wiki.fextralife.com/Astora+Greatsword)"
+                "name": "[Асторский двуручный меч](https://darksouls.fandom.com/ru/wiki/Асторский_двуручный_меч)"
             },
             {
                 "id": 114,
-                "name": "[Lothric Knight Greatsword](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Greatsword)"
+                "name": "[Двуручный меч рыцаря Лотрика](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_рыцаря_Лотрика)"
             },
             {
                 "id": 115,
-                "name": "[Cathedral Knight Greatsword](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Greatsword)"
+                "name": "[Меч храмовника](https://darksouls.fandom.com/ru/wiki/Меч_храмовника)"
             },
             {
                 "id": 116,
-                "name": "[Black Knight Greatsword](http://darksouls3.wiki.fextralife.com/Black+Knight+Greatsword)"
+                "name": "[Двуручный меч черного рыцаря](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_черного_рыцаря_(Dark_Souls_III))"
             },
             {
                 "id": 117,
-                "name": "[Fume Ultra Greatsword](http://darksouls3.wiki.fextralife.com/Fume+Ultra+Greatsword)"
+                "name": "[Гигантский дымный меч](https://darksouls.fandom.com/ru/wiki/Гигантский_дымный_меч_(Dark_Souls_III))"
             },
             {
                 "id": 118,
-                "name": "[Profaned Greatsword](http://darksouls3.wiki.fextralife.com/Profaned+Greatsword)"
+                "name": "[Меч скверны](https://darksouls.fandom.com/ru/wiki/Меч_скверны)"
             },
             {
                 "id": 119,
-                "name": "[Lorian's Greatsword](http://darksouls3.wiki.fextralife.com/Lorian's+Greatsword)"
+                "name": "[Меч Лориана](https://darksouls.fandom.com/ru/wiki/Меч_Лориана)"
             },
             {
                 "id": 120,
-                "name": "[Ringed Knight Paired Greatswords](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Paired+Greatswords)"
+                "name": "[Мечи рыцарей из города за стеной](https://darksouls.fandom.com/ru/wiki/Мечи_рыцарей_из_города_за_стеной)"
             },
             {
                 "id": 121,
-                "name": "[Farron Greatsword](http://darksouls3.wiki.fextralife.com/Farron+Greatsword)"
+                "name": "[Меч Фаррона](https://darksouls.fandom.com/ru/wiki/Меч_Фаррона)"
             }
         ]
     },
     {
-        "category": "Curved Swords",
+        "category": "Изогнутые мечи",
         "item_names": [
             {
                 "id": 122,
-                "name": "[Scimitar](http://darksouls3.wiki.fextralife.com/Scimitar)"
+                "name": "[Скимитар](https://darksouls.fandom.com/ru/wiki/Скимитар_(Dark_Souls_III))"
             },
             {
                 "id": 123,
-                "name": "[Falchion](http://darksouls3.wiki.fextralife.com/Falchion)"
+                "name": "[Фальшион](https://darksouls.fandom.com/ru/wiki/Фальшион_(Dark_Souls_III))"
             },
             {
                 "id": 124,
-                "name": "[Shotel](http://darksouls3.wiki.fextralife.com/Shotel)"
+                "name": "[Шотел](https://darksouls.fandom.com/ru/wiki/Шотел_(Dark_Souls_III))"
             },
             {
                 "id": 125,
-                "name": "[Carthus Curved Sword](http://darksouls3.wiki.fextralife.com/Carthus+Curved+Sword)"
+                "name": "[Картусская сабля](https://darksouls.fandom.com/ru/wiki/Картусская_сабля)"
             },
             {
                 "id": 126,
-                "name": "[Carthus Shotel](http://darksouls3.wiki.fextralife.com/Carthus+Shotel)"
+                "name": "[Картусский шотел](https://darksouls.fandom.com/ru/wiki/Картусский_шотел)"
             },
             {
                 "id": 127,
-                "name": "[Rotten Ghru Curved Sword](http://darksouls3.wiki.fextralife.com/Rotten+Ghru+Curved+Sword)"
+                "name": "[Ржавый изогнутый меч мозгляка](https://darksouls.fandom.com/ru/wiki/Ржавый_изогнутый_меч_мозгляка)"
             },
             {
                 "id": 128,
-                "name": "[Painting Guardian's Curved Sword](http://darksouls3.wiki.fextralife.com/Painting+Guardian's+Curved+Sword)"
+                "name": "[Сабля стража картин](https://darksouls.fandom.com/ru/wiki/Сабля_стража_картин)"
             },
             {
                 "id": 129,
-                "name": "[Follower Sabre](http://darksouls3.wiki.fextralife.com/Follower+Sabre)"
+                "name": "[Сабля преследователя](https://darksouls.fandom.com/ru/wiki/Сабля_преследователя)"
             },
             {
                 "id": 130,
-                "name": "[Pontiff Knight Curved Sword](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Curved+Sword)"
+                "name": "[Сабля рыцаря понтифика](https://darksouls.fandom.com/ru/wiki/Сабля_рыцаря_понтифика)"
             },
             {
                 "id": 131,
