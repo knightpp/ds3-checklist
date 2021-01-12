@@ -568,65 +568,65 @@
             },
             {
                 "id": 131,
-                "name": "[Crescent Moon Sword](http://darksouls3.wiki.fextralife.com/Crescent+Moon+Sword)"
+                "name": "[Меч-полумесяц](https://darksouls.fandom.com/ru/wiki/Меч-полумесяц)"
             },
             {
                 "id": 132,
-                "name": "[Storm Curved Sword](http://darksouls3.wiki.fextralife.com/Storm+Curved+Sword)"
+                "name": "[Клинок бури](https://darksouls.fandom.com/ru/wiki/Клинок_бури)"
             },
             {
                 "id": 133,
-                "name": "[Demon's Scar](http://darksouls3.wiki.fextralife.com/Demon's+Scar)"
+                "name": "[Метка демона](https://darksouls.fandom.com/ru/wiki/Метка_демона)"
             },
             {
                 "id": 134,
-                "name": "[Sellsword Twinblades](http://darksouls3.wiki.fextralife.com/Sellsword+Twinblades)"
+                "name": "[Скимитары наемника](https://darksouls.fandom.com/ru/wiki/Скимитары_наемника)"
             },
             {
                 "id": 135,
-                "name": "[Warden Twinblades](http://darksouls3.wiki.fextralife.com/Warden+Twinblades)"
+                "name": "[Клинки хранителя](https://darksouls.fandom.com/ru/wiki/Клинки_хранителя)"
             },
             {
                 "id": 136,
-                "name": "[Dancer's Enchanted Swords](http://darksouls3.wiki.fextralife.com/Dancer's+Enchanted+Swords)"
+                "name": "[Зачарованные мечи танцовщицы](https://darksouls.fandom.com/ru/wiki/Зачарованные_мечи_танцовщицы)"
             }
         ]
     },
     {
-        "category": "Curved Greatswords",
+        "category": "Изогнутые двуручные мечи",
         "item_names": [
             {
                 "id": 137,
-                "name": "[Murakumo](http://darksouls3.wiki.fextralife.com/Murakumo)"
+                "name": "[Муракумо](https://darksouls.fandom.com/ru/wiki/Муракумо_(Dark_Souls_III))"
             },
             {
                 "id": 138,
-                "name": "[Carthus Curved Greatsword](http://darksouls3.wiki.fextralife.com/Carthus+Curved+Greatsword)"
+                "name": "[Картусский изогнутый двуручный меч](https://darksouls.fandom.com/ru/wiki/Картусский_изогнутый_двуручный_меч)"
             },
             {
                 "id": 139,
-                "name": "[Exile Greatsword](http://darksouls3.wiki.fextralife.com/Exile+Greatsword)"
+                "name": "[Двуручный меч изгнанника](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_изгнанника)"
             },
             {
                 "id": 140,
-                "name": "[Harald Curved Greatsword](http://darksouls3.wiki.fextralife.com/Harald+Curved+Greatsword)"
+                "name": "[Изогнутый двуручный меч Харальда](https://darksouls.fandom.com/ru/wiki/Изогнутый_двуручный_меч_Харальда)"
             },
             {
                 "id": 141,
-                "name": "[Old Wolf Curved Sword](http://darksouls3.wiki.fextralife.com/Old+Wolf+Curved+Sword)"
+                "name": "[Изогнутый меч старого волка](https://darksouls.fandom.com/ru/wiki/Изогнутый_меч_старого_волка)"
             }
         ]
     },
     {
-        "category": "Thrusting Swords",
+        "category": "Колющие мечи",
         "item_names": [
             {
                 "id": 142,
-                "name": "[Rapier](http://darksouls3.wiki.fextralife.com/Rapier)"
+                "name": "[Рапира](https://darksouls.fandom.com/ru/wiki/Рапира_(Dark_Souls_III))"
             },
             {
                 "id": 143,
-                "name": "[Estoc](http://darksouls3.wiki.fextralife.com/Estoc)"
+                "name": "[Эсток](https://darksouls.fandom.com/ru/wiki/Эсток_(Dark_Souls_III))"
             },
             {
                 "id": 144,
