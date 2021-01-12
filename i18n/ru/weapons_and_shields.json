@@ -1,6 +1,6 @@
 [
     {
-        "category": "Torches",
+        "category": "Факелы",
         "item_names": [
             {
                 "id": 0,
@@ -8,7 +8,7 @@
             },
             {
                 "id": 1,
-                "name": "[Follower Torch](http://darksouls3.wiki.fextralife.com/Follower+Torch)"
+                "name": "[Факел преследователя](https://darksouls.fandom.com/ru/wiki/Факел_преследователя)"
             }
         ]
     },
@@ -17,80 +17,80 @@
         "item_names": [
             {
                 "id": 2,
-                "name": "[Buckler](http://darksouls3.wiki.fextralife.com/Buckler)"
+                "name": "[Баклер](https://darksouls.fandom.com/ru/wiki/Баклер_(Dark_Souls_III))"
             },
             {
                 "id": 3,
-                "name": "[Target Shield](http://darksouls3.wiki.fextralife.com/Target+Shield)"
+                "name": "[Тарджет](https://darksouls.fandom.com/ru/wiki/Тарджет_(Dark_Souls_III))"
             },
             {
                 "id": 4,
-                "name": "[Small Leather Shield](http://darksouls3.wiki.fextralife.com/Small+Leather+Shield)"
+                "name": "[Малый кожаный щит](https://darksouls.fandom.com/ru/wiki/Малый_кожаный_щит_(Dark_Souls_III))"
             },
             {
                 "id": 5,
-                "name": "[Leather Shield](http://darksouls3.wiki.fextralife.com/Leather+Shield)"
+                "name": "[Кожаный щит](https://darksouls.fandom.com/ru/wiki/Кожаный_щит_(Dark_Souls_III))"
             },
             {
                 "id": 6,
-                "name": "[Crimson Parma](http://darksouls3.wiki.fextralife.com/Crimson+Parma)"
+                "name": "[Алая парма](https://darksouls.fandom.com/ru/wiki/Алая_парма_(Dark_Souls_III))"
             },
             {
                 "id": 7,
-                "name": "[Red and White Round Shield](http://darksouls3.wiki.fextralife.com/Red+and+White+Shield)"
+                "name": "[Красно-белый щит](https://darksouls.fandom.com/ru/wiki/Красно-белый_щит_(Dark_Souls_III))"
             },
             {
                 "id": 8,
-                "name": "[Caduceus Round Shield](http://darksouls3.wiki.fextralife.com/Caduceus+Round+Shield)"
+                "name": "[Круглый щит с кадуцеем](https://darksouls.fandom.com/ru/wiki/Круглый_щит_с_кадуцеем_(Dark_Souls_III))"
             },
             {
                 "id": 9,
-                "name": "[Elkhorn Round Shield](http://darksouls3.wiki.fextralife.com/Elkhorn+Round+Shield)"
+                "name": "[Щит с рогами](https://darksouls.fandom.com/ru/wiki/Щит_с_рогами)"
             },
             {
                 "id": 10,
-                "name": "[Warrior's Round Shield](http://darksouls3.wiki.fextralife.com/Warrior's+Round+Shield)"
+                "name": "[Воинский круглый щит](https://darksouls.fandom.com/ru/wiki/Воинский_круглый_щит_(Dark_Souls_III))"
             },
             {
                 "id": 11,
-                "name": "[Plank Shield](http://darksouls3.wiki.fextralife.com/Plank+Shield)"
+                "name": "[Дощатый щит](https://darksouls.fandom.com/ru/wiki/Дощатый_щит_(Dark_Souls_III))"
             },
             {
                 "id": 12,
-                "name": "[Ghru Rotshield](http://darksouls3.wiki.fextralife.com/Ghru+Rotshield)"
+                "name": "[Ржавый щит мозгляка](https://darksouls.fandom.com/ru/wiki/Ржавый_щит_мозгляка)"
             },
             {
                 "id": 13,
-                "name": "[Iron Round Shield](http://darksouls3.wiki.fextralife.com/Iron+Round+Shield)"
+                "name": "[Железный щит](https://darksouls.fandom.com/ru/wiki/Железный_щит_(Dark_Souls_III))"
             },
             {
                 "id": 14,
-                "name": "[Hawkwood's Shield](http://darksouls3.wiki.fextralife.com/Hawkwood's+Shield)"
+                "name": "[Щит Хоквуда](https://darksouls.fandom.com/ru/wiki/Щит_Хоквуда)"
             },
             {
                 "id": 15,
-                "name": "[Llewellyn Shield](http://darksouls3.wiki.fextralife.com/Llewellyn+Shield)"
+                "name": "[Щит Ллевеллина](https://darksouls.fandom.com/ru/wiki/Щит_Ллевеллина_(Dark_Souls_III))"
             },
             {
                 "id": 16,
-                "name": "[Eastern Iron Shield](http://darksouls3.wiki.fextralife.com/Eastern+Iron+Shield)"
+                "name": "[Восточный железный щит](https://darksouls.fandom.com/ru/wiki/Восточный_железный_щит)"
             },
             {
                 "id": 17,
-                "name": "[Golden Falcon Shield](http://darksouls3.wiki.fextralife.com/Golden+Falcon+Shield)"
+                "name": "[Щит-сокол](https://darksouls.fandom.com/ru/wiki/Щит-сокол_(Dark_Souls_III))"
             },
             {
                 "id": 18,
-                "name": "[Sacred Bloom Shield](http://darksouls3.wiki.fextralife.com/Sacred+Bloom+Shield)"
+                "name": "[Священный цветок](https://darksouls.fandom.com/ru/wiki/Священный_цветок)"
             },
             {
                 "id": 19,
-                "name": "[Dragonhead Shield](http://darksouls3.wiki.fextralife.com/Dragonhead+Shield)"
+                "name": "[Щит с драконьей головой](https://darksouls.fandom.com/ru/wiki/Щит_с_драконьей_головой)"
             }
         ]
     },
     {
-        "category": "Shields",
+        "category": "Стандартные щиты",
         "item_names": [
             {
                 "id": 20,
