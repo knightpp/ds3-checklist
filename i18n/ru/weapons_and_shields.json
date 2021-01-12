@@ -4,7 +4,7 @@
         "item_names": [
             {
                 "id": 0,
-                "name": "[Torch](http://darksouls3.wiki.fextralife.com/Torch)"
+                "name": "[Факел](https://darksouls.fandom.com/ru/wiki/Факел_(Dark_Souls_III))"
             },
             {
                 "id": 1,
@@ -13,7 +13,7 @@
         ]
     },
     {
-        "category": "Small Shields",
+        "category": "Малые щиты",
         "item_names": [
             {
                 "id": 2,
