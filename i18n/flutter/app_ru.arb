@@ -1,7 +1,7 @@
 {
     "mainMenuSettingsPopUp": "Меню",
-    "mainMenuItemSettings": "Settings",
-    "mainMenuItemAbout": "About",
+    "mainMenuItemSettings": "Настройки",
+    "mainMenuItemAbout": "О программе",
     "usedResources": "Использованные ресурсы",
     "createdBy": "Разработчики",
     "aboutUsedResource": "Загляните на сайт $link от Захари Кьелберг",

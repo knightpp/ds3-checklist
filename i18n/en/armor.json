@@ -1,1466 +1,1466 @@
 [
-  {
-    "category": "Head",
-    "gear_names": [
-      {
-        "id": 0,
-        "name": "[Standard Helm](http://darksouls3.wiki.fextralife.com/Standard+Helm)"
-      },
-      {
-        "id": 1,
-        "name": "[Brigand Hood](http://darksouls3.wiki.fextralife.com/Brigand+Hood)"
-      },
-      {
-        "id": 2,
-        "name": "[Lucatiel's Mask](http://darksouls3.wiki.fextralife.com/Lucatiel's+Mask)"
-      },
-      {
-        "id": 3,
-        "name": "[Chain Helm](http://darksouls3.wiki.fextralife.com/Chain+Helm)"
-      },
-      {
-        "id": 4,
-        "name": "[Northern Helm](http://darksouls3.wiki.fextralife.com/Northern+Helm)"
-      },
-      {
-        "id": 5,
-        "name": "[Creighton's Steel Mask](http://darksouls3.wiki.fextralife.com/Creighton's+Steel+Mask)"
-      },
-      {
-        "id": 6,
-        "name": "[Iron Helm](http://darksouls3.wiki.fextralife.com/Iron+Helm)"
-      },
-      {
-        "id": 7,
-        "name": "[Sellsword Helm](http://darksouls3.wiki.fextralife.com/Sellsword+Helm)"
-      },
-      {
-        "id": 8,
-        "name": "[Follower Helm](http://darksouls3.wiki.fextralife.com/Follower+Helm)"
-      },
-      {
-        "id": 9,
-        "name": "[Shira's Crown](http://darksouls3.wiki.fextralife.com/Shira's+Crown)"
-      },
-      {
-        "id": 10,
-        "name": "[Undead Legion Helm](http://darksouls3.wiki.fextralife.com/Undead+Legion+Helm)"
-      },
-      {
-        "id": 11,
-        "name": "[Herald Helm](http://darksouls3.wiki.fextralife.com/Herald+Helm)"
-      },
-      {
-        "id": 12,
-        "name": "[Knight Helm](http://darksouls3.wiki.fextralife.com/Knight+Helm)"
-      },
-      {
-        "id": 13,
-        "name": "[Nameless Knight Helm](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Helm)"
-      },
-      {
-        "id": 14,
-        "name": "[Fallen Knight Helm](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Helm)"
-      },
-      {
-        "id": 15,
-        "name": "[Elite Knight Helm](http://darksouls3.wiki.fextralife.com/Elite+Knight+Helm)"
-      },
-      {
-        "id": 16,
-        "name": "[Alva Helm](http://darksouls3.wiki.fextralife.com/Alva+Helm)"
-      },
-      {
-        "id": 17,
-        "name": "[Drakeblood Helm](http://darksouls3.wiki.fextralife.com/Drakeblood+Helm)"
-      },
-      {
-        "id": 18,
-        "name": "[Faraam Helm](http://darksouls3.wiki.fextralife.com/Faraam+Helm)"
-      },
-      {
-        "id": 19,
-        "name": "[Sunset Helm](http://darksouls3.wiki.fextralife.com/Sunset+Helm)"
-      },
-      {
-        "id": 20,
-        "name": "[Sunless Veil](http://darksouls3.wiki.fextralife.com/Sunless+Veil)"
-      },
-      {
-        "id": 21,
-        "name": "[Brass Helm](http://darksouls3.wiki.fextralife.com/Brass+Helm)"
-      },
-      {
-        "id": 22,
-        "name": "[Slave Knight Hood](http://darksouls3.wiki.fextralife.com/Slave+Knight+Hood)"
-      },
-      {
-        "id": 23,
-        "name": "[Vilhelm's Helm](http://darksouls3.wiki.fextralife.com/Vilhelm's+Helm)"
-      },
-      {
-        "id": 24,
-        "name": "[Helm of Favor](http://darksouls3.wiki.fextralife.com/Helm+of+Favor)"
-      },
-      {
-        "id": 25,
-        "name": "[Eastern Helm](http://darksouls3.wiki.fextralife.com/Eastern+Helm)"
-      },
-      {
-        "id": 26,
-        "name": "[Helm of Thorns](http://darksouls3.wiki.fextralife.com/Helm+of+Thorns)"
-      },
-      {
-        "id": 27,
-        "name": "[Catarina Helm](http://darksouls3.wiki.fextralife.com/Catarina+Helm)"
-      },
-      {
-        "id": 28,
-        "name": "[Morne's Helm](http://darksouls3.wiki.fextralife.com/Morne's+Helm)"
-      },
-      {
-        "id": 29,
-        "name": "[Lapp's Helm](http://darksouls3.wiki.fextralife.com/Lapp's+Helm)"
-      },
-      {
-        "id": 30,
-        "name": "[Lothric Knight Helm](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Helm)"
-      },
-      {
-        "id": 31,
-        "name": "[Cathedral Knight Helm](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Helm)"
-      },
-      {
-        "id": 32,
-        "name": "[Winged Knight Helm](http://darksouls3.wiki.fextralife.com/Winged+Knight+Helm)"
-      },
-      {
-        "id": 33,
-        "name": "[Millwood Knight Helm](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Helm)"
-      },
-      {
-        "id": 34,
-        "name": "[Ruin Helm](http://darksouls3.wiki.fextralife.com/Ruin+Helm)"
-      },
-      {
-        "id": 35,
-        "name": "[Outrider Knight Helm](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Helm)"
-      },
-      {
-        "id": 36,
-        "name": "[Pontiff Knight Crown](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Crown)"
-      },
-      {
-        "id": 37,
-        "name": "[Fire Witch Helm](http://darksouls3.wiki.fextralife.com/Fire+Witch+Helm)"
-      },
-      {
-        "id": 38,
-        "name": "[Dancer's Crown](http://darksouls3.wiki.fextralife.com/Dancer's+Crown)"
-      },
-      {
-        "id": 39,
-        "name": "[Dark Mask](http://darksouls3.wiki.fextralife.com/Dark+Mask)"
-      },
-      {
-        "id": 40,
-        "name": "[Black Knight Helm](http://darksouls3.wiki.fextralife.com/Black+Knight+Helm)"
-      },
-      {
-        "id": 41,
-        "name": "[Silver Knight Helm](http://darksouls3.wiki.fextralife.com/Silver+Knight+Helm)"
-      },
-      {
-        "id": 42,
-        "name": "[Ringed Knight Hood](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Hood)"
-      },
-      {
-        "id": 43,
-        "name": "[Dragonslayer Helm](http://darksouls3.wiki.fextralife.com/Dragonslayer+Helm)"
-      },
-      {
-        "id": 44,
-        "name": "[Wolf Knight Helm](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Helm)"
-      },
-      {
-        "id": 45,
-        "name": "[Smough's Helm](http://darksouls3.wiki.fextralife.com/Smough's+Helm)"
-      },
-      {
-        "id": 46,
-        "name": "[Iron Dragonslayer Helm](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Helm)"
-      },
-      {
-        "id": 47,
-        "name": "[Lorian's Helm](http://darksouls3.wiki.fextralife.com/Lorian's+Helm)"
-      },
-      {
-        "id": 48,
-        "name": "[Golden Crown](http://darksouls3.wiki.fextralife.com/Golden+Crown)"
-      },
-      {
-        "id": 49,
-        "name": "[Firelink Helm](http://darksouls3.wiki.fextralife.com/Firelink+Helm)"
-      },
-      {
-        "id": 50,
-        "name": "[Black Iron Helm](http://darksouls3.wiki.fextralife.com/Black+Iron+Helm)"
-      },
-      {
-        "id": 51,
-        "name": "[Executioner Helm](http://darksouls3.wiki.fextralife.com/Executioner+Helm)"
-      },
-      {
-        "id": 52,
-        "name": "[Exile Mask](http://darksouls3.wiki.fextralife.com/Exile+Mask)"
-      },
-      {
-        "id": 53,
-        "name": "[Gundyr's Helm](http://darksouls3.wiki.fextralife.com/Gundyr's+Helm)"
-      },
-      {
-        "id": 54,
-        "name": "[Havel's Helm](http://darksouls3.wiki.fextralife.com/Havel's+Helm)"
-      },
-      {
-        "id": 55,
-        "name": "[Assassin Hood](http://darksouls3.wiki.fextralife.com/Assassin+Hood)"
-      },
-      {
-        "id": 56,
-        "name": "[Black Hand Hat](http://darksouls3.wiki.fextralife.com/Black+Hand+Hat)"
-      },
-      {
-        "id": 57,
-        "name": "[Thief Mask](http://darksouls3.wiki.fextralife.com/Thief+Mask)"
-      },
-      {
-        "id": 58,
-        "name": "[Shadow Mask](http://darksouls3.wiki.fextralife.com/Shadow+Mask)"
-      },
-      {
-        "id": 59,
-        "name": "[Silver Mask](http://darksouls3.wiki.fextralife.com/Silver+Mask)"
-      },
-      {
-        "id": 60,
-        "name": "[Sneering Mask](http://darksouls3.wiki.fextralife.com/Sneering+Mask)"
-      },
-      {
-        "id": 61,
-        "name": "[Billed Mask](http://darksouls3.wiki.fextralife.com/Billed+Mask)"
-      },
-      {
-        "id": 62,
-        "name": "[Painting Guardian Hood](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Hood)"
-      },
-      {
-        "id": 63,
-        "name": "[Sorcerer Hood](http://darksouls3.wiki.fextralife.com/Sorcerer+Hood)"
-      },
-      {
-        "id": 64,
-        "name": "[Old Sorcerer Hat](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Hat)"
-      },
-      {
-        "id": 65,
-        "name": "[Court Sorcerer Hood](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Hood)"
-      },
-      {
-        "id": 66,
-        "name": "[Karla's Pointed Hat](http://darksouls3.wiki.fextralife.com/Karla's+Pointed+Hat)"
-      },
-      {
-        "id": 67,
-        "name": "[Black Witch Hat](http://darksouls3.wiki.fextralife.com/Black+Witch+Hat)"
-      },
-      {
-        "id": 68,
-        "name": "[Black Witch Veil](http://darksouls3.wiki.fextralife.com/Black+Witch+Veil)"
-      },
-      {
-        "id": 69,
-        "name": "[Crown of Dusk](http://darksouls3.wiki.fextralife.com/Crown+of+Dusk)"
-      },
-      {
-        "id": 70,
-        "name": "[Xanthous Crown](http://darksouls3.wiki.fextralife.com/Xanthous+Crown)"
-      },
-      {
-        "id": 71,
-        "name": "[Sage's Big Hat](http://darksouls3.wiki.fextralife.com/Sage's+Big+Hat)"
-      },
-      {
-        "id": 72,
-        "name": "[Pyromancer Crown](http://darksouls3.wiki.fextralife.com/Pyromancer+Crown)"
-      },
-      {
-        "id": 73,
-        "name": "[Old Sage's Blindfold](http://darksouls3.wiki.fextralife.com/Old+Sage's+Blindfold)"
-      },
-      {
-        "id": 74,
-        "name": "[Conjurator Hood](http://darksouls3.wiki.fextralife.com/Conjurator+Hood)"
-      },
-      {
-        "id": 75,
-        "name": "[Desert Pyromancer Hood](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Hood)"
-      },
-      {
-        "id": 76,
-        "name": "[Cleric Hat](http://darksouls3.wiki.fextralife.com/Cleric+Hat)"
-      },
-      {
-        "id": 77,
-        "name": "[Maiden Hood](http://darksouls3.wiki.fextralife.com/Maiden+Hood)"
-      },
-      {
-        "id": 78,
-        "name": "[Ordained Hood](http://darksouls3.wiki.fextralife.com/Ordained+Hood)"
-      },
-      {
-        "id": 79,
-        "name": "[Evangelist Hat](http://darksouls3.wiki.fextralife.com/Evangelist+Hat)"
-      },
-      {
-        "id": 80,
-        "name": "[Archdeacon White Crown](http://darksouls3.wiki.fextralife.com/Archdeacon+White+Crown)"
-      },
-      {
-        "id": 81,
-        "name": "[Aristocrat's Mask](http://darksouls3.wiki.fextralife.com/Aristocrat's+Mask)"
-      },
-      {
-        "id": 82,
-        "name": "[Hood of Prayer](http://darksouls3.wiki.fextralife.com/Hood+of+Prayer)"
-      },
-      {
-        "id": 83,
-        "name": "[Ragged Mask](http://darksouls3.wiki.fextralife.com/Ragged+Mask)"
-      },
-      {
-        "id": 84,
-        "name": "[Worker Hat](http://darksouls3.wiki.fextralife.com/Worker+Hat)"
-      },
-      {
-        "id": 85,
-        "name": "[Grave Warden Hood](http://darksouls3.wiki.fextralife.com/Grave+Warden+Hood)"
-      },
-      {
-        "id": 86,
-        "name": "[Steel Soldier Helm](http://darksouls3.wiki.fextralife.com/Steel+Soldier+Helm)"
-      },
-      {
-        "id": 87,
-        "name": "[Thrall Hood](http://darksouls3.wiki.fextralife.com/Thrall+Hood)"
-      },
-      {
-        "id": 88,
-        "name": "[Pharis's Hat](http://darksouls3.wiki.fextralife.com/Pharis's+Hat)"
-      },
-      {
-        "id": 89,
-        "name": "[Wolnir's Crown](http://darksouls3.wiki.fextralife.com/Wolnir's+Crown)"
-      },
-      {
-        "id": 90,
-        "name": "[Blindfold Mask](http://darksouls3.wiki.fextralife.com/Blindfold+Mask)"
-      },
-      {
-        "id": 91,
-        "name": "[Symbol of Avarice](http://darksouls3.wiki.fextralife.com/Symbol+of+Avarice)"
-      },
-      {
-        "id": 92,
-        "name": "[White Preacher Head](http://darksouls3.wiki.fextralife.com/White+Preacher+Head)"
-      }
-    ]
-  },
-  {
-    "category": "Chest",
-    "gear_names": [
-      {
-        "id": 93,
-        "name": "[Hard Leather Armor](http://darksouls3.wiki.fextralife.com/Hard+Leather+Armor)"
-      },
-      {
-        "id": 94,
-        "name": "[Brigand Armor](http://darksouls3.wiki.fextralife.com/Brigand+Armor)"
-      },
-      {
-        "id": 95,
-        "name": "[Mirrah Vest](http://darksouls3.wiki.fextralife.com/Mirrah+Vest)"
-      },
-      {
-        "id": 96,
-        "name": "[Chain Armor](http://darksouls3.wiki.fextralife.com/Chain+Armor)"
-      },
-      {
-        "id": 97,
-        "name": "[Northern Armor](http://darksouls3.wiki.fextralife.com/Northern+Armor)"
-      },
-      {
-        "id": 98,
-        "name": "[Mirrah Chain Mail](http://darksouls3.wiki.fextralife.com/Mirrah+Chain+Mail)"
-      },
-      {
-        "id": 99,
-        "name": "[Armor of the Sun](http://darksouls3.wiki.fextralife.com/Armor+of+the+Sun)"
-      },
-      {
-        "id": 100,
-        "name": "[Sellsword Armor](http://darksouls3.wiki.fextralife.com/Sellsword+Armor)"
-      },
-      {
-        "id": 101,
-        "name": "[Drang Armor](http://darksouls3.wiki.fextralife.com/Drang+Armor)"
-      },
-      {
-        "id": 102,
-        "name": "[Follower Armor](http://darksouls3.wiki.fextralife.com/Follower+Armor)"
-      },
-      {
-        "id": 103,
-        "name": "[Shira's Armor](http://darksouls3.wiki.fextralife.com/Shira's+Armor)"
-      },
-      {
-        "id": 104,
-        "name": "[Undead Legion Armor](http://darksouls3.wiki.fextralife.com/Undead+Legion+Armor)"
-      },
-      {
-        "id": 105,
-        "name": "[Herald Armor](http://darksouls3.wiki.fextralife.com/Herald+Armor)"
-      },
-      {
-        "id": 106,
-        "name": "[Knight Armor](http://darksouls3.wiki.fextralife.com/Knight+Armor)"
-      },
-      {
-        "id": 107,
-        "name": "[Nameless Knight Armor](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Armor)"
-      },
-      {
-        "id": 108,
-        "name": "[Fallen Knight Armor](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Armor)"
-      },
-      {
-        "id": 109,
-        "name": "[Elite Knight Armor](http://darksouls3.wiki.fextralife.com/Elite+Knight+Armor)"
-      },
-      {
-        "id": 110,
-        "name": "[Alva Armor](http://darksouls3.wiki.fextralife.com/Alva+Armor)"
-      },
-      {
-        "id": 111,
-        "name": "[Drakeblood Armor](http://darksouls3.wiki.fextralife.com/Drakeblood+Armor)"
-      },
-      {
-        "id": 112,
-        "name": "[Faraam Armor](http://darksouls3.wiki.fextralife.com/Faraam+Armor)"
-      },
-      {
-        "id": 113,
-        "name": "[Sunset Armor](http://darksouls3.wiki.fextralife.com/Sunset+Armor)"
-      },
-      {
-        "id": 114,
-        "name": "[Sunless Armor](http://darksouls3.wiki.fextralife.com/Sunless+Armor)"
-      },
-      {
-        "id": 115,
-        "name": "[Brass Armor](http://darksouls3.wiki.fextralife.com/Brass+Armor)"
-      },
-      {
-        "id": 116,
-        "name": "[Slave Knight Armor](http://darksouls3.wiki.fextralife.com/Slave+Knight+Armor)"
-      },
-      {
-        "id": 117,
-        "name": "[Vilhelm's Armor](http://darksouls3.wiki.fextralife.com/Vilhelm's+Armor)"
-      },
-      {
-        "id": 118,
-        "name": "[Embraced Armor of Favor](http://darksouls3.wiki.fextralife.com/Embraced+Armor+of+Favor)"
-      },
-      {
-        "id": 119,
-        "name": "[Eastern Armor](http://darksouls3.wiki.fextralife.com/Eastern+Armor)"
-      },
-      {
-        "id": 120,
-        "name": "[Armor of Thorns](http://darksouls3.wiki.fextralife.com/Armor+of+Thorns)"
-      },
-      {
-        "id": 121,
-        "name": "[Catarina Armor](http://darksouls3.wiki.fextralife.com/Catarina+Armor)"
-      },
-      {
-        "id": 122,
-        "name": "[Morne's Armor](http://darksouls3.wiki.fextralife.com/Morne's+Armor)"
-      },
-      {
-        "id": 123,
-        "name": "[Lapp's Armor](http://darksouls3.wiki.fextralife.com/Lapp's+Armor)"
-      },
-      {
-        "id": 124,
-        "name": "[Lothric Knight Armor](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Armor)"
-      },
-      {
-        "id": 125,
-        "name": "[Cathedral Knight Armor](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Armor)"
-      },
-      {
-        "id": 126,
-        "name": "[Winged Knight Armor](http://darksouls3.wiki.fextralife.com/Winged+Knight+Armor)"
-      },
-      {
-        "id": 127,
-        "name": "[Millwood Knight Armor](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Armor)"
-      },
-      {
-        "id": 128,
-        "name": "[Harald Legion Armor](http://darksouls3.wiki.fextralife.com/Harald+Legion+Armor)"
-      },
-      {
-        "id": 129,
-        "name": "[Ruin Armor](http://darksouls3.wiki.fextralife.com/Ruin+Armor)"
-      },
-      {
-        "id": 130,
-        "name": "[Outrider Knight Armor](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Armor)"
-      },
-      {
-        "id": 131,
-        "name": "[Pontiff Knight Armor](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Armor)"
-      },
-      {
-        "id": 132,
-        "name": "[Fire Witch Armor](http://darksouls3.wiki.fextralife.com/Fire+Witch+Armor)"
-      },
-      {
-        "id": 133,
-        "name": "[Dancer's Armor](http://darksouls3.wiki.fextralife.com/Dancer's+Armor)"
-      },
-      {
-        "id": 134,
-        "name": "[Dark Armor](http://darksouls3.wiki.fextralife.com/Dark+Armor)"
-      },
-      {
-        "id": 135,
-        "name": "[Black Knight Armor](http://darksouls3.wiki.fextralife.com/Black+Knight+Armor)"
-      },
-      {
-        "id": 136,
-        "name": "[Silver Knight Armor](http://darksouls3.wiki.fextralife.com/Silver+Knight+Armor)"
-      },
-      {
-        "id": 137,
-        "name": "[Ringed Knight Armor](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Armor)"
-      },
-      {
-        "id": 138,
-        "name": "[Dragonslayer Armor](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armor)"
-      },
-      {
-        "id": 139,
-        "name": "[Wolf Knight Armor](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Armor)"
-      },
-      {
-        "id": 140,
-        "name": "[Smough's Armor](http://darksouls3.wiki.fextralife.com/Smough's+Armor)"
-      },
-      {
-        "id": 141,
-        "name": "[Iron Dragonslayer Armor](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Armor)"
-      },
-      {
-        "id": 142,
-        "name": "[Lorian's Armor](http://darksouls3.wiki.fextralife.com/Lorian's+Armor)"
-      },
-      {
-        "id": 143,
-        "name": "[Dragonscale Armor](http://darksouls3.wiki.fextralife.com/Dragonscale+Armor)"
-      },
-      {
-        "id": 144,
-        "name": "[Firelink Armor](http://darksouls3.wiki.fextralife.com/Firelink+Armor)"
-      },
-      {
-        "id": 145,
-        "name": "[Black Iron Armor](http://darksouls3.wiki.fextralife.com/Black+Iron+Armor)"
-      },
-      {
-        "id": 146,
-        "name": "[Executioner Armor](http://darksouls3.wiki.fextralife.com/Executioner+Armor)"
-      },
-      {
-        "id": 147,
-        "name": "[Exile Armor](http://darksouls3.wiki.fextralife.com/Exile+Armor)"
-      },
-      {
-        "id": 148,
-        "name": "[Gundyr's Armor](http://darksouls3.wiki.fextralife.com/Gundyr's+Armor)"
-      },
-      {
-        "id": 149,
-        "name": "[Havel's Armor](http://darksouls3.wiki.fextralife.com/Havel's+Amor)"
-      },
-      {
-        "id": 150,
-        "name": "[Assassin Armor](http://darksouls3.wiki.fextralife.com/Assassin+Armor)"
-      },
-      {
-        "id": 151,
-        "name": "[Black Hand Armor](http://darksouls3.wiki.fextralife.com/Black+Hand+Armor)"
-      },
-      {
-        "id": 152,
-        "name": "[Black Leather Armor](http://darksouls3.wiki.fextralife.com/Black+Leather+Armor)"
-      },
-      {
-        "id": 153,
-        "name": "[Shadow Garb](http://darksouls3.wiki.fextralife.com/Shadow+Garb)"
-      },
-      {
-        "id": 154,
-        "name": "[Leonhard's Garb](http://darksouls3.wiki.fextralife.com/Leonhard's+Garb)"
-      },
-      {
-        "id": 155,
-        "name": "[Pale Shade Robe](http://darksouls3.wiki.fextralife.com/Pale+Shade+Robe)"
-      },
-      {
-        "id": 156,
-        "name": "[Black Dress](http://darksouls3.wiki.fextralife.com/Black+Dress)"
-      },
-      {
-        "id": 157,
-        "name": "[Painting Guardian Gown](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Gown)"
-      },
-      {
-        "id": 158,
-        "name": "[Antiquated Plain Garb](http://darksouls3.wiki.fextralife.com/Antiquated+Plain+Garb)"
-      },
-      {
-        "id": 159,
-        "name": "[Sorcerer Robe](http://darksouls3.wiki.fextralife.com/Sorcerer+Robe)"
-      },
-      {
-        "id": 160,
-        "name": "[Clandestine Coat](http://darksouls3.wiki.fextralife.com/Clandestine+Coat)"
-      },
-      {
-        "id": 161,
-        "name": "[Old Sorcerer Coat](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Coat)"
-      },
-      {
-        "id": 162,
-        "name": "[Court Sorcerer Robe](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Robe)"
-      },
-      {
-        "id": 163,
-        "name": "[Karla's Coat](http://darksouls3.wiki.fextralife.com/Karla's+Coat)"
-      },
-      {
-        "id": 164,
-        "name": "[Black Witch Garb](http://darksouls3.wiki.fextralife.com/Black+Witch+Garb)"
-      },
-      {
-        "id": 165,
-        "name": "[Antiquated Dress](http://darksouls3.wiki.fextralife.com/Antiquated+Dress)"
-      },
-      {
-        "id": 166,
-        "name": "[Xanthous Overcoat](http://darksouls3.wiki.fextralife.com/Xanthous+Overcoat)"
-      },
-      {
-        "id": 167,
-        "name": "[Scholar's Robe](http://darksouls3.wiki.fextralife.com/Scholar's+Robe)"
-      },
-      {
-        "id": 168,
-        "name": "[Pyromancer Garb](http://darksouls3.wiki.fextralife.com/Pyromancer+Garb)"
-      },
-      {
-        "id": 169,
-        "name": "[Cornyx's Garb](http://darksouls3.wiki.fextralife.com/Cornyx's+Garb)"
-      },
-      {
-        "id": 170,
-        "name": "[Conjurator Robe](http://darksouls3.wiki.fextralife.com/Conjurator+Robe)"
-      },
-      {
-        "id": 171,
-        "name": "[Desert Pyromancer Garb](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Garb)"
-      },
-      {
-        "id": 172,
-        "name": "[Cleric Blue Robe](http://darksouls3.wiki.fextralife.com/Cleric+Blue+Robe)"
-      },
-      {
-        "id": 173,
-        "name": "[Maiden Robe](http://darksouls3.wiki.fextralife.com/Maiden+Robe)"
-      },
-      {
-        "id": 174,
-        "name": "[Ordained Dress](http://darksouls3.wiki.fextralife.com/Ordained+Dress)"
-      },
-      {
-        "id": 175,
-        "name": "[Evangelist Robe](http://darksouls3.wiki.fextralife.com/Evangelist+Robe)"
-      },
-      {
-        "id": 176,
-        "name": "[Deacon Robe](http://darksouls3.wiki.fextralife.com/Deacon+Robe)"
-      },
-      {
-        "id": 177,
-        "name": "[Archdeacon Holy Garb](http://darksouls3.wiki.fextralife.com/Archdeacon+Holy+Garb)"
-      },
-      {
-        "id": 178,
-        "name": "[Jailer Robe](http://darksouls3.wiki.fextralife.com/Jailer+Robe)"
-      },
-      {
-        "id": 179,
-        "name": "[Robe of Prayer](http://darksouls3.wiki.fextralife.com/Robe+of+Prayer)"
-      },
-      {
-        "id": 180,
-        "name": "[Fire Keeper Robe](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Robe)"
-      },
-      {
-        "id": 181,
-        "name": "[Master's Attire](http://darksouls3.wiki.fextralife.com/Master's+Attire)"
-      },
-      {
-        "id": 182,
-        "name": "[Worker Garb](http://darksouls3.wiki.fextralife.com/Worker+Garb)"
-      },
-      {
-        "id": 183,
-        "name": "[Grave Warden Robe](http://darksouls3.wiki.fextralife.com/Grave+Warden+Robe)"
-      },
-      {
-        "id": 184,
-        "name": "[Deserter Armor](http://darksouls3.wiki.fextralife.com/Deserter+Armor)"
-      },
-      {
-        "id": 185,
-        "name": "[Leather Armor](http://darksouls3.wiki.fextralife.com/Leather+Armor)"
-      }
-    ]
-  },
-  {
-    "category": "Hands",
-    "gear_names": [
-      {
-        "id": 186,
-        "name": "[Hard Leather Gauntlets](http://darksouls3.wiki.fextralife.com/Hard+Leather+Gauntlets)"
-      },
-      {
-        "id": 187,
-        "name": "[Brigand Gauntlets](http://darksouls3.wiki.fextralife.com/Brigand+Gauntlets)"
-      },
-      {
-        "id": 188,
-        "name": "[Mirrah Gloves](http://darksouls3.wiki.fextralife.com/Mirrah+Gloves)"
-      },
-      {
-        "id": 189,
-        "name": "[Leather Gauntlets](http://darksouls3.wiki.fextralife.com/Leather+Gauntlets)"
-      },
-      {
-        "id": 190,
-        "name": "[Northern Gloves](http://darksouls3.wiki.fextralife.com/Northern+Gloves)"
-      },
-      {
-        "id": 191,
-        "name": "[Mirrah Chain Gloves](http://darksouls3.wiki.fextralife.com/Mirrah+Chain+Gloves)"
-      },
-      {
-        "id": 192,
-        "name": "[Iron Bracelets](http://darksouls3.wiki.fextralife.com/Iron+Bracelets)"
-      },
-      {
-        "id": 193,
-        "name": "[Sellsword Gauntlet](http://darksouls3.wiki.fextralife.com/Sellsword+Gauntlet)"
-      },
-      {
-        "id": 194,
-        "name": "[Drang Gauntlets](http://darksouls3.wiki.fextralife.com/Drang+Gauntlets)"
-      },
-      {
-        "id": 195,
-        "name": "[Follower Gloves](http://darksouls3.wiki.fextralife.com/Follower+Gloves)"
-      },
-      {
-        "id": 196,
-        "name": "[Shira's Gloves](http://darksouls3.wiki.fextralife.com/Shira's+Gloves)"
-      },
-      {
-        "id": 197,
-        "name": "[Undead Legion Gauntlet](http://darksouls3.wiki.fextralife.com/Undead+Legion+Gauntlet)"
-      },
-      {
-        "id": 198,
-        "name": "[Herald Gloves](http://darksouls3.wiki.fextralife.com/Herald+Gloves)"
-      },
-      {
-        "id": 199,
-        "name": "[Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Knight+Gauntlets)"
-      },
-      {
-        "id": 200,
-        "name": "[Nameless Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Gauntlets)"
-      },
-      {
-        "id": 201,
-        "name": "[Fallen Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Gauntlets)"
-      },
-      {
-        "id": 202,
-        "name": "[Elite Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Elite+Knight+Gauntlets)"
-      },
-      {
-        "id": 203,
-        "name": "[Alva Gauntlets](http://darksouls3.wiki.fextralife.com/Alva+Gauntlets)"
-      },
-      {
-        "id": 204,
-        "name": "[Drakeblood Gauntlets](http://darksouls3.wiki.fextralife.com/Drakeblood+Gauntlets)"
-      },
-      {
-        "id": 205,
-        "name": "[Faraam Gauntlets](http://darksouls3.wiki.fextralife.com/Faraam+Gauntlets)"
-      },
-      {
-        "id": 206,
-        "name": "[Sunset Gauntlets](http://darksouls3.wiki.fextralife.com/Sunset+Gauntlets)"
-      },
-      {
-        "id": 207,
-        "name": "[Sunless Gauntlets](http://darksouls3.wiki.fextralife.com/Sunless+Gauntlets)"
-      },
-      {
-        "id": 208,
-        "name": "[Brass Gauntlets](http://darksouls3.wiki.fextralife.com/Brass+Gauntlets)"
-      },
-      {
-        "id": 209,
-        "name": "[Slave Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Slave+Knight+Gauntlets)"
-      },
-      {
-        "id": 210,
-        "name": "[Vilhelm's Gauntlets](http://darksouls3.wiki.fextralife.com/Vilhelm's+Gauntlets)"
-      },
-      {
-        "id": 211,
-        "name": "[Gauntlets of Favor](http://darksouls3.wiki.fextralife.com/Gauntlets+of+Favor)"
-      },
-      {
-        "id": 212,
-        "name": "[Eastern Gauntlets](http://darksouls3.wiki.fextralife.com/Eastern+Gauntlets)"
-      },
-      {
-        "id": 213,
-        "name": "[Gauntlets of Thorns](http://darksouls3.wiki.fextralife.com/Gauntlets+of+Thorns)"
-      },
-      {
-        "id": 214,
-        "name": "[Catarina Gauntlets](http://darksouls3.wiki.fextralife.com/Catarina+Gauntlets)"
-      },
-      {
-        "id": 215,
-        "name": "[Morne's Gauntlets](http://darksouls3.wiki.fextralife.com/Morne's+Gauntlets)"
-      },
-      {
-        "id": 216,
-        "name": "[Lapp's Gauntlets](http://darksouls3.wiki.fextralife.com/Lapp's+Gauntlets)"
-      },
-      {
-        "id": 217,
-        "name": "[Lothric Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Gauntlets)"
-      },
-      {
-        "id": 218,
-        "name": "[Cathedral Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Gauntlets)"
-      },
-      {
-        "id": 219,
-        "name": "[Winged Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Winged+Knight+Gauntlets)"
-      },
-      {
-        "id": 220,
-        "name": "[Millwood Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Gauntlets)"
-      },
-      {
-        "id": 221,
-        "name": "[Harald Legion Gauntlets](http://darksouls3.wiki.fextralife.com/Harald+Legion+Gauntlets)"
-      },
-      {
-        "id": 222,
-        "name": "[Ruin Gauntlets](http://darksouls3.wiki.fextralife.com/Ruin+Gauntlets)"
-      },
-      {
-        "id": 223,
-        "name": "[Outrider Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Gauntlets)"
-      },
-      {
-        "id": 224,
-        "name": "[Pontiff Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Gauntlets)"
-      },
-      {
-        "id": 225,
-        "name": "[Fire Witch Gauntlets](http://darksouls3.wiki.fextralife.com/Fire+Witch+Gauntlets)"
-      },
-      {
-        "id": 226,
-        "name": "[Dancer's Gauntlets](http://darksouls3.wiki.fextralife.com/Dancer's+Gauntlets)"
-      },
-      {
-        "id": 227,
-        "name": "[Dark Gauntlets](http://darksouls3.wiki.fextralife.com/Dark+Gauntlets)"
-      },
-      {
-        "id": 228,
-        "name": "[Black Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Black+Knight+Gauntlets)"
-      },
-      {
-        "id": 229,
-        "name": "[Silver Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Silver+Knight+Gauntlets)"
-      },
-      {
-        "id": 230,
-        "name": "[Ringed Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Gauntlets)"
-      },
-      {
-        "id": 231,
-        "name": "[Dragonslayer Gauntlets](http://darksouls3.wiki.fextralife.com/Dragonslayer+Gauntlets)"
-      },
-      {
-        "id": 232,
-        "name": "[Wolf Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Gauntlets)"
-      },
-      {
-        "id": 233,
-        "name": "[Smough's Gauntlets](http://darksouls3.wiki.fextralife.com/Smough's+Gauntlets)"
-      },
-      {
-        "id": 234,
-        "name": "[Iron Dragonslayer Gauntlets](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Gauntlets)"
-      },
-      {
-        "id": 235,
-        "name": "[Lorian's Gauntlets](http://darksouls3.wiki.fextralife.com/Lorian's+Gauntlets)"
-      },
-      {
-        "id": 236,
-        "name": "[Golden Bracelets](http://darksouls3.wiki.fextralife.com/Golden+Bracelets)"
-      },
-      {
-        "id": 237,
-        "name": "[Firelink Gauntlets](http://darksouls3.wiki.fextralife.com/Firelink+Gauntlets)"
-      },
-      {
-        "id": 238,
-        "name": "[Black Iron Gauntlets](http://darksouls3.wiki.fextralife.com/Black+Iron+Gauntlets)"
-      },
-      {
-        "id": 239,
-        "name": "[Executioner Gauntlets](http://darksouls3.wiki.fextralife.com/Executioner+Gauntlets)"
-      },
-      {
-        "id": 240,
-        "name": "[Exile Gauntlets](http://darksouls3.wiki.fextralife.com/Exile+Gauntlets)"
-      },
-      {
-        "id": 241,
-        "name": "[Gundyr's Gauntlets](http://darksouls3.wiki.fextralife.com/Gundyr's+Gauntlets)"
-      },
-      {
-        "id": 242,
-        "name": "[Havel's Gauntlets](http://darksouls3.wiki.fextralife.com/Havel's+Gauntlets)"
-      },
-      {
-        "id": 243,
-        "name": "[Assassin Gloves](http://darksouls3.wiki.fextralife.com/Assassin+Gloves)"
-      },
-      {
-        "id": 244,
-        "name": "[Black Leather Gloves](http://darksouls3.wiki.fextralife.com/Black+Leather+Gloves)"
-      },
-      {
-        "id": 245,
-        "name": "[Shadow Gauntlets](http://darksouls3.wiki.fextralife.com/Shadow+Gauntlets)"
-      },
-      {
-        "id": 246,
-        "name": "[Leonhard's Gauntlets](http://darksouls3.wiki.fextralife.com/Leonhard's+Gauntlets)"
-      },
-      {
-        "id": 247,
-        "name": "[Pale Shade Gloves](http://darksouls3.wiki.fextralife.com/Pale+Shade+Gloves)"
-      },
-      {
-        "id": 248,
-        "name": "[Black Gauntlets](http://darksouls3.wiki.fextralife.com/Black+Gauntlets)"
-      },
-      {
-        "id": 249,
-        "name": "[Painting Guardian Gloves](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Gloves)"
-      },
-      {
-        "id": 250,
-        "name": "[Violet Wrappings](http://darksouls3.wiki.fextralife.com/Violet+Wrappings)"
-      },
-      {
-        "id": 251,
-        "name": "[Sorcerer Gloves](http://darksouls3.wiki.fextralife.com/Sorcerer+Gloves)"
-      },
-      {
-        "id": 252,
-        "name": "[Old Sorcerer Gauntlets](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Gauntlets)"
-      },
-      {
-        "id": 253,
-        "name": "[Court Sorcerer Gloves](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Gloves)"
-      },
-      {
-        "id": 254,
-        "name": "[Karla's Gloves](http://darksouls3.wiki.fextralife.com/Karla's+Gloves)"
-      },
-      {
-        "id": 255,
-        "name": "[Black Witch Wrappings](http://darksouls3.wiki.fextralife.com/Black+Witch+Wrappings)"
-      },
-      {
-        "id": 256,
-        "name": "[Antiquated Gloves](http://darksouls3.wiki.fextralife.com/Antiquated+Gloves)"
-      },
-      {
-        "id": 257,
-        "name": "[Xanthous Gloves](http://darksouls3.wiki.fextralife.com/Xanthous+Gloves)"
-      },
-      {
-        "id": 258,
-        "name": "[Pyromancer Wrap](http://darksouls3.wiki.fextralife.com/Pyromancer+Wrap)"
-      },
-      {
-        "id": 259,
-        "name": "[Cornyx's Wrap](http://darksouls3.wiki.fextralife.com/Cornyx's+Wrap)"
-      },
-      {
-        "id": 260,
-        "name": "[Conjurator Manchettes](http://darksouls3.wiki.fextralife.com/Conjurator+Manchettes)"
-      },
-      {
-        "id": 261,
-        "name": "[Desert Pyromancer Gloves](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Gloves)"
-      },
-      {
-        "id": 262,
-        "name": "[Cleric Gloves](http://darksouls3.wiki.fextralife.com/Cleric+Gloves)"
-      },
-      {
-        "id": 263,
-        "name": "[Maiden Gloves](http://darksouls3.wiki.fextralife.com/Maiden+Gloves)"
-      },
-      {
-        "id": 264,
-        "name": "[Evangelist Gloves](http://darksouls3.wiki.fextralife.com/Evangelist+Gloves)"
-      },
-      {
-        "id": 265,
-        "name": "[Jailer Gloves](http://darksouls3.wiki.fextralife.com/Jailer+Gloves)"
-      },
-      {
-        "id": 266,
-        "name": "[Fire Keeper Gloves](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Gloves)"
-      },
-      {
-        "id": 267,
-        "name": "[Master's Gloves](http://darksouls3.wiki.fextralife.com/Master's+Gloves)"
-      },
-      {
-        "id": 268,
-        "name": "[Worker Gloves](http://darksouls3.wiki.fextralife.com/Worker+Gloves)"
-      },
-      {
-        "id": 269,
-        "name": "[Grave Warden Wrap](http://darksouls3.wiki.fextralife.com/Grave+Warden+Wrap)"
-      },
-      {
-        "id": 270,
-        "name": "[Leather Gloves](http://darksouls3.wiki.fextralife.com/Leather+Gloves)"
-      }
-    ]
-  },
-  {
-    "category": "Legs",
-    "gear_names": [
-      {
-        "id": 271,
-        "name": "[Hard Leather Boots](http://darksouls3.wiki.fextralife.com/Hard+Leather+Boots)"
-      },
-      {
-        "id": 272,
-        "name": "[Brigand Trousers](http://darksouls3.wiki.fextralife.com/Brigand+Trousers)"
-      },
-      {
-        "id": 273,
-        "name": "[Mirrah Trousers](http://darksouls3.wiki.fextralife.com/Mirrah+Trousers)"
-      },
-      {
-        "id": 274,
-        "name": "[Chain Leggings](http://darksouls3.wiki.fextralife.com/Chain+Leggings)"
-      },
-      {
-        "id": 275,
-        "name": "[Northern Trousers](http://darksouls3.wiki.fextralife.com/Northern+Trousers)"
-      },
-      {
-        "id": 276,
-        "name": "[Mirrah Chain Leggings](http://darksouls3.wiki.fextralife.com/Mirrah+Chain+Leggings)"
-      },
-      {
-        "id": 277,
-        "name": "[Iron Leggings](http://darksouls3.wiki.fextralife.com/Iron+Leggings)"
-      },
-      {
-        "id": 278,
-        "name": "[Sellsword Trousers](http://darksouls3.wiki.fextralife.com/Sellsword+Trousers)"
-      },
-      {
-        "id": 279,
-        "name": "[Drang Shoes](http://darksouls3.wiki.fextralife.com/Drang+Shoes)"
-      },
-      {
-        "id": 280,
-        "name": "[Follower Boots](http://darksouls3.wiki.fextralife.com/Follower+Boots)"
-      },
-      {
-        "id": 281,
-        "name": "[Shira's Trousers](http://darksouls3.wiki.fextralife.com/Shira's+Trousers)"
-      },
-      {
-        "id": 282,
-        "name": "[Undead Legion Leggings](http://darksouls3.wiki.fextralife.com/Undead+Legion+Leggings)"
-      },
-      {
-        "id": 283,
-        "name": "[Herald Trousers](http://darksouls3.wiki.fextralife.com/Herald+Trousers)"
-      },
-      {
-        "id": 284,
-        "name": "[Knight Leggings](http://darksouls3.wiki.fextralife.com/Knight+Leggings)"
-      },
-      {
-        "id": 285,
-        "name": "[Nameless Knight Leggings](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Leggings)"
-      },
-      {
-        "id": 286,
-        "name": "[Fallen Knight Trousers](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Trousers)"
-      },
-      {
-        "id": 287,
-        "name": "[Elite Knight Leggings](http://darksouls3.wiki.fextralife.com/Elite+Knight+Leggings)"
-      },
-      {
-        "id": 288,
-        "name": "[Alva Leggings](http://darksouls3.wiki.fextralife.com/Alva+Leggings)"
-      },
-      {
-        "id": 289,
-        "name": "[Drakeblood Leggings](http://darksouls3.wiki.fextralife.com/Drakeblood+Leggings)"
-      },
-      {
-        "id": 290,
-        "name": "[Faraam Boots](http://darksouls3.wiki.fextralife.com/Faraam+Boots)"
-      },
-      {
-        "id": 291,
-        "name": "[Sunset Leggings](http://darksouls3.wiki.fextralife.com/Sunset+Leggings)"
-      },
-      {
-        "id": 292,
-        "name": "[Sunless Leggings](http://darksouls3.wiki.fextralife.com/Sunless+Leggings)"
-      },
-      {
-        "id": 293,
-        "name": "[Brass Leggings](http://darksouls3.wiki.fextralife.com/Brass+Leggings)"
-      },
-      {
-        "id": 294,
-        "name": "[Slave Knight Leggings](http://darksouls3.wiki.fextralife.com/Slave+Knight+Leggings)"
-      },
-      {
-        "id": 295,
-        "name": "[Vilhelm's Leggings](http://darksouls3.wiki.fextralife.com/Vilhelm's+Leggings)"
-      },
-      {
-        "id": 296,
-        "name": "[Leggings of Favor](http://darksouls3.wiki.fextralife.com/Leggings+of+Favor)"
-      },
-      {
-        "id": 297,
-        "name": "[Eastern Leggings](http://darksouls3.wiki.fextralife.com/Eastern+Leggings)"
-      },
-      {
-        "id": 298,
-        "name": "[Leggings of Thorns](http://darksouls3.wiki.fextralife.com/Leggings+of+Thorns)"
-      },
-      {
-        "id": 299,
-        "name": "[Catarina Leggings](http://darksouls3.wiki.fextralife.com/Catarina+Leggings)"
-      },
-      {
-        "id": 300,
-        "name": "[Morne's Leggings](http://darksouls3.wiki.fextralife.com/Morne's+Leggings)"
-      },
-      {
-        "id": 301,
-        "name": "[Lapp's Leggings](http://darksouls3.wiki.fextralife.com/Lapp's+Leggings)"
-      },
-      {
-        "id": 302,
-        "name": "[Lothric Knight Leggings](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Leggings)"
-      },
-      {
-        "id": 303,
-        "name": "[Cathedral Knight Leggings](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Leggings)"
-      },
-      {
-        "id": 304,
-        "name": "[Winged Knight Leggings](http://darksouls3.wiki.fextralife.com/Winged+Knight+Leggings)"
-      },
-      {
-        "id": 305,
-        "name": "[Millwood Knight Leggings](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Leggings)"
-      },
-      {
-        "id": 306,
-        "name": "[Harald Legion Leggings](http://darksouls3.wiki.fextralife.com/Harald+Legion+Leggings)"
-      },
-      {
-        "id": 307,
-        "name": "[Ruin Leggings](http://darksouls3.wiki.fextralife.com/Ruin+Leggings)"
-      },
-      {
-        "id": 308,
-        "name": "[Outrider Knight Leggings](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Leggings)"
-      },
-      {
-        "id": 309,
-        "name": "[Pontiff Knight Leggings](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Leggings)"
-      },
-      {
-        "id": 310,
-        "name": "[Fire Witch Leggings](http://darksouls3.wiki.fextralife.com/Fire+Witch+Leggings)"
-      },
-      {
-        "id": 311,
-        "name": "[Dancer's Leggings](http://darksouls3.wiki.fextralife.com/Dancer's+Leggings)"
-      },
-      {
-        "id": 312,
-        "name": "[Dark Leggings](http://darksouls3.wiki.fextralife.com/Dark+Leggings)"
-      },
-      {
-        "id": 313,
-        "name": "[Black Knight Leggings](http://darksouls3.wiki.fextralife.com/Black+Knight+Leggings)"
-      },
-      {
-        "id": 314,
-        "name": "[Silver Knight Leggings](http://darksouls3.wiki.fextralife.com/Silver+Knight+Leggings)"
-      },
-      {
-        "id": 315,
-        "name": "[Ringed Knight Leggings](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Leggings)"
-      },
-      {
-        "id": 316,
-        "name": "[Dragonslayer Leggings](http://darksouls3.wiki.fextralife.com/Dragonslayer+Leggings)"
-      },
-      {
-        "id": 317,
-        "name": "[Wolf Knight Leggings](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Leggings)"
-      },
-      {
-        "id": 318,
-        "name": "[Smough's Leggings](http://darksouls3.wiki.fextralife.com/Smough's+Leggings)"
-      },
-      {
-        "id": 319,
-        "name": "[Iron Dragonslayer Leggings](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Leggings)"
-      },
-      {
-        "id": 320,
-        "name": "[Lorian's Leggings](http://darksouls3.wiki.fextralife.com/Lorian's+Leggings)"
-      },
-      {
-        "id": 321,
-        "name": "[Dragonscale Waistcloth](http://darksouls3.wiki.fextralife.com/Dragonscale+Waistcloth)"
-      },
-      {
-        "id": 322,
-        "name": "[Firelink Leggings](http://darksouls3.wiki.fextralife.com/Firelink+Leggings)"
-      },
-      {
-        "id": 323,
-        "name": "[Black Iron Leggings](http://darksouls3.wiki.fextralife.com/Black+Iron+Leggings)"
-      },
-      {
-        "id": 324,
-        "name": "[Executioner Leggings](http://darksouls3.wiki.fextralife.com/Executioner+Leggings)"
-      },
-      {
-        "id": 325,
-        "name": "[Exile Leggings](http://darksouls3.wiki.fextralife.com/Exile+Leggings)"
-      },
-      {
-        "id": 326,
-        "name": "[Gundyr's Leggings](http://darksouls3.wiki.fextralife.com/Gundyr's+Leggings)"
-      },
-      {
-        "id": 327,
-        "name": "[Havel's Leggings](http://darksouls3.wiki.fextralife.com/Havel's+Leggings)"
-      },
-      {
-        "id": 328,
-        "name": "[Assassin Trousers](http://darksouls3.wiki.fextralife.com/Assassin+Trousers)"
-      },
-      {
-        "id": 329,
-        "name": "[Black Leather Boots](http://darksouls3.wiki.fextralife.com/Black+Leather+Boots)"
-      },
-      {
-        "id": 330,
-        "name": "[Shadow Leggings](http://darksouls3.wiki.fextralife.com/Shadow+Leggings)"
-      },
-      {
-        "id": 331,
-        "name": "[Leonhard's Trousers](http://darksouls3.wiki.fextralife.com/Leonhard's+Trousers)"
-      },
-      {
-        "id": 332,
-        "name": "[Pale Shade Trousers](http://darksouls3.wiki.fextralife.com/Pale+Shade+Trousers)"
-      },
-      {
-        "id": 333,
-        "name": "[Black Leggings](http://darksouls3.wiki.fextralife.com/Black+Leggings)"
-      },
-      {
-        "id": 334,
-        "name": "[Painting Guardian Waistcloth](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Waistcloth)"
-      },
-      {
-        "id": 335,
-        "name": "[Sorcerer Trousers](http://darksouls3.wiki.fextralife.com/Sorcerer+Trousers)"
-      },
-      {
-        "id": 336,
-        "name": "[Old Sorcerer Boots](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Boots)"
-      },
-      {
-        "id": 337,
-        "name": "[Court Sorcerer Trousers](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Trousers)"
-      },
-      {
-        "id": 338,
-        "name": "[Karla's Trousers](http://darksouls3.wiki.fextralife.com/Karla's+Trousers)"
-      },
-      {
-        "id": 339,
-        "name": "[Black Witch Trousers](http://darksouls3.wiki.fextralife.com/Black+Witch+Trousers)"
-      },
-      {
-        "id": 340,
-        "name": "[Antiquated Skirt](http://darksouls3.wiki.fextralife.com/Antiquated+Skirt)"
-      },
-      {
-        "id": 341,
-        "name": "[Xanthous Trousers](http://darksouls3.wiki.fextralife.com/Xanthous+Trousers)"
-      },
-      {
-        "id": 342,
-        "name": "[Pyromancer Trousers](http://darksouls3.wiki.fextralife.com/Pyromancer+Trousers)"
-      },
-      {
-        "id": 343,
-        "name": "[Cornyx's Skirt](http://darksouls3.wiki.fextralife.com/Cornyx's+Skirt)"
-      },
-      {
-        "id": 344,
-        "name": "[Conjurator Boots](http://darksouls3.wiki.fextralife.com/Conjurator+Boots)"
-      },
-      {
-        "id": 345,
-        "name": "[Desert Pyromancer Skirt](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Skirt)"
-      },
-      {
-        "id": 346,
-        "name": "[Cleric Trousers](http://darksouls3.wiki.fextralife.com/Cleric+Trousers)"
-      },
-      {
-        "id": 347,
-        "name": "[Maiden Skirt](http://darksouls3.wiki.fextralife.com/Maiden+Skirt)"
-      },
-      {
-        "id": 348,
-        "name": "[Ordained Trousers](http://darksouls3.wiki.fextralife.com/Ordained+Trousers)"
-      },
-      {
-        "id": 349,
-        "name": "[Evangelist Trousers](http://darksouls3.wiki.fextralife.com/Evangelist+Trousers)"
-      },
-      {
-        "id": 350,
-        "name": "[Deacon Skirt](http://darksouls3.wiki.fextralife.com/Deacon+Skirt)"
-      },
-      {
-        "id": 351,
-        "name": "[Archdeacon Skirt](http://darksouls3.wiki.fextralife.com/Archdeacon+Skirt)"
-      },
-      {
-        "id": 352,
-        "name": "[Jailer Trousers](http://darksouls3.wiki.fextralife.com/Jailer+Trousers)"
-      },
-      {
-        "id": 353,
-        "name": "[Skirt of Prayer](http://darksouls3.wiki.fextralife.com/Skirt+of+Prayer)"
-      },
-      {
-        "id": 354,
-        "name": "[Fire Keeper Skirt](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Skirt)"
-      },
-      {
-        "id": 355,
-        "name": "[Loincloth](http://darksouls3.wiki.fextralife.com/Loincloth)"
-      },
-      {
-        "id": 356,
-        "name": "[Worker Trousers](http://darksouls3.wiki.fextralife.com/Worker+Trousers)"
-      },
-      {
-        "id": 357,
-        "name": "[Grave Warden Skirt](http://darksouls3.wiki.fextralife.com/Grave+Warden+Skirt)"
-      },
-      {
-        "id": 358,
-        "name": "[Deserter Trousers](http://darksouls3.wiki.fextralife.com/Deserter+Trousers)"
-      },
-      {
-        "id": 359,
-        "name": "[Loincloth](http://darksouls3.wiki.fextralife.com/Loincloth) (Ringed City Version)"
-      },
-      {
-        "id": 360,
-        "name": "[Leather Boots](http://darksouls3.wiki.fextralife.com/Leather+Boots)"
-      }
-    ]
-  }
+    {
+        "category": "Head",
+        "gear_names": [
+            {
+                "id": 0,
+                "name": "[Standard Helm](http://darksouls3.wiki.fextralife.com/Standard+Helm)"
+            },
+            {
+                "id": 1,
+                "name": "[Brigand Hood](http://darksouls3.wiki.fextralife.com/Brigand+Hood)"
+            },
+            {
+                "id": 2,
+                "name": "[Lucatiel's Mask](http://darksouls3.wiki.fextralife.com/Lucatiel's+Mask)"
+            },
+            {
+                "id": 3,
+                "name": "[Chain Helm](http://darksouls3.wiki.fextralife.com/Chain+Helm)"
+            },
+            {
+                "id": 4,
+                "name": "[Northern Helm](http://darksouls3.wiki.fextralife.com/Northern+Helm)"
+            },
+            {
+                "id": 5,
+                "name": "[Creighton's Steel Mask](http://darksouls3.wiki.fextralife.com/Creighton's+Steel+Mask)"
+            },
+            {
+                "id": 6,
+                "name": "[Iron Helm](http://darksouls3.wiki.fextralife.com/Iron+Helm)"
+            },
+            {
+                "id": 7,
+                "name": "[Sellsword Helm](http://darksouls3.wiki.fextralife.com/Sellsword+Helm)"
+            },
+            {
+                "id": 8,
+                "name": "[Follower Helm](http://darksouls3.wiki.fextralife.com/Follower+Helm)"
+            },
+            {
+                "id": 9,
+                "name": "[Shira's Crown](http://darksouls3.wiki.fextralife.com/Shira's+Crown)"
+            },
+            {
+                "id": 10,
+                "name": "[Undead Legion Helm](http://darksouls3.wiki.fextralife.com/Undead+Legion+Helm)"
+            },
+            {
+                "id": 11,
+                "name": "[Herald Helm](http://darksouls3.wiki.fextralife.com/Herald+Helm)"
+            },
+            {
+                "id": 12,
+                "name": "[Knight Helm](http://darksouls3.wiki.fextralife.com/Knight+Helm)"
+            },
+            {
+                "id": 13,
+                "name": "[Nameless Knight Helm](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Helm)"
+            },
+            {
+                "id": 14,
+                "name": "[Fallen Knight Helm](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Helm)"
+            },
+            {
+                "id": 15,
+                "name": "[Elite Knight Helm](http://darksouls3.wiki.fextralife.com/Elite+Knight+Helm)"
+            },
+            {
+                "id": 16,
+                "name": "[Alva Helm](http://darksouls3.wiki.fextralife.com/Alva+Helm)"
+            },
+            {
+                "id": 17,
+                "name": "[Drakeblood Helm](http://darksouls3.wiki.fextralife.com/Drakeblood+Helm)"
+            },
+            {
+                "id": 18,
+                "name": "[Faraam Helm](http://darksouls3.wiki.fextralife.com/Faraam+Helm)"
+            },
+            {
+                "id": 19,
+                "name": "[Sunset Helm](http://darksouls3.wiki.fextralife.com/Sunset+Helm)"
+            },
+            {
+                "id": 20,
+                "name": "[Sunless Veil](http://darksouls3.wiki.fextralife.com/Sunless+Veil)"
+            },
+            {
+                "id": 21,
+                "name": "[Brass Helm](http://darksouls3.wiki.fextralife.com/Brass+Helm)"
+            },
+            {
+                "id": 22,
+                "name": "[Slave Knight Hood](http://darksouls3.wiki.fextralife.com/Slave+Knight+Hood)"
+            },
+            {
+                "id": 23,
+                "name": "[Vilhelm's Helm](http://darksouls3.wiki.fextralife.com/Vilhelm's+Helm)"
+            },
+            {
+                "id": 24,
+                "name": "[Helm of Favor](http://darksouls3.wiki.fextralife.com/Helm+of+Favor)"
+            },
+            {
+                "id": 25,
+                "name": "[Eastern Helm](http://darksouls3.wiki.fextralife.com/Eastern+Helm)"
+            },
+            {
+                "id": 26,
+                "name": "[Helm of Thorns](http://darksouls3.wiki.fextralife.com/Helm+of+Thorns)"
+            },
+            {
+                "id": 27,
+                "name": "[Catarina Helm](http://darksouls3.wiki.fextralife.com/Catarina+Helm)"
+            },
+            {
+                "id": 28,
+                "name": "[Morne's Helm](http://darksouls3.wiki.fextralife.com/Morne's+Helm)"
+            },
+            {
+                "id": 29,
+                "name": "[Lapp's Helm](http://darksouls3.wiki.fextralife.com/Lapp's+Helm)"
+            },
+            {
+                "id": 30,
+                "name": "[Lothric Knight Helm](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Helm)"
+            },
+            {
+                "id": 31,
+                "name": "[Cathedral Knight Helm](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Helm)"
+            },
+            {
+                "id": 32,
+                "name": "[Winged Knight Helm](http://darksouls3.wiki.fextralife.com/Winged+Knight+Helm)"
+            },
+            {
+                "id": 33,
+                "name": "[Millwood Knight Helm](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Helm)"
+            },
+            {
+                "id": 34,
+                "name": "[Ruin Helm](http://darksouls3.wiki.fextralife.com/Ruin+Helm)"
+            },
+            {
+                "id": 35,
+                "name": "[Outrider Knight Helm](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Helm)"
+            },
+            {
+                "id": 36,
+                "name": "[Pontiff Knight Crown](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Crown)"
+            },
+            {
+                "id": 37,
+                "name": "[Fire Witch Helm](http://darksouls3.wiki.fextralife.com/Fire+Witch+Helm)"
+            },
+            {
+                "id": 38,
+                "name": "[Dancer's Crown](http://darksouls3.wiki.fextralife.com/Dancer's+Crown)"
+            },
+            {
+                "id": 39,
+                "name": "[Dark Mask](http://darksouls3.wiki.fextralife.com/Dark+Mask)"
+            },
+            {
+                "id": 40,
+                "name": "[Black Knight Helm](http://darksouls3.wiki.fextralife.com/Black+Knight+Helm)"
+            },
+            {
+                "id": 41,
+                "name": "[Silver Knight Helm](http://darksouls3.wiki.fextralife.com/Silver+Knight+Helm)"
+            },
+            {
+                "id": 42,
+                "name": "[Ringed Knight Hood](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Hood)"
+            },
+            {
+                "id": 43,
+                "name": "[Dragonslayer Helm](http://darksouls3.wiki.fextralife.com/Dragonslayer+Helm)"
+            },
+            {
+                "id": 44,
+                "name": "[Wolf Knight Helm](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Helm)"
+            },
+            {
+                "id": 45,
+                "name": "[Smough's Helm](http://darksouls3.wiki.fextralife.com/Smough's+Helm)"
+            },
+            {
+                "id": 46,
+                "name": "[Iron Dragonslayer Helm](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Helm)"
+            },
+            {
+                "id": 47,
+                "name": "[Lorian's Helm](http://darksouls3.wiki.fextralife.com/Lorian's+Helm)"
+            },
+            {
+                "id": 48,
+                "name": "[Golden Crown](http://darksouls3.wiki.fextralife.com/Golden+Crown)"
+            },
+            {
+                "id": 49,
+                "name": "[Firelink Helm](http://darksouls3.wiki.fextralife.com/Firelink+Helm)"
+            },
+            {
+                "id": 50,
+                "name": "[Black Iron Helm](http://darksouls3.wiki.fextralife.com/Black+Iron+Helm)"
+            },
+            {
+                "id": 51,
+                "name": "[Executioner Helm](http://darksouls3.wiki.fextralife.com/Executioner+Helm)"
+            },
+            {
+                "id": 52,
+                "name": "[Exile Mask](http://darksouls3.wiki.fextralife.com/Exile+Mask)"
+            },
+            {
+                "id": 53,
+                "name": "[Gundyr's Helm](http://darksouls3.wiki.fextralife.com/Gundyr's+Helm)"
+            },
+            {
+                "id": 54,
+                "name": "[Havel's Helm](http://darksouls3.wiki.fextralife.com/Havel's+Helm)"
+            },
+            {
+                "id": 55,
+                "name": "[Assassin Hood](http://darksouls3.wiki.fextralife.com/Assassin+Hood)"
+            },
+            {
+                "id": 56,
+                "name": "[Black Hand Hat](http://darksouls3.wiki.fextralife.com/Black+Hand+Hat)"
+            },
+            {
+                "id": 57,
+                "name": "[Thief Mask](http://darksouls3.wiki.fextralife.com/Thief+Mask)"
+            },
+            {
+                "id": 58,
+                "name": "[Shadow Mask](http://darksouls3.wiki.fextralife.com/Shadow+Mask)"
+            },
+            {
+                "id": 59,
+                "name": "[Silver Mask](http://darksouls3.wiki.fextralife.com/Silver+Mask)"
+            },
+            {
+                "id": 60,
+                "name": "[Sneering Mask](http://darksouls3.wiki.fextralife.com/Sneering+Mask)"
+            },
+            {
+                "id": 61,
+                "name": "[Billed Mask](http://darksouls3.wiki.fextralife.com/Billed+Mask)"
+            },
+            {
+                "id": 62,
+                "name": "[Painting Guardian Hood](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Hood)"
+            },
+            {
+                "id": 63,
+                "name": "[Sorcerer Hood](http://darksouls3.wiki.fextralife.com/Sorcerer+Hood)"
+            },
+            {
+                "id": 64,
+                "name": "[Old Sorcerer Hat](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Hat)"
+            },
+            {
+                "id": 65,
+                "name": "[Court Sorcerer Hood](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Hood)"
+            },
+            {
+                "id": 66,
+                "name": "[Karla's Pointed Hat](http://darksouls3.wiki.fextralife.com/Karla's+Pointed+Hat)"
+            },
+            {
+                "id": 67,
+                "name": "[Black Witch Hat](http://darksouls3.wiki.fextralife.com/Black+Witch+Hat)"
+            },
+            {
+                "id": 68,
+                "name": "[Black Witch Veil](http://darksouls3.wiki.fextralife.com/Black+Witch+Veil)"
+            },
+            {
+                "id": 69,
+                "name": "[Crown of Dusk](http://darksouls3.wiki.fextralife.com/Crown+of+Dusk)"
+            },
+            {
+                "id": 70,
+                "name": "[Xanthous Crown](http://darksouls3.wiki.fextralife.com/Xanthous+Crown)"
+            },
+            {
+                "id": 71,
+                "name": "[Sage's Big Hat](http://darksouls3.wiki.fextralife.com/Sage's+Big+Hat)"
+            },
+            {
+                "id": 72,
+                "name": "[Pyromancer Crown](http://darksouls3.wiki.fextralife.com/Pyromancer+Crown)"
+            },
+            {
+                "id": 73,
+                "name": "[Old Sage's Blindfold](http://darksouls3.wiki.fextralife.com/Old+Sage's+Blindfold)"
+            },
+            {
+                "id": 74,
+                "name": "[Conjurator Hood](http://darksouls3.wiki.fextralife.com/Conjurator+Hood)"
+            },
+            {
+                "id": 75,
+                "name": "[Desert Pyromancer Hood](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Hood)"
+            },
+            {
+                "id": 76,
+                "name": "[Cleric Hat](http://darksouls3.wiki.fextralife.com/Cleric+Hat)"
+            },
+            {
+                "id": 77,
+                "name": "[Maiden Hood](http://darksouls3.wiki.fextralife.com/Maiden+Hood)"
+            },
+            {
+                "id": 78,
+                "name": "[Ordained Hood](http://darksouls3.wiki.fextralife.com/Ordained+Hood)"
+            },
+            {
+                "id": 79,
+                "name": "[Evangelist Hat](http://darksouls3.wiki.fextralife.com/Evangelist+Hat)"
+            },
+            {
+                "id": 80,
+                "name": "[Archdeacon White Crown](http://darksouls3.wiki.fextralife.com/Archdeacon+White+Crown)"
+            },
+            {
+                "id": 81,
+                "name": "[Aristocrat's Mask](http://darksouls3.wiki.fextralife.com/Aristocrat's+Mask)"
+            },
+            {
+                "id": 82,
+                "name": "[Hood of Prayer](http://darksouls3.wiki.fextralife.com/Hood+of+Prayer)"
+            },
+            {
+                "id": 83,
+                "name": "[Ragged Mask](http://darksouls3.wiki.fextralife.com/Ragged+Mask)"
+            },
+            {
+                "id": 84,
+                "name": "[Worker Hat](http://darksouls3.wiki.fextralife.com/Worker+Hat)"
+            },
+            {
+                "id": 85,
+                "name": "[Grave Warden Hood](http://darksouls3.wiki.fextralife.com/Grave+Warden+Hood)"
+            },
+            {
+                "id": 86,
+                "name": "[Steel Soldier Helm](http://darksouls3.wiki.fextralife.com/Steel+Soldier+Helm)"
+            },
+            {
+                "id": 87,
+                "name": "[Thrall Hood](http://darksouls3.wiki.fextralife.com/Thrall+Hood)"
+            },
+            {
+                "id": 88,
+                "name": "[Pharis's Hat](http://darksouls3.wiki.fextralife.com/Pharis's+Hat)"
+            },
+            {
+                "id": 89,
+                "name": "[Wolnir's Crown](http://darksouls3.wiki.fextralife.com/Wolnir's+Crown)"
+            },
+            {
+                "id": 90,
+                "name": "[Blindfold Mask](http://darksouls3.wiki.fextralife.com/Blindfold+Mask)"
+            },
+            {
+                "id": 91,
+                "name": "[Symbol of Avarice](http://darksouls3.wiki.fextralife.com/Symbol+of+Avarice)"
+            },
+            {
+                "id": 92,
+                "name": "[White Preacher Head](http://darksouls3.wiki.fextralife.com/White+Preacher+Head)"
+            }
+        ]
+    },
+    {
+        "category": "Chest",
+        "gear_names": [
+            {
+                "id": 93,
+                "name": "[Hard Leather Armor](http://darksouls3.wiki.fextralife.com/Hard+Leather+Armor)"
+            },
+            {
+                "id": 94,
+                "name": "[Brigand Armor](http://darksouls3.wiki.fextralife.com/Brigand+Armor)"
+            },
+            {
+                "id": 95,
+                "name": "[Mirrah Vest](http://darksouls3.wiki.fextralife.com/Mirrah+Vest)"
+            },
+            {
+                "id": 96,
+                "name": "[Chain Armor](http://darksouls3.wiki.fextralife.com/Chain+Armor)"
+            },
+            {
+                "id": 97,
+                "name": "[Northern Armor](http://darksouls3.wiki.fextralife.com/Northern+Armor)"
+            },
+            {
+                "id": 98,
+                "name": "[Mirrah Chain Mail](http://darksouls3.wiki.fextralife.com/Mirrah+Chain+Mail)"
+            },
+            {
+                "id": 99,
+                "name": "[Armor of the Sun](http://darksouls3.wiki.fextralife.com/Armor+of+the+Sun)"
+            },
+            {
+                "id": 100,
+                "name": "[Sellsword Armor](http://darksouls3.wiki.fextralife.com/Sellsword+Armor)"
+            },
+            {
+                "id": 101,
+                "name": "[Drang Armor](http://darksouls3.wiki.fextralife.com/Drang+Armor)"
+            },
+            {
+                "id": 102,
+                "name": "[Follower Armor](http://darksouls3.wiki.fextralife.com/Follower+Armor)"
+            },
+            {
+                "id": 103,
+                "name": "[Shira's Armor](http://darksouls3.wiki.fextralife.com/Shira's+Armor)"
+            },
+            {
+                "id": 104,
+                "name": "[Undead Legion Armor](http://darksouls3.wiki.fextralife.com/Undead+Legion+Armor)"
+            },
+            {
+                "id": 105,
+                "name": "[Herald Armor](http://darksouls3.wiki.fextralife.com/Herald+Armor)"
+            },
+            {
+                "id": 106,
+                "name": "[Knight Armor](http://darksouls3.wiki.fextralife.com/Knight+Armor)"
+            },
+            {
+                "id": 107,
+                "name": "[Nameless Knight Armor](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Armor)"
+            },
+            {
+                "id": 108,
+                "name": "[Fallen Knight Armor](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Armor)"
+            },
+            {
+                "id": 109,
+                "name": "[Elite Knight Armor](http://darksouls3.wiki.fextralife.com/Elite+Knight+Armor)"
+            },
+            {
+                "id": 110,
+                "name": "[Alva Armor](http://darksouls3.wiki.fextralife.com/Alva+Armor)"
+            },
+            {
+                "id": 111,
+                "name": "[Drakeblood Armor](http://darksouls3.wiki.fextralife.com/Drakeblood+Armor)"
+            },
+            {
+                "id": 112,
+                "name": "[Faraam Armor](http://darksouls3.wiki.fextralife.com/Faraam+Armor)"
+            },
+            {
+                "id": 113,
+                "name": "[Sunset Armor](http://darksouls3.wiki.fextralife.com/Sunset+Armor)"
+            },
+            {
+                "id": 114,
+                "name": "[Sunless Armor](http://darksouls3.wiki.fextralife.com/Sunless+Armor)"
+            },
+            {
+                "id": 115,
+                "name": "[Brass Armor](http://darksouls3.wiki.fextralife.com/Brass+Armor)"
+            },
+            {
+                "id": 116,
+                "name": "[Slave Knight Armor](http://darksouls3.wiki.fextralife.com/Slave+Knight+Armor)"
+            },
+            {
+                "id": 117,
+                "name": "[Vilhelm's Armor](http://darksouls3.wiki.fextralife.com/Vilhelm's+Armor)"
+            },
+            {
+                "id": 118,
+                "name": "[Embraced Armor of Favor](http://darksouls3.wiki.fextralife.com/Embraced+Armor+of+Favor)"
+            },
+            {
+                "id": 119,
+                "name": "[Eastern Armor](http://darksouls3.wiki.fextralife.com/Eastern+Armor)"
+            },
+            {
+                "id": 120,
+                "name": "[Armor of Thorns](http://darksouls3.wiki.fextralife.com/Armor+of+Thorns)"
+            },
+            {
+                "id": 121,
+                "name": "[Catarina Armor](http://darksouls3.wiki.fextralife.com/Catarina+Armor)"
+            },
+            {
+                "id": 122,
+                "name": "[Morne's Armor](http://darksouls3.wiki.fextralife.com/Morne's+Armor)"
+            },
+            {
+                "id": 123,
+                "name": "[Lapp's Armor](http://darksouls3.wiki.fextralife.com/Lapp's+Armor)"
+            },
+            {
+                "id": 124,
+                "name": "[Lothric Knight Armor](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Armor)"
+            },
+            {
+                "id": 125,
+                "name": "[Cathedral Knight Armor](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Armor)"
+            },
+            {
+                "id": 126,
+                "name": "[Winged Knight Armor](http://darksouls3.wiki.fextralife.com/Winged+Knight+Armor)"
+            },
+            {
+                "id": 127,
+                "name": "[Millwood Knight Armor](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Armor)"
+            },
+            {
+                "id": 128,
+                "name": "[Harald Legion Armor](http://darksouls3.wiki.fextralife.com/Harald+Legion+Armor)"
+            },
+            {
+                "id": 129,
+                "name": "[Ruin Armor](http://darksouls3.wiki.fextralife.com/Ruin+Armor)"
+            },
+            {
+                "id": 130,
+                "name": "[Outrider Knight Armor](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Armor)"
+            },
+            {
+                "id": 131,
+                "name": "[Pontiff Knight Armor](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Armor)"
+            },
+            {
+                "id": 132,
+                "name": "[Fire Witch Armor](http://darksouls3.wiki.fextralife.com/Fire+Witch+Armor)"
+            },
+            {
+                "id": 133,
+                "name": "[Dancer's Armor](http://darksouls3.wiki.fextralife.com/Dancer's+Armor)"
+            },
+            {
+                "id": 134,
+                "name": "[Dark Armor](http://darksouls3.wiki.fextralife.com/Dark+Armor)"
+            },
+            {
+                "id": 135,
+                "name": "[Black Knight Armor](http://darksouls3.wiki.fextralife.com/Black+Knight+Armor)"
+            },
+            {
+                "id": 136,
+                "name": "[Silver Knight Armor](http://darksouls3.wiki.fextralife.com/Silver+Knight+Armor)"
+            },
+            {
+                "id": 137,
+                "name": "[Ringed Knight Armor](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Armor)"
+            },
+            {
+                "id": 138,
+                "name": "[Dragonslayer Armor](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armor)"
+            },
+            {
+                "id": 139,
+                "name": "[Wolf Knight Armor](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Armor)"
+            },
+            {
+                "id": 140,
+                "name": "[Smough's Armor](http://darksouls3.wiki.fextralife.com/Smough's+Armor)"
+            },
+            {
+                "id": 141,
+                "name": "[Iron Dragonslayer Armor](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Armor)"
+            },
+            {
+                "id": 142,
+                "name": "[Lorian's Armor](http://darksouls3.wiki.fextralife.com/Lorian's+Armor)"
+            },
+            {
+                "id": 143,
+                "name": "[Dragonscale Armor](http://darksouls3.wiki.fextralife.com/Dragonscale+Armor)"
+            },
+            {
+                "id": 144,
+                "name": "[Firelink Armor](http://darksouls3.wiki.fextralife.com/Firelink+Armor)"
+            },
+            {
+                "id": 145,
+                "name": "[Black Iron Armor](http://darksouls3.wiki.fextralife.com/Black+Iron+Armor)"
+            },
+            {
+                "id": 146,
+                "name": "[Executioner Armor](http://darksouls3.wiki.fextralife.com/Executioner+Armor)"
+            },
+            {
+                "id": 147,
+                "name": "[Exile Armor](http://darksouls3.wiki.fextralife.com/Exile+Armor)"
+            },
+            {
+                "id": 148,
+                "name": "[Gundyr's Armor](http://darksouls3.wiki.fextralife.com/Gundyr's+Armor)"
+            },
+            {
+                "id": 149,
+                "name": "[Havel's Armor](http://darksouls3.wiki.fextralife.com/Havel's+Amor)"
+            },
+            {
+                "id": 150,
+                "name": "[Assassin Armor](http://darksouls3.wiki.fextralife.com/Assassin+Armor)"
+            },
+            {
+                "id": 151,
+                "name": "[Black Hand Armor](http://darksouls3.wiki.fextralife.com/Black+Hand+Armor)"
+            },
+            {
+                "id": 152,
+                "name": "[Black Leather Armor](http://darksouls3.wiki.fextralife.com/Black+Leather+Armor)"
+            },
+            {
+                "id": 153,
+                "name": "[Shadow Garb](http://darksouls3.wiki.fextralife.com/Shadow+Garb)"
+            },
+            {
+                "id": 154,
+                "name": "[Leonhard's Garb](http://darksouls3.wiki.fextralife.com/Leonhard's+Garb)"
+            },
+            {
+                "id": 155,
+                "name": "[Pale Shade Robe](http://darksouls3.wiki.fextralife.com/Pale+Shade+Robe)"
+            },
+            {
+                "id": 156,
+                "name": "[Black Dress](http://darksouls3.wiki.fextralife.com/Black+Dress)"
+            },
+            {
+                "id": 157,
+                "name": "[Painting Guardian Gown](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Gown)"
+            },
+            {
+                "id": 158,
+                "name": "[Antiquated Plain Garb](http://darksouls3.wiki.fextralife.com/Antiquated+Plain+Garb)"
+            },
+            {
+                "id": 159,
+                "name": "[Sorcerer Robe](http://darksouls3.wiki.fextralife.com/Sorcerer+Robe)"
+            },
+            {
+                "id": 160,
+                "name": "[Clandestine Coat](http://darksouls3.wiki.fextralife.com/Clandestine+Coat)"
+            },
+            {
+                "id": 161,
+                "name": "[Old Sorcerer Coat](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Coat)"
+            },
+            {
+                "id": 162,
+                "name": "[Court Sorcerer Robe](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Robe)"
+            },
+            {
+                "id": 163,
+                "name": "[Karla's Coat](http://darksouls3.wiki.fextralife.com/Karla's+Coat)"
+            },
+            {
+                "id": 164,
+                "name": "[Black Witch Garb](http://darksouls3.wiki.fextralife.com/Black+Witch+Garb)"
+            },
+            {
+                "id": 165,
+                "name": "[Antiquated Dress](http://darksouls3.wiki.fextralife.com/Antiquated+Dress)"
+            },
+            {
+                "id": 166,
+                "name": "[Xanthous Overcoat](http://darksouls3.wiki.fextralife.com/Xanthous+Overcoat)"
+            },
+            {
+                "id": 167,
+                "name": "[Scholar's Robe](http://darksouls3.wiki.fextralife.com/Scholar's+Robe)"
+            },
+            {
+                "id": 168,
+                "name": "[Pyromancer Garb](http://darksouls3.wiki.fextralife.com/Pyromancer+Garb)"
+            },
+            {
+                "id": 169,
+                "name": "[Cornyx's Garb](http://darksouls3.wiki.fextralife.com/Cornyx's+Garb)"
+            },
+            {
+                "id": 170,
+                "name": "[Conjurator Robe](http://darksouls3.wiki.fextralife.com/Conjurator+Robe)"
+            },
+            {
+                "id": 171,
+                "name": "[Desert Pyromancer Garb](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Garb)"
+            },
+            {
+                "id": 172,
+                "name": "[Cleric Blue Robe](http://darksouls3.wiki.fextralife.com/Cleric+Blue+Robe)"
+            },
+            {
+                "id": 173,
+                "name": "[Maiden Robe](http://darksouls3.wiki.fextralife.com/Maiden+Robe)"
+            },
+            {
+                "id": 174,
+                "name": "[Ordained Dress](http://darksouls3.wiki.fextralife.com/Ordained+Dress)"
+            },
+            {
+                "id": 175,
+                "name": "[Evangelist Robe](http://darksouls3.wiki.fextralife.com/Evangelist+Robe)"
+            },
+            {
+                "id": 176,
+                "name": "[Deacon Robe](http://darksouls3.wiki.fextralife.com/Deacon+Robe)"
+            },
+            {
+                "id": 177,
+                "name": "[Archdeacon Holy Garb](http://darksouls3.wiki.fextralife.com/Archdeacon+Holy+Garb)"
+            },
+            {
+                "id": 178,
+                "name": "[Jailer Robe](http://darksouls3.wiki.fextralife.com/Jailer+Robe)"
+            },
+            {
+                "id": 179,
+                "name": "[Robe of Prayer](http://darksouls3.wiki.fextralife.com/Robe+of+Prayer)"
+            },
+            {
+                "id": 180,
+                "name": "[Fire Keeper Robe](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Robe)"
+            },
+            {
+                "id": 181,
+                "name": "[Master's Attire](http://darksouls3.wiki.fextralife.com/Master's+Attire)"
+            },
+            {
+                "id": 182,
+                "name": "[Worker Garb](http://darksouls3.wiki.fextralife.com/Worker+Garb)"
+            },
+            {
+                "id": 183,
+                "name": "[Grave Warden Robe](http://darksouls3.wiki.fextralife.com/Grave+Warden+Robe)"
+            },
+            {
+                "id": 184,
+                "name": "[Deserter Armor](http://darksouls3.wiki.fextralife.com/Deserter+Armor)"
+            },
+            {
+                "id": 185,
+                "name": "[Leather Armor](http://darksouls3.wiki.fextralife.com/Leather+Armor)"
+            }
+        ]
+    },
+    {
+        "category": "Hands",
+        "gear_names": [
+            {
+                "id": 186,
+                "name": "[Hard Leather Gauntlets](http://darksouls3.wiki.fextralife.com/Hard+Leather+Gauntlets)"
+            },
+            {
+                "id": 187,
+                "name": "[Brigand Gauntlets](http://darksouls3.wiki.fextralife.com/Brigand+Gauntlets)"
+            },
+            {
+                "id": 188,
+                "name": "[Mirrah Gloves](http://darksouls3.wiki.fextralife.com/Mirrah+Gloves)"
+            },
+            {
+                "id": 189,
+                "name": "[Leather Gauntlets](http://darksouls3.wiki.fextralife.com/Leather+Gauntlets)"
+            },
+            {
+                "id": 190,
+                "name": "[Northern Gloves](http://darksouls3.wiki.fextralife.com/Northern+Gloves)"
+            },
+            {
+                "id": 191,
+                "name": "[Mirrah Chain Gloves](http://darksouls3.wiki.fextralife.com/Mirrah+Chain+Gloves)"
+            },
+            {
+                "id": 192,
+                "name": "[Iron Bracelets](http://darksouls3.wiki.fextralife.com/Iron+Bracelets)"
+            },
+            {
+                "id": 193,
+                "name": "[Sellsword Gauntlet](http://darksouls3.wiki.fextralife.com/Sellsword+Gauntlet)"
+            },
+            {
+                "id": 194,
+                "name": "[Drang Gauntlets](http://darksouls3.wiki.fextralife.com/Drang+Gauntlets)"
+            },
+            {
+                "id": 195,
+                "name": "[Follower Gloves](http://darksouls3.wiki.fextralife.com/Follower+Gloves)"
+            },
+            {
+                "id": 196,
+                "name": "[Shira's Gloves](http://darksouls3.wiki.fextralife.com/Shira's+Gloves)"
+            },
+            {
+                "id": 197,
+                "name": "[Undead Legion Gauntlet](http://darksouls3.wiki.fextralife.com/Undead+Legion+Gauntlet)"
+            },
+            {
+                "id": 198,
+                "name": "[Herald Gloves](http://darksouls3.wiki.fextralife.com/Herald+Gloves)"
+            },
+            {
+                "id": 199,
+                "name": "[Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Knight+Gauntlets)"
+            },
+            {
+                "id": 200,
+                "name": "[Nameless Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Gauntlets)"
+            },
+            {
+                "id": 201,
+                "name": "[Fallen Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Gauntlets)"
+            },
+            {
+                "id": 202,
+                "name": "[Elite Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Elite+Knight+Gauntlets)"
+            },
+            {
+                "id": 203,
+                "name": "[Alva Gauntlets](http://darksouls3.wiki.fextralife.com/Alva+Gauntlets)"
+            },
+            {
+                "id": 204,
+                "name": "[Drakeblood Gauntlets](http://darksouls3.wiki.fextralife.com/Drakeblood+Gauntlets)"
+            },
+            {
+                "id": 205,
+                "name": "[Faraam Gauntlets](http://darksouls3.wiki.fextralife.com/Faraam+Gauntlets)"
+            },
+            {
+                "id": 206,
+                "name": "[Sunset Gauntlets](http://darksouls3.wiki.fextralife.com/Sunset+Gauntlets)"
+            },
+            {
+                "id": 207,
+                "name": "[Sunless Gauntlets](http://darksouls3.wiki.fextralife.com/Sunless+Gauntlets)"
+            },
+            {
+                "id": 208,
+                "name": "[Brass Gauntlets](http://darksouls3.wiki.fextralife.com/Brass+Gauntlets)"
+            },
+            {
+                "id": 209,
+                "name": "[Slave Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Slave+Knight+Gauntlets)"
+            },
+            {
+                "id": 210,
+                "name": "[Vilhelm's Gauntlets](http://darksouls3.wiki.fextralife.com/Vilhelm's+Gauntlets)"
+            },
+            {
+                "id": 211,
+                "name": "[Gauntlets of Favor](http://darksouls3.wiki.fextralife.com/Gauntlets+of+Favor)"
+            },
+            {
+                "id": 212,
+                "name": "[Eastern Gauntlets](http://darksouls3.wiki.fextralife.com/Eastern+Gauntlets)"
+            },
+            {
+                "id": 213,
+                "name": "[Gauntlets of Thorns](http://darksouls3.wiki.fextralife.com/Gauntlets+of+Thorns)"
+            },
+            {
+                "id": 214,
+                "name": "[Catarina Gauntlets](http://darksouls3.wiki.fextralife.com/Catarina+Gauntlets)"
+            },
+            {
+                "id": 215,
+                "name": "[Morne's Gauntlets](http://darksouls3.wiki.fextralife.com/Morne's+Gauntlets)"
+            },
+            {
+                "id": 216,
+                "name": "[Lapp's Gauntlets](http://darksouls3.wiki.fextralife.com/Lapp's+Gauntlets)"
+            },
+            {
+                "id": 217,
+                "name": "[Lothric Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Gauntlets)"
+            },
+            {
+                "id": 218,
+                "name": "[Cathedral Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Gauntlets)"
+            },
+            {
+                "id": 219,
+                "name": "[Winged Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Winged+Knight+Gauntlets)"
+            },
+            {
+                "id": 220,
+                "name": "[Millwood Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Gauntlets)"
+            },
+            {
+                "id": 221,
+                "name": "[Harald Legion Gauntlets](http://darksouls3.wiki.fextralife.com/Harald+Legion+Gauntlets)"
+            },
+            {
+                "id": 222,
+                "name": "[Ruin Gauntlets](http://darksouls3.wiki.fextralife.com/Ruin+Gauntlets)"
+            },
+            {
+                "id": 223,
+                "name": "[Outrider Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Gauntlets)"
+            },
+            {
+                "id": 224,
+                "name": "[Pontiff Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Gauntlets)"
+            },
+            {
+                "id": 225,
+                "name": "[Fire Witch Gauntlets](http://darksouls3.wiki.fextralife.com/Fire+Witch+Gauntlets)"
+            },
+            {
+                "id": 226,
+                "name": "[Dancer's Gauntlets](http://darksouls3.wiki.fextralife.com/Dancer's+Gauntlets)"
+            },
+            {
+                "id": 227,
+                "name": "[Dark Gauntlets](http://darksouls3.wiki.fextralife.com/Dark+Gauntlets)"
+            },
+            {
+                "id": 228,
+                "name": "[Black Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Black+Knight+Gauntlets)"
+            },
+            {
+                "id": 229,
+                "name": "[Silver Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Silver+Knight+Gauntlets)"
+            },
+            {
+                "id": 230,
+                "name": "[Ringed Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Gauntlets)"
+            },
+            {
+                "id": 231,
+                "name": "[Dragonslayer Gauntlets](http://darksouls3.wiki.fextralife.com/Dragonslayer+Gauntlets)"
+            },
+            {
+                "id": 232,
+                "name": "[Wolf Knight Gauntlets](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Gauntlets)"
+            },
+            {
+                "id": 233,
+                "name": "[Smough's Gauntlets](http://darksouls3.wiki.fextralife.com/Smough's+Gauntlets)"
+            },
+            {
+                "id": 234,
+                "name": "[Iron Dragonslayer Gauntlets](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Gauntlets)"
+            },
+            {
+                "id": 235,
+                "name": "[Lorian's Gauntlets](http://darksouls3.wiki.fextralife.com/Lorian's+Gauntlets)"
+            },
+            {
+                "id": 236,
+                "name": "[Golden Bracelets](http://darksouls3.wiki.fextralife.com/Golden+Bracelets)"
+            },
+            {
+                "id": 237,
+                "name": "[Firelink Gauntlets](http://darksouls3.wiki.fextralife.com/Firelink+Gauntlets)"
+            },
+            {
+                "id": 238,
+                "name": "[Black Iron Gauntlets](http://darksouls3.wiki.fextralife.com/Black+Iron+Gauntlets)"
+            },
+            {
+                "id": 239,
+                "name": "[Executioner Gauntlets](http://darksouls3.wiki.fextralife.com/Executioner+Gauntlets)"
+            },
+            {
+                "id": 240,
+                "name": "[Exile Gauntlets](http://darksouls3.wiki.fextralife.com/Exile+Gauntlets)"
+            },
+            {
+                "id": 241,
+                "name": "[Gundyr's Gauntlets](http://darksouls3.wiki.fextralife.com/Gundyr's+Gauntlets)"
+            },
+            {
+                "id": 242,
+                "name": "[Havel's Gauntlets](http://darksouls3.wiki.fextralife.com/Havel's+Gauntlets)"
+            },
+            {
+                "id": 243,
+                "name": "[Assassin Gloves](http://darksouls3.wiki.fextralife.com/Assassin+Gloves)"
+            },
+            {
+                "id": 244,
+                "name": "[Black Leather Gloves](http://darksouls3.wiki.fextralife.com/Black+Leather+Gloves)"
+            },
+            {
+                "id": 245,
+                "name": "[Shadow Gauntlets](http://darksouls3.wiki.fextralife.com/Shadow+Gauntlets)"
+            },
+            {
+                "id": 246,
+                "name": "[Leonhard's Gauntlets](http://darksouls3.wiki.fextralife.com/Leonhard's+Gauntlets)"
+            },
+            {
+                "id": 247,
+                "name": "[Pale Shade Gloves](http://darksouls3.wiki.fextralife.com/Pale+Shade+Gloves)"
+            },
+            {
+                "id": 248,
+                "name": "[Black Gauntlets](http://darksouls3.wiki.fextralife.com/Black+Gauntlets)"
+            },
+            {
+                "id": 249,
+                "name": "[Painting Guardian Gloves](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Gloves)"
+            },
+            {
+                "id": 250,
+                "name": "[Violet Wrappings](http://darksouls3.wiki.fextralife.com/Violet+Wrappings)"
+            },
+            {
+                "id": 251,
+                "name": "[Sorcerer Gloves](http://darksouls3.wiki.fextralife.com/Sorcerer+Gloves)"
+            },
+            {
+                "id": 252,
+                "name": "[Old Sorcerer Gauntlets](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Gauntlets)"
+            },
+            {
+                "id": 253,
+                "name": "[Court Sorcerer Gloves](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Gloves)"
+            },
+            {
+                "id": 254,
+                "name": "[Karla's Gloves](http://darksouls3.wiki.fextralife.com/Karla's+Gloves)"
+            },
+            {
+                "id": 255,
+                "name": "[Black Witch Wrappings](http://darksouls3.wiki.fextralife.com/Black+Witch+Wrappings)"
+            },
+            {
+                "id": 256,
+                "name": "[Antiquated Gloves](http://darksouls3.wiki.fextralife.com/Antiquated+Gloves)"
+            },
+            {
+                "id": 257,
+                "name": "[Xanthous Gloves](http://darksouls3.wiki.fextralife.com/Xanthous+Gloves)"
+            },
+            {
+                "id": 258,
+                "name": "[Pyromancer Wrap](http://darksouls3.wiki.fextralife.com/Pyromancer+Wrap)"
+            },
+            {
+                "id": 259,
+                "name": "[Cornyx's Wrap](http://darksouls3.wiki.fextralife.com/Cornyx's+Wrap)"
+            },
+            {
+                "id": 260,
+                "name": "[Conjurator Manchettes](http://darksouls3.wiki.fextralife.com/Conjurator+Manchettes)"
+            },
+            {
+                "id": 261,
+                "name": "[Desert Pyromancer Gloves](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Gloves)"
+            },
+            {
+                "id": 262,
+                "name": "[Cleric Gloves](http://darksouls3.wiki.fextralife.com/Cleric+Gloves)"
+            },
+            {
+                "id": 263,
+                "name": "[Maiden Gloves](http://darksouls3.wiki.fextralife.com/Maiden+Gloves)"
+            },
+            {
+                "id": 264,
+                "name": "[Evangelist Gloves](http://darksouls3.wiki.fextralife.com/Evangelist+Gloves)"
+            },
+            {
+                "id": 265,
+                "name": "[Jailer Gloves](http://darksouls3.wiki.fextralife.com/Jailer+Gloves)"
+            },
+            {
+                "id": 266,
+                "name": "[Fire Keeper Gloves](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Gloves)"
+            },
+            {
+                "id": 267,
+                "name": "[Master's Gloves](http://darksouls3.wiki.fextralife.com/Master's+Gloves)"
+            },
+            {
+                "id": 268,
+                "name": "[Worker Gloves](http://darksouls3.wiki.fextralife.com/Worker+Gloves)"
+            },
+            {
+                "id": 269,
+                "name": "[Grave Warden Wrap](http://darksouls3.wiki.fextralife.com/Grave+Warden+Wrap)"
+            },
+            {
+                "id": 270,
+                "name": "[Leather Gloves](http://darksouls3.wiki.fextralife.com/Leather+Gloves)"
+            }
+        ]
+    },
+    {
+        "category": "Legs",
+        "gear_names": [
+            {
+                "id": 271,
+                "name": "[Hard Leather Boots](http://darksouls3.wiki.fextralife.com/Hard+Leather+Boots)"
+            },
+            {
+                "id": 272,
+                "name": "[Brigand Trousers](http://darksouls3.wiki.fextralife.com/Brigand+Trousers)"
+            },
+            {
+                "id": 273,
+                "name": "[Mirrah Trousers](http://darksouls3.wiki.fextralife.com/Mirrah+Trousers)"
+            },
+            {
+                "id": 274,
+                "name": "[Chain Leggings](http://darksouls3.wiki.fextralife.com/Chain+Leggings)"
+            },
+            {
+                "id": 275,
+                "name": "[Northern Trousers](http://darksouls3.wiki.fextralife.com/Northern+Trousers)"
+            },
+            {
+                "id": 276,
+                "name": "[Mirrah Chain Leggings](http://darksouls3.wiki.fextralife.com/Mirrah+Chain+Leggings)"
+            },
+            {
+                "id": 277,
+                "name": "[Iron Leggings](http://darksouls3.wiki.fextralife.com/Iron+Leggings)"
+            },
+            {
+                "id": 278,
+                "name": "[Sellsword Trousers](http://darksouls3.wiki.fextralife.com/Sellsword+Trousers)"
+            },
+            {
+                "id": 279,
+                "name": "[Drang Shoes](http://darksouls3.wiki.fextralife.com/Drang+Shoes)"
+            },
+            {
+                "id": 280,
+                "name": "[Follower Boots](http://darksouls3.wiki.fextralife.com/Follower+Boots)"
+            },
+            {
+                "id": 281,
+                "name": "[Shira's Trousers](http://darksouls3.wiki.fextralife.com/Shira's+Trousers)"
+            },
+            {
+                "id": 282,
+                "name": "[Undead Legion Leggings](http://darksouls3.wiki.fextralife.com/Undead+Legion+Leggings)"
+            },
+            {
+                "id": 283,
+                "name": "[Herald Trousers](http://darksouls3.wiki.fextralife.com/Herald+Trousers)"
+            },
+            {
+                "id": 284,
+                "name": "[Knight Leggings](http://darksouls3.wiki.fextralife.com/Knight+Leggings)"
+            },
+            {
+                "id": 285,
+                "name": "[Nameless Knight Leggings](http://darksouls3.wiki.fextralife.com/Nameless+Knight+Leggings)"
+            },
+            {
+                "id": 286,
+                "name": "[Fallen Knight Trousers](http://darksouls3.wiki.fextralife.com/Fallen+Knight+Trousers)"
+            },
+            {
+                "id": 287,
+                "name": "[Elite Knight Leggings](http://darksouls3.wiki.fextralife.com/Elite+Knight+Leggings)"
+            },
+            {
+                "id": 288,
+                "name": "[Alva Leggings](http://darksouls3.wiki.fextralife.com/Alva+Leggings)"
+            },
+            {
+                "id": 289,
+                "name": "[Drakeblood Leggings](http://darksouls3.wiki.fextralife.com/Drakeblood+Leggings)"
+            },
+            {
+                "id": 290,
+                "name": "[Faraam Boots](http://darksouls3.wiki.fextralife.com/Faraam+Boots)"
+            },
+            {
+                "id": 291,
+                "name": "[Sunset Leggings](http://darksouls3.wiki.fextralife.com/Sunset+Leggings)"
+            },
+            {
+                "id": 292,
+                "name": "[Sunless Leggings](http://darksouls3.wiki.fextralife.com/Sunless+Leggings)"
+            },
+            {
+                "id": 293,
+                "name": "[Brass Leggings](http://darksouls3.wiki.fextralife.com/Brass+Leggings)"
+            },
+            {
+                "id": 294,
+                "name": "[Slave Knight Leggings](http://darksouls3.wiki.fextralife.com/Slave+Knight+Leggings)"
+            },
+            {
+                "id": 295,
+                "name": "[Vilhelm's Leggings](http://darksouls3.wiki.fextralife.com/Vilhelm's+Leggings)"
+            },
+            {
+                "id": 296,
+                "name": "[Leggings of Favor](http://darksouls3.wiki.fextralife.com/Leggings+of+Favor)"
+            },
+            {
+                "id": 297,
+                "name": "[Eastern Leggings](http://darksouls3.wiki.fextralife.com/Eastern+Leggings)"
+            },
+            {
+                "id": 298,
+                "name": "[Leggings of Thorns](http://darksouls3.wiki.fextralife.com/Leggings+of+Thorns)"
+            },
+            {
+                "id": 299,
+                "name": "[Catarina Leggings](http://darksouls3.wiki.fextralife.com/Catarina+Leggings)"
+            },
+            {
+                "id": 300,
+                "name": "[Morne's Leggings](http://darksouls3.wiki.fextralife.com/Morne's+Leggings)"
+            },
+            {
+                "id": 301,
+                "name": "[Lapp's Leggings](http://darksouls3.wiki.fextralife.com/Lapp's+Leggings)"
+            },
+            {
+                "id": 302,
+                "name": "[Lothric Knight Leggings](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Leggings)"
+            },
+            {
+                "id": 303,
+                "name": "[Cathedral Knight Leggings](http://darksouls3.wiki.fextralife.com/Cathedral+Knight+Leggings)"
+            },
+            {
+                "id": 304,
+                "name": "[Winged Knight Leggings](http://darksouls3.wiki.fextralife.com/Winged+Knight+Leggings)"
+            },
+            {
+                "id": 305,
+                "name": "[Millwood Knight Leggings](http://darksouls3.wiki.fextralife.com/Millwood+Knight+Leggings)"
+            },
+            {
+                "id": 306,
+                "name": "[Harald Legion Leggings](http://darksouls3.wiki.fextralife.com/Harald+Legion+Leggings)"
+            },
+            {
+                "id": 307,
+                "name": "[Ruin Leggings](http://darksouls3.wiki.fextralife.com/Ruin+Leggings)"
+            },
+            {
+                "id": 308,
+                "name": "[Outrider Knight Leggings](http://darksouls3.wiki.fextralife.com/Outrider+Knight+Leggings)"
+            },
+            {
+                "id": 309,
+                "name": "[Pontiff Knight Leggings](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Leggings)"
+            },
+            {
+                "id": 310,
+                "name": "[Fire Witch Leggings](http://darksouls3.wiki.fextralife.com/Fire+Witch+Leggings)"
+            },
+            {
+                "id": 311,
+                "name": "[Dancer's Leggings](http://darksouls3.wiki.fextralife.com/Dancer's+Leggings)"
+            },
+            {
+                "id": 312,
+                "name": "[Dark Leggings](http://darksouls3.wiki.fextralife.com/Dark+Leggings)"
+            },
+            {
+                "id": 313,
+                "name": "[Black Knight Leggings](http://darksouls3.wiki.fextralife.com/Black+Knight+Leggings)"
+            },
+            {
+                "id": 314,
+                "name": "[Silver Knight Leggings](http://darksouls3.wiki.fextralife.com/Silver+Knight+Leggings)"
+            },
+            {
+                "id": 315,
+                "name": "[Ringed Knight Leggings](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Leggings)"
+            },
+            {
+                "id": 316,
+                "name": "[Dragonslayer Leggings](http://darksouls3.wiki.fextralife.com/Dragonslayer+Leggings)"
+            },
+            {
+                "id": 317,
+                "name": "[Wolf Knight Leggings](http://darksouls3.wiki.fextralife.com/Wolf+Knight+Leggings)"
+            },
+            {
+                "id": 318,
+                "name": "[Smough's Leggings](http://darksouls3.wiki.fextralife.com/Smough's+Leggings)"
+            },
+            {
+                "id": 319,
+                "name": "[Iron Dragonslayer Leggings](http://darksouls3.wiki.fextralife.com/Iron+Dragonslayer+Leggings)"
+            },
+            {
+                "id": 320,
+                "name": "[Lorian's Leggings](http://darksouls3.wiki.fextralife.com/Lorian's+Leggings)"
+            },
+            {
+                "id": 321,
+                "name": "[Dragonscale Waistcloth](http://darksouls3.wiki.fextralife.com/Dragonscale+Waistcloth)"
+            },
+            {
+                "id": 322,
+                "name": "[Firelink Leggings](http://darksouls3.wiki.fextralife.com/Firelink+Leggings)"
+            },
+            {
+                "id": 323,
+                "name": "[Black Iron Leggings](http://darksouls3.wiki.fextralife.com/Black+Iron+Leggings)"
+            },
+            {
+                "id": 324,
+                "name": "[Executioner Leggings](http://darksouls3.wiki.fextralife.com/Executioner+Leggings)"
+            },
+            {
+                "id": 325,
+                "name": "[Exile Leggings](http://darksouls3.wiki.fextralife.com/Exile+Leggings)"
+            },
+            {
+                "id": 326,
+                "name": "[Gundyr's Leggings](http://darksouls3.wiki.fextralife.com/Gundyr's+Leggings)"
+            },
+            {
+                "id": 327,
+                "name": "[Havel's Leggings](http://darksouls3.wiki.fextralife.com/Havel's+Leggings)"
+            },
+            {
+                "id": 328,
+                "name": "[Assassin Trousers](http://darksouls3.wiki.fextralife.com/Assassin+Trousers)"
+            },
+            {
+                "id": 329,
+                "name": "[Black Leather Boots](http://darksouls3.wiki.fextralife.com/Black+Leather+Boots)"
+            },
+            {
+                "id": 330,
+                "name": "[Shadow Leggings](http://darksouls3.wiki.fextralife.com/Shadow+Leggings)"
+            },
+            {
+                "id": 331,
+                "name": "[Leonhard's Trousers](http://darksouls3.wiki.fextralife.com/Leonhard's+Trousers)"
+            },
+            {
+                "id": 332,
+                "name": "[Pale Shade Trousers](http://darksouls3.wiki.fextralife.com/Pale+Shade+Trousers)"
+            },
+            {
+                "id": 333,
+                "name": "[Black Leggings](http://darksouls3.wiki.fextralife.com/Black+Leggings)"
+            },
+            {
+                "id": 334,
+                "name": "[Painting Guardian Waistcloth](http://darksouls3.wiki.fextralife.com/Painting+Guardian+Waistcloth)"
+            },
+            {
+                "id": 335,
+                "name": "[Sorcerer Trousers](http://darksouls3.wiki.fextralife.com/Sorcerer+Trousers)"
+            },
+            {
+                "id": 336,
+                "name": "[Old Sorcerer Boots](http://darksouls3.wiki.fextralife.com/Old+Sorcerer+Boots)"
+            },
+            {
+                "id": 337,
+                "name": "[Court Sorcerer Trousers](http://darksouls3.wiki.fextralife.com/Court+Sorcerer+Trousers)"
+            },
+            {
+                "id": 338,
+                "name": "[Karla's Trousers](http://darksouls3.wiki.fextralife.com/Karla's+Trousers)"
+            },
+            {
+                "id": 339,
+                "name": "[Black Witch Trousers](http://darksouls3.wiki.fextralife.com/Black+Witch+Trousers)"
+            },
+            {
+                "id": 340,
+                "name": "[Antiquated Skirt](http://darksouls3.wiki.fextralife.com/Antiquated+Skirt)"
+            },
+            {
+                "id": 341,
+                "name": "[Xanthous Trousers](http://darksouls3.wiki.fextralife.com/Xanthous+Trousers)"
+            },
+            {
+                "id": 342,
+                "name": "[Pyromancer Trousers](http://darksouls3.wiki.fextralife.com/Pyromancer+Trousers)"
+            },
+            {
+                "id": 343,
+                "name": "[Cornyx's Skirt](http://darksouls3.wiki.fextralife.com/Cornyx's+Skirt)"
+            },
+            {
+                "id": 344,
+                "name": "[Conjurator Boots](http://darksouls3.wiki.fextralife.com/Conjurator+Boots)"
+            },
+            {
+                "id": 345,
+                "name": "[Desert Pyromancer Skirt](http://darksouls3.wiki.fextralife.com/Desert+Pyromancer+Skirt)"
+            },
+            {
+                "id": 346,
+                "name": "[Cleric Trousers](http://darksouls3.wiki.fextralife.com/Cleric+Trousers)"
+            },
+            {
+                "id": 347,
+                "name": "[Maiden Skirt](http://darksouls3.wiki.fextralife.com/Maiden+Skirt)"
+            },
+            {
+                "id": 348,
+                "name": "[Ordained Trousers](http://darksouls3.wiki.fextralife.com/Ordained+Trousers)"
+            },
+            {
+                "id": 349,
+                "name": "[Evangelist Trousers](http://darksouls3.wiki.fextralife.com/Evangelist+Trousers)"
+            },
+            {
+                "id": 350,
+                "name": "[Deacon Skirt](http://darksouls3.wiki.fextralife.com/Deacon+Skirt)"
+            },
+            {
+                "id": 351,
+                "name": "[Archdeacon Skirt](http://darksouls3.wiki.fextralife.com/Archdeacon+Skirt)"
+            },
+            {
+                "id": 352,
+                "name": "[Jailer Trousers](http://darksouls3.wiki.fextralife.com/Jailer+Trousers)"
+            },
+            {
+                "id": 353,
+                "name": "[Skirt of Prayer](http://darksouls3.wiki.fextralife.com/Skirt+of+Prayer)"
+            },
+            {
+                "id": 354,
+                "name": "[Fire Keeper Skirt](http://darksouls3.wiki.fextralife.com/Fire+Keeper+Skirt)"
+            },
+            {
+                "id": 355,
+                "name": "[Loincloth](http://darksouls3.wiki.fextralife.com/Loincloth)"
+            },
+            {
+                "id": 356,
+                "name": "[Worker Trousers](http://darksouls3.wiki.fextralife.com/Worker+Trousers)"
+            },
+            {
+                "id": 357,
+                "name": "[Grave Warden Skirt](http://darksouls3.wiki.fextralife.com/Grave+Warden+Skirt)"
+            },
+            {
+                "id": 358,
+                "name": "[Deserter Trousers](http://darksouls3.wiki.fextralife.com/Deserter+Trousers)"
+            },
+            {
+                "id": 359,
+                "name": "[Loincloth](http://darksouls3.wiki.fextralife.com/Loincloth) (Ringed City Version)"
+            },
+            {
+                "id": 360,
+                "name": "[Leather Boots](http://darksouls3.wiki.fextralife.com/Leather+Boots)"
+            }
+        ]
+    }
 ]

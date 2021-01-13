@@ -568,728 +568,728 @@
             },
             {
                 "id": 131,
-                "name": "[Crescent Moon Sword](http://darksouls3.wiki.fextralife.com/Crescent+Moon+Sword)"
+                "name": "[Меч-полумесяц](https://darksouls.fandom.com/ru/wiki/Меч-полумесяц)"
             },
             {
                 "id": 132,
-                "name": "[Storm Curved Sword](http://darksouls3.wiki.fextralife.com/Storm+Curved+Sword)"
+                "name": "[Клинок бури](https://darksouls.fandom.com/ru/wiki/Клинок_бури)"
             },
             {
                 "id": 133,
-                "name": "[Demon's Scar](http://darksouls3.wiki.fextralife.com/Demon's+Scar)"
+                "name": "[Метка демона](https://darksouls.fandom.com/ru/wiki/Метка_демона)"
             },
             {
                 "id": 134,
-                "name": "[Sellsword Twinblades](http://darksouls3.wiki.fextralife.com/Sellsword+Twinblades)"
+                "name": "[Скимитары наемника](https://darksouls.fandom.com/ru/wiki/Скимитары_наемника)"
             },
             {
                 "id": 135,
-                "name": "[Warden Twinblades](http://darksouls3.wiki.fextralife.com/Warden+Twinblades)"
+                "name": "[Клинки хранителя](https://darksouls.fandom.com/ru/wiki/Клинки_хранителя)"
             },
             {
                 "id": 136,
-                "name": "[Dancer's Enchanted Swords](http://darksouls3.wiki.fextralife.com/Dancer's+Enchanted+Swords)"
+                "name": "[Зачарованные мечи танцовщицы](https://darksouls.fandom.com/ru/wiki/Зачарованные_мечи_танцовщицы)"
             }
         ]
     },
     {
-        "category": "Curved Greatswords",
+        "category": "Изогнутые двуручные мечи",
         "item_names": [
             {
                 "id": 137,
-                "name": "[Murakumo](http://darksouls3.wiki.fextralife.com/Murakumo)"
+                "name": "[Муракумо](https://darksouls.fandom.com/ru/wiki/Муракумо_(Dark_Souls_III))"
             },
             {
                 "id": 138,
-                "name": "[Carthus Curved Greatsword](http://darksouls3.wiki.fextralife.com/Carthus+Curved+Greatsword)"
+                "name": "[Картусский изогнутый двуручный меч](https://darksouls.fandom.com/ru/wiki/Картусский_изогнутый_двуручный_меч)"
             },
             {
                 "id": 139,
-                "name": "[Exile Greatsword](http://darksouls3.wiki.fextralife.com/Exile+Greatsword)"
+                "name": "[Двуручный меч изгнанника](https://darksouls.fandom.com/ru/wiki/Двуручный_меч_изгнанника)"
             },
             {
                 "id": 140,
-                "name": "[Harald Curved Greatsword](http://darksouls3.wiki.fextralife.com/Harald+Curved+Greatsword)"
+                "name": "[Изогнутый двуручный меч Харальда](https://darksouls.fandom.com/ru/wiki/Изогнутый_двуручный_меч_Харальда)"
             },
             {
                 "id": 141,
-                "name": "[Old Wolf Curved Sword](http://darksouls3.wiki.fextralife.com/Old+Wolf+Curved+Sword)"
+                "name": "[Изогнутый меч старого волка](https://darksouls.fandom.com/ru/wiki/Изогнутый_меч_старого_волка)"
             }
         ]
     },
     {
-        "category": "Thrusting Swords",
+        "category": "Колющие мечи",
         "item_names": [
             {
                 "id": 142,
-                "name": "[Rapier](http://darksouls3.wiki.fextralife.com/Rapier)"
+                "name": "[Рапира](https://darksouls.fandom.com/ru/wiki/Рапира_(Dark_Souls_III))"
             },
             {
                 "id": 143,
-                "name": "[Estoc](http://darksouls3.wiki.fextralife.com/Estoc)"
+                "name": "[Эсток](https://darksouls.fandom.com/ru/wiki/Эсток_(Dark_Souls_III))"
             },
             {
                 "id": 144,
-                "name": "[Ricard's Rapier](http://darksouls3.wiki.fextralife.com/Ricard's+Rapier)"
+                "name": "[Рикардова рапира](https://darksouls.fandom.com/ru/wiki/Рикардова_рапира_(Dark_Souls_III))"
             },
             {
                 "id": 145,
-                "name": "[Irithyll Rapier](http://darksouls3.wiki.fextralife.com/Irithyll+Rapier)"
+                "name": "[Иритилльская рапира](https://darksouls.fandom.com/ru/wiki/Иритилльская_рапира)"
             },
             {
                 "id": 146,
-                "name": "[Crystal Sage's Rapier](http://darksouls3.wiki.fextralife.com/Crystal+Sage's+Rapier)"
+                "name": "[Рапира знатока кристальных чар](https://darksouls.fandom.com/ru/wiki/Рапира_знатока_кристальных_чар)"
             },
             {
                 "id": 147,
-                "name": "[Crow Quills](http://darksouls3.wiki.fextralife.com/Crow+Quills)"
+                "name": "[Перья ворона](https://darksouls.fandom.com/ru/wiki/Перья_ворона)"
             }
         ]
     },
     {
-        "category": "Katanas",
+        "category": "Катаны",
         "item_names": [
             {
                 "id": 148,
-                "name": "[Uchigatana](http://darksouls3.wiki.fextralife.com/Uchigatana)"
+                "name": "[Утигатана](https://darksouls.fandom.com/ru/wiki/Утигатана_(Dark_Souls_III))"
             },
             {
                 "id": 149,
-                "name": "[Washing Pole](http://darksouls3.wiki.fextralife.com/Washing+Pole)"
+                "name": "[Сушильный шест](https://darksouls.fandom.com/ru/wiki/Сушильный_шест_(Dark_Souls_III))"
             },
             {
                 "id": 150,
-                "name": "[Black Blade](http://darksouls3.wiki.fextralife.com/Black+Blade)"
+                "name": "[Черный клинок](https://darksouls.fandom.com/ru/wiki/Черный_клинок)"
             },
             {
                 "id": 151,
-                "name": "[Bloodlust](http://darksouls3.wiki.fextralife.com/Bloodlust)"
+                "name": "[Жажда крови](https://darksouls.fandom.com/ru/wiki/Жажда_крови)"
             },
             {
                 "id": 152,
-                "name": "[Chaos Blade](http://darksouls3.wiki.fextralife.com/Chaos+Blade)"
+                "name": "[Клинок хаоса](https://darksouls.fandom.com/ru/wiki/Клинок_хаоса_(Dark_Souls_III))"
             },
             {
                 "id": 153,
-                "name": "[Darkdrift](http://darksouls3.wiki.fextralife.com/Darkdrift)"
+                "name": "[Темное Течение](https://darksouls.fandom.com/ru/wiki/Темное_Течение_(Dark_Souls_III))"
             },
             {
                 "id": 154,
-                "name": "[Frayed Blade](http://darksouls3.wiki.fextralife.com/Frayed+Blade)"
+                "name": "[Ветхий клинок](https://darksouls.fandom.com/ru/wiki/Ветхий_клинок)"
             },
             {
                 "id": 155,
-                "name": "[Onikiri and Ubadachi](http://darksouls3.wiki.fextralife.com/Onikiri+and+Ubadachi)"
+                "name": "[Оникири и Убадати](https://darksouls.fandom.com/ru/wiki/Оникири_и_Убадати)"
             }
         ]
     },
     {
-        "category": "Axes",
+        "category": "Топоры",
         "item_names": [
             {
                 "id": 156,
-                "name": "[Hand Axe](http://darksouls3.wiki.fextralife.com/Hand+Axe)"
+                "name": "[Топорик](https://darksouls.fandom.com/ru/wiki/Топорик_(Dark_Souls_III))"
             },
             {
                 "id": 157,
-                "name": "[Thrall Axe](http://darksouls3.wiki.fextralife.com/Thrall+Axe)"
+                "name": "[Топор раба](https://darksouls.fandom.com/ru/wiki/Топор_раба)"
             },
             {
                 "id": 158,
-                "name": "[Battle Axe](http://darksouls3.wiki.fextralife.com/Battle+Axe)"
+                "name": "[Секира](https://darksouls.fandom.com/ru/wiki/Секира_(Dark_Souls_III))"
             },
             {
                 "id": 159,
-                "name": "[Brigand Axe](http://darksouls3.wiki.fextralife.com/Brigand+Axe)"
+                "name": "[Топор разбойника](https://darksouls.fandom.com/ru/wiki/Топор_разбойника)"
             },
             {
                 "id": 160,
-                "name": "[Dragonslayer's Axe](http://darksouls3.wiki.fextralife.com/Dragonslayer's+Axe)"
+                "name": "[Топор драконоборца](https://darksouls.fandom.com/ru/wiki/Топор_драконоборца)"
             },
             {
                 "id": 161,
-                "name": "[Millwood Battle Axe](http://darksouls3.wiki.fextralife.com/Millwood+Battle+Axe)"
+                "name": "[Милвудская секира](https://darksouls.fandom.com/ru/wiki/Милвудская_секира)"
             },
             {
                 "id": 162,
-                "name": "[Man Serpent Hatchet](http://darksouls3.wiki.fextralife.com/Man+Serpent+Hatchet)"
+                "name": "[Топорик человека-змеи](https://darksouls.fandom.com/ru/wiki/Топорик_человека-змеи)"
             },
             {
                 "id": 163,
-                "name": "[Butcher Knife](http://darksouls3.wiki.fextralife.com/Butcher+Knife)"
+                "name": "[Нож мясника](https://darksouls.fandom.com/ru/wiki/Нож_мясника_(Dark_Souls_III))"
             },
             {
                 "id": 164,
-                "name": "[Eleonora](http://darksouls3.wiki.fextralife.com/Eleonora)"
+                "name": "[Элеонора](https://darksouls.fandom.com/ru/wiki/Элеонора)"
             },
             {
                 "id": 165,
-                "name": "[Winged Knight Twinaxes](http://darksouls3.wiki.fextralife.com/Winged+Knight+Twinaxes)"
+                "name": "[Топоры крылатого рыцаря](https://darksouls.fandom.com/ru/wiki/Топоры_крылатого_рыцаря)"
             }
         ]
     },
     {
-        "category": "Greataxes",
+        "category": "Большие топоры",
         "item_names": [
             {
                 "id": 166,
-                "name": "[Greataxe](http://darksouls3.wiki.fextralife.com/Greataxe)"
+                "name": "[Большой топор](https://darksouls.fandom.com/ru/wiki/Большой_топор_(Dark_Souls_III))"
             },
             {
                 "id": 167,
-                "name": "[Great Machete](http://darksouls3.wiki.fextralife.com/Great+Machete)"
+                "name": "[Большое мачете](https://darksouls.fandom.com/ru/wiki/Большое_мачете_(Dark_Souls_III))"
             },
             {
                 "id": 168,
-                "name": "[Black Knight Greataxe](http://darksouls3.wiki.fextralife.com/Black+Knight+Greataxe)"
+                "name": "[Топор черного рыцаря](https://darksouls.fandom.com/ru/wiki/Топор_черного_рыцаря_(Dark_Souls_III))"
             },
             {
                 "id": 169,
-                "name": "[Demon's Greataxe](http://darksouls3.wiki.fextralife.com/Demon's+Greataxe)"
+                "name": "[Большой топор демона](https://darksouls.fandom.com/ru/wiki/Большой_топор_демона)"
             },
             {
                 "id": 170,
-                "name": "[Dragonslayer Greataxe](http://darksouls3.wiki.fextralife.com/Dragonslayer+Greataxe)"
+                "name": "[Большой топор драконоборца](https://darksouls.fandom.com/ru/wiki/Большой_топор_драконоборца)"
             },
             {
                 "id": 171,
-                "name": "[Yhorm's Great Machete](http://darksouls3.wiki.fextralife.com/Yhorm's+Great+Machete)"
+                "name": "[Огромное мачете Йорма](https://darksouls.fandom.com/ru/wiki/Огромное_мачете_Йорма)"
             },
             {
                 "id": 172,
-                "name": "[Earth Seeker](http://darksouls3.wiki.fextralife.com/Earth+Seeker)"
+                "name": "[Ненасытная Земля](https://darksouls.fandom.com/ru/wiki/Ненасытная_Земля)"
             }
         ]
     },
     {
-        "category": "Hammers",
+        "category": "Молоты",
         "item_names": [
             {
                 "id": 173,
-                "name": "[Club](http://darksouls3.wiki.fextralife.com/Club)"
+                "name": "[Дубина](https://darksouls.fandom.com/ru/wiki/Дубина_(Dark_Souls_III))"
             },
             {
                 "id": 174,
-                "name": "[Reinforced Club](http://darksouls3.wiki.fextralife.com/Reinforced+Club)"
+                "name": "[Крепкая дубина](https://darksouls.fandom.com/ru/wiki/Крепкая_дубина_(Dark_Souls_III))"
             },
             {
                 "id": 175,
-                "name": "[Mace](http://darksouls3.wiki.fextralife.com/Mace)"
+                "name": "[Булава](https://darksouls.fandom.com/ru/wiki/Булава_(Dark_Souls_III))"
             },
             {
                 "id": 176,
-                "name": "[Morning Star](http://darksouls3.wiki.fextralife.com/Morning+Star)"
+                "name": "[Моргенштерн](https://darksouls.fandom.com/ru/wiki/Моргенштерн_(Dark_Souls_III))"
             },
             {
                 "id": 177,
-                "name": "[Warpick](http://darksouls3.wiki.fextralife.com/Warpick)"
+                "name": "[Клевец](https://darksouls.fandom.com/ru/wiki/Клевец_(Dark_Souls_III))"
             },
             {
                 "id": 178,
-                "name": "[Blacksmith Hammer](http://darksouls3.wiki.fextralife.com/Blacksmith+Hammer)"
+                "name": "[Молот кузнеца](https://darksouls.fandom.com/ru/wiki/Молот_кузнеца_(Dark_Souls_III))"
             },
             {
                 "id": 179,
-                "name": "[Heysel Pick](http://darksouls3.wiki.fextralife.com/Heysel+Pick)"
+                "name": "[Ледоруб Хейзел](https://darksouls.fandom.com/ru/wiki/Ледоруб_Хейзел)"
             },
             {
                 "id": 180,
-                "name": "[Drang Hammers](http://darksouls3.wiki.fextralife.com/Drang+Hammers)"
+                "name": "[Доранские молоты](https://darksouls.fandom.com/ru/wiki/Доранские_молоты)"
             }
         ]
     },
     {
-        "category": "Great Hammers",
+        "category": "Большие молоты",
         "item_names": [
             {
                 "id": 181,
-                "name": "[Large Club](http://darksouls3.wiki.fextralife.com/Large+Club)"
+                "name": "[Большая дубина](https://darksouls.fandom.com/ru/wiki/Большая_дубина_(Dark_Souls_III))"
             },
             {
                 "id": 182,
-                "name": "[Great Club](http://darksouls3.wiki.fextralife.com/Great+Club)"
+                "name": "[Огромная дубина](https://darksouls.fandom.com/ru/wiki/Огромная_дубина_(Dark_Souls_III))"
             },
             {
                 "id": 183,
-                "name": "[Great Mace](http://darksouls3.wiki.fextralife.com/Great+Mace)"
+                "name": "[Великая булава](https://darksouls.fandom.com/ru/wiki/Великая_булава)"
             },
             {
                 "id": 184,
-                "name": "[Spiked Mace](http://darksouls3.wiki.fextralife.com/Spiked+Mace)"
+                "name": "[Шипастая булава](https://darksouls.fandom.com/ru/wiki/Шипастая_булава)"
             },
             {
                 "id": 185,
-                "name": "[Pickaxe](http://darksouls3.wiki.fextralife.com/Pickaxe)"
+                "name": "[Кирка](https://darksouls.fandom.com/ru/wiki/Кирка_(Dark_Souls_III))"
             },
             {
                 "id": 186,
-                "name": "[Great Wooden Hammer](http://darksouls3.wiki.fextralife.com/Great+Wooden+Hammer)"
+                "name": "[Большой деревянный молот](https://darksouls.fandom.com/ru/wiki/Большой_деревянный_молот)"
             },
             {
                 "id": 187,
-                "name": "[Gargoyle Flame Hammer](http://darksouls3.wiki.fextralife.com/Gargoyle+Flame+Hammer)"
+                "name": "[Пламенеющий молот горгульи](https://darksouls.fandom.com/ru/wiki/Пламенеющий_молот_горгульи)"
             },
             {
                 "id": 188,
-                "name": "[Morne's Great Hammer](http://darksouls3.wiki.fextralife.com/Morne's+Great+Hammer)"
+                "name": "[Большой молот Морна](https://darksouls.fandom.com/ru/wiki/Большой_молот_Морна)"
             },
             {
                 "id": 189,
-                "name": "[Smough's Great Hammer](http://darksouls3.wiki.fextralife.com/Smough's+Great+Hammer)"
+                "name": "[Молот Смоуга](https://darksouls.fandom.com/ru/wiki/Молот_Смоуга_(Dark_Souls_III))"
             },
             {
                 "id": 190,
-                "name": "[Quakestone Hammer](http://darksouls3.wiki.fextralife.com/Quakestone+Hammer)"
+                "name": "[Сотрясатель камней](https://darksouls.fandom.com/ru/wiki/Сотрясатель_камней)"
             },
             {
                 "id": 191,
-                "name": "[Ledo's Great Hammer](http://darksouls3.wiki.fextralife.com/Ledo's+Great+Hammer)"
+                "name": "[Молот Ледо](https://darksouls.fandom.com/ru/wiki/Молот_Ледо)"
             },
             {
                 "id": 192,
-                "name": "[Vordt's Great Hammer](http://darksouls3.wiki.fextralife.com/Vordt's+Great+Hammer)"
+                "name": "[Большой молот Вордта](https://darksouls.fandom.com/ru/wiki/Большой_молот_Вордта)"
             },
             {
                 "id": 193,
-                "name": "[Old King's Great Hammer](http://darksouls3.wiki.fextralife.com/Old+King's+Great+Hammer)"
+                "name": "[Большой молот старого короля](https://darksouls.fandom.com/ru/wiki/Большой_молот_старого_короля)"
             },
             {
                 "id": 194,
-                "name": "[Dragon Tooth](http://darksouls3.wiki.fextralife.com/Dragon+Tooth)"
+                "name": "[Зуб дракона](https://darksouls.fandom.com/ru/wiki/Зуб_дракона_(Dark_Souls_III))"
             }
         ]
     },
     {
-        "category": "Spears",
+        "category": "Копья",
         "item_names": [
             {
                 "id": 195,
-                "name": "[Spear](http://darksouls3.wiki.fextralife.com/Spear)"
+                "name": "[Копье](https://darksouls.fandom.com/ru/wiki/Копье_(Dark_Souls_III))"
             },
             {
                 "id": 196,
-                "name": "[Winged Spear](http://darksouls3.wiki.fextralife.com/Winged+Spear)"
+                "name": "[Крылатое копье](https://darksouls.fandom.com/ru/wiki/Крылатое_копье_(Dark_Souls_III))"
             },
             {
                 "id": 197,
-                "name": "[Partizan](http://darksouls3.wiki.fextralife.com/Partizan)"
+                "name": "[Протазан](https://darksouls.fandom.com/ru/wiki/Протазан_(Dark_Souls_III))"
             },
             {
                 "id": 198,
-                "name": "[Rotten Ghru Spear](http://darksouls3.wiki.fextralife.com/Rotten+Ghru+Spear)"
+                "name": "[Ржавое копье мозгляка](https://darksouls.fandom.com/ru/wiki/Ржавое_копье_мозгляка)"
             },
             {
                 "id": 199,
-                "name": "[Four-Pronged Plow](http://darksouls3.wiki.fextralife.com/Four-Pronged+Plow)"
+                "name": "[Четырехзубые вилы](https://darksouls.fandom.com/ru/wiki/Четырехзубые_вилы_(Dark_Souls_III))"
             },
             {
                 "id": 200,
-                "name": "[Saint Bident](http://darksouls3.wiki.fextralife.com/Saint+Bident)"
+                "name": "[Двузубец святого](https://darksouls.fandom.com/ru/wiki/Двузубец_святого)"
             },
             {
                 "id": 201,
-                "name": "[Follower Javelin](http://darksouls3.wiki.fextralife.com/Follower+Javelin)"
+                "name": "[Копье преследователя](https://darksouls.fandom.com/ru/wiki/Копье_преследователя)"
             },
             {
                 "id": 202,
-                "name": "[Gargoyle Flame Spear](http://darksouls3.wiki.fextralife.com/Gargoyle+Flame+Spear)"
+                "name": "[Пламенеющее копье горгульи](https://darksouls.fandom.com/ru/wiki/Пламенеющее_копье_горгульи)"
             },
             {
                 "id": 203,
-                "name": "[Soldering Iron](http://darksouls3.wiki.fextralife.com/Soldering+Iron)"
+                "name": "[Раскаленное жало](https://darksouls.fandom.com/ru/wiki/Раскаленное_жало)"
             },
             {
                 "id": 204,
-                "name": "[Yorshka's Spear](http://darksouls3.wiki.fextralife.com/Yorshka's+Spear)"
+                "name": "[Копье Йоршки](https://darksouls.fandom.com/ru/wiki/Копье_Йоршки)"
             },
             {
                 "id": 205,
-                "name": "[Dragonslayer Spear](http://darksouls3.wiki.fextralife.com/Dragonslayer+Spear)"
+                "name": "[Копье драконоборца](https://darksouls.fandom.com/ru/wiki/Копье_драконоборца_(Dark_Souls_III))"
             },
             {
                 "id": 206,
-                "name": "[Golden Ritual Spear](http://darksouls3.wiki.fextralife.com/Golden+Ritual+Spear)"
+                "name": "[Золотое ритуальное копье](https://darksouls.fandom.com/ru/wiki/Золотое_ритуальное_копье)"
             },
             {
                 "id": 207,
-                "name": "[Tailbone Spear](http://darksouls3.wiki.fextralife.com/Tailbone+Spear)"
+                "name": "[Костяное копье](https://darksouls.fandom.com/ru/wiki/Костяное_копье)"
             },
             {
                 "id": 208,
-                "name": "[Arstor's Spear](http://darksouls3.wiki.fextralife.com/Arstor's+Spear)"
+                "name": "[Асторское копье](https://darksouls.fandom.com/ru/wiki/Асторское_копье)"
             },
             {
                 "id": 209,
-                "name": "[Dragonslayer Swordspear](http://darksouls3.wiki.fextralife.com/Dragonslayer+Swordspear)"
+                "name": "[Копье-меч драконоборца](https://darksouls.fandom.com/ru/wiki/Копье-меч_драконоборца)"
             },
             {
                 "id": 210,
-                "name": "[Drang Twinspears](http://darksouls3.wiki.fextralife.com/Drang+Twinspears)"
+                "name": "[Доранские копья](https://darksouls.fandom.com/ru/wiki/Доранские_копья)"
             }
         ]
     },
     {
-        "category": "Pikes",
+        "category": "Пики",
         "item_names": [
             {
                 "id": 211,
-                "name": "[Pike](http://darksouls3.wiki.fextralife.com/Pike)"
+                "name": "[Пика](https://darksouls.fandom.com/ru/wiki/Пика_(Dark_Souls_III))"
             },
             {
                 "id": 212,
-                "name": "[Greatlance](http://darksouls3.wiki.fextralife.com/Greatlance)"
+                "name": "[Большая пика](https://darksouls.fandom.com/ru/wiki/Большая_пика)"
             },
             {
                 "id": 213,
-                "name": "[Lothric Knight Long Spear](http://darksouls3.wiki.fextralife.com/Lothric+Knight+Long+Spear)"
+                "name": "[Копье рыцаря Лотрика](https://darksouls.fandom.com/ru/wiki/Копье_рыцаря_Лотрика)"
             },
             {
                 "id": 214,
-                "name": "[Lothric War Banner](http://darksouls3.wiki.fextralife.com/Lothric+War+Banner)"
+                "name": "[Боевое знамя Лотрика](https://darksouls.fandom.com/ru/wiki/Боевое_знамя_Лотрика)"
             },
             {
                 "id": 215,
-                "name": "[Ringed Knight Spear](http://darksouls3.wiki.fextralife.com/Ringed+Knight+Spear)"
+                "name": "[Копье рыцарей из города за стеной](https://darksouls.fandom.com/ru/wiki/Копье_рыцарей_из_города_за_стеной)"
             }
         ]
     },
     {
-        "category": "Halberds",
+        "category": "Алебарды",
         "item_names": [
             {
                 "id": 216,
-                "name": "[Halberd](http://darksouls3.wiki.fextralife.com/Halberd)"
+                "name": "[Алебарда](https://darksouls.fandom.com/ru/wiki/Алебарда_(Dark_Souls_III))"
             },
             {
                 "id": 217,
-                "name": "[Red Hilted Halberd](http://darksouls3.wiki.fextralife.com/Red+Hilted+Halberd)"
+                "name": "[Красная алебарда](https://darksouls.fandom.com/ru/wiki/Красная_алебарда)"
             },
             {
                 "id": 218,
-                "name": "[Lucerne](http://darksouls3.wiki.fextralife.com/Lucerne)"
+                "name": "[Люцернский молот](https://darksouls.fandom.com/ru/wiki/Люцернский_молот_(Dark_Souls_III))"
             },
             {
                 "id": 219,
-                "name": "[Glaive](http://darksouls3.wiki.fextralife.com/Glaive)"
+                "name": "[Глефа](https://darksouls.fandom.com/ru/wiki/Глефа)"
             },
             {
                 "id": 220,
-                "name": "[Crescent Axe](http://darksouls3.wiki.fextralife.com/Crescent+Axe)"
+                "name": "[Топор-полумесяц](https://darksouls.fandom.com/ru/wiki/Топор-полумесяц_(Dark_Souls_III))"
             },
             {
                 "id": 221,
-                "name": "[Winged Knight Halberd](http://darksouls3.wiki.fextralife.com/Winged+Knight+Halberd)"
+                "name": "[Алебарда крылатого рыцаря](https://darksouls.fandom.com/ru/wiki/Алебарда_крылатого_рыцаря)"
             },
             {
                 "id": 222,
-                "name": "[Splitleaf Greatsword](http://darksouls3.wiki.fextralife.com/Splitleaf+Greatsword)"
+                "name": "[Перистый двуручный меч](https://darksouls.fandom.com/ru/wiki/Перистый_двуручный_меч)"
             },
             {
                 "id": 223,
-                "name": "[Black Knight Glaive](http://darksouls3.wiki.fextralife.com/Black+Knight+Glaive)"
+                "name": "[Глефа черного рыцаря](https://darksouls.fandom.com/ru/wiki/Глефа_черного_рыцаря)"
             },
             {
                 "id": 224,
-                "name": "[Crucifix of the Mad King](http://darksouls3.wiki.fextralife.com/Crucifix+of+the+Mad+King)"
+                "name": "[Распятый Безумный король](https://darksouls.fandom.com/ru/wiki/Распятый_Безумный_король)"
             },
             {
                 "id": 225,
-                "name": "[Immolation Tinder](http://darksouls3.wiki.fextralife.com/Immolation+Tinder)"
+                "name": "[Жертвенный хворост](https://darksouls.fandom.com/ru/wiki/Жертвенный_хворост)"
             },
             {
                 "id": 226,
-                "name": "[Gundyr's Halberd](http://darksouls3.wiki.fextralife.com/Gundyr's+Halberd)"
+                "name": "[Алебарда Гундира](https://darksouls.fandom.com/ru/wiki/Алебарда_Гундира)"
             }
         ]
     },
     {
-        "category": "Reapers",
+        "category": "Жнецы",
         "item_names": [
             {
                 "id": 227,
-                "name": "[Great Scythe](http://darksouls3.wiki.fextralife.com/Great+Scythe)"
+                "name": "[Большая коса](https://darksouls.fandom.com/ru/wiki/Большая_коса_(Dark_Souls_III))"
             },
             {
                 "id": 228,
-                "name": "[Great Corvian Scythe](http://darksouls3.wiki.fextralife.com/Great+Corvian+Scythe)"
+                "name": "[Большая коса демона-ворона](https://darksouls.fandom.com/ru/wiki/Большая_коса_демона-ворона)"
             },
             {
                 "id": 229,
-                "name": "[Pontiff Knight Great Scythe](http://darksouls3.wiki.fextralife.com/Pontiff+Knight+Great+Scythe)"
+                "name": "[Большая коса рыцаря понтифика](https://darksouls.fandom.com/ru/wiki/Большая_коса_рыцаря_понтифика)"
             },
             {
                 "id": 230,
-                "name": "[Friede's Great Scythe](http://darksouls3.wiki.fextralife.com/Friede's+Great+Scythe)"
+                "name": "[Большая коса Фриде](https://darksouls.fandom.com/ru/wiki/Большая_коса_Фриде)"
             }
         ]
     },
     {
-        "category": "Whips",
+        "category": "Кнуты",
         "item_names": [
             {
                 "id": 231,
-                "name": "[Whip](http://darksouls3.wiki.fextralife.com/Whip)"
+                "name": "[Кнут](https://darksouls.fandom.com/ru/wiki/Кнут_(Dark_Souls_III))"
             },
             {
                 "id": 232,
-                "name": "[Notched Whip](http://darksouls3.wiki.fextralife.com/Notched+Whip)"
+                "name": "[Шипастый кнут](https://darksouls.fandom.com/ru/wiki/Шипастый_кнут_(Dark_Souls_III))"
             },
             {
                 "id": 233,
-                "name": "[Spotted Whip](http://darksouls3.wiki.fextralife.com/Spotted+Whip)"
+                "name": "[Запятнанный кнут](https://darksouls.fandom.com/ru/wiki/Запятнанный_кнут_(Dark_Souls_III))"
             },
             {
                 "id": 234,
-                "name": "[Witch's Locks](http://darksouls3.wiki.fextralife.com/Witch's+Locks)"
+                "name": "[Ведьмины волосы](https://darksouls.fandom.com/ru/wiki/Ведьмины_волосы)"
             },
             {
                 "id": 235,
-                "name": "[Rose of Ariandel](http://darksouls3.wiki.fextralife.com/Rose+of+Ariandel)"
+                "name": "[Роза Арианделя](https://darksouls.fandom.com/ru/wiki/Роза_Арианделя)"
             }
         ]
     },
     {
-        "category": "Fists",
+        "category": "Кулаки",
         "item_names": [
             {
                 "id": 236,
-                "name": "[Caestus](http://darksouls3.wiki.fextralife.com/Caestus)"
+                "name": "[Цестус](https://darksouls.fandom.com/ru/wiki/Цестус_(Dark_Souls_III))"
             },
             {
                 "id": 237,
-                "name": "[Demon's Fist](http://darksouls3.wiki.fextralife.com/Demon's+Fist)"
+                "name": "[Кулак демона](https://darksouls.fandom.com/ru/wiki/Кулак_демона)"
             },
             {
                 "id": 238,
-                "name": "[Dark Hand](http://darksouls3.wiki.fextralife.com/Dark+Hand)"
+                "name": "[Темная рука](https://darksouls.fandom.com/ru/wiki/Темная_рука_(Dark_Souls_III))"
             }
         ]
     },
     {
-        "category": "Claws",
+        "category": "Когти",
         "item_names": [
             {
                 "id": 239,
-                "name": "[Claw](http://darksouls3.wiki.fextralife.com/Claw)"
+                "name": "[Коготь](https://darksouls.fandom.com/ru/wiki/Коготь_(Dark_Souls_III))"
             },
             {
                 "id": 240,
-                "name": "[Manikin Claws](http://darksouls3.wiki.fextralife.com/Manikin+Claws)"
+                "name": "[Когти голема](https://darksouls.fandom.com/ru/wiki/Когти_голема_(Dark_Souls_III))"
             },
             {
                 "id": 241,
-                "name": "[Crow Talons](http://darksouls3.wiki.fextralife.com/Crow+Talons)"
+                "name": "[Когти ворона](https://darksouls.fandom.com/ru/wiki/Когти_ворона)"
             }
         ]
     },
     {
-        "category": "Bows",
+        "category": "Луки",
         "item_names": [
             {
                 "id": 242,
-                "name": "[Short Bow](http://darksouls3.wiki.fextralife.com/Short+Bow)"
+                "name": "[Короткий лук](https://darksouls.fandom.com/ru/wiki/Короткий_лук_(Dark_Souls_III))"
             },
             {
                 "id": 243,
-                "name": "[Composite Bow](http://darksouls3.wiki.fextralife.com/Composite+Bow)"
+                "name": "[Составной лук](https://darksouls.fandom.com/ru/wiki/Составной_лук_(Dark_Souls_III))"
             },
             {
                 "id": 244,
-                "name": "[Longbow](http://darksouls3.wiki.fextralife.com/Longbow)"
+                "name": "[Длинный лук](https://darksouls.fandom.com/ru/wiki/Длинный_лук_(Dark_Souls_III))"
             },
             {
                 "id": 245,
-                "name": "[Black Bow of Pharis](http://darksouls3.wiki.fextralife.com/Black+Bow+of+Pharis)"
+                "name": "[Черный лук Фариса](https://darksouls.fandom.com/ru/wiki/Черный_лук_Фариса_(Dark_Souls_III))"
             },
             {
                 "id": 246,
-                "name": "[White Birch Bow](http://darksouls3.wiki.fextralife.com/White+Birch+Bow)"
+                "name": "[Березовый лук](https://darksouls.fandom.com/ru/wiki/Березовый_лук)"
             },
             {
                 "id": 247,
-                "name": "[Dragonrider Bow](http://darksouls3.wiki.fextralife.com/Dragonrider+Bow)"
+                "name": "[Лук драконьего всадника](https://darksouls.fandom.com/ru/wiki/Лук_драконьего_всадника_(Dark_Souls_III))"
             },
             {
                 "id": 248,
-                "name": "[Darkmoon Longbow](http://darksouls3.wiki.fextralife.com/Darkmoon+Longbow)"
+                "name": "[Длинный лук Темной луны](https://darksouls.fandom.com/ru/wiki/Длинный_лук_Темной_луны)"
             }
         ]
     },
     {
-        "category": "Greatbows",
+        "category": "Большие луки",
         "item_names": [
             {
                 "id": 249,
-                "name": "[Dragonslayer Greatbow](http://darksouls3.wiki.fextralife.com/Dragonslayer+Greatbow)"
+                "name": "[Большой лук драконоборца](https://darksouls.fandom.com/ru/wiki/Большой_лук_драконоборца_(Dark_Souls_III))"
             },
             {
                 "id": 250,
-                "name": "[Onislayer Greatbow](http://darksouls3.wiki.fextralife.com/Onislayer+Greatbow)"
+                "name": "[Большой лук грозы они](https://darksouls.fandom.com/ru/wiki/Большой_лук_грозы_они)"
             },
             {
                 "id": 251,
-                "name": "[Millwood Greatbow](http://darksouls3.wiki.fextralife.com/Millwood+Greatbow)"
+                "name": "[Милвудский большой лук](https://darksouls.fandom.com/ru/wiki/Милвудский_большой_лук)"
             }
         ]
     },
     {
-        "category": "Crossbows",
+        "category": "Арбалеты",
         "item_names": [
             {
                 "id": 252,
-                "name": "[Light Crossbow](http://darksouls3.wiki.fextralife.com/Light+Crossbow)"
+                "name": "[Легкий арбалет](https://darksouls.fandom.com/ru/wiki/Легкий_арбалет_(Dark_Souls_III))"
             },
             {
                 "id": 253,
-                "name": "[Heavy Crossbow](http://darksouls3.wiki.fextralife.com/Heavy+Crossbow)"
+                "name": "[Тяжелый арбалет](https://darksouls.fandom.com/ru/wiki/Тяжелый_арбалет_(Dark_Souls_III))"
             },
             {
                 "id": 254,
-                "name": "[Sniper Crossbow](http://darksouls3.wiki.fextralife.com/Sniper+Crossbow)"
+                "name": "[Охотничий арбалет](https://darksouls.fandom.com/ru/wiki/Охотничий_арбалет_(Dark_Souls_III))"
             },
             {
                 "id": 255,
-                "name": "[Arbalest](http://darksouls3.wiki.fextralife.com/Arbalest)"
+                "name": "[Самострел](https://darksouls.fandom.com/ru/wiki/Самострел)"
             },
             {
                 "id": 256,
-                "name": "[Knight's Crossbow](http://darksouls3.wiki.fextralife.com/Knight's+Crossbow)"
+                "name": "[Рыцарский арбалет](https://darksouls.fandom.com/ru/wiki/Рыцарский_арбалет)"
             },
             {
                 "id": 257,
-                "name": "[Avelyn](http://darksouls3.wiki.fextralife.com/Avelyn)"
+                "name": "[Эвелин](https://darksouls.fandom.com/ru/wiki/Эвелин_(Dark_Souls_III))"
             },
             {
                 "id": 258,
-                "name": "[Repeating Crossbow](http://darksouls3.wiki.fextralife.com/Repeating+Crossbow)"
+                "name": "[Скорострельный арбалет](https://darksouls.fandom.com/ru/wiki/Скорострельный_арбалет)"
             }
         ]
     },
     {
-        "category": "Staves",
+        "category": "Посохи",
         "item_names": [
             {
                 "id": 259,
-                "name": "[Sorcerer's Staff](http://darksouls3.wiki.fextralife.com/Sorcerer's+Staff)"
+                "name": "[Посох чародея](https://darksouls.fandom.com/ru/wiki/Посох_чародея_(Dark_Souls_III))"
             },
             {
                 "id": 260,
-                "name": "[Heretic's Staff](http://darksouls3.wiki.fextralife.com/Heretic's+Staff)"
+                "name": "[Посох еретика](https://darksouls.fandom.com/ru/wiki/Посох_еретика)"
             },
             {
                 "id": 261,
-                "name": "[Court Sorcerer's Staff](http://darksouls3.wiki.fextralife.com/Court+Sorcerer's+Staff)"
+                "name": "[Посох придворного чародея](https://darksouls.fandom.com/ru/wiki/Посох_придворного_чародея)"
             },
             {
                 "id": 262,
-                "name": "[Witchtree Branch](http://darksouls3.wiki.fextralife.com/Witchtree+Branch)"
+                "name": "[Ветвь ведьминого древа](https://darksouls.fandom.com/ru/wiki/Ветвь_ведьминого_древа_(Dark_Souls_III))"
             },
             {
                 "id": 263,
-                "name": "[Storyteller's Staff](http://darksouls3.wiki.fextralife.com/Storyteller's+Staff)"
+                "name": "[Посох сказителя](https://darksouls.fandom.com/ru/wiki/Посох_сказителя)"
             },
             {
                 "id": 264,
-                "name": "[Mendicant's Staff](http://darksouls3.wiki.fextralife.com/Mendicant's+Staff)"
+                "name": "[Посох Побирушки](https://darksouls.fandom.com/ru/wiki/Посох_Побирушки)"
             },
             {
                 "id": 265,
-                "name": "[Murky Longstaff](http://darksouls3.wiki.fextralife.com/Murky+Longstaff)"
+                "name": "[Сумрачный посох](https://darksouls.fandom.com/ru/wiki/Сумрачный_посох)"
             },
             {
                 "id": 266,
-                "name": "[Izalith Staff](http://darksouls3.wiki.fextralife.com/Izalith+Staff)"
+                "name": "[Изалитский посох](https://darksouls.fandom.com/ru/wiki/Изалитский_посох_(Dark_Souls_III))"
             },
             {
                 "id": 267,
-                "name": "[Archdeacon's Great Staff](http://darksouls3.wiki.fextralife.com/Archdeacon's+Great+Staff)"
+                "name": "[Большой посох архидьякона](https://darksouls.fandom.com/ru/wiki/Большой_посох_архидьякона)"
             },
             {
                 "id": 268,
-                "name": "[Man-grub's Staff](http://darksouls3.wiki.fextralife.com/Man-grub's+Staff)"
+                "name": "[Посох человека-личинки](https://darksouls.fandom.com/ru/wiki/Посох_человека-личинки)"
             },
             {
                 "id": 269,
-                "name": "[Preacher's Right Arm](http://darksouls3.wiki.fextralife.com/Preacher's+Right+Arm)"
+                "name": "[Правая рука проповедника](https://darksouls.fandom.com/ru/wiki/Правая_рука_проповедника)"
             },
             {
                 "id": 270,
-                "name": "[Sage's Crystal Staff](http://darksouls3.wiki.fextralife.com/Sage's+Crystal+Staff)"
+                "name": "[Кристальный посох знатока](https://darksouls.fandom.com/ru/wiki/Кристальный_посох_знатока)"
             }
         ]
     },
     {
-        "category": "Pyromancy Flames",
+        "category": "Пламя пироманта",
         "item_names": [
             {
                 "id": 271,
-                "name": "[Pyromancy Flame](http://darksouls3.wiki.fextralife.com/Pyromancy+Flame)"
+                "name": "[Пламя пироманта](https://darksouls.fandom.com/ru/wiki/Пламя_пироманта_(Dark_Souls_III))"
             },
             {
                 "id": 272,
-                "name": "[Pyromancer's Parting Flame](http://darksouls3.wiki.fextralife.com/Pyromancer's+Parting+Flame)"
+                "name": "[Прощальное пламя пироманта](https://darksouls.fandom.com/ru/wiki/Прощальное_пламя_пироманта)"
             }
         ]
     },
     {
-        "category": "Talismans",
+        "category": "Талисманы",
         "item_names": [
             {
                 "id": 273,
-                "name": "[Talisman](http://darksouls3.wiki.fextralife.com/Talisman)"
+                "name": "[Талисман](https://darksouls.fandom.com/ru/wiki/Талисман_(Dark_Souls_III))"
             },
             {
                 "id": 274,
-                "name": "[Canvas Talisman](http://darksouls3.wiki.fextralife.com/Canvas+Talisman)"
+                "name": "[Холщовый талисман](https://darksouls.fandom.com/ru/wiki/Холщовый_талисман_(Dark_Souls_III))"
             },
             {
                 "id": 275,
-                "name": "[Saint's Talisman](http://darksouls3.wiki.fextralife.com/Saint's+Talisman)"
+                "name": "[Талисман святого](https://darksouls.fandom.com/ru/wiki/Талисман_святого)"
             },
             {
                 "id": 276,
-                "name": "[Sunlight Talisman](http://darksouls3.wiki.fextralife.com/Sunlight+Talisman)"
+                "name": "[Талисман Солнца](https://darksouls.fandom.com/ru/wiki/Талисман_Солнца_(Dark_Souls_III))"
             },
             {
                 "id": 277,
-                "name": "[Sunless Talisman](http://darksouls3.wiki.fextralife.com/Sunless+Talisman)"
+                "name": "[Талисман затмения](https://darksouls.fandom.com/ru/wiki/Талисман_Затмения)"
             },
             {
                 "id": 278,
-                "name": "[White Hair Talisman](http://darksouls3.wiki.fextralife.com/White+Hair+Talisman)"
+                "name": "[Талисман из седых волос](https://darksouls.fandom.com/ru/wiki/Талисман_из_седых_волос)"
             }
         ]
     },
     {
-        "category": "Sacred Chimes",
+        "category": "Священные колокольчики",
         "item_names": [
             {
                 "id": 279,
-                "name": "[Cleric's Sacred Chime](http://darksouls3.wiki.fextralife.com/Cleric's+Sacred+Chime)"
+                "name": "[Священный колокольчик клирика](https://darksouls.fandom.com/ru/wiki/Священный_колокольчик_клирика)"
             },
             {
                 "id": 280,
-                "name": "[Priest's Chime](http://darksouls3.wiki.fextralife.com/Priest's+Chime)"
+                "name": "[Колокольчик жреца](https://darksouls.fandom.com/ru/wiki/Колокольчик_жреца_(Dark_Souls_III))"
             },
             {
                 "id": 281,
-                "name": "[Saint-tree Bellvine](http://darksouls3.wiki.fextralife.com/Saint-tree+Bellvine)"
+                "name": "[Звенящая лоза](https://darksouls.fandom.com/ru/wiki/Звенящая_лоза)"
             },
             {
                 "id": 282,
-                "name": "[Yorshka's Chime](http://darksouls3.wiki.fextralife.com/Yorshka's+Chime)"
+                "name": "[Колокольчик Йоршки](https://darksouls.fandom.com/ru/wiki/Колокольчик_Йоршки)"
             },
             {
                 "id": 283,
-                "name": "[Caitha's Chime](http://darksouls3.wiki.fextralife.com/Caitha's+Chime)"
+                "name": "[Колокольчик Каифы](https://darksouls.fandom.com/ru/wiki/Колокольчик_Каифы_(Dark_Souls_III))"
             },
             {
                 "id": 284,
-                "name": "[Crystal Chime](http://darksouls3.wiki.fextralife.com/Crystal+Chime)"
+                "name": "[Кристаллический колокольчик](https://darksouls.fandom.com/ru/wiki/Кристаллический_колокольчик)"
             },
             {
                 "id": 285,
-                "name": "[Sacred Chime of Filianore](http://darksouls3.wiki.fextralife.com/Sacred+Chime+of+Filianore)"
+                "name": "[Священный колокольчик Филианоры](https://darksouls.fandom.com/ru/wiki/Священный_колокольчик_Филианоры)"
             }
         ]
     }
