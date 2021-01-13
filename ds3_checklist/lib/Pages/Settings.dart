@@ -4,10 +4,15 @@ import 'package:dark_souls_checklist/Pages/Achievements/Achievements.dart';
 import 'package:dark_souls_checklist/Pages/Armor.dart';
 import 'package:dark_souls_checklist/Pages/Playthrought.dart' as pt;
 import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
+import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'Trades.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
 
 class Settings extends StatelessWidget {
   @override
@@ -19,7 +24,6 @@ class Settings extends StatelessWidget {
             fit: BoxFit.fitWidth,
             child: Text(
               loc.settingsTitle,
-              style: Theme.of(context).appBarTheme.textTheme?.caption,
             )),
       ),
       body: Padding(
@@ -30,14 +34,51 @@ class Settings extends StatelessWidget {
   }
 }
 
+class LangButton extends StatelessWidget {
+  final String asset;
+  final String? semanticLabel;
+  final bool selected;
+  final void Function() onTap;
+
+  const LangButton(
+      {Key? key,
+      required this.asset,
+      this.semanticLabel,
+      required this.onTap,
+      this.selected = false})
+      : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+        child: Container(
+          decoration: BoxDecoration(
+              boxShadow: selected
+                  ? [BoxShadow(offset: Offset(0, 0), blurRadius: 2.0)]
+                  : null),
+          child: SvgPicture.asset(
+            asset,
+            height: 64,
+            semanticsLabel: semanticLabel,
+            color: selected ? null : Color.fromARGB(255, 64, 64, 64),
+            colorBlendMode: selected ? BlendMode.srcIn : BlendMode.modulate,
+          ),
+        ),
+        onTap: onTap);
+  }
+}
+
 class SettingsPage extends StatelessWidget {
   final AppLocalizations loc;
   SettingsPage(this.loc);
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return ListView(
       children: <Widget>[
+        LanguageSelector(),
+        SizedBox(
+          height: 40,
+        ),
         ResetRow(
           loc: loc,
           contentText: loc.settingsPlaythroughProgress,
@@ -67,9 +108,7 @@ class SettingsPage extends StatelessWidget {
           style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.bold,
-            wordSpacing: 1,
           ),
-          maxLines: 1,
         ),
         Divider(),
         ResetRow(
@@ -107,6 +146,45 @@ class SettingsPage extends StatelessWidget {
   }
 }
 
+class LanguageSelector extends StatefulWidget {
+  const LanguageSelector({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  _LanguageSelectorState createState() => _LanguageSelectorState();
+}
+
+class _LanguageSelectorState extends State<LanguageSelector> {
+  @override
+  Widget build(BuildContext context) {
+    Locale locale = Localizations.localeOf(context)!;
+    return Consumer<MyModel>(
+      builder: (context, value, child) => Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          LangButton(
+            selected: locale.languageCode.startsWith("ru"),
+            asset: "assets/icons/ru.svg",
+            onTap: () {
+              value.currentLocale = Locale('ru', '');
+            },
+          ),
+          LangButton(
+            selected: locale.languageCode.startsWith("en"),
+            asset: "assets/icons/gb.svg",
+            onTap: () async {
+              value.currentLocale = Locale('en', '');
+              // final apploc = await AppLocalizations.delegate.load(Locale("en"));
+              // Intl.defaultLocale = "en";
+            },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 enum PressType {
   Long,
   Normal,
@@ -134,7 +212,7 @@ class ResetRow extends StatelessWidget {
   Widget build(BuildContext context) {
     VoidCallback _onPressed;
     VoidCallback _onLongPress;
-    VoidCallback logic = () async {
+    VoidCallback _showConfirmationDialog = () async {
       bool result = false;
       await showDialog(
         context: context,
@@ -169,16 +247,16 @@ class ResetRow extends StatelessWidget {
     };
     if (pressType == PressType.Long) {
       _onPressed = () {};
-      _onLongPress = logic;
+      _onLongPress = _showConfirmationDialog;
     } else {
-      _onPressed = logic;
+      _onPressed = _showConfirmationDialog;
       _onLongPress = () {};
     }
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[
         Expanded(
-          flex: 7,
+          flex: 6,
           child: Text(
             contentText,
             style: TextStyle(fontSize: 16, letterSpacing: 1.2, wordSpacing: 1),
@@ -192,13 +270,12 @@ class ResetRow extends StatelessWidget {
             color: Color.fromARGB(255, 188, 50, 50),
             child: Text(
               loc.settingsResetButtonText,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
               style: TextStyle(
-                color: Colors.black87,
                 fontSize: 14,
                 fontWeight: FontWeight.w700,
               ),
-              maxLines: 1,
-              overflow: TextOverflow.visible,
             ),
           ),
         )
@@ -206,50 +283,3 @@ class ResetRow extends StatelessWidget {
     );
   }
 }
-
-// class SwipeDelete extends StatelessWidget {
-//   final String text;
-
-//   const SwipeDelete({Key? key, required this.text}) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Dismissible(
-//       key: UniqueKey(),
-//       child: Card(
-//         child: Padding(
-//           child: Text(text),
-//           padding: EdgeInsets.all(15),
-//         ),
-//       ),
-//       confirmDismiss: (direction) {
-//         bool result = false;
-
-//         return showDialog(
-//           context: context,
-//           builder: (context) => AlertDialog(
-//             content: Text("Are you sure?"),
-//             title: Text("Reset $text"),
-//             actions: <Widget>[
-//               FlatButton(
-//                 child: Text("Yes"),
-//                 onPressed: () {
-//                   result = true;
-//                   Navigator.pop(context);
-//                 },
-//               ),
-//               Divider(),
-//               FlatButton(
-//                 child: Text("No"),
-//                 onPressed: () {
-//                   result = false;
-//                   Navigator.pop(context);
-//                 },
-//               )
-//             ],
-//           ),
-//         ).then((value) => result);
-//       },
-//     );
-//   }
-// }

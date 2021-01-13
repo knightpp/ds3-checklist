@@ -8,6 +8,8 @@ import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
 
 void openLink(String text, String href, String title) async {
   if (await canLaunch(href)) {
@@ -17,24 +19,20 @@ void openLink(String text, String href, String title) async {
   }
 }
 
-class MyHome extends StatefulWidget {
-  @override
-  _MyHomeState createState() => _MyHomeState();
-}
-
-class _MyHomeState extends State<MyHome> {
+class MyHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
     return Scaffold(
         appBar: AppBar(
           elevation: 5,
-          title: Text('Dark Souls III Checklist ',
+          title: Text(loc.mainMenuTitle,
               overflow: TextOverflow.visible,
-              style: Theme.of(context).textTheme.headline3),
+              style: Theme.of(context).appBarTheme.textTheme?.headline6),
           actions: <Widget>[
             Padding(
               padding: const EdgeInsets.all(10.0),
-              child: CustomPopupMenu(),
+              child: CustomPopupMenu(loc),
             )
           ],
         ),
@@ -42,124 +40,123 @@ class _MyHomeState extends State<MyHome> {
   }
 }
 
-main() async {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Prefs.init();
-  runApp(MyApp());
+
+  runApp(ChangeNotifierProvider<MyModel>(
+    create: (context) => MyModel(),
+    child: MyApp(),
+  ));
 }
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
+class MyModel with ChangeNotifier {
+  Locale? _currentLocale;
+  Locale? get currentLocale => _currentLocale;
+  set currentLocale(Locale? l) {
+    _currentLocale = l;
+    notifyListeners();
+  }
 }
 
-class _MyAppState extends State<MyApp> {
+TextStyle getLinkTextStyle() {
+  return const TextStyle(
+      fontFamily: "OptimusPrinceps",
+      decoration: TextDecoration.underline,
+      color: Colors.black);
+}
+
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp]);
-    return MaterialApp(
-      supportedLocales: AppLocalizations.supportedLocales, // Add this line
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      home: MyHome(),
-      theme: ThemeData(
-          fontFamily: "OptimusPrinceps",
-          dividerTheme:
-              DividerThemeData(color: Colors.black, indent: 10, endIndent: 10),
-          scaffoldBackgroundColor: Colors.grey[200],
-          primaryColor: Colors.blueGrey,
-          appBarTheme: AppBarTheme(
-              textTheme: TextTheme(
-                  caption: TextStyle(
-                      fontSize: 22,
-                      fontStyle: FontStyle.normal,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white70,
-                      wordSpacing: 1.2,
-                      letterSpacing: 1.3),
-                  subtitle1: TextStyle(
-                      fontSize: 18,
-                      fontStyle: FontStyle.normal,
-                      fontWeight: FontWeight.w600,
-                      wordSpacing: 1.1,
-                      letterSpacing: 1.1))),
-          accentColor: Colors.grey[800],
-          cardTheme: CardTheme(
-              color: Colors.blueGrey,
-              elevation: 3,
-              margin: EdgeInsets.only(top: 8, bottom: 8, right: 20, left: 20)),
-          primaryIconTheme: IconThemeData(size: 25, color: Colors.white70),
-          textTheme: TextTheme(
-              headline2: TextStyle(
-                fontSize: 20,
-                fontStyle: FontStyle.normal,
-                fontWeight: FontWeight.w600,
-                color: Colors.black54,
-              ),
-              headline3: TextStyle(
-                  fontSize: 20,
-                  fontStyle: FontStyle.normal,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white70,
-                  wordSpacing: 1.2,
-                  letterSpacing: 1.2),
-              headline4: TextStyle(
-                  fontSize: 10,
-                  fontStyle: FontStyle.normal,
-                  fontWeight: FontWeight.w600,
-                  color: Colors.white,
-                  letterSpacing: 1.2,
-                  wordSpacing: 1.2),
-              bodyText1: TextStyle(
-                fontFamily: "Montserrat",
-                fontSize: 14,
-                fontStyle: FontStyle.normal,
-                //fontWeight: FontWeight.w600
-              ),
-              bodyText2: TextStyle(
-                fontFamily: "Montserrat",
-                fontSize: 16,
-                fontStyle: FontStyle.normal,
-                //fontWeight: FontWeight.w600,
-                letterSpacing: 1,
-              ))),
+    return Consumer<MyModel>(
+        builder: (context, value, child) => MaterialApp(
+              locale: value.currentLocale,
+              supportedLocales: AppLocalizations.supportedLocales,
+              localizationsDelegates: AppLocalizations.localizationsDelegates,
+              home: MyHome(),
+              theme: getLightThemeData(),
+            ));
+  }
+
+  ThemeData getLightThemeData() {
+    const montserrat = const TextStyle(fontFamily: "Montserrat");
+    const optimus = const TextStyle(
+        fontFamily: "OptimusPrinceps",
+        fontFamilyFallback: ["PlayfairDisplaySC", "AmaticSC", "Montserrat"],
+        letterSpacing: 1);
+    final textTheme = Typography.blackHelsinki.copyWith(
+        button: optimus.copyWith(fontSize: 20, color: Colors.white),
+        headline5: optimus,
+        subtitle1: optimus,
+        bodyText2: montserrat,
+        bodyText1: montserrat);
+    final primaryTextTheme = Typography.blackHelsinki.copyWith(
+        bodyText2: optimus.copyWith(color: Colors.white.withOpacity(0.9)));
+
+    return ThemeData(
+      dividerTheme: const DividerThemeData(
+          color: Colors.black, indent: 10, endIndent: 10),
+      scaffoldBackgroundColor: Colors.grey[200],
+      primaryColor: Colors.blueGrey,
+      appBarTheme: AppBarTheme(
+        textTheme:
+            textTheme.copyWith(headline6: optimus.copyWith(fontSize: 18)),
+      ),
+      tabBarTheme: TabBarTheme(
+          indicator: ShapeDecoration(
+              shape: Border(
+                  bottom: BorderSide(width: 3, color: Colors.blueGrey[50]!))),
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.white.withOpacity(0.3),
+          labelStyle: optimus,
+          unselectedLabelStyle: optimus),
+      accentColor: Colors.grey[800],
+      cardTheme: const CardTheme(
+          color: Colors.blueGrey,
+          elevation: 3,
+          margin:
+              const EdgeInsets.only(top: 8, bottom: 8, right: 20, left: 20)),
+      primaryIconTheme: const IconThemeData(size: 25, color: Colors.white70),
+      textTheme: textTheme,
+      primaryTextTheme: primaryTextTheme,
     );
   }
 }
 
 class CustomPopupMenu extends StatelessWidget {
+  final AppLocalizations loc;
+
+  const CustomPopupMenu(this.loc, {Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    final loc = AppLocalizations.of(context)!;
-    final settings = loc.mainMenuItemSettings;
-    final about = loc.mainMenuItemAbout;
-
     return PopupMenuButton<String>(
         offset: Offset(0, 20),
         color: Colors.grey[200],
         tooltip: loc.mainMenuSettingsPopUp,
         elevation: 3,
-        initialValue: settings,
         onSelected: (choice) {
-          if (choice == settings) {
+          if (choice == "settings") {
             Navigator.of(context)
                 .push(MaterialPageRoute(builder: (context) => Settings()));
-          } else if (choice == about) {
+          } else if (choice == "about") {
             Navigator.of(context)
                 .push(MaterialPageRoute(builder: (context) => About()));
           } else {
-            print("Warn: not settings nor about = $choice");
+            throw "Warn: not settings nor about = $choice";
           }
         },
         itemBuilder: (context) {
           return [
             PopupMenuItem(
-              child: Text(settings),
-              value: settings,
+              child: Text(loc.mainMenuItemSettings),
+              value: "settings",
             ),
             PopupMenuItem(
-              child: Text(about),
-              value: about,
+              child: Text(loc.mainMenuItemAbout),
+              value: "about",
             ),
           ];
         });

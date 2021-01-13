@@ -80,17 +80,25 @@ class _AchievementPageState extends State<AchievementPage> {
             onChanged: (newVal) {
               _updateChecked(widget.achId, taskIdx, newVal!);
             },
-            title: MarkdownBody(
-              onTapLink: openLink,
-              data: task.text.split(":").first,
-              styleSheet: MarkdownStyleSheet()
-                  .copyWith(p: Theme.of(context).textTheme.headline2),
-              // textStyle: Theme.of(context).textTheme.headline2
+            title: Row(
+              children: [
+                Icon(Icons.looks_3),
+                MarkdownBody(
+                    onTapLink: openLink,
+                    data: task.text.split(":").first,
+                    styleSheet: MarkdownStyleSheet(
+                        p: Theme.of(context)
+                            .textTheme
+                            .headline5
+                            ?.copyWith(fontSize: 18))),
+              ],
             ),
             content: MarkdownBody(
               onTapLink: openLink,
               data: task.text,
-              // textStyle: Theme.of(context).textTheme.bodyText1,
+              styleSheet: MarkdownStyleSheet(
+                  a: getLinkTextStyle(),
+                  p: Theme.of(context).textTheme.bodyText2),
             ),
           );
         },

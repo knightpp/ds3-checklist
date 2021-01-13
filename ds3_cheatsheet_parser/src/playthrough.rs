@@ -1,5 +1,6 @@
 use crate::utils::{Markdown, Utils};
 use anyhow::{Context, Result};
+use regex::Regex;
 use select::document::Document;
 use select::predicate::{And, Attr, Name, Not};
 use serde::{Deserialize, Serialize};
@@ -40,6 +41,7 @@ impl<'p> Utils for Playthroughs {
         builder: &'i mut flatbuffers::FlatBufferBuilder,
     ) -> &'i [u8] {
         let mut pts = Vec::with_capacity(items.len());
+        let regex = Regex::new(r"^\[(.+)\](.+)$").unwrap();
         for p in items {
             let tasks = {
                 let tasks = p
@@ -64,7 +66,14 @@ impl<'p> Utils for Playthroughs {
             };
 
             let loc = {
-                let name = builder.create_string(p.location.name.as_str());
+                let caps = regex
+                    .captures(p.location.name.as_str())
+                    .with_context(|| {
+                        format!("regex not found matching strings: {:?}", p.location.name)
+                    })
+                    .unwrap();
+
+                let name = builder.create_string(caps.get(1).unwrap().as_str());
                 let note = p
                     .location
                     .note

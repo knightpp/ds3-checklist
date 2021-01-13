@@ -1,12 +1,12 @@
 import 'dart:collection';
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/Pages/Achievements/AchievementPage.dart';
-// import 'package:dark_souls_checklist/Models/AchievementsModel.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/Generated/achievements_d_s3_c_generated.dart'
     as fb;
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 const _DLCS = AssetImage('assets/images/dlcs.webp');
 const IMAGES = [
@@ -85,13 +85,6 @@ class _AchievementsState extends State<Achievements> {
           .load("assets/flatbuffers/achievements.fb");
       return fb.AchievementsRoot(data.buffer.asInt8List()).items!;
     });
-
-    // if (achs == null) {
-    //   // var js = await DefaultAssetBundle.of(context)
-    //   //     .loadString('assets/json/achievements.json');
-    //   // achs = AchsModel.fromJson(json.decode(js));
-    // }
-
     return 1;
   }
 
@@ -100,8 +93,8 @@ class _AchievementsState extends State<Achievements> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "TITLE", // AppLocalizations.of(context)!.achievementsPageTitle,
-          style: Theme.of(context).appBarTheme.textTheme?.caption,
+          AppLocalizations.of(context)!.achievementsPageTitle,
+          style: Theme.of(context).appBarTheme.textTheme?.headline6,
         ),
       ),
       body: FutureBuilder(
@@ -164,7 +157,7 @@ class AchButton extends StatelessWidget {
                     fit: BoxFit.cover,
                     child: Text(
                       selAch.name.split(":").first, // FIXME:
-                      style: Theme.of(context).textTheme.headline3,
+                      // style: Theme.of(context).textTheme.headline3,
                     ),
                   )),
               heroTag: achId,
@@ -199,14 +192,24 @@ class AchButton extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        //color: Color.fromARGB(64, 0, 0, 0),
                       ),
                       child: Hero(
                         tag: achId + 100,
+                        flightShuttleBuilder:
+                            (context, anim, _, context1, context2) {
+                          return DefaultTextStyle(
+                            style: DefaultTextStyle.of(context2).style,
+                            child: context2.widget,
+                          );
+                        },
                         child: Text(
                           achs[achId].name.split(":").first, // FIXME:
                           textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.headline4,
+                          style: Theme.of(context)
+                              .textTheme
+                              .button
+                              ?.copyWith(fontSize: 12),
+
                           maxLines: 2,
                         ),
                       ),

@@ -44,12 +44,12 @@ fn main() -> Result<()> {
     // };
     // parse_html("achievements", &html, achievements::Achievements)?;
 
-    gen_fb_for_json("achievements", achievements::Achievements)?;
-    gen_fb_for_json("armor", armor::Armors)?;
+    // gen_fb_for_json("achievements", achievements::Achievements)?;
+    // gen_fb_for_json("armor", armor::Armors)?;
     gen_fb_for_json("playthrough", playthrough::Playthroughs)?;
-    gen_fb_for_json("souls", souls::Souls)?;
-    gen_fb_for_json("trades", trades::Trades)?;
-    gen_fb_for_json("weapons_and_shields", weapons_and_shields::WSCategories)?;
+    // gen_fb_for_json("souls", souls::Souls)?;
+    // gen_fb_for_json("trades", trades::Trades)?;
+    // gen_fb_for_json("weapons_and_shields", weapons_and_shields::WSCategories)?;
 
     Ok(())
 }
@@ -65,7 +65,7 @@ fn gen_fb_for_json<T: Utils>(basename: &str, _: T) -> Result<()> {
     trace!("generating flatbuffer: {:?}", &output_path);
     let flat = T::gen_fb(input.as_slice(), &mut builder);
     std::fs::write(output_path.as_str(), flat)
-        .with_context(|| format!("file not found: {}", output_path.as_str()))?;
+        .with_context(|| format!("cannot create file: {}", output_path.as_str()))?;
     Ok(())
 }
 

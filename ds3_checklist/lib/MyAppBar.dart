@@ -55,7 +55,7 @@ class _MyAppBarState extends State<MyAppBar> {
           fit: BoxFit.fitWidth,
           child: Text(
             widget.title!,
-            style: Theme.of(context).appBarTheme.textTheme?.caption,
+            style: Theme.of(context).appBarTheme.textTheme?.headline6,
           ));
     }
     return AppBar(
@@ -95,10 +95,7 @@ class TabsForAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return TabBar(
       controller: controller ?? DefaultTabController.of(context),
-      unselectedLabelColor: Colors.white.withOpacity(0.3),
       labelPadding: EdgeInsets.only(bottom: 5, right: 10, left: 10),
-      labelStyle: Theme.of(context).textTheme.headline2,
-      indicatorColor: Theme.of(context).secondaryHeaderColor,
       isScrollable: true,
       tabs: tabs,
       onTap: onChangeTab,

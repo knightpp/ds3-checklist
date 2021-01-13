@@ -78,6 +78,7 @@ class _ArmorState extends State<Armor> {
             length: armors.length,
             child: Scaffold(
               appBar: MyAppBar(
+                prefSize: Size.fromHeight(80),
                 onHideButton: (newVal) {
                   setState(() {
                     _hideCompleted = newVal;
@@ -85,7 +86,11 @@ class _ArmorState extends State<Armor> {
                 },
                 title: loc.armorPageTitle,
                 bottom: TabsForAppBar(
-                  tabs: armors.map((cat) => Text(cat.category)).toList(),
+                  tabs: armors
+                      .map((cat) => Text(
+                            cat.category,
+                          ))
+                      .toList(),
                   onChangeTab: (int newTabIdx) {
                     selectedCatIdx = newTabIdx;
                   },
@@ -104,8 +109,11 @@ class _ArmorState extends State<Armor> {
                         },
                         isChecked: isChecked,
                         content: MarkdownBody(
-                            onTapLink: openLink,
-                            data: armors[catIndex].gears[taskIdx].name),
+                          onTapLink: openLink,
+                          data: armors[catIndex].gears[taskIdx].name,
+                          styleSheet: MarkdownStyleSheet(
+                              a: getLinkTextStyle().copyWith(fontSize: 18)),
+                        ),
                       );
                     },
                     itemCount: armors[catIndex].gears.length,

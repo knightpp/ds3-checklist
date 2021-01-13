@@ -95,26 +95,16 @@ class _PlaythroughState extends State<Playthrough> {
           length: _flat.length,
           child: Scaffold(
             appBar: MyAppBar(
-              prefSize: Size.fromHeight(90),
+              prefSize: Size.fromHeight(80),
               bottom: TabsForAppBar(
                 tabs: _flat.map((loc) {
-                  final name = loc.location.name;
-                  String text =
-                      name.substring(name.indexOf("[") + 1, name.indexOf("]"));
+                  String text = loc.location.name!;
                   if (loc.location.note != null) {
                     text = "$text ${loc.location.note}";
                   }
                   return Text(
                     text,
                   );
-                  // TODO: use links in tabs?
-                  // return MarkdownBody(
-                  //   styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-                  //       .copyWith(
-                  //           a: TextStyle(color: Color.fromARGB(255, 0, 0, 0))),
-                  //   data: data,
-                  //   onTapLink: (text, href, title) {},
-                  // );
                 }).toList(),
                 onChangeTab: (p) async {
                   await Prefs.inst.setInt("PLAYTHROUGH-LAST-TAB", p);
@@ -141,9 +131,9 @@ class _PlaythroughState extends State<Playthrough> {
                       title: MarkdownBody(
                         data: taskText,
                         onTapLink: openLink,
-                        styleSheet:
-                            MarkdownStyleSheet.fromTheme(Theme.of(context)),
-                        // style: .textTheme.bodyText1,
+                        styleSheet: MarkdownStyleSheet(
+                            a: getLinkTextStyle(),
+                            p: Theme.of(context).textTheme.bodyText2),
                       ),
                       onChanged: (newVal) {
                         _updateChecked(locationId, taskIdx, newVal!);

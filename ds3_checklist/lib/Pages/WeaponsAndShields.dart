@@ -142,6 +142,11 @@ class _ExpandableTileState extends State<ExpandableTile> {
           onTapLink: openLink,
           data: cat.items[taskId].name,
           // textStyle: Theme.of(context).textTheme.bodyText2,
+          styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(
+              a: Theme.of(context)
+                  .textTheme
+                  .subtitle1
+                  ?.copyWith(decoration: TextDecoration.underline)),
         ),
       ));
     }
@@ -155,6 +160,8 @@ class _ExpandableTileState extends State<ExpandableTile> {
       title: MarkdownBody(
         onTapLink: openLink,
         data: widget.cat.name,
+        styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
+            .copyWith(p: Theme.of(context).textTheme.headline5),
         // textStyle: Theme.of(context).textTheme.headline2,
       ),
       children: <Widget>[

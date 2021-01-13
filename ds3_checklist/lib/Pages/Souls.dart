@@ -7,22 +7,13 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 const String SOULS_FB = "Cached.Flatbuffer.Souls";
 
-class Souls extends StatefulWidget {
-  @override
-  _SoulsState createState() => _SoulsState();
-}
-
-class _SoulsState extends State<Souls> {
-  late List<fb.Soul> souls;
-
-  Future setup() async {
-    souls = await CacheManager.getOrInit(SOULS_FB, () async {
+class Souls extends StatelessWidget {
+  Future<List<fb.Soul>> setup(BuildContext context) async {
+    return await CacheManager.getOrInit(SOULS_FB, () async {
       var data = await DefaultAssetBundle.of(context)
           .load('assets/flatbuffers/souls.fb');
       return fb.SoulsRoot(data.buffer.asInt8List()).items;
     });
-
-    return 1;
   }
 
   @override
@@ -32,19 +23,19 @@ class _SoulsState extends State<Souls> {
       appBar: AppBar(
         title: Text(
           loc.soulPrices,
-          style: Theme.of(context).appBarTheme.textTheme?.caption,
         ),
       ),
       body: FutureBuilder(
-          future: setup(),
+          future: setup(context),
           builder: (context, snapshot) {
             if (snapshot.hasError) {
               return Text("Error");
             } else if (snapshot.hasData) {
+              final souls = snapshot.data as List<fb.Soul>;
               return ListView.builder(
                   itemCount: souls.length,
                   itemBuilder: (context, soulIdx) {
-                    return buildCardSoulPrices(soulIdx, context);
+                    return SoulCard(souls[soulIdx]);
                   });
             } else {
               return Center(
@@ -54,10 +45,17 @@ class _SoulsState extends State<Souls> {
           }),
     );
   }
+}
 
-  Card buildCardSoulPrices(int soulIdx, BuildContext context) {
+class SoulCard extends StatelessWidget {
+  final fb.Soul soul;
+
+  const SoulCard(this.soul, {Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
     return Card(
-      color: Colors.blueGrey[300],
+      // color: Theme.of(context),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Row(
@@ -67,8 +65,8 @@ class _SoulsState extends State<Souls> {
             Expanded(
                 flex: 8,
                 child: Text(
-                  souls[soulIdx].name,
-                  style: Theme.of(context).textTheme.bodyText2,
+                  soul.name,
+                  style: Theme.of(context).primaryTextTheme.bodyText2,
                 )),
             Expanded(
               flex: 5,
@@ -78,8 +76,8 @@ class _SoulsState extends State<Souls> {
             ),
             Expanded(
               flex: 3,
-              child: Text(souls[soulIdx].price.toString(),
-                  style: Theme.of(context).textTheme.bodyText2),
+              child: Text(soul.price.toString(),
+                  style: Theme.of(context).primaryTextTheme.bodyText2),
             )
           ],
         ),

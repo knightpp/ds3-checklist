@@ -10,8 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_launcher_icons: ^0.8.1-0
-  flutter_launcher_name: ^0.0.1-0
+  # flutter_launcher_icons: ^0.8.1-0
+  # flutter_launcher_name: ^0.0.1-0
   # flutter_widget_from_html: ^0.5.1+5
   path: ^1.8.0-nullsafety.3
   path_provider: ^1.6.24-0
@@ -20,6 +20,8 @@ dependencies:
   url_launcher: ^6.0.0-nullsafety.1
   flat_buffers: ^1.12.0-0
   flutter_markdown: ^0.5.2-0
+  flutter_svg: ^0.20.0-nullsafety.3
+  provider: ^5.0.0-nullsafety.2
   # intl: ^0.17.0-nullsafety.2
   flutter_localizations:
     sdk: flutter
@@ -27,20 +29,24 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # intl_translation:
+  #   git:
+  #     url: https://github.com/nt4f04uNd/intl_translation
   # intl_translation: ^0.17.10+1
 
-flutter_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/icons/ds3_cl_logo.png"
+# flutter_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "assets/icons/ds3_cl_logo.png"
 
-flutter_launcher_name:
-  name: "DS III checklist"
+# flutter_launcher_name:
+#   name: "DS III checklist"
 
 flutter:
   generate: true
   uses-material-design: true
   assets:
+    - assets/icons/
     - assets/images/
     - assets/sqlites/
     - assets/flatbuffers/
@@ -55,3 +61,13 @@ flutter:
       fonts:
         - asset: assets/fonts/Montserrat-Medium.ttf
           style: normal
+    - family: AmaticSC
+      fonts:
+        - asset: assets/fonts/AmaticSC-Regular.ttf
+          style: normal
+    - family: PlayfairDisplaySC
+      fonts:
+        - asset: assets/fonts/PlayfairDisplaySC-Regular.ttf
+          style: normal
+        - asset: assets/fonts/PlayfairDisplaySC-Italic.ttf
+          style: italic

@@ -33,10 +33,7 @@ class MenuBlock extends StatelessWidget {
           child: Center(
             child: Text(
               title,
-              style: Theme.of(context)
-                  .textTheme
-                  .headline2
-                  ?.copyWith(color: Colors.white70),
+              style: Theme.of(context).textTheme.button,
             ),
           ),
         ));

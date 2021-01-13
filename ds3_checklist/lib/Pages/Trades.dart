@@ -127,7 +127,8 @@ class _TradesState extends State<Trades> {
       child: MarkdownBody(
         onTapLink: openLink,
         data: trades[tradeIdx].for_,
-        // textStyle: Theme.of(context).textTheme.bodyText1,
+        styleSheet: MarkdownStyleSheet(
+            a: getLinkTextStyle(), p: Theme.of(context).textTheme.bodyText2),
       ),
     );
   }
@@ -138,7 +139,7 @@ class _TradesState extends State<Trades> {
       child: MarkdownBody(
         onTapLink: openLink,
         data: trades[tradeIdx].what,
-        // textStyle: Theme.of(context).textTheme.bodyText1,
+        styleSheet: MarkdownStyleSheet(a: getLinkTextStyle()),
       ),
     );
   }
