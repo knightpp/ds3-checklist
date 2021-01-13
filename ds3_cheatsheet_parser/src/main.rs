@@ -6,6 +6,20 @@ use std::path::Path;
 use tracing::instrument;
 use tracing::{trace, Level};
 use tracing_subscriber::FmtSubscriber;
+#[derive(Debug, Clone, Copy)]
+enum Lang {
+    English,
+    Russian,
+}
+
+impl Lang {
+    fn code(&self) -> &'static str {
+        match self {
+            Lang::English => "en",
+            Lang::Russian => "ru",
+        }
+    }
+}
 
 fn setup() {
     let subscriber = FmtSubscriber::builder()
@@ -43,21 +57,26 @@ fn main() -> Result<()> {
     //     select::document::Document::from(html.as_str())
     // };
     // parse_html("achievements", &html, achievements::Achievements)?;
-
-    // gen_fb_for_json("achievements", achievements::Achievements)?;
-    // gen_fb_for_json("armor", armor::Armors)?;
-    gen_fb_for_json("playthrough", playthrough::Playthroughs)?;
-    // gen_fb_for_json("souls", souls::Souls)?;
-    // gen_fb_for_json("trades", trades::Trades)?;
-    // gen_fb_for_json("weapons_and_shields", weapons_and_shields::WSCategories)?;
+    for lang in &[Lang::Russian] {
+        gen_fb_for_json("achievements", achievements::Achievements, lang)?;
+        gen_fb_for_json("armor", armor::Armors, lang)?;
+        gen_fb_for_json("playthrough", playthrough::Playthroughs, lang)?;
+        gen_fb_for_json("souls", souls::Souls, lang)?;
+        gen_fb_for_json("trades", trades::Trades, lang)?;
+        gen_fb_for_json(
+            "weapons_and_shields",
+            weapons_and_shields::WSCategories,
+            lang,
+        )?;
+    }
 
     Ok(())
 }
 #[instrument]
-fn gen_fb_for_json<T: Utils>(basename: &str, _: T) -> Result<()> {
+fn gen_fb_for_json<T: Utils>(basename: &str, _: T, lang: &Lang) -> Result<()> {
     let mut builder = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
-    let input_path = format!("../i18n/en/{}.json", basename);
-    let output_path = format!("../i18n/en/flatbuffers/{}.fb", basename);
+    let input_path = format!("../i18n/{}/{}.json", lang.code(), basename);
+    let output_path = format!("../i18n/{}/flatbuffers/{}.fb", lang.code(), basename);
     let json = std::fs::read_to_string(input_path.as_str())
         .with_context(|| format!("file not found: {}", input_path.as_str()))?;
     trace!("parsing json from file: {:?}", &input_path);

@@ -1,7 +1,5 @@
 use crate::utils::{Markdown, Utils};
 use anyhow::Context;
-use select::predicate::{Attr, Name};
-use select::{document::Document, node::Node};
 use serde::{Deserialize, Serialize};
 
 #[allow(dead_code, unused_imports)]
@@ -25,7 +23,7 @@ impl Achievement {
 pub struct Task {
     id: u32,
     text: Markdown,
-    note: Option<String>,
+    play: u8,
 }
 
 #[derive(Debug, Clone, Copy)]
@@ -45,33 +43,40 @@ impl Utils for Achievements {
                     .tasks
                     .iter()
                     .map(|task| {
-                        let note = task
-                            .note
-                            .as_ref()
-                            .map(|note| builder.create_string(note.as_str()));
-                        let text = builder.create_string(task.text.as_str());
-                        fb::Task::create(
-                            builder,
-                            &fb::TaskArgs {
-                                id: task.id,
-                                note: note,
-                                text: Some(text),
-                            },
-                        )
+                        let raw = task.text.as_str();
+                        let (name, description) =
+                            raw.split_at(raw.find(": ").expect("semicolon not found"));
+                        let description = description
+                            .strip_prefix(": ")
+                            .with_context(|| format!("cannot strip prefix for {:?}", description))
+                            .unwrap();
+                        let args = fb::TaskArgs {
+                            id: task.id,
+                            name: Some(builder.create_string(name)),
+                            description: Some(builder.create_string(description)),
+                            play: task.play,
+                        };
+                        fb::Task::create(builder, &args)
                     })
                     .collect::<Vec<_>>();
                 builder.create_vector(&tasks)
             };
 
             let ach = {
-                let name = builder.create_string(ach.name.as_str());
-                fb::Achievement::create(
-                    builder,
-                    &fb::AchievementArgs {
-                        name: Some(name),
-                        tasks: Some(tasks),
-                    },
-                )
+                let raw = ach.name.as_str();
+                let (name, description) = if let Some(x) = raw.find(": ") {
+                    let splitted = raw.split_at(x);
+                    (splitted.0, splitted.1.strip_prefix(": ").unwrap())
+                } else {
+                    (raw, "")
+                };
+
+                let args = fb::AchievementArgs {
+                    name: Some(builder.create_string(name)),
+                    description: Some(builder.create_string(description)),
+                    tasks: Some(tasks),
+                };
+                fb::Achievement::create(builder, &args)
             };
             achs.push(ach);
         }
@@ -87,80 +92,80 @@ impl Utils for Achievements {
     fn parse_json(input: &str) -> anyhow::Result<Vec<Self::Item>> {
         serde_json::from_str(input).context("achievements json parsing failed")
     }
+    // lost ability to parse HTML :(
+    // fn parse_html(html: &Document) -> anyhow::Result<Vec<Self::Item>> {
+    //     let root = html
+    //         .select(Attr("id", "item_list"))
+    //         .next()
+    //         .expect("html element with id=item_list not found");
+    //     const IDS: [&str; 11] = [
+    //         "Master_of_Expression",
+    //         "Master_of_Sorceries",
+    //         "Master_of_Pyromancies",
+    //         "Master_of_Miracles",
+    //         "Master_of_Infusion",
+    //         "Ending_Achievements",
+    //         "Boss_Achievements",
+    //         "Misc_Achievements",
+    //         "Covenants_Achievements",
+    //         "DLC_Spells",
+    //         "DLC_Rings",
+    //     ];
+    //     let mut task_id = 0;
+    //     let mut vec = Vec::with_capacity(16);
+    //     // special parsing of rings
+    //     {
+    //         let h3 = root.select(Attr("id", "Master_of_Rings")).next().unwrap();
+    //         let div = root
+    //             .select(Attr("id", "Master_of_Rings_col"))
+    //             .next()
+    //             .unwrap();
+    //         let h4s = div.select(Name("h4"));
+    //         let uls = div.select(Name("ul"));
+    //         assert_eq!(
+    //             div.select(Name("h4")).count(),
+    //             div.select(Name("ul")).count()
+    //         );
+    //         let mut tasks = Vec::with_capacity(64);
+    //         for (newgame, ul) in h4s.zip(uls) {
+    //             let note = newgame.text();
+    //             for li in ul.select(Name("li")) {
+    //                 let md = Markdown::parse(&li);
+    //                 tasks.push(Task {
+    //                     id: task_id,
+    //                     text: md,
+    //                     note: Some(note.clone()),
+    //                 });
+    //             }
+    //         }
+    //         let name = Markdown::parse(&h3);
+    //         vec.push(Achievement { name, tasks });
+    //     }
 
-    fn parse_html(html: &Document) -> anyhow::Result<Vec<Self::Item>> {
-        let root = html
-            .select(Attr("id", "item_list"))
-            .next()
-            .expect("html element with id=item_list not found");
-        const IDS: [&str; 11] = [
-            "Master_of_Expression",
-            "Master_of_Sorceries",
-            "Master_of_Pyromancies",
-            "Master_of_Miracles",
-            "Master_of_Infusion",
-            "Ending_Achievements",
-            "Boss_Achievements",
-            "Misc_Achievements",
-            "Covenants_Achievements",
-            "DLC_Spells",
-            "DLC_Rings",
-        ];
-        let mut task_id = 0;
-        let mut vec = Vec::with_capacity(16);
-        // special parsing of rings
-        {
-            let h3 = root.select(Attr("id", "Master_of_Rings")).next().unwrap();
-            let div = root
-                .select(Attr("id", "Master_of_Rings_col"))
-                .next()
-                .unwrap();
-            let h4s = div.select(Name("h4"));
-            let uls = div.select(Name("ul"));
-            assert_eq!(
-                div.select(Name("h4")).count(),
-                div.select(Name("ul")).count()
-            );
-            let mut tasks = Vec::with_capacity(64);
-            for (newgame, ul) in h4s.zip(uls) {
-                let note = newgame.text();
-                for li in ul.select(Name("li")) {
-                    let md = Markdown::parse(&li);
-                    tasks.push(Task {
-                        id: task_id,
-                        text: md,
-                        note: Some(note.clone()),
-                    });
-                }
-            }
-            let name = Markdown::parse(&h3);
-            vec.push(Achievement { name, tasks });
-        }
-
-        for id in IDS.iter() {
-            vec.push(parse_normal(&root, id, &mut task_id));
-        }
-        let rings = vec.remove(0);
-        vec.insert(9, rings);
-        Ok(vec)
-    }
+    //     for id in IDS.iter() {
+    //         vec.push(parse_normal(&root, id, &mut task_id));
+    //     }
+    //     let rings = vec.remove(0);
+    //     vec.insert(9, rings);
+    //     Ok(vec)
+    // }
 }
 
-fn parse_normal<'a>(node: &Node<'a>, id: &str, task_id: &mut u32) -> Achievement {
-    let h3 = node.select(Attr("id", id)).next().expect("not found");
-    let ul = node
-        .select(Attr("id", format!("{}_col", id).as_str()))
-        .next()
-        .expect("not found");
-    let mut tasks = Vec::with_capacity(50);
-    for li in ul.select(Name("li")) {
-        let md = Markdown::parse(&li);
-        tasks.push(Task {
-            id: *task_id,
-            text: md,
-            note: None,
-        });
-    }
-    let name = Markdown::parse(&h3);
-    Achievement { tasks, name }
-}
+// fn parse_normal<'a>(node: &Node<'a>, id: &str, task_id: &mut u32) -> Achievement {
+//     let h3 = node.select(Attr("id", id)).next().expect("not found");
+//     let ul = node
+//         .select(Attr("id", format!("{}_col", id).as_str()))
+//         .next()
+//         .expect("not found");
+//     let mut tasks = Vec::with_capacity(50);
+//     for li in ul.select(Name("li")) {
+//         let md = Markdown::parse(&li);
+//         tasks.push(Task {
+//             id: *task_id,
+//             text: md,
+//             note: None,
+//         });
+//     }
+//     let name = Markdown::parse(&h3);
+//     Achievement { tasks, name }
+// }
