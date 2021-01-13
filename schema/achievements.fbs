@@ -10,7 +10,7 @@ table Task{
   id: uint32;
   name: string; // markdown
   description: string; // markdown
-  note: string; // text, null for everything except Ring achievements
+  play: uint8; // 1 - first playthrough, 2 - second, 3 - third
 }
 
 table AchievementsRoot{
