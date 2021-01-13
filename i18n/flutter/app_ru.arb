@@ -1,4 +1,5 @@
 {
+    "mainMenuTitle": "Dark Souls III Checklist",
     "mainMenuSettingsPopUp": "Меню",
     "mainMenuItemSettings": "Настройки",
     "mainMenuItemAbout": "О программе",
@@ -14,7 +15,7 @@
     "soulPrices": "Цены душ",
     "settingsTitle": "Настройки",
     "settingsPlaythroughProgress": "Прогресс прохождения",
-    "settingsTradesProgress": "Прогресс бартеров",
+    "settingsTradesProgress": "Прогресс обменов",
     "settingsAchievementsProgress": "Прогресс достижений",
     "settingsWeapsShieldsProgress": "Прогресс оружия/щитов",
     "settingsArmorProgress": "Прогресс брони",
