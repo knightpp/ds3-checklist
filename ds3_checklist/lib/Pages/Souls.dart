@@ -1,17 +1,19 @@
 import 'package:dark_souls_checklist/CacheManager.dart';
+import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/Generated/souls_d_s3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:provider/provider.dart';
 
 const String SOULS_FB = "Cached.Flatbuffer.Souls";
 
 class Souls extends StatelessWidget {
-  Future<List<fb.Soul>> setup(BuildContext context) async {
+  Future<List<fb.Soul>> setup(BuildContext context, MyModel value) async {
     return await CacheManager.getOrInit(SOULS_FB, () async {
       var data = await DefaultAssetBundle.of(context)
-          .load('assets/flatbuffers/souls.fb');
+          .load('${value.flatbuffersPath}/souls.fb');
       return fb.SoulsRoot(data.buffer.asInt8List()).items;
     });
   }
@@ -25,24 +27,26 @@ class Souls extends StatelessWidget {
           loc.soulPrices,
         ),
       ),
-      body: FutureBuilder(
-          future: setup(context),
-          builder: (context, snapshot) {
-            if (snapshot.hasError) {
-              return Text("Error");
-            } else if (snapshot.hasData) {
-              final souls = snapshot.data as List<fb.Soul>;
-              return ListView.builder(
-                  itemCount: souls.length,
-                  itemBuilder: (context, soulIdx) {
-                    return SoulCard(souls[soulIdx]);
-                  });
-            } else {
-              return Center(
-                child: CircularProgressIndicator(),
-              );
-            }
-          }),
+      body: Consumer<MyModel>(
+        builder: (context, value, child) => FutureBuilder(
+            future: setup(context, value),
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                return Text("Error: ${snapshot.error}");
+              } else if (snapshot.hasData) {
+                final souls = snapshot.data as List<fb.Soul>;
+                return ListView.builder(
+                    itemCount: souls.length,
+                    itemBuilder: (context, soulIdx) {
+                      return SoulCard(souls[soulIdx]);
+                    });
+              } else {
+                return Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+            }),
+      ),
     );
   }
 }

@@ -80,22 +80,10 @@ class _AchievementPageState extends State<AchievementPage> {
             onChanged: (newVal) {
               _updateChecked(widget.achId, taskIdx, newVal!);
             },
-            title: Row(
-              children: [
-                Icon(Icons.looks_3),
-                MarkdownBody(
-                    onTapLink: openLink,
-                    data: task.text.split(":").first,
-                    styleSheet: MarkdownStyleSheet(
-                        p: Theme.of(context)
-                            .textTheme
-                            .headline5
-                            ?.copyWith(fontSize: 18))),
-              ],
-            ),
+            title: TaskTitle(task),
             content: MarkdownBody(
               onTapLink: openLink,
-              data: task.text,
+              data: task.description,
               styleSheet: MarkdownStyleSheet(
                   a: getLinkTextStyle(),
                   p: Theme.of(context).textTheme.bodyText2),
@@ -104,5 +92,45 @@ class _AchievementPageState extends State<AchievementPage> {
         },
       ),
     );
+  }
+}
+
+class TaskTitle extends StatelessWidget {
+  final fb.Task task;
+
+  const TaskTitle(this.task, {Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final title = MarkdownBody(
+        onTapLink: openLink,
+        data: task.name,
+        styleSheet: MarkdownStyleSheet(
+            p: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 18)));
+    if (task.play != 1) {
+      return Row(
+        children: [
+          Icon(
+            getPlayIconData(task),
+          ),
+          title
+        ],
+      );
+    } else {
+      return title;
+    }
+  }
+
+  IconData getPlayIconData(fb.Task task) {
+    switch (task.play) {
+      case 1:
+        return Icons.looks_one;
+      case 2:
+        return Icons.looks_two;
+      case 3:
+        return Icons.looks_3;
+      default:
+        throw "unreachable";
+    }
   }
 }

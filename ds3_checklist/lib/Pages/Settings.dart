@@ -84,7 +84,7 @@ class SettingsPage extends StatelessWidget {
           contentText: loc.settingsPlaythroughProgress,
           pressType: PressType.Normal,
           pressCallback: () {
-            CacheManager.invalidate(pt.Cached.Database.uniqueStr());
+            CacheManager.invalidate(CacheManager.PLAYTHROUGH_DB);
             DatabaseManager.resetDb(0xB16B00B5, DbFor.Playthrough);
           },
         ),
@@ -158,20 +158,21 @@ class LanguageSelector extends StatefulWidget {
 class _LanguageSelectorState extends State<LanguageSelector> {
   @override
   Widget build(BuildContext context) {
-    Locale locale = Localizations.localeOf(context)!;
     return Consumer<MyModel>(
       builder: (context, value, child) => Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           LangButton(
-            selected: locale.languageCode.startsWith("ru"),
+            selected:
+                value.currentLocale?.languageCode.startsWith("ru") ?? false,
             asset: "assets/icons/ru.svg",
             onTap: () {
               value.currentLocale = Locale('ru', '');
             },
           ),
           LangButton(
-            selected: locale.languageCode.startsWith("en"),
+            selected:
+                value.currentLocale?.languageCode.startsWith("en") ?? false,
             asset: "assets/icons/gb.svg",
             onTap: () async {
               value.currentLocale = Locale('en', '');
@@ -208,48 +209,51 @@ class ResetRow extends StatelessWidget {
               .replaceFirst("\$contentText", contentText)),
         ),
         super(key: key);
+
+  void _showConfirmationDialog(BuildContext context) async {
+    bool result = false;
+    await showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        content: Text(loc.settingsConfirmationDialogText),
+        title: Text(loc.settingsConfirmationDialogTitle
+            .replaceFirst("\$contentText", contentText)),
+        actions: <Widget>[
+          FlatButton(
+            child: Text(loc.settingsConfirmationDialogAccept),
+            onPressed: () {
+              result = true;
+              Navigator.pop(context);
+            },
+          ),
+          Divider(),
+          FlatButton(
+            child: Text(loc.settingsConfirmationDialogCancel),
+            onPressed: () {
+              result = false;
+              Navigator.pop(context);
+            },
+          )
+        ],
+      ),
+    );
+    if (result) {
+      // update rows in the DB
+      pressCallback();
+      ScaffoldMessenger.of(context).showSnackBar(snackBar);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     VoidCallback _onPressed;
     VoidCallback _onLongPress;
-    VoidCallback _showConfirmationDialog = () async {
-      bool result = false;
-      await showDialog(
-        context: context,
-        builder: (context) => AlertDialog(
-          content: Text(loc.settingsConfirmationDialogText),
-          title: Text(loc.settingsConfirmationDialogTitle
-              .replaceFirst("\$contentText", contentText)),
-          actions: <Widget>[
-            FlatButton(
-              child: Text(loc.settingsConfirmationDialogAccept),
-              onPressed: () {
-                result = true;
-                Navigator.pop(context);
-              },
-            ),
-            Divider(),
-            FlatButton(
-              child: Text(loc.settingsConfirmationDialogCancel),
-              onPressed: () {
-                result = false;
-                Navigator.pop(context);
-              },
-            )
-          ],
-        ),
-      );
-      if (result) {
-        // update rows in the DB
-        pressCallback();
-        ScaffoldMessenger.of(context).showSnackBar(snackBar);
-      }
-    };
+
     if (pressType == PressType.Long) {
       _onPressed = () {};
-      _onLongPress = _showConfirmationDialog;
+      _onLongPress = () => _showConfirmationDialog(context);
     } else {
-      _onPressed = _showConfirmationDialog;
+      _onPressed = () => _showConfirmationDialog(context);
       _onLongPress = () {};
     }
     return Row(
@@ -259,7 +263,7 @@ class ResetRow extends StatelessWidget {
           flex: 6,
           child: Text(
             contentText,
-            style: TextStyle(fontSize: 16, letterSpacing: 1.2, wordSpacing: 1),
+            style: TextStyle(fontSize: 16),
           ),
         ),
         Expanded(

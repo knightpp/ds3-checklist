@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:provider/provider.dart';
 import '../MyAppBar.dart';
 import '../Singletons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -57,11 +58,11 @@ class _ArmorState extends State<Armor> {
     db.updateRecord([newVal, taskId, catId]);
   }
 
-  Future setup() async {
+  Future setup(MyModel value) async {
     await db.openDbAndParse();
     armors = await CacheManager.getOrInit(ARMORS_KEY, () async {
       var data = await DefaultAssetBundle.of(context)
-          .load('assets/flatbuffers/armor.fb');
+          .load('${value.flatbuffersPath}/armor.fb');
 
       return fb.ArmorRoot(data.buffer.asInt8List()).items!;
     });
@@ -71,57 +72,59 @@ class _ArmorState extends State<Armor> {
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
-    return AllPageFutureBuilder(
-        future: setup(),
-        buildOnLoad: (context, snapshot) {
-          return DefaultTabController(
-            length: armors.length,
-            child: Scaffold(
-              appBar: MyAppBar(
-                prefSize: Size.fromHeight(80),
-                onHideButton: (newVal) {
-                  setState(() {
-                    _hideCompleted = newVal;
-                  });
-                },
-                title: loc.armorPageTitle,
-                bottom: TabsForAppBar(
-                  tabs: armors
-                      .map((cat) => Text(
-                            cat.category,
-                          ))
-                      .toList(),
-                  onChangeTab: (int newTabIdx) {
-                    selectedCatIdx = newTabIdx;
+    return Consumer<MyModel>(
+      builder: (context, value, child) => AllPageFutureBuilder(
+          future: setup(value),
+          buildOnLoad: (context, snapshot) {
+            return DefaultTabController(
+              length: armors.length,
+              child: Scaffold(
+                appBar: MyAppBar(
+                  prefSize: Size.fromHeight(80),
+                  onHideButton: (newVal) {
+                    setState(() {
+                      _hideCompleted = newVal;
+                    });
+                  },
+                  title: loc.armorPageTitle,
+                  bottom: TabsForAppBar(
+                    tabs: armors
+                        .map((cat) => Text(
+                              cat.category,
+                            ))
+                        .toList(),
+                    onChangeTab: (int newTabIdx) {
+                      selectedCatIdx = newTabIdx;
+                    },
+                  ),
+                ),
+                body: MyTabBarView(
+                  categoriesLength: armors.length,
+                  categoryBuilder: (context, catIndex) {
+                    return ListView.builder(
+                      itemBuilder: (context, taskIdx) {
+                        bool isChecked = db.checked[catIndex][taskIdx];
+                        return ItemTile(
+                          isVisible: !(_hideCompleted && isChecked),
+                          onChanged: (newVal) {
+                            _updateChecked(catIndex, taskIdx, newVal!);
+                          },
+                          isChecked: isChecked,
+                          content: MarkdownBody(
+                            onTapLink: openLink,
+                            data: armors[catIndex].gears[taskIdx].name,
+                            styleSheet: MarkdownStyleSheet(
+                                a: getLinkTextStyle().copyWith(fontSize: 18)),
+                          ),
+                        );
+                      },
+                      itemCount: armors[catIndex].gears.length,
+                    );
                   },
                 ),
               ),
-              body: MyTabBarView(
-                categoriesLength: armors.length,
-                categoryBuilder: (context, catIndex) {
-                  return ListView.builder(
-                    itemBuilder: (context, taskIdx) {
-                      bool isChecked = db.checked[catIndex][taskIdx];
-                      return ItemTile(
-                        isVisible: !(_hideCompleted && isChecked),
-                        onChanged: (newVal) {
-                          _updateChecked(catIndex, taskIdx, newVal!);
-                        },
-                        isChecked: isChecked,
-                        content: MarkdownBody(
-                          onTapLink: openLink,
-                          data: armors[catIndex].gears[taskIdx].name,
-                          styleSheet: MarkdownStyleSheet(
-                              a: getLinkTextStyle().copyWith(fontSize: 18)),
-                        ),
-                      );
-                    },
-                    itemCount: armors[catIndex].gears.length,
-                  );
-                },
-              ),
-            ),
-          );
-        });
+            );
+          }),
+    );
   }
 }

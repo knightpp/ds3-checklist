@@ -49,7 +49,8 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/sqlites/
-    - assets/flatbuffers/
+    - assets/i18n/en/flatbuffers/
+    - assets/i18n/ru/flatbuffers/
   fonts:
     - family: OptimusPrinceps
       fonts:
@@ -60,10 +61,6 @@ flutter:
     - family: Montserrat
       fonts:
         - asset: assets/fonts/Montserrat-Medium.ttf
-          style: normal
-    - family: AmaticSC
-      fonts:
-        - asset: assets/fonts/AmaticSC-Regular.ttf
           style: normal
     - family: PlayfairDisplaySC
       fonts:

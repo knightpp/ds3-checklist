@@ -5,6 +5,7 @@ import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:provider/provider.dart';
 import '../ItemTile.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
@@ -46,12 +47,12 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
     _hideCompleted = Prefs.inst.getBool("Weapons and Shields") ?? false;
   }
 
-  Future setup() async {
+  Future setup(MyModel model) async {
     await db.openDbAndParse();
 
     this.weapsShields = await CacheManager.getOrInit(WS_FB_KEY, () async {
       final data = await DefaultAssetBundle.of(context)
-          .load('assets/flatbuffers/weapons_and_shields.fb');
+          .load('${model.flatbuffersPath!}/weapons_and_shields.fb');
       return fb.WeaponsAndShieldsRoot(data.buffer.asInt8List()).items;
     });
     return 1;
@@ -72,27 +73,29 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
           },
         ),
       ),
-      body: Container(
-        child: FutureBuilder(
-            future: setup(),
-            builder: (context, snapshot) {
-              if (snapshot.hasError) {
-                return Text("Error:\n${snapshot.error}");
-              } else if (snapshot.hasData) {
-                return ListView.builder(
-                    shrinkWrap: true,
-                    itemCount: weapsShields.length,
-                    itemBuilder: (context, index) {
-                      return ExpandableTile(
-                          cat: weapsShields[index], index: index, db: db);
-                    });
-              } else {
-                return Center(
-                  child: CircularProgressIndicator(),
-                );
-              }
-            }),
-      ),
+      body: Container(child: Consumer<MyModel>(
+        builder: (context, value, child) {
+          return FutureBuilder(
+              future: setup(value),
+              builder: (context, snapshot) {
+                if (snapshot.hasError) {
+                  return Text("Error:\n${snapshot.error}");
+                } else if (snapshot.hasData) {
+                  return ListView.builder(
+                      shrinkWrap: true,
+                      itemCount: weapsShields.length,
+                      itemBuilder: (context, index) {
+                        return ExpandableTile(
+                            cat: weapsShields[index], index: index, db: db);
+                      });
+                } else {
+                  return Center(
+                    child: CircularProgressIndicator(),
+                  );
+                }
+              });
+        },
+      )),
     );
   }
 }
@@ -157,12 +160,14 @@ class _ExpandableTileState extends State<ExpandableTile> {
   Widget build(BuildContext context) {
     return ExpansionTile(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      title: MarkdownBody(
-        onTapLink: openLink,
-        data: widget.cat.name,
-        styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-            .copyWith(p: Theme.of(context).textTheme.headline5),
-        // textStyle: Theme.of(context).textTheme.headline2,
+      title: Center(
+        child: MarkdownBody(
+          onTapLink: openLink,
+          data: widget.cat.name,
+          styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(
+              p: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 16)),
+          // textStyle: Theme.of(context).textTheme.headline2,
+        ),
       ),
       children: <Widget>[
         Column(

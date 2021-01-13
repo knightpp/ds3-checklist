@@ -6,27 +6,12 @@ import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:provider/provider.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/playthrough_d_s3_c_generated.dart'
     as fb;
 import '../CacheManager.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
-enum Cached {
-  Flatbuffer,
-  Database,
-}
-
-extension Id on Cached {
-  String uniqueStr() {
-    switch (this) {
-      case Cached.Flatbuffer:
-        return "Cached.Flatbuffer.Playthrough";
-      case Cached.Database:
-        return "Cached.Database.Playthrough";
-    }
-  }
-}
 
 class Playthrough extends StatefulWidget {
   @override
@@ -68,17 +53,17 @@ class _PlaythroughState extends State<Playthrough> {
     _dbR.updateRecord([newVal, taskId, locationId]);
   }
 
-  setup(BuildContext context) async {
-    _dbR = await CacheManager.getOrInit(Cached.Database.uniqueStr(), () async {
+  setup(BuildContext context, MyModel value) async {
+    _dbR = await CacheManager.getOrInit(CacheManager.PLAYTHROUGH_DB, () async {
       final db = DatabaseManager(expensiveComputation, DbFor.Playthrough);
       await db.openDbAndParse();
       return db;
     });
 
-    _flat =
-        await CacheManager.getOrInit(Cached.Flatbuffer.uniqueStr(), () async {
+    _flat = await CacheManager.getOrInit(CacheManager.PLAYTHROUGH_FLATBUFFER,
+        () async {
       final data = await DefaultAssetBundle.of(context)
-          .load("assets/flatbuffers/playthrough.fb");
+          .load("${value.flatbuffersPath!}/playthrough.fb");
       return fb.PlaythroughRoot(data.buffer.asInt8List()).items;
     });
     return 1;
@@ -86,66 +71,68 @@ class _PlaythroughState extends State<Playthrough> {
 
   @override
   Widget build(BuildContext context) {
-    return AllPageFutureBuilder(
-      future: setup(context),
-      buildOnLoad: (context, snapshot) {
-        final loc = AppLocalizations.of(context)!;
-        return DefaultTabController(
-          initialIndex: _initialIndex,
-          length: _flat.length,
-          child: Scaffold(
-            appBar: MyAppBar(
-              prefSize: Size.fromHeight(80),
-              bottom: TabsForAppBar(
-                tabs: _flat.map((loc) {
-                  String text = loc.location.name!;
-                  if (loc.location.note != null) {
-                    text = "$text ${loc.location.note}";
-                  }
-                  return Text(
-                    text,
-                  );
-                }).toList(),
-                onChangeTab: (p) async {
-                  await Prefs.inst.setInt("PLAYTHROUGH-LAST-TAB", p);
+    return Consumer<MyModel>(builder: (context, value, child) {
+      return AllPageFutureBuilder(
+        future: setup(context, value),
+        buildOnLoad: (context, snapshot) {
+          final loc = AppLocalizations.of(context)!;
+          return DefaultTabController(
+            initialIndex: _initialIndex,
+            length: _flat.length,
+            child: Scaffold(
+              appBar: MyAppBar(
+                prefSize: Size.fromHeight(80),
+                bottom: TabsForAppBar(
+                  tabs: _flat.map((loc) {
+                    String text = loc.location.name!;
+                    if (loc.location.note != null) {
+                      text = "$text ${loc.location.note}";
+                    }
+                    return Text(
+                      text,
+                    );
+                  }).toList(),
+                  onChangeTab: (p) async {
+                    await Prefs.inst.setInt("PLAYTHROUGH-LAST-TAB", p);
+                  },
+                ),
+                title: loc.playthroughPageTitle,
+                onHideButton: (newVal) {
+                  setState(() {
+                    _hideCompleted = newVal;
+                  });
                 },
               ),
-              title: loc.playthroughPageTitle,
-              onHideButton: (newVal) {
-                setState(() {
-                  _hideCompleted = newVal;
-                });
-              },
+              body: MyTabBarView(
+                categoriesLength: _flat.length,
+                categoryBuilder: (context, locationId) {
+                  return ListView.builder(
+                    itemCount: _flat[locationId].tasks.length,
+                    itemBuilder: (context, taskIdx) {
+                      bool isChecked = _dbR.checked![locationId][taskIdx]!;
+                      String taskText = _flat[locationId].tasks[taskIdx].text;
+                      return ItemTile(
+                        isVisible: !(_hideCompleted && isChecked),
+                        isChecked: isChecked,
+                        title: MarkdownBody(
+                          data: taskText,
+                          onTapLink: openLink,
+                          styleSheet: MarkdownStyleSheet(
+                              a: getLinkTextStyle(),
+                              p: Theme.of(context).textTheme.bodyText2),
+                        ),
+                        onChanged: (newVal) {
+                          _updateChecked(locationId, taskIdx, newVal!);
+                        },
+                      );
+                    },
+                  );
+                },
+              ),
             ),
-            body: MyTabBarView(
-              categoriesLength: _flat.length,
-              categoryBuilder: (context, locationId) {
-                return ListView.builder(
-                  itemCount: _flat[locationId].tasks.length,
-                  itemBuilder: (context, taskIdx) {
-                    bool isChecked = _dbR.checked![locationId][taskIdx]!;
-                    String taskText = _flat[locationId].tasks[taskIdx].text;
-                    return ItemTile(
-                      isVisible: !(_hideCompleted && isChecked),
-                      isChecked: isChecked,
-                      title: MarkdownBody(
-                        data: taskText,
-                        onTapLink: openLink,
-                        styleSheet: MarkdownStyleSheet(
-                            a: getLinkTextStyle(),
-                            p: Theme.of(context).textTheme.bodyText2),
-                      ),
-                      onChanged: (newVal) {
-                        _updateChecked(locationId, taskIdx, newVal!);
-                      },
-                    );
-                  },
-                );
-              },
-            ),
-          ),
-        );
-      },
-    );
+          );
+        },
+      );
+    });
   }
 }

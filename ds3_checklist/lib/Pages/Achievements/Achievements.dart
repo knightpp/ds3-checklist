@@ -1,12 +1,14 @@
 import 'dart:collection';
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/Pages/Achievements/AchievementPage.dart';
+import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/Generated/achievements_d_s3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:provider/provider.dart';
 
 const _DLCS = AssetImage('assets/images/dlcs.webp');
 const IMAGES = [
@@ -72,7 +74,7 @@ class _AchievementsState extends State<Achievements> {
 
   int titleIndex = 0;
 
-  Future setup() async {
+  Future setup(MyModel value) async {
     db = await CacheManager.getOrInit(Cached.Database.uniqueStr(), () async {
       final db = DatabaseManager(expensiveComputation, DbFor.Achievements);
       await db.openDbAndParse();
@@ -82,7 +84,7 @@ class _AchievementsState extends State<Achievements> {
     achs =
         await CacheManager.getOrInit(Cached.Flatbuffer.uniqueStr(), () async {
       final data = await DefaultAssetBundle.of(context)
-          .load("assets/flatbuffers/achievements.fb");
+          .load("${value.flatbuffersPath}/achievements.fb");
       return fb.AchievementsRoot(data.buffer.asInt8List()).items!;
     });
     return 1;
@@ -97,35 +99,37 @@ class _AchievementsState extends State<Achievements> {
           style: Theme.of(context).appBarTheme.textTheme?.headline6,
         ),
       ),
-      body: FutureBuilder(
-        future: setup(),
-        builder: (context, snapshot) {
-          if (snapshot.hasError) {
-            return Text("Error");
-          } else if (snapshot.hasData) {
-            return Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisSize: MainAxisSize.max,
-              children: <Widget>[
-                Spacer(),
-                GridView.builder(
-                  shrinkWrap: true,
-                  itemCount: achs.length,
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 3),
-                  itemBuilder: (context, achId) {
-                    return AchButton(achs: achs, db: db, achId: achId);
-                  },
-                  physics: NeverScrollableScrollPhysics(),
-                ),
-                Spacer(),
-              ],
-            );
-          } else {
-            return Center(child: CircularProgressIndicator());
-          }
-        },
+      body: Consumer<MyModel>(
+        builder: (context, value, child) => FutureBuilder(
+          future: setup(value),
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              return Text("Error: ${snapshot.error}");
+            } else if (snapshot.hasData) {
+              return Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisSize: MainAxisSize.max,
+                children: <Widget>[
+                  Spacer(),
+                  GridView.builder(
+                    shrinkWrap: true,
+                    itemCount: achs.length,
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 3),
+                    itemBuilder: (context, achId) {
+                      return AchButton(achs: achs, db: db, achId: achId);
+                    },
+                    physics: NeverScrollableScrollPhysics(),
+                  ),
+                  Spacer(),
+                ],
+              );
+            } else {
+              return Center(child: CircularProgressIndicator());
+            }
+          },
+        ),
       ),
     );
   }
@@ -156,7 +160,7 @@ class AchButton extends StatelessWidget {
                   child: FittedBox(
                     fit: BoxFit.cover,
                     child: Text(
-                      selAch.name.split(":").first, // FIXME:
+                      selAch.name,
                       // style: Theme.of(context).textTheme.headline3,
                     ),
                   )),
@@ -203,13 +207,12 @@ class AchButton extends StatelessWidget {
                           );
                         },
                         child: Text(
-                          achs[achId].name.split(":").first, // FIXME:
+                          achs[achId].name,
                           textAlign: TextAlign.center,
                           style: Theme.of(context)
                               .textTheme
                               .button
                               ?.copyWith(fontSize: 12),
-
                           maxLines: 2,
                         ),
                       ),

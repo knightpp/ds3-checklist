@@ -30,6 +30,10 @@ class About extends StatelessWidget {
             ),
             leading: Icon(Icons.recent_actors),
           ),
+          // ListTile(
+          // title: Text("Optimus Princeps"),
+          // leading: Icon(Icons.font_download),
+          // )
         ],
       ),
     );

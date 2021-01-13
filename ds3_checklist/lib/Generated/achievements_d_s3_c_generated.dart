@@ -21,11 +21,12 @@ class Achievement {
   final int _bcOffset;
 
   String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 4, null);
-  List<Task> get tasks => const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 6, null);
+  String get description => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+  List<Task> get tasks => const fb.ListReader<Task>(Task.reader).vTableGet(_bc, _bcOffset, 8, null);
 
   @override
   String toString() {
-    return 'Achievement{name: $name, tasks: $tasks}';
+    return 'Achievement{name: $name, description: $description, tasks: $tasks}';
   }
 }
 
@@ -52,8 +53,12 @@ class AchievementBuilder {
     fbBuilder.addOffset(0, offset);
     return fbBuilder.offset;
   }
-  int addTasksOffset(int offset) {
+  int addDescriptionOffset(int offset) {
     fbBuilder.addOffset(1, offset);
+    return fbBuilder.offset;
+  }
+  int addTasksOffset(int offset) {
+    fbBuilder.addOffset(2, offset);
     return fbBuilder.offset;
   }
 
@@ -64,13 +69,16 @@ class AchievementBuilder {
 
 class AchievementObjectBuilder extends fb.ObjectBuilder {
   final String _name;
+  final String _description;
   final List<TaskObjectBuilder> _tasks;
 
   AchievementObjectBuilder({
     String name,
+    String description,
     List<TaskObjectBuilder> tasks,
   })
       : _name = name,
+        _description = description,
         _tasks = tasks;
 
   /// Finish building, and store into the [fbBuilder].
@@ -79,6 +87,7 @@ class AchievementObjectBuilder extends fb.ObjectBuilder {
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
     final int nameOffset = fbBuilder.writeString(_name);
+    final int descriptionOffset = fbBuilder.writeString(_description);
     final int tasksOffset = _tasks?.isNotEmpty == true
         ? fbBuilder.writeList(_tasks.map((b) => b.getOrCreateOffset(fbBuilder)).toList())
         : null;
@@ -87,8 +96,11 @@ class AchievementObjectBuilder extends fb.ObjectBuilder {
     if (nameOffset != null) {
       fbBuilder.addOffset(0, nameOffset);
     }
+    if (descriptionOffset != null) {
+      fbBuilder.addOffset(1, descriptionOffset);
+    }
     if (tasksOffset != null) {
-      fbBuilder.addOffset(1, tasksOffset);
+      fbBuilder.addOffset(2, tasksOffset);
     }
     return fbBuilder.endTable();
   }
@@ -114,12 +126,13 @@ class Task {
   final int _bcOffset;
 
   int get id => const fb.Uint32Reader().vTableGet(_bc, _bcOffset, 4, 0);
-  String get text => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
-  String get note => const fb.StringReader().vTableGet(_bc, _bcOffset, 8, null);
+  String get name => const fb.StringReader().vTableGet(_bc, _bcOffset, 6, null);
+  String get description => const fb.StringReader().vTableGet(_bc, _bcOffset, 8, null);
+  int get play => const fb.Uint8Reader().vTableGet(_bc, _bcOffset, 10, 0);
 
   @override
   String toString() {
-    return 'Task{id: $id, text: $text, note: $note}';
+    return 'Task{id: $id, name: $name, description: $description, play: $play}';
   }
 }
 
@@ -146,12 +159,16 @@ class TaskBuilder {
     fbBuilder.addUint32(0, id);
     return fbBuilder.offset;
   }
-  int addTextOffset(int offset) {
+  int addNameOffset(int offset) {
     fbBuilder.addOffset(1, offset);
     return fbBuilder.offset;
   }
-  int addNoteOffset(int offset) {
+  int addDescriptionOffset(int offset) {
     fbBuilder.addOffset(2, offset);
+    return fbBuilder.offset;
+  }
+  int addPlay(int play) {
+    fbBuilder.addUint8(3, play);
     return fbBuilder.offset;
   }
 
@@ -162,34 +179,38 @@ class TaskBuilder {
 
 class TaskObjectBuilder extends fb.ObjectBuilder {
   final int _id;
-  final String _text;
-  final String _note;
+  final String _name;
+  final String _description;
+  final int _play;
 
   TaskObjectBuilder({
     int id,
-    String text,
-    String note,
+    String name,
+    String description,
+    int play,
   })
       : _id = id,
-        _text = text,
-        _note = note;
+        _name = name,
+        _description = description,
+        _play = play;
 
   /// Finish building, and store into the [fbBuilder].
   @override
   int finish(
     fb.Builder fbBuilder) {
     assert(fbBuilder != null);
-    final int textOffset = fbBuilder.writeString(_text);
-    final int noteOffset = fbBuilder.writeString(_note);
+    final int nameOffset = fbBuilder.writeString(_name);
+    final int descriptionOffset = fbBuilder.writeString(_description);
 
     fbBuilder.startTable();
     fbBuilder.addUint32(0, _id);
-    if (textOffset != null) {
-      fbBuilder.addOffset(1, textOffset);
+    if (nameOffset != null) {
+      fbBuilder.addOffset(1, nameOffset);
     }
-    if (noteOffset != null) {
-      fbBuilder.addOffset(2, noteOffset);
+    if (descriptionOffset != null) {
+      fbBuilder.addOffset(2, descriptionOffset);
     }
+    fbBuilder.addUint8(3, _play);
     return fbBuilder.endTable();
   }
 

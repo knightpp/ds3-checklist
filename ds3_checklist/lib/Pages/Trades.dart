@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:provider/provider.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/trades_d_s3_c_generated.dart'
     as fb;
@@ -52,10 +53,10 @@ class _TradesState extends State<Trades> {
     db.updateRecord([newVal, tradeId]);
   }
 
-  Future setup() async {
+  Future setup(MyModel value) async {
     await db.openDbAndParse();
     trades = await CacheManager.getOrInit(TRADES_FB_KEY, () async {
-      var data = await rootBundle.load('assets/flatbuffers/trades.fb');
+      var data = await rootBundle.load('${value.flatbuffersPath}/trades.fb');
       return fb.TradesRoot(data.buffer.asInt8List()).items!;
     });
     return 1;
@@ -74,33 +75,35 @@ class _TradesState extends State<Trades> {
           });
         },
       ),
-      body: FutureBuilder(
-          future: setup(),
-          builder: (context, snapshot) {
-            if (snapshot.hasError) {
-              return Text("Error");
-            } else if (snapshot.hasData) {
-              return ListView.builder(
-                itemCount: trades.length,
-                itemBuilder: (context, tradeIdx) {
-                  bool isChecked = db.checked[tradeIdx];
-                  return Visibility(
-                    visible: !(_hideCompleted && isChecked),
-                    child: Column(
-                      children: <Widget>[
-                        buildCheckboxListTile(tradeIdx, context, isChecked),
-                        Divider()
-                      ],
-                    ),
-                  );
-                },
-              );
-            } else {
-              return Center(
-                child: CircularProgressIndicator(),
-              );
-            }
-          }),
+      body: Consumer<MyModel>(
+        builder: (context, value, child) => FutureBuilder(
+            future: setup(value),
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                return Text("Error");
+              } else if (snapshot.hasData) {
+                return ListView.builder(
+                  itemCount: trades.length,
+                  itemBuilder: (context, tradeIdx) {
+                    bool isChecked = db.checked[tradeIdx];
+                    return Visibility(
+                      visible: !(_hideCompleted && isChecked),
+                      child: Column(
+                        children: <Widget>[
+                          buildCheckboxListTile(tradeIdx, context, isChecked),
+                          Divider()
+                        ],
+                      ),
+                    );
+                  },
+                );
+              } else {
+                return Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+            }),
+      ),
     );
   }
 
