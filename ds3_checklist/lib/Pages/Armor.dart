@@ -58,7 +58,7 @@ class _ArmorState extends State<Armor> {
     db.updateRecord([newVal, taskId, catId]);
   }
 
-  Future setup(MyModel value) async {
+  Future<int> setup(MyModel value) async {
     await db.openDbAndParse();
     armors = await CacheManager.getOrInit(ARMORS_KEY, () async {
       var data = await DefaultAssetBundle.of(context)
@@ -73,7 +73,7 @@ class _ArmorState extends State<Armor> {
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     return Consumer<MyModel>(
-      builder: (context, value, child) => AllPageFutureBuilder(
+      builder: (context, value, child) => AllPageFutureBuilder<int>(
           future: setup(value),
           buildOnLoad: (context, snapshot) {
             return DefaultTabController(

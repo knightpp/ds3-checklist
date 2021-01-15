@@ -4,11 +4,11 @@ import 'package:flutter/widgets.dart';
 /// Use this at root of your widget tree.
 /// Returns Scaffold with error message if any,
 /// org Widget's built from closure.
-class AllPageFutureBuilder extends StatelessWidget {
+class AllPageFutureBuilder<T> extends StatelessWidget {
   AllPageFutureBuilder(
       {Key? key, required this.future, required this.buildOnLoad})
       : super(key: key);
-  final Future future;
+  final Future<T> future;
   final Widget Function(BuildContext, AsyncSnapshot) buildOnLoad;
 
   @override
