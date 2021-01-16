@@ -5,11 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Flutter",
+            "name": "ds3_checklist",
+            "cwd": "ds3_checklist",
             "request": "launch",
-            "type": "dart",
-            "args": ["--no-sound-null-safety"],
-            // "flutterMode": "profile"
+            "type": "dart"
         }
     ]
 }

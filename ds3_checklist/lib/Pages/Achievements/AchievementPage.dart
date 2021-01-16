@@ -1,9 +1,12 @@
+import 'dart:ui';
+
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:simple_rich_md/simple_rich_md.dart';
 import '../../ItemTile.dart';
 import '../../Singletons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -75,20 +78,25 @@ class _AchievementPageState extends State<AchievementPage> {
           bool isChecked = widget.db.checked[widget.achId][taskIdx]!;
           final task = widget.ach.tasks[taskIdx];
           return ItemTile(
-            isChecked: isChecked,
-            isVisible: !(_hideCompleted && isChecked),
-            onChanged: (newVal) {
-              _updateChecked(widget.achId, taskIdx, newVal!);
-            },
-            title: TaskTitle(task),
-            content: MarkdownBody(
-              onTapLink: openLink,
-              data: task.description,
-              styleSheet: MarkdownStyleSheet(
-                  a: getLinkTextStyle(),
-                  p: Theme.of(context).textTheme.bodyText2),
-            ),
-          );
+              isChecked: isChecked,
+              isVisible: !(_hideCompleted && isChecked),
+              onChanged: (newVal) {
+                _updateChecked(widget.achId, taskIdx, newVal!);
+              },
+              title: TaskTitle(task),
+              content: SimpleRichMd(
+                  text: task.description,
+                  onTap: openLink,
+                  linkStyle: getLinkTextStyle(),
+                  textStyle: Theme.of(context).textTheme.bodyText2)
+              // MarkdownBody(
+              //   onTapLink: openLink,
+              //   data: task.description,
+              //   styleSheet: MarkdownStyleSheet(
+              //       a: getLinkTextStyle(),
+              //       p: Theme.of(context).textTheme.bodyText2),
+              // ),
+              );
         },
       ),
     );
@@ -102,11 +110,21 @@ class TaskTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final title = MarkdownBody(
-        onTapLink: openLink,
-        data: task.name,
-        styleSheet: MarkdownStyleSheet(
-            p: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 18)));
+    final title = SimpleRichMd(
+      onTap: openLink,
+      text: task.name,
+      textStyle: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 18),
+      linkStyle: getLinkTextStyle().copyWith(fontSize: 18),
+      boldStyle: Theme.of(context)
+          .textTheme
+          .headline5
+          ?.copyWith(fontSize: 18, fontWeight: FontWeight.bold),
+    );
+    // final title = MarkdownBody(
+    //     onTapLink: openLink,
+    //     data: task.name,
+    //     styleSheet: MarkdownStyleSheet(
+    //         p: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 18)));
     if (task.play != 1) {
       return Row(
         children: [

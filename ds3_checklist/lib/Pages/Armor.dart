@@ -7,13 +7,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:provider/provider.dart';
 import '../MyAppBar.dart';
 import '../Singletons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:dark_souls_checklist/Generated/armor_d_s3_c_generated.dart'
     as fb;
+import 'package:simple_rich_md/simple_rich_md.dart';
 
 const String ARMORS_KEY = "Cached.Flatbuffer.Armor";
 
@@ -101,7 +102,9 @@ class _ArmorState extends State<Armor> {
                 body: MyTabBarView(
                   categoriesLength: armors.length,
                   categoryBuilder: (context, catIndex) {
+                    // return ListView();
                     return ListView.builder(
+                      itemCount: armors[catIndex].gears.length,
                       itemBuilder: (context, taskIdx) {
                         bool isChecked = db.checked[catIndex][taskIdx];
                         return ItemTile(
@@ -110,15 +113,23 @@ class _ArmorState extends State<Armor> {
                             _updateChecked(catIndex, taskIdx, newVal!);
                           },
                           isChecked: isChecked,
-                          content: MarkdownBody(
-                            onTapLink: openLink,
-                            data: armors[catIndex].gears[taskIdx].name,
-                            styleSheet: MarkdownStyleSheet(
-                                a: getLinkTextStyle().copyWith(fontSize: 18)),
-                          ),
+                          content: RichText(
+                              text: TextSpan(
+                                  children: SimpleRichParser(
+                                          armors[catIndex].gears[taskIdx].name,
+                                          onTap: openLink,
+                                          linkStyle: getLinkTextStyle()
+                                              .copyWith(fontSize: 18))
+                                      .spans)),
+
+                          // MarkdownBody(
+                          //   onTapLink: openLink,
+                          //   data: armors[catIndex].gears[taskIdx].name,
+                          //   styleSheet: MarkdownStyleSheet(
+                          //       a: getLinkTextStyle().copyWith(fontSize: 18)),
+                          // ),
                         );
                       },
-                      itemCount: armors[catIndex].gears.length,
                     );
                   },
                 ),

@@ -18,9 +18,7 @@ class ItemTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Widget widget;
-
-    widget = Visibility(
+    return Visibility(
       visible: isVisible,
       child: Column(
         children: [
@@ -38,7 +36,5 @@ class ItemTile extends StatelessWidget {
         ],
       ),
     );
-
-    return widget;
   }
 }

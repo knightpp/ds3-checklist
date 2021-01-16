@@ -5,8 +5,9 @@ import 'package:dark_souls_checklist/ItemTile.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_rich_md/simple_rich_md.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/playthrough_d_s3_c_generated.dart'
     as fb;
@@ -169,12 +170,18 @@ class PtTile extends StatelessWidget {
     return ItemTile(
       isVisible: isVisible,
       isChecked: isChecked,
-      title: MarkdownBody(
-        data: text,
-        onTapLink: openLink,
-        styleSheet: MarkdownStyleSheet(
-            a: getLinkTextStyle(), p: Theme.of(context).textTheme.bodyText2),
+      title: SimpleRichMd(
+        text: text,
+        onTap: openLink,
+        linkStyle: getLinkTextStyle(),
+        textStyle: Theme.of(context).textTheme.bodyText2,
       ),
+      // MarkdownBody(
+      //   data: text,
+      //   onTapLink: openLink,
+      //   styleSheet: MarkdownStyleSheet(
+      //       a: getLinkTextStyle(), p: Theme.of(context).textTheme.bodyText2),
+      // ),
       onChanged: onChanged,
     );
   }

@@ -4,8 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_rich_md/simple_rich_md.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/trades_d_s3_c_generated.dart'
     as fb;
@@ -127,23 +128,35 @@ class _TradesState extends State<Trades> {
   Expanded buildTextTradesTo(int tradeIdx, BuildContext context) {
     return Expanded(
       flex: 3,
-      child: MarkdownBody(
-        onTapLink: openLink,
-        data: trades[tradeIdx].for_,
-        styleSheet: MarkdownStyleSheet(
-            a: getLinkTextStyle(), p: Theme.of(context).textTheme.bodyText2),
+      child: SimpleRichMd(
+        text: trades[tradeIdx].for_,
+        onTap: openLink,
+        linkStyle: getLinkTextStyle(),
+        textStyle: Theme.of(context).textTheme.bodyText2,
       ),
+      // MarkdownBody(
+      //   onTapLink: openLink,
+      //   data: trades[tradeIdx].for_,
+      //   styleSheet: MarkdownStyleSheet(
+      //       a: getLinkTextStyle(), p: Theme.of(context).textTheme.bodyText2),
+      // ),
     );
   }
 
   Expanded buildTextTradesWhat(int tradeIdx, BuildContext context) {
     return Expanded(
       flex: 4,
-      child: MarkdownBody(
-        onTapLink: openLink,
-        data: trades[tradeIdx].what,
-        styleSheet: MarkdownStyleSheet(a: getLinkTextStyle()),
+      child: SimpleRichMd(
+        text: trades[tradeIdx].what,
+        linkStyle: getLinkTextStyle(),
+        textStyle: Theme.of(context).textTheme.bodyText2,
+        onTap: openLink,
       ),
+      // MarkdownBody(
+      //   onTapLink: openLink,
+      //   data: trades[tradeIdx].what,
+      //   styleSheet: MarkdownStyleSheet(a: getLinkTextStyle()),
+      // ),
     );
   }
 }

@@ -12,11 +12,11 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:intl/intl.dart';
 
-void openLink(String text, String href, String title) async {
-  if (await canLaunch(href)) {
-    await launch(href);
+void openLink(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
   } else {
-    throw "could not launch $href";
+    throw "could not launch $url";
   }
 }
 
@@ -150,7 +150,7 @@ class MyApp extends StatelessWidget {
     );
     final textTheme = Typography.blackHelsinki.copyWith(
         button: optimus.copyWith(fontSize: 20, color: Colors.white),
-        headline5: optimus,
+        headline5: optimus.copyWith(fontSize: 18),
         subtitle1: optimus,
         bodyText2: montserrat,
         bodyText1: montserrat);

@@ -4,8 +4,9 @@ import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:provider/provider.dart';
+import 'package:simple_rich_md/simple_rich_md.dart';
 import '../ItemTile.dart';
 import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
@@ -141,16 +142,22 @@ class _ExpandableTileState extends State<ExpandableTile> {
           _updateChecked(catIdx, taskId, newVal!);
         },
         isChecked: isChecked,
-        content: MarkdownBody(
-          onTapLink: openLink,
-          data: cat.items[taskId].name,
-          // textStyle: Theme.of(context).textTheme.bodyText2,
-          styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(
-              a: Theme.of(context)
-                  .textTheme
-                  .subtitle1
-                  ?.copyWith(decoration: TextDecoration.underline)),
+        content: SimpleRichMd(
+          text: cat.items[taskId].name,
+          onTap: openLink,
+          linkStyle: getLinkTextStyle(),
+          textStyle: Theme.of(context).textTheme.bodyText2,
         ),
+        // MarkdownBody(
+        //   onTapLink: openLink,
+        //   data: cat.items[taskId].name,
+        //   // textStyle: Theme.of(context).textTheme.bodyText2,
+        //   styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(
+        //       a: Theme.of(context)
+        //           .textTheme
+        //           .subtitle1
+        //           ?.copyWith(decoration: TextDecoration.underline)),
+        // ),
       ));
     }
     return widgets;
@@ -160,15 +167,19 @@ class _ExpandableTileState extends State<ExpandableTile> {
   Widget build(BuildContext context) {
     return ExpansionTile(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      title: Center(
-        child: MarkdownBody(
-          onTapLink: openLink,
-          data: widget.cat.name,
-          styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context)).copyWith(
-              p: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 16)),
-          // textStyle: Theme.of(context).textTheme.headline2,
-        ),
+      title: Text(
+        widget.cat.name,
+        style: Theme.of(context).textTheme.headline5,
+        textAlign: TextAlign.center,
       ),
+      // Center(
+      //   child: SimpleRichMd(
+      //     text: widget.cat.name,
+      //     onTap: openLink,
+      //     textStyle: Theme.of(context).textTheme.headline5,
+      //   ), // TODO: styles
+
+      // ),
       children: <Widget>[
         Column(
           children: _buildExpandableContent(widget.cat, catIdx),
