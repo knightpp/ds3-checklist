@@ -18,12 +18,7 @@ class About extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          buildListTile(apploc.createdBy),
-          buildCreators("@Lawliet18"),
-          Divider(),
-          buildCreators("@knightpp"),
-          Divider(),
-          buildListTile(apploc.usedResources),
+          makeHeader(apploc.usedResources),
           ListTile(
             title: SimpleRichMd(
               onTap: openLink,
@@ -32,16 +27,29 @@ class About extends StatelessWidget {
               linkStyle: TextStyle(
                   color: Colors.blue, decoration: TextDecoration.underline),
             ),
-            // MarkdownBody(
-            //   onTapLink: openLink,
-            //   data: apploc.aboutUsedResource.replaceFirst("\$link", link),
-            // ),
             leading: Icon(Icons.recent_actors),
           ),
-          // ListTile(
-          // title: Text("Optimus Princeps"),
-          // leading: Icon(Icons.font_download),
-          // )
+          makeHeader("Links"),
+          ListTile(
+            leading: Icon(Icons.translate),
+            title: SimpleRichMd(
+              text:
+                  "[Help us translate!](https://crowdin.com/project/darksouls-3-checklist)",
+              onTap: openLink,
+              linkStyle: TextStyle(
+                  color: Colors.blue, decoration: TextDecoration.underline),
+            ),
+          ),
+          ListTile(
+            leading: Icon(Icons.source),
+            title: SimpleRichMd(
+              text: "[Github link](https://github.com/knightpp/ds3-checklist)",
+              onTap: openLink,
+              linkStyle: TextStyle(
+                  color: Colors.blue, decoration: TextDecoration.underline),
+            ),
+          ),
+          makeHeader("MIT License"),
         ],
       ),
     );
@@ -54,7 +62,7 @@ class About extends StatelessWidget {
     );
   }
 
-  ListTile buildListTile(String str) {
+  ListTile makeHeader(String str) {
     return ListTile(
       title: Center(
           child: Text(
