@@ -40,12 +40,6 @@ List<HashMap<int, bool>> expensiveComputation(
 }
 
 class Achievements extends StatefulWidget {
-  static void resetStatics() {
-    // TODO:
-    // _AchievementsState.db.reset();
-    // _AchievementsState.achs = null;
-  }
-
   @override
   _AchievementsState createState() => _AchievementsState();
 }

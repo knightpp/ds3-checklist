@@ -31,7 +31,7 @@ bool _hideCompleted = false;
 
 class Armor extends StatefulWidget {
   static void resetStatics() {
-    // _ArmorState.db.reset();
+    _ArmorState.db.reset();
   }
 
   @override
