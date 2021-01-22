@@ -2,7 +2,6 @@ import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/Pages/Achievements/Achievements.dart';
 import 'package:dark_souls_checklist/Pages/Armor.dart';
-import 'package:dark_souls_checklist/Pages/Playthrought.dart' as pt;
 import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/cupertino.dart';
@@ -11,7 +10,6 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'Trades.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 class Settings extends StatelessWidget {
@@ -116,7 +114,7 @@ class SettingsPage extends StatelessWidget {
           contentText: loc.settingsAchievementsProgress,
           pressType: PressType.Long,
           pressCallback: () {
-            Achievements.resetStatics();
+            CacheManager.invalidate(CacheManager.ACH_DB);
             DatabaseManager.resetDb(0xB16B00B5, DbFor.Achievements);
           },
         ),

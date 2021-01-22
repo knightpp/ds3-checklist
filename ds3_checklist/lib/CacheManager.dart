@@ -1,7 +1,5 @@
 import 'dart:collection';
 
-import 'package:dark_souls_checklist/Pages/Playthrought.dart';
-
 class CacheManager {
   static const PLAYTHROUGH_FLATBUFFER = "PT_FLATBUFFER";
   static const PLAYTHROUGH_DB = "PT_DB";

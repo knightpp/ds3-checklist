@@ -12,7 +12,6 @@ import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:dark_souls_checklist/CacheManager.dart';
 
 class WeaponsAndShield extends StatefulWidget {
   static void resetStatics() {
