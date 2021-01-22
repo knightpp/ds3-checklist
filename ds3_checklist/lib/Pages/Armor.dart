@@ -16,8 +16,6 @@ import 'package:dark_souls_checklist/Generated/armor_d_s3_c_generated.dart'
     as fb;
 import 'package:simple_rich_md/simple_rich_md.dart';
 
-const String ARMORS_KEY = "Cached.Flatbuffer.Armor";
-
 List<Map<int, bool>> expensiveComputation(List dbResp) {
   print("(expensive) Running computation");
   final int maxIdx = dbResp.last["cat_id"] + 1;
@@ -61,7 +59,8 @@ class _ArmorState extends State<Armor> {
 
   Future<int> setup(MyModel value) async {
     await db.openDbAndParse();
-    armors = await CacheManager.getOrInit(ARMORS_KEY, () async {
+    armors =
+        await CacheManager.getOrInit(CacheManager.ARMOR_FLATBUFFER, () async {
       var data = await DefaultAssetBundle.of(context)
           .load('${value.flatbuffersPath}/armor.fb');
 

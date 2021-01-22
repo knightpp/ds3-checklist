@@ -12,8 +12,7 @@ import '../Singletons.dart';
 import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-
-const String WS_FB_KEY = "Cached.Flatbuffer.WS";
+import 'package:dark_souls_checklist/CacheManager.dart';
 
 class WeaponsAndShield extends StatefulWidget {
   static void resetStatics() {
@@ -51,7 +50,8 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
   Future setup(MyModel model) async {
     await db.openDbAndParse();
 
-    this.weapsShields = await CacheManager.getOrInit(WS_FB_KEY, () async {
+    this.weapsShields =
+        await CacheManager.getOrInit(CacheManager.WS_FLATBUFFER, () async {
       final data = await DefaultAssetBundle.of(context)
           .load('${model.flatbuffersPath!}/weapons_and_shields.fb');
       return fb.WeaponsAndShieldsRoot(data.buffer.asInt8List()).items;

@@ -13,8 +13,6 @@ import 'package:dark_souls_checklist/Generated/trades_d_s3_c_generated.dart'
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../main.dart';
 
-const String TRADES_FB_KEY = "Cached.Flatbuffer.Trades";
-
 Map<int, bool> expensiveComputation(List dbResp) {
   print("(expensive) Running computation");
 
@@ -56,7 +54,8 @@ class _TradesState extends State<Trades> {
 
   Future setup(MyModel value) async {
     await db.openDbAndParse();
-    trades = await CacheManager.getOrInit(TRADES_FB_KEY, () async {
+    trades =
+        await CacheManager.getOrInit(CacheManager.TRADES_FLATBUFFER, () async {
       var data = await rootBundle.load('${value.flatbuffersPath}/trades.fb');
       return fb.TradesRoot(data.buffer.asInt8List()).items!;
     });

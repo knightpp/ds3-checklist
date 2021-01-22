@@ -26,22 +26,6 @@ const IMAGES = [
   _DLCS,
 ];
 
-enum Cached {
-  Flatbuffer,
-  Database,
-}
-
-extension Id on Cached {
-  String uniqueStr() {
-    switch (this) {
-      case Cached.Flatbuffer:
-        return "Cached.Flatbuffer.Achievements";
-      case Cached.Database:
-        return "Cached.Database.Achievements";
-    }
-  }
-}
-
 List<HashMap<int, bool>> expensiveComputation(
     List<Map<String, dynamic>> dbResp) {
   print("(expensive) Running computation");
@@ -75,14 +59,13 @@ class _AchievementsState extends State<Achievements> {
   int titleIndex = 0;
 
   Future setup(MyModel value) async {
-    db = await CacheManager.getOrInit(Cached.Database.uniqueStr(), () async {
+    db = await CacheManager.getOrInit(CacheManager.ACH_DB, () async {
       final db = DatabaseManager(expensiveComputation, DbFor.Achievements);
       await db.openDbAndParse();
       return db;
     });
 
-    achs =
-        await CacheManager.getOrInit(Cached.Flatbuffer.uniqueStr(), () async {
+    achs = await CacheManager.getOrInit(CacheManager.ACH_FLATBUFFER, () async {
       final data = await DefaultAssetBundle.of(context)
           .load("${value.flatbuffersPath}/achievements.fb");
       return fb.AchievementsRoot(data.buffer.asInt8List()).items!;

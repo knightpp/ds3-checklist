@@ -7,11 +7,10 @@ import 'package:dark_souls_checklist/Generated/souls_d_s3_c_generated.dart'
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 
-const String SOULS_FB = "Cached.Flatbuffer.Souls";
-
 class Souls extends StatelessWidget {
   Future<List<fb.Soul>> setup(BuildContext context, MyModel value) async {
-    return await CacheManager.getOrInit(SOULS_FB, () async {
+    return await CacheManager.getOrInit(CacheManager.SOULS_FLATBUFFER,
+        () async {
       var data = await DefaultAssetBundle.of(context)
           .load('${value.flatbuffersPath}/souls.fb');
       return fb.SoulsRoot(data.buffer.asInt8List()).items;
