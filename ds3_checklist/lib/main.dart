@@ -20,15 +20,9 @@ void openLink(String url) async {
   }
 }
 
-class MyHome extends StatefulWidget {
+class MyHome extends StatelessWidget {
   @override
-  _MyHomeState createState() => _MyHomeState();
-}
-
-class _MyHomeState extends State<MyHome> {
-  @override
-  void initState() {
-    super.initState();
+  Widget build(BuildContext context) {
     const key = "LANGUAGE";
     final String? lang = Prefs.inst.getString(key);
     final model = Provider.of<MyModel>(context, listen: false);
@@ -41,10 +35,6 @@ class _MyHomeState extends State<MyHome> {
       // model.currentLocale = locale;
       Prefs.inst.setString(key, locale.languageCode);
     }
-  }
-
-  @override
-  Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
     return Scaffold(
         appBar: AppBar(
