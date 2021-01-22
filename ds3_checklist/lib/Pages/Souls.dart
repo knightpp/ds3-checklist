@@ -20,32 +20,31 @@ class Souls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
+    final value = Provider.of<MyModel>(context);
     return Scaffold(
       appBar: AppBar(
         title: Text(
           loc.soulPrices,
         ),
       ),
-      body: Consumer<MyModel>(
-        builder: (context, value, child) => FutureBuilder(
-            future: setup(context, value),
-            builder: (context, snapshot) {
-              if (snapshot.hasError) {
-                return Text("Error: ${snapshot.error}");
-              } else if (snapshot.hasData) {
-                final souls = snapshot.data as List<fb.Soul>;
-                return ListView.builder(
-                    itemCount: souls.length,
-                    itemBuilder: (context, soulIdx) {
-                      return SoulCard(souls[soulIdx]);
-                    });
-              } else {
-                return Center(
-                  child: CircularProgressIndicator(),
-                );
-              }
-            }),
-      ),
+      body: FutureBuilder(
+          future: setup(context, value),
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              return Text("Error: ${snapshot.error}");
+            } else if (snapshot.hasData) {
+              final souls = snapshot.data as List<fb.Soul>;
+              return ListView.builder(
+                  itemCount: souls.length,
+                  itemBuilder: (context, soulIdx) {
+                    return SoulCard(souls[soulIdx]);
+                  });
+            } else {
+              return Center(
+                child: CircularProgressIndicator(),
+              );
+            }
+          }),
     );
   }
 }

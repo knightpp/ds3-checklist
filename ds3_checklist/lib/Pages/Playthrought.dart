@@ -55,21 +55,20 @@ class _PlaythroughState extends State<Playthrough> {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<MyModel>(builder: (context, value, child) {
-      return AllPageFutureBuilder<int>(
-        future: setup(context, value),
-        buildOnLoad: (context, snapshot) {
-          return DefaultTabController(
-            initialIndex: _initialIndex,
-            length: _flat.length,
-            child: PtScaffold(
-              db: _db,
-              flat: _flat,
-            ),
-          );
-        },
-      );
-    });
+    final value = Provider.of<MyModel>(context);
+    return AllPageFutureBuilder<int>(
+      future: setup(context, value),
+      buildOnLoad: (context, snapshot) {
+        return DefaultTabController(
+          initialIndex: _initialIndex,
+          length: _flat.length,
+          child: PtScaffold(
+            db: _db,
+            flat: _flat,
+          ),
+        );
+      },
+    );
   }
 }
 

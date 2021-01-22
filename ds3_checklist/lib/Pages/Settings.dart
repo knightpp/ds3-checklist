@@ -158,30 +158,27 @@ class LanguageSelector extends StatefulWidget {
 class _LanguageSelectorState extends State<LanguageSelector> {
   @override
   Widget build(BuildContext context) {
-    return Consumer<MyModel>(
-      builder: (context, value, child) => Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          LangButton(
-            selected:
-                value.currentLocale?.languageCode.startsWith("ru") ?? false,
-            asset: "assets/icons/ru.svg",
-            onTap: () {
-              value.currentLocale = Locale('ru', '');
-            },
-          ),
-          LangButton(
-            selected:
-                value.currentLocale?.languageCode.startsWith("en") ?? false,
-            asset: "assets/icons/gb.svg",
-            onTap: () async {
-              value.currentLocale = Locale('en', '');
-              // final apploc = await AppLocalizations.delegate.load(Locale("en"));
-              // Intl.defaultLocale = "en";
-            },
-          ),
-        ],
-      ),
+    final value = Provider.of<MyModel>(context);
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        LangButton(
+          selected: value.currentLocale?.languageCode.startsWith("ru") ?? false,
+          asset: "assets/icons/ru.svg",
+          onTap: () {
+            value.currentLocale = Locale('ru', '');
+          },
+        ),
+        LangButton(
+          selected: value.currentLocale?.languageCode.startsWith("en") ?? false,
+          asset: "assets/icons/gb.svg",
+          onTap: () async {
+            value.currentLocale = Locale('en', '');
+            // final apploc = await AppLocalizations.delegate.load(Locale("en"));
+            // Intl.defaultLocale = "en";
+          },
+        ),
+      ],
     );
   }
 }

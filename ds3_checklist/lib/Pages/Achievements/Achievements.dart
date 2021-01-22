@@ -75,15 +75,16 @@ class _AchievementsState extends State<Achievements> {
 
   @override
   Widget build(BuildContext context) {
+    final value = Provider.of<MyModel>(context);
+
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          AppLocalizations.of(context)!.achievementsPageTitle,
-          style: Theme.of(context).appBarTheme.textTheme?.headline6,
+        appBar: AppBar(
+          title: Text(
+            AppLocalizations.of(context)!.achievementsPageTitle,
+            style: Theme.of(context).appBarTheme.textTheme?.headline6,
+          ),
         ),
-      ),
-      body: Consumer<MyModel>(
-        builder: (context, value, child) => FutureBuilder(
+        body: FutureBuilder(
           future: setup(value),
           builder: (context, snapshot) {
             if (snapshot.hasError) {
@@ -112,9 +113,7 @@ class _AchievementsState extends State<Achievements> {
               return Center(child: CircularProgressIndicator());
             }
           },
-        ),
-      ),
-    );
+        ));
   }
 }
 

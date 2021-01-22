@@ -72,69 +72,68 @@ class _ArmorState extends State<Armor> {
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
-    return Consumer<MyModel>(
-      builder: (context, value, child) => AllPageFutureBuilder<int>(
-          future: setup(value),
-          buildOnLoad: (context, snapshot) {
-            return DefaultTabController(
-              length: armors.length,
-              child: Scaffold(
-                appBar: MyAppBar(
-                  prefSize: Size.fromHeight(80),
-                  onHideButton: (newVal) {
-                    setState(() {
-                      _hideCompleted = newVal;
-                    });
-                  },
-                  title: loc.armorPageTitle,
-                  bottom: TabsForAppBar(
-                    tabs: armors
-                        .map((cat) => Text(
-                              cat.category,
-                            ))
-                        .toList(),
-                    onChangeTab: (int newTabIdx) {
-                      selectedCatIdx = newTabIdx;
-                    },
-                  ),
-                ),
-                body: MyTabBarView(
-                  categoriesLength: armors.length,
-                  categoryBuilder: (context, catIndex) {
-                    // return ListView();
-                    return ListView.builder(
-                      itemCount: armors[catIndex].gears.length,
-                      itemBuilder: (context, taskIdx) {
-                        bool isChecked = db.checked[catIndex][taskIdx];
-                        return ItemTile(
-                          isVisible: !(_hideCompleted && isChecked),
-                          onChanged: (newVal) {
-                            _updateChecked(catIndex, taskIdx, newVal!);
-                          },
-                          isChecked: isChecked,
-                          content: RichText(
-                              text: TextSpan(
-                                  children: SimpleRichParser(
-                                          armors[catIndex].gears[taskIdx].name,
-                                          onTap: openLink,
-                                          linkStyle: getLinkTextStyle()
-                                              .copyWith(fontSize: 18))
-                                      .spans)),
-
-                          // MarkdownBody(
-                          //   onTapLink: openLink,
-                          //   data: armors[catIndex].gears[taskIdx].name,
-                          //   styleSheet: MarkdownStyleSheet(
-                          //       a: getLinkTextStyle().copyWith(fontSize: 18)),
-                          // ),
-                        );
-                      },
-                    );
+    final value = Provider.of<MyModel>(context);
+    return AllPageFutureBuilder<int>(
+        future: setup(value),
+        buildOnLoad: (context, snapshot) {
+          return DefaultTabController(
+            length: armors.length,
+            child: Scaffold(
+              appBar: MyAppBar(
+                prefSize: Size.fromHeight(80),
+                onHideButton: (newVal) {
+                  setState(() {
+                    _hideCompleted = newVal;
+                  });
+                },
+                title: loc.armorPageTitle,
+                bottom: TabsForAppBar(
+                  tabs: armors
+                      .map((cat) => Text(
+                            cat.category,
+                          ))
+                      .toList(),
+                  onChangeTab: (int newTabIdx) {
+                    selectedCatIdx = newTabIdx;
                   },
                 ),
               ),
-            );
-          }),
-    );
+              body: MyTabBarView(
+                categoriesLength: armors.length,
+                categoryBuilder: (context, catIndex) {
+                  // return ListView();
+                  return ListView.builder(
+                    itemCount: armors[catIndex].gears.length,
+                    itemBuilder: (context, taskIdx) {
+                      bool isChecked = db.checked[catIndex][taskIdx];
+                      return ItemTile(
+                        isVisible: !(_hideCompleted && isChecked),
+                        onChanged: (newVal) {
+                          _updateChecked(catIndex, taskIdx, newVal!);
+                        },
+                        isChecked: isChecked,
+                        content: RichText(
+                            text: TextSpan(
+                                children: SimpleRichParser(
+                                        armors[catIndex].gears[taskIdx].name,
+                                        onTap: openLink,
+                                        linkStyle: getLinkTextStyle()
+                                            .copyWith(fontSize: 18))
+                                    .spans)),
+
+                        // MarkdownBody(
+                        //   onTapLink: openLink,
+                        //   data: armors[catIndex].gears[taskIdx].name,
+                        //   styleSheet: MarkdownStyleSheet(
+                        //       a: getLinkTextStyle().copyWith(fontSize: 18)),
+                        // ),
+                      );
+                    },
+                  );
+                },
+              ),
+            ),
+          );
+        });
   }
 }

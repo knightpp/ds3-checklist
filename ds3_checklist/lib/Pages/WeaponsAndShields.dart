@@ -62,6 +62,7 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
+    final value = Provider.of<MyModel>(context);
     return Scaffold(
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(60),
@@ -74,29 +75,27 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
           },
         ),
       ),
-      body: Container(child: Consumer<MyModel>(
-        builder: (context, value, child) {
-          return FutureBuilder(
-              future: setup(value),
-              builder: (context, snapshot) {
-                if (snapshot.hasError) {
-                  return Text("Error:\n${snapshot.error}");
-                } else if (snapshot.hasData) {
-                  return ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: weapsShields.length,
-                      itemBuilder: (context, index) {
-                        return ExpandableTile(
-                            cat: weapsShields[index], index: index, db: db);
-                      });
-                } else {
-                  return Center(
-                    child: CircularProgressIndicator(),
-                  );
-                }
-              });
-        },
-      )),
+      body: Container(
+        child: FutureBuilder(
+            future: setup(value),
+            builder: (context, snapshot) {
+              if (snapshot.hasError) {
+                return Text("Error:\n${snapshot.error}");
+              } else if (snapshot.hasData) {
+                return ListView.builder(
+                    shrinkWrap: true,
+                    itemCount: weapsShields.length,
+                    itemBuilder: (context, index) {
+                      return ExpandableTile(
+                          cat: weapsShields[index], index: index, db: db);
+                    });
+              } else {
+                return Center(
+                  child: CircularProgressIndicator(),
+                );
+              }
+            }),
+      ),
     );
   }
 }

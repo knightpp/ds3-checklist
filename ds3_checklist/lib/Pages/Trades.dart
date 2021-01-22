@@ -65,6 +65,8 @@ class _TradesState extends State<Trades> {
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
+    final value = Provider.of<MyModel>(context);
+
     return Scaffold(
       appBar: MyAppBar(
         title: loc.tradesPageTitle,
@@ -75,35 +77,33 @@ class _TradesState extends State<Trades> {
           });
         },
       ),
-      body: Consumer<MyModel>(
-        builder: (context, value, child) => FutureBuilder(
-            future: setup(value),
-            builder: (context, snapshot) {
-              if (snapshot.hasError) {
-                return Text("Error");
-              } else if (snapshot.hasData) {
-                return ListView.builder(
-                  itemCount: trades.length,
-                  itemBuilder: (context, tradeIdx) {
-                    bool isChecked = db.checked[tradeIdx];
-                    return Visibility(
-                      visible: !(_hideCompleted && isChecked),
-                      child: Column(
-                        children: <Widget>[
-                          buildCheckboxListTile(tradeIdx, context, isChecked),
-                          Divider()
-                        ],
-                      ),
-                    );
-                  },
-                );
-              } else {
-                return Center(
-                  child: CircularProgressIndicator(),
-                );
-              }
-            }),
-      ),
+      body: FutureBuilder(
+          future: setup(value),
+          builder: (context, snapshot) {
+            if (snapshot.hasError) {
+              return Text("Error");
+            } else if (snapshot.hasData) {
+              return ListView.builder(
+                itemCount: trades.length,
+                itemBuilder: (context, tradeIdx) {
+                  bool isChecked = db.checked[tradeIdx];
+                  return Visibility(
+                    visible: !(_hideCompleted && isChecked),
+                    child: Column(
+                      children: <Widget>[
+                        buildCheckboxListTile(tradeIdx, context, isChecked),
+                        Divider()
+                      ],
+                    ),
+                  );
+                },
+              );
+            } else {
+              return Center(
+                child: CircularProgressIndicator(),
+              );
+            }
+          }),
     );
   }
 
