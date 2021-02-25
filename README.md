@@ -1,5 +1,5 @@
 # DS3 checklist
-## Work in progress ⚠️
+## I have no time to work on this project and it is useful in the current shape ⚠️⚠️⚠️
 
 [Google Play link](https://play.google.com/store/apps/details?id=io.knightpp.ds3_checklist)
 
