@@ -1,50 +1,50 @@
 [
     {
-        "name": "Master of Expression: Learn all [gestures](http://darksouls3.wiki.fextralife.com/Gestures)",
+        "name": "Maîtrise des expressions: Apprendre toutes les [émotes](https://darksouls3-fr.wiki.fextralife.com/Gestures)",
         "tasks": [
             {
                 "id": 0,
-                "text": "**Beckon**: Talk to [Yoel of Londor](http://darksouls3.wiki.fextralife.com/Yoel+of+Londor) not far from the Foot of the High Wall bonfire",
+                "text": "**Faire Signe**: Parlez à [Yoel de Londor](https://darksouls3-fr.wiki.fextralife.com/Yoel+de+Londor) non loin du feu de camp Pied du Grand Mur et acceptez ses services, puis retournez lui parler au Sanctuaire de Lige-Feu pour recevoir cette émote",
                 "play": 1
             },
             {
                 "id": 1,
-                "text": "**Call Over**: Received after trading a [Homeward Bone](http://darksouls3.wiki.fextralife.com/Homeward+Bone) with [Pickle Pee, Pump-a-Rum Crow](http://darksouls3.wiki.fextralife.com/Pickle+Pee,+Pump-a-Rum+Crow)",
+                "text": "**Appeler**: Reçue après avoir échangé un [Os du Retour]() avec [Snuggly le Corbeau](https://darksouls3-fr.wiki.fextralife.com/Snuggly+le+Corbeau)",
                 "play": 1
             },
             {
                 "id": 2,
-                "text": "**Welcome**: Talk to the [Cornyx of the Great Swamp](http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp) in the Undead Settlement, and accept his services. Talk to him again at Firelink Shrine to get the gesture",
+                "text": "**Bienvenue**: Parlez à [Cornyx du Grand Marais](https://darksouls3-fr.wiki.fextralife.com/Cornyx+du+Grand+Marais) dans le Camp de Morts-Vivants, et acceptez ses services. Parlez lui à nouveau au Sanctuaire de Lige-Feu pour recevoir l'émote",
                 "play": 1
             },
             {
                 "id": 3,
-                "text": "**Applause**: Received by talking to [Leonhard](http://darksouls3.wiki.fextralife.com/Leonhard) after defeating the Darkwraith in [High Wall of Lothric](http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric) at his request",
+                "text": "**Applaudir**: Parlez à [Leonhard](https://darksouls3-fr.wiki.fextralife.com/Leonhard+l'Annulaire) dans le Sanctuaire de Lige-feu après avoir tué le Spectre Sombre au [Grand Mur de Lothric]() en suivant sa quête",
                 "play": 1
             },
             {
                 "id": 4,
-                "text": "**Quiet Resolve**: Finish [Anri of Astora](http://darksouls3.wiki.fextralife.com/Anri+of+Astora)'s questline up to Irithyll of the Boreal Valley. They will grant you the gesture when speaking to them at the Church of Yorshka Bonfire",
+                "text": "**Résolution Silencieuse**: Terminez la quête d'[Anri d'Astora](https://darksouls3-fr.wiki.fextralife.com/Anri+d'Astora) jusqu'à Irithyll de la Vallée Boréale. Iel vous donnera l'émote après lui avoir parlé au feu de l'Église de Yorshka",
                 "play": 1
             },
             {
                 "id": 5,
-                "text": "**Rejoice**: Received during the [Siegward of Catarina](http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina) questline",
+                "text": "**Se Réjouir**: Donnez à [Siegward de Catarina](https://darksouls3-fr.wiki.fextralife.com/Siegward+de+Catarina) son armure, lorsqu'il est coincé dans le puit près du feu de la Chapelle de la Purification",
                 "play": 1
             },
             {
                 "id": 6,
-                "text": "**Hurrah!**: Talk to [Blacksmith Andre](http://darksouls3.wiki.fextralife.com/Blacksmith+Andre)",
+                "text": "**Hourra!**: Parlez à [André le Forgeron](https://darksouls3-fr.wiki.fextralife.com/Andr%C3%A9+le+Forgeron)",
                 "play": 1
             },
             {
                 "id": 7,
-                "text": "**Praise the Sun**: Received from praying at the Altar of Sunlight in [Lothric Castle](http://darksouls3.wiki.fextralife.com/Lothric+Castle), near the [Dragonslayer Armour](http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour) boss fight",
+                "text": "**Louer le Soleil**: Reçue en priant à l'Autel Solaire dans le [Château de Lothric](), près de l'arène de l'[Armure du Tueur de Dragons]()",
                 "play": 1
             },
             {
                 "id": 8,
-                "text": "**My Thanks!**: Obtained from [Knight Slayer Tsorig](http://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig) deep in the Demon Ruins, regardless of who wins the fight",
+                "text": "**Merci!**: Reçue après le combat contre [Zolig le Tueur de Chevaliers]() dans les Catacombes de Carthus peu importe l'issue du combat",
                 "play": 1
             },
             {
