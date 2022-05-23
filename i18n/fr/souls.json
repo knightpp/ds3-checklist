@@ -1,30 +1,30 @@
 [
     {
-        "name": "Fading Soul",
+        "name": "Âme vacillante",
         "price": 50
     },
     {
-        "name": "Soul of a Deserted Corpse",
+        "name": "Âme de corps abandonné",
         "price": 200
     },
     {
-        "name": "Large soul of a Deserted Corpse",
+        "name": "Grande Âme de corps abandonné",
         "price": 400
     },
     {
-        "name": "Soul of a Proud Paladin",
+        "name": "Âme d'un valeureux paladin",
         "price": 500
     },
     {
-        "name": "Soul of an Unknown Traveler",
+        "name": "Âme de voyageur inconnu",
         "price": 800
     },
     {
-        "name": "Large Soul of an Unknown Traveler",
+        "name": "Grande Âme de voyageur inconnu",
         "price": 1000
     },
     {
-        "name": "Large Soul of a Proud Paladin",
+        "name": "Grande Âme d'un valeureux paladin",
         "price": 1000
     },
     {
