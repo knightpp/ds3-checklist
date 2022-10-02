@@ -2,7 +2,7 @@ name: dark_souls_checklist
 description: A new Flutter project.
 
 publish_to: "none"
-version: 2.1.0+11
+version: 2.1.0+12
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
@@ -10,39 +10,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # flutter_launcher_icons: ^0.8.1-0
-  # flutter_launcher_name: ^0.0.1-0
-  # flutter_widget_from_html: ^0.5.1+5
   path: ^1.8.0
   path_provider: ^2.0.1
   shared_preferences: ^2.0.3
   sqflite: ^2.0.0+2
   url_launcher: ^6.0.2
   flat_buffers: ^2.0.5
-  # flutter_markdown: ^0.5.2-0
   flutter_svg: ^1.1.5
   provider: ^6.0.3
   simple_rich_md:
     path: ../simple_rich_md
-  # intl: ^0.17.0-nullsafety.2
   flutter_localizations:
     sdk: flutter
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  # intl_translation:
-  #   git:
-  #     url: https://github.com/nt4f04uNd/intl_translation
-  # intl_translation: ^0.17.10+1
-
-# flutter_icons:
-#   android: "launcher_icon"
-#   ios: true
-#   image_path: "assets/icons/ds3_cl_logo.png"
-
-# flutter_launcher_name:
-#   name: "DS III checklist"
 
 flutter:
   generate: true
@@ -52,7 +35,6 @@ flutter:
     - assets/images/
     - assets/sqlites/
     - assets/i18n/en/flatbuffers/
-    - assets/i18n/ru/flatbuffers/
   fonts:
     - family: OptimusPrinceps
       fonts:

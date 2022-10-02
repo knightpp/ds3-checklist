@@ -158,13 +158,6 @@ class _LanguageSelectorState extends State<LanguageSelector> {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         LangButton(
-          selected: value.currentLocale?.languageCode.startsWith("ru") ?? false,
-          asset: "assets/icons/ru.svg",
-          onTap: () {
-            value.currentLocale = Locale('ru', '');
-          },
-        ),
-        LangButton(
           selected: value.currentLocale?.languageCode.startsWith("en") ?? false,
           asset: "assets/icons/gb.svg",
           onTap: () async {
@@ -263,16 +256,18 @@ class ResetRow extends StatelessWidget {
           child: TextButton(
             onPressed: _onPressed,
             onLongPress: _onLongPress,
-            // style: ButtonStyle(color),
-            // color: Color.fromARGB(255, 188, 50, 50),
+            style: TextButton.styleFrom(
+              backgroundColor: Color.fromARGB(255, 188, 50, 50),
+              foregroundColor: Colors.white,
+              textStyle: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
             child: Text(
               loc.settingsResetButtonText,
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 14,
-                fontWeight: FontWeight.w700,
-              ),
             ),
           ),
         )
