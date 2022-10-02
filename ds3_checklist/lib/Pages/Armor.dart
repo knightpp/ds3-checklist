@@ -1,9 +1,7 @@
-import 'dart:convert';
 import 'package:dark_souls_checklist/AllPageFutureBuilder.dart';
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/ItemTile.dart';
 import 'package:dark_souls_checklist/main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
@@ -12,7 +10,7 @@ import 'package:provider/provider.dart';
 import '../MyAppBar.dart';
 import '../Singletons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:dark_souls_checklist/Generated/armor_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/armor_ds3_c_generated.dart'
     as fb;
 import 'package:simple_rich_md/simple_rich_md.dart';
 
@@ -90,7 +88,7 @@ class _ArmorState extends State<Armor> {
                 bottom: TabsForAppBar(
                   tabs: armors
                       .map((cat) => Text(
-                            cat.category,
+                            cat.category!,
                           ))
                       .toList(),
                   onChangeTab: (int newTabIdx) {
@@ -103,7 +101,7 @@ class _ArmorState extends State<Armor> {
                 categoryBuilder: (context, catIndex) {
                   // return ListView();
                   return ListView.builder(
-                    itemCount: armors[catIndex].gears.length,
+                    itemCount: armors[catIndex].gears!.length,
                     itemBuilder: (context, taskIdx) {
                       bool isChecked = db.checked[catIndex][taskIdx];
                       return ItemTile(
@@ -115,7 +113,7 @@ class _ArmorState extends State<Armor> {
                         content: RichText(
                             text: TextSpan(
                                 children: SimpleRichParser(
-                                        armors[catIndex].gears[taskIdx].name,
+                                        armors[catIndex].gears![taskIdx].name!,
                                         onTap: openLink,
                                         linkStyle: getLinkTextStyle()
                                             .copyWith(fontSize: 18))

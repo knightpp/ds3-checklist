@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:simple_rich_md/simple_rich_md.dart';
 import '../Singletons.dart';
-import 'package:dark_souls_checklist/Generated/playthrough_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/playthrough_ds3_c_generated.dart'
     as fb;
 import '../CacheManager.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -48,7 +48,7 @@ class _PlaythroughState extends State<Playthrough> {
         () async {
       final data = await DefaultAssetBundle.of(context)
           .load("${value.flatbuffersPath!}/playthrough.fb");
-      return fb.PlaythroughRoot(data.buffer.asInt8List()).items;
+      return fb.PlaythroughRoot(data.buffer.asInt8List()).items!;
     });
     return 1;
   }
@@ -107,9 +107,9 @@ class _PtScaffoldState extends State<PtScaffold> {
         prefSize: Size.fromHeight(80),
         bottom: TabsForAppBar(
           tabs: widget.flat.map((loc) {
-            String text = loc.location.name!;
-            if (loc.location.note != null) {
-              text = "$text ${loc.location.note}";
+            String text = loc.location!.name!;
+            if (loc.location!.note != null) {
+              text = "$text ${loc.location!.note}";
             }
             return Text(
               text,
@@ -130,11 +130,11 @@ class _PtScaffoldState extends State<PtScaffold> {
         categoriesLength: widget.flat.length,
         categoryBuilder: (context, locationId) {
           return ListView.builder(
-            itemCount: widget.flat[locationId].tasks.length,
+            itemCount: widget.flat[locationId].tasks!.length,
             itemBuilder: (context, taskIdx) {
               final bool isChecked = widget.db.checked![locationId][taskIdx]!;
               final String taskText =
-                  widget.flat[locationId].tasks[taskIdx].text;
+                  widget.flat[locationId].tasks![taskIdx].text!;
               return PtTile(
                 isChecked: isChecked,
                 isVisible: !(_hideCompleted && isChecked),

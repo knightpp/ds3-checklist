@@ -2,14 +2,13 @@ import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:dark_souls_checklist/main.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:provider/provider.dart';
 import 'package:simple_rich_md/simple_rich_md.dart';
 import '../ItemTile.dart';
 import '../Singletons.dart';
-import 'package:dark_souls_checklist/Generated/weapons_and_shields_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/weapons_and_shields_ds3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -36,7 +35,7 @@ List<Map<int, bool>> expensiveComputation(List dbResp) {
 bool _hideCompleted = false;
 
 class _WeaponsAndShieldState extends State<WeaponsAndShield> {
-  late List<fb.WSCategory> weapsShields;
+  late List<fb.Wscategory> weapsShields;
   static DatabaseManager db =
       DatabaseManager(expensiveComputation, DbFor.WeapsShields);
 
@@ -53,7 +52,7 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
         await CacheManager.getOrInit(CacheManager.WS_FLATBUFFER, () async {
       final data = await DefaultAssetBundle.of(context)
           .load('${model.flatbuffersPath!}/weapons_and_shields.fb');
-      return fb.WeaponsAndShieldsRoot(data.buffer.asInt8List()).items;
+      return fb.WeaponsAndShieldsRoot(data.buffer.asInt8List()).items!;
     });
     return 1;
   }
@@ -100,7 +99,7 @@ class _WeaponsAndShieldState extends State<WeaponsAndShield> {
 }
 
 class ExpandableTile extends StatefulWidget {
-  final fb.WSCategory cat;
+  final fb.Wscategory cat;
   final int index;
   final DatabaseManager db;
 
@@ -130,9 +129,9 @@ class _ExpandableTileState extends State<ExpandableTile> {
     super.initState();
   }
 
-  List<Widget> _buildExpandableContent(fb.WSCategory cat, int catIdx) {
+  List<Widget> _buildExpandableContent(fb.Wscategory cat, int catIdx) {
     List<Widget> widgets = [];
-    for (int taskId = 0; taskId < cat.items.length; ++taskId) {
+    for (int taskId = 0; taskId < cat.items!.length; ++taskId) {
       bool isChecked = widget.db.checked[catIdx][taskId];
       widgets.add(ItemTile(
         isVisible: !(_hideCompleted && isChecked),
@@ -141,7 +140,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
         },
         isChecked: isChecked,
         content: SimpleRichMd(
-          text: cat.items[taskId].name,
+          text: cat.items![taskId].name!,
           onTap: openLink,
           linkStyle: getLinkTextStyle(),
           textStyle: Theme.of(context).textTheme.bodyText2,
@@ -166,7 +165,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
     return ExpansionTile(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       title: Text(
-        widget.cat.name,
+        widget.cat.name!,
         style: Theme.of(context).textTheme.headline5,
         textAlign: TextAlign.center,
       ),

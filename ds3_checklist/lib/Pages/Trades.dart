@@ -1,6 +1,5 @@
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
@@ -8,7 +7,7 @@ import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:provider/provider.dart';
 import 'package:simple_rich_md/simple_rich_md.dart';
 import '../Singletons.dart';
-import 'package:dark_souls_checklist/Generated/trades_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/trades_ds3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../main.dart';
@@ -128,7 +127,7 @@ class _TradesState extends State<Trades> {
     return Expanded(
       flex: 3,
       child: SimpleRichMd(
-        text: trades[tradeIdx].for_,
+        text: trades[tradeIdx].for_!,
         onTap: openLink,
         linkStyle: getLinkTextStyle(),
         textStyle: Theme.of(context).textTheme.bodyText2,
@@ -146,7 +145,7 @@ class _TradesState extends State<Trades> {
     return Expanded(
       flex: 4,
       child: SimpleRichMd(
-        text: trades[tradeIdx].what,
+        text: trades[tradeIdx].what!,
         linkStyle: getLinkTextStyle(),
         textStyle: Theme.of(context).textTheme.bodyText2,
         onTap: openLink,

@@ -1,16 +1,13 @@
-import 'dart:ui';
-
 import 'package:dark_souls_checklist/DatabaseManager.dart';
 import 'package:dark_souls_checklist/MyAppBar.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 // import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:simple_rich_md/simple_rich_md.dart';
 import '../../ItemTile.dart';
 import '../../Singletons.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:dark_souls_checklist/Generated/achievements_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/achievements_ds3_c_generated.dart'
     as fb;
 
 class AchievementPage extends StatefulWidget {
@@ -64,7 +61,7 @@ class _AchievementPageState extends State<AchievementPage> {
         },
       ),
       body: ListView.builder(
-        itemCount: widget.ach.tasks.length + 1,
+        itemCount: widget.ach.tasks!.length + 1,
         itemBuilder: (context, index) {
           if (index == 0) {
             // SliverList gives error, so this is a workaround
@@ -76,7 +73,7 @@ class _AchievementPageState extends State<AchievementPage> {
           }
           int taskIdx = index - 1;
           bool isChecked = widget.db.checked[widget.achId][taskIdx]!;
-          final task = widget.ach.tasks[taskIdx];
+          final task = widget.ach.tasks![taskIdx];
           return ItemTile(
               isChecked: isChecked,
               isVisible: !(_hideCompleted && isChecked),
@@ -85,7 +82,7 @@ class _AchievementPageState extends State<AchievementPage> {
               },
               title: TaskTitle(task),
               content: SimpleRichMd(
-                  text: task.description,
+                  text: task.description!,
                   onTap: openLink,
                   linkStyle: getLinkTextStyle(),
                   textStyle: Theme.of(context).textTheme.bodyText2)
@@ -112,7 +109,7 @@ class TaskTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     final title = SimpleRichMd(
       onTap: openLink,
-      text: task.name,
+      text: task.name!,
       textStyle: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 18),
       linkStyle: getLinkTextStyle().copyWith(fontSize: 18),
       boldStyle: Theme.of(context)

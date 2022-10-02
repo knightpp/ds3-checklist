@@ -2,10 +2,9 @@ import 'dart:collection';
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/Pages/Achievements/AchievementPage.dart';
 import 'package:dark_souls_checklist/main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
-import 'package:dark_souls_checklist/Generated/achievements_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/achievements_ds3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
@@ -136,7 +135,7 @@ class AchButton extends StatelessWidget {
                   child: FittedBox(
                     fit: BoxFit.cover,
                     child: Text(
-                      selAch.name,
+                      selAch.name!,
                       // style: Theme.of(context).textTheme.headline3,
                     ),
                   )),
@@ -183,7 +182,7 @@ class AchButton extends StatelessWidget {
                           );
                         },
                         child: Text(
-                          achs[achId].name,
+                          achs[achId].name!,
                           textAlign: TextAlign.center,
                           style: Theme.of(context)
                               .textTheme

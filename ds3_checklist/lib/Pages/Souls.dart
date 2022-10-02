@@ -1,8 +1,7 @@
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:dark_souls_checklist/Generated/souls_d_s3_c_generated.dart'
+import 'package:dark_souls_checklist/Generated/souls_ds3_c_generated.dart'
     as fb;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
@@ -13,7 +12,7 @@ class Souls extends StatelessWidget {
         () async {
       var data = await DefaultAssetBundle.of(context)
           .load('${value.flatbuffersPath}/souls.fb');
-      return fb.SoulsRoot(data.buffer.asInt8List()).items;
+      return fb.SoulsRoot(data.buffer.asInt8List()).items!;
     });
   }
 
@@ -67,7 +66,7 @@ class SoulCard extends StatelessWidget {
             Expanded(
                 flex: 8,
                 child: Text(
-                  soul.name,
+                  soul.name!,
                   style: Theme.of(context).primaryTextTheme.bodyText2,
                 )),
             Expanded(

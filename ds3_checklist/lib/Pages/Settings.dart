@@ -1,15 +1,12 @@
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/DatabaseManager.dart';
-import 'package:dark_souls_checklist/Pages/Achievements/Achievements.dart';
 import 'package:dark_souls_checklist/Pages/Armor.dart';
 import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
 import 'package:dark_souls_checklist/main.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'Trades.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 
 class Settings extends StatelessWidget {
@@ -214,7 +211,7 @@ class ResetRow extends StatelessWidget {
         title: Text(loc.settingsConfirmationDialogTitle
             .replaceFirst("\$contentText", contentText)),
         actions: <Widget>[
-          FlatButton(
+          TextButton(
             child: Text(loc.settingsConfirmationDialogAccept),
             onPressed: () {
               result = true;
@@ -222,7 +219,7 @@ class ResetRow extends StatelessWidget {
             },
           ),
           Divider(),
-          FlatButton(
+          TextButton(
             child: Text(loc.settingsConfirmationDialogCancel),
             onPressed: () {
               result = false;
@@ -263,10 +260,11 @@ class ResetRow extends StatelessWidget {
         ),
         Expanded(
           flex: 2,
-          child: FlatButton(
+          child: TextButton(
             onPressed: _onPressed,
             onLongPress: _onLongPress,
-            color: Color.fromARGB(255, 188, 50, 50),
+            // style: ButtonStyle(color),
+            // color: Color.fromARGB(255, 188, 50, 50),
             child: Text(
               loc.settingsResetButtonText,
               overflow: TextOverflow.ellipsis,

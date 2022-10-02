@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'package:dark_souls_checklist/CacheManager.dart';
 import 'package:dark_souls_checklist/Pages/About.dart';
 import 'package:dark_souls_checklist/Pages/MainMenu.dart';
@@ -28,7 +27,7 @@ class MyHome extends StatelessWidget {
       // model.currentLocale = Locale(lang, '');
       model.setCurrentLocale(Locale(lang, ''));
     } else {
-      final locale = Localizations.localeOf(context)!;
+      final locale = Localizations.localeOf(context);
       model.setCurrentLocale(locale);
       // model.currentLocale = locale;
       Prefs.inst.setString(key, locale.languageCode);

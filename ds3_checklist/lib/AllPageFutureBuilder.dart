@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 /// Use this at root of your widget tree.
 /// Returns Scaffold with error message if any,
