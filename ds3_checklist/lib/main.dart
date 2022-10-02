@@ -94,7 +94,11 @@ class MyModel with ChangeNotifier {
   }
 
   String? get flatbuffersPath {
-    final locale = _currentLocale;
+    var locale = _currentLocale;
+    if (locale?.languageCode == "ru") {
+      locale = Locale("en");
+    }
+
     return locale != null
         ? "assets/i18n/${locale.languageCode}/flatbuffers"
         : null;
