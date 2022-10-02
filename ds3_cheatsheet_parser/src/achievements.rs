@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 #[allow(dead_code, unused_imports)]
 #[path = "../target/flatbuffers/achievements_generated.rs"]
 mod achievements_generated;
-pub use achievements_generated::ds3c as fb;
+pub use achievements_generated::ds3_c as fb;
 
 #[derive(Debug, Deserialize, Serialize, Clone)]
 pub struct Achievement {

@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 #[allow(dead_code, unused_imports)]
 #[path = "../target/flatbuffers/weapons_and_shields_generated.rs"]
 mod ws_generated;
-pub use ws_generated::ds3c as fb;
+pub use ws_generated::ds3_c as fb;
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct WSCategory {

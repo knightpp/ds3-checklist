@@ -1,4 +1,3 @@
-use ds3_checklist_parser::playthrough::{ContentFrom, Dlc, Type as PtType};
 use rusqlite::{params, Connection, Result};
 use serde_json::Value;
 
@@ -38,14 +37,14 @@ mod trades {
 
         let trades = root.as_array().unwrap();
         for (trade_idx, _trade) in trades.into_iter().enumerate() {
-            insert_trade.execute(params![trade_idx as u32,false])
-                    .unwrap();
+            insert_trade
+                .execute(params![trade_idx as u32, false])
+                .unwrap();
         }
         std::fs::copy(tmp_path, Path::new("./sqlites/").join(stem)).unwrap();
         Ok(())
     }
 }
-
 
 mod armor {
     use super::*;
@@ -73,7 +72,12 @@ mod armor {
 
         let categories = root.as_array().unwrap();
         for (cat_idx, cat) in categories.into_iter().enumerate() {
-            for (task_idx, _val) in cat["gear_names"].as_array().unwrap().into_iter().enumerate() {
+            for (task_idx, _val) in cat["gear_names"]
+                .as_array()
+                .unwrap()
+                .into_iter()
+                .enumerate()
+            {
                 insert_tasks
                     .execute(params![task_idx as u32, cat_idx as u32, false])
                     .unwrap();
@@ -110,7 +114,12 @@ mod weapshields {
 
         let categories = root.as_array().unwrap();
         for (cat_idx, cat) in categories.into_iter().enumerate() {
-            for (task_idx, _val) in cat["item_names"].as_array().unwrap().into_iter().enumerate() {
+            for (task_idx, _val) in cat["item_names"]
+                .as_array()
+                .unwrap()
+                .into_iter()
+                .enumerate()
+            {
                 insert_tasks
                     .execute(params![task_idx as u32, cat_idx as u32, false])
                     .unwrap();

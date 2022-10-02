@@ -8,7 +8,7 @@ use serde::{Deserialize, Serialize};
 #[allow(dead_code, unused_imports)]
 #[path = "../target/flatbuffers/playthrough_generated.rs"]
 mod playthrough_generated;
-pub use playthrough_generated::ds3c as fb;
+pub use playthrough_generated::ds3_c as fb;
 
 #[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Playthrough {

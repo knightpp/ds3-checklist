@@ -17,7 +17,7 @@ pub struct Gear {
 #[allow(dead_code, unused_imports)]
 #[path = "../target/flatbuffers/armor_generated.rs"]
 mod armor_generated;
-pub use armor_generated::ds3c as fb;
+pub use armor_generated::ds3_c as fb;
 
 #[derive(Debug, Clone, Copy)]
 pub struct Armors;

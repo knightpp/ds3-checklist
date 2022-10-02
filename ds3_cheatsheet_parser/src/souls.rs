@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 #[allow(dead_code, unused_imports)]
 #[path = "../target/flatbuffers/souls_generated.rs"]
 mod soul_prices_generated;
-pub use soul_prices_generated::ds3c as fb;
+pub use soul_prices_generated::ds3_c as fb;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Soul {

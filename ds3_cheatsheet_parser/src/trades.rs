@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 #[allow(dead_code, unused_imports)]
 #[path = "../target/flatbuffers/trades_generated.rs"]
 mod trades_generated;
-pub use trades_generated::ds3c as fb;
+pub use trades_generated::ds3_c as fb;
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Trade {

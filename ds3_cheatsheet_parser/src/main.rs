@@ -74,7 +74,7 @@ fn main() -> Result<()> {
 }
 #[instrument]
 fn gen_fb_for_json<T: Utils>(basename: &str, _: T, lang: &Lang) -> Result<()> {
-    let mut builder = flatbuffers::FlatBufferBuilder::new_with_capacity(512 * 1024); // 512 KiB
+    let mut builder = flatbuffers::FlatBufferBuilder::with_capacity(512 * 1024); // 512 KiB
     let input_path = format!("../i18n/{}/{}.json", lang.code(), basename);
     let output_path = format!("../i18n/{}/flatbuffers/{}.fb", lang.code(), basename);
     let json = std::fs::read_to_string(input_path.as_str())
