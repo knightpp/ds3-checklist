@@ -2,7 +2,7 @@ name: dark_souls_checklist
 description: A new Flutter project.
 
 publish_to: "none"
-version: 2.1.0+12
+version: 2.1.1+13
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
