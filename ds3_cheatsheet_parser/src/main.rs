@@ -9,14 +9,12 @@ use tracing_subscriber::FmtSubscriber;
 #[derive(Debug, Clone, Copy)]
 enum Lang {
     English,
-    Russian,
 }
 
 impl Lang {
     fn code(&self) -> &'static str {
         match self {
             Lang::English => "en",
-            Lang::Russian => "ru",
         }
     }
 }
@@ -57,7 +55,7 @@ fn main() -> Result<()> {
     //     select::document::Document::from(html.as_str())
     // };
     // parse_html("achievements", &html, achievements::Achievements)?;
-    for lang in &[Lang::Russian] {
+    for lang in &[Lang::English] {
         gen_fb_for_json("achievements", achievements::Achievements, lang)?;
         gen_fb_for_json("armor", armor::Armors, lang)?;
         gen_fb_for_json("playthrough", playthrough::Playthroughs, lang)?;

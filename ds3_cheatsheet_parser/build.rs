@@ -1,7 +1,6 @@
 use std::path::Path;
 
 fn main() {
-    return;
     println!("cargo:rerun-if-changed=../schema/playthrough.fbs");
     println!("cargo:rerun-if-changed=../schema/achievements.fbs");
     println!("cargo:rerun-if-changed=../schema/trades.fbs");

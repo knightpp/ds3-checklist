@@ -45,7 +45,8 @@ impl Utils for Achievements {
                     .map(|task| {
                         let raw = task.text.as_str();
                         let (name, description) =
-                            raw.split_at(raw.find(": ").expect("semicolon not found"));
+                            raw.split_at(raw.rfind(": ").expect("semicolon not found"));
+
                         let description = description
                             .strip_prefix(": ")
                             .with_context(|| format!("cannot strip prefix for {:?}", description))

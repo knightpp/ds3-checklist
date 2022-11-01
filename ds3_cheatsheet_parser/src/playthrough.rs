@@ -48,9 +48,12 @@ impl<'p> Utils for Playthroughs {
                     .tasks
                     .iter()
                     .map(|task| {
-                        let tags = builder.create_vector_of_strings(
-                            &task.tags.iter().map(|x| x.as_str()).collect::<Vec<_>>(),
-                        );
+                        let tags = &task
+                            .tags
+                            .iter()
+                            .map(|x| builder.create_string(x.as_str()))
+                            .collect::<Vec<_>>();
+                        let tags = builder.create_vector(tags);
                         let text = builder.create_string(task.text.as_str());
                         fb::Task::create(
                             builder,
