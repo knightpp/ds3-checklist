@@ -2,7 +2,6 @@ import 'package:dark_souls_checklist/Pages/Achievements/Achievements.dart';
 import 'package:dark_souls_checklist/Pages/Armor.dart';
 import 'package:dark_souls_checklist/Pages/Souls.dart';
 import 'package:dark_souls_checklist/Pages/Trades.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:dark_souls_checklist/Pages/Playthrought.dart';
 import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
