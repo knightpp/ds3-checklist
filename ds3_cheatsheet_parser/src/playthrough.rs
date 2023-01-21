@@ -114,7 +114,7 @@ impl<'p> Utils for Playthroughs {
 
     fn parse_html(html: &Document) -> Result<Vec<Self::Item>> {
         let list = html
-            .select(Attr("id", "playthrough_list"))
+            .find(Attr("id", "playthrough_list"))
             .next()
             .context("html element with id=playthrough_list not found")?;
 
@@ -122,8 +122,8 @@ impl<'p> Utils for Playthroughs {
         let ul = Name("ul");
         let li = Name("li");
 
-        let location_names = list.select(h3);
-        let task_lists = list.select(ul);
+        let location_names = list.find(h3);
+        let task_lists = list.find(ul);
 
         let mut v = Vec::<Playthrough>::with_capacity(20);
         let mut task_id = 0;
@@ -162,7 +162,7 @@ impl<'p> Utils for Playthroughs {
             };
             let tasks = {
                 let mut tasks = Vec::<Task>::with_capacity(32);
-                for task in task_list.select(li) {
+                for task in task_list.find(li) {
                     // let data_id = task.attr("data-id").context("no data-id in task")?;
                     let tags = task
                         .attr("class")
