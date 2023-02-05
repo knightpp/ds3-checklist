@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Fading Soul",
+        "price": 50
+    },
+    {
+        "name": "Soul of a Deserted Corpse",
+        "price": 200
+    },
+    {
+        "name": "Large soul of a Deserted Corpse",
+        "price": 400
+    },
+    {
+        "name": "Soul of a Proud Paladin",
+        "price": 500
+    },
+    {
+        "name": "Soul of an Unknown Traveler",
+        "price": 800
+    },
+    {
+        "name": "Large Soul of an Unknown Traveler",
+        "price": 1000
+    },
+    {
+        "name": "Large Soul of a Proud Paladin",
+        "price": 1000
+    },
+    {
+        "name": "Sovereignless Soul",
+        "price": 2000
+    },
+    {
+        "name": "Soul of an Intrepid Hero",
+        "price": 2000
+    },
+    {
+        "name": "Soul of a Nameless Soldier",
+        "price": 2000
+    },
+    {
+        "name": "Large soul of an Intrepid Hero",
+        "price": 2500
+    },
+    {
+        "name": "Large Soul of a Nameless Soldier",
+        "price": 3000
+    },
+    {
+        "name": "Soul of a Seasoned Warrior",
+        "price": 5000
+    },
+    {
+        "name": "Soul of a Weary Warrior",
+        "price": 5000
+    },
+    {
+        "name": "Large Soul of a Seasoned Warrior",
+        "price": 7500
+    },
+    {
+        "name": "Large Soul of a Weary Warrior",
+        "price": 8000
+    },
+    {
+        "name": "Soul of a Crestfallen Knight",
+        "price": 10000
+    },
+    {
+        "name": "Soul of an Old Hand",
+        "price": 12500
+    },
+    {
+        "name": "Large Soul of a Crestfallen Knight",
+        "price": 20000
+    },
+    {
+        "name": "Soul of a Venerable Old Hand",
+        "price": 20000
+    },
+    {
+        "name": "Soul of a Champion",
+        "price": 25000
+    },
+    {
+        "name": "Soul of a Great Champion",
+        "price": 50000
+    }
+]
