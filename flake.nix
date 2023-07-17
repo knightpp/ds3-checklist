@@ -41,6 +41,7 @@
               flutter
               androidSdk
               jdk17
+              flatbuffers
             ];
           };
       });
