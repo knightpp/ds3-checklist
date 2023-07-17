@@ -27,7 +27,7 @@
       devShells = forAllSystems ({ pkgs }: {
         default =
           let
-            buildToolsVersion = "34.0.1";
+            buildToolsVersion = "33.0.2";
             androidComposition = pkgs.androidenv.composeAndroidPackages {
               buildToolsVersions = [ buildToolsVersion ];
               platformVersions = [ "33" ];
