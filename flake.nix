@@ -27,9 +27,8 @@
       devShells = forAllSystems ({ pkgs }: {
         default =
           let
-            buildToolsVersion = "33.0.2";
             androidComposition = pkgs.androidenv.composeAndroidPackages {
-              buildToolsVersions = [ buildToolsVersion ];
+              buildToolsVersions = [ "30.0.3" ];
               platformVersions = [ "33" ];
               abiVersions = [ "armeabi-v7a" "arm64-v8a" ];
             };
@@ -41,7 +40,7 @@
             buildInputs = with pkgs; [
               flutter
               androidSdk
-              jdk11
+              jdk17
             ];
           };
       });
