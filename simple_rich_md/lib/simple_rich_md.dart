@@ -1,8 +1,6 @@
 library simple_rich_md;
 
-import 'package:characters/characters.dart';
 import 'package:flutter/gestures.dart';
-import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 
 class SimpleRichParser {

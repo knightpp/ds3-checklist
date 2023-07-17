@@ -315,7 +315,7 @@ packages:
       path: "../simple_rich_md"
       relative: true
     source: path
-    version: "0.0.1-nullsafety.0"
+    version: "0.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
