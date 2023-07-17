@@ -173,7 +173,7 @@ class PtTile extends StatelessWidget {
         text: text,
         onTap: openLink,
         linkStyle: getLinkTextStyle(),
-        textStyle: Theme.of(context).textTheme.bodyText2,
+        textStyle: Theme.of(context).textTheme.bodyMedium,
       ),
       // MarkdownBody(
       //   data: text,

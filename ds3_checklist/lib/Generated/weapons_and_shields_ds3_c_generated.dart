@@ -24,7 +24,7 @@ class Wscategory {
 
   @override
   String toString() {
-    return 'Wscategory{name: ${name}, items: ${items}}';
+    return 'Wscategory{name: $name, items: $items}';
   }
 }
 
@@ -108,7 +108,7 @@ class Item {
 
   @override
   String toString() {
-    return 'Item{id: ${id}, name: ${name}}';
+    return 'Item{id: $id, name: $name}';
   }
 }
 
@@ -189,7 +189,7 @@ class WeaponsAndShieldsRoot {
 
   @override
   String toString() {
-    return 'WeaponsAndShieldsRoot{items: ${items}}';
+    return 'WeaponsAndShieldsRoot{items: $items}';
   }
 }
 

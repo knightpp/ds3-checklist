@@ -85,7 +85,7 @@ class _AchievementPageState extends State<AchievementPage> {
                   text: task.description!,
                   onTap: openLink,
                   linkStyle: getLinkTextStyle(),
-                  textStyle: Theme.of(context).textTheme.bodyText2)
+                  textStyle: Theme.of(context).textTheme.bodyMedium)
               // MarkdownBody(
               //   onTapLink: openLink,
               //   data: task.description,
@@ -110,11 +110,11 @@ class TaskTitle extends StatelessWidget {
     final title = SimpleRichMd(
       onTap: openLink,
       text: task.name!,
-      textStyle: Theme.of(context).textTheme.headline5?.copyWith(fontSize: 18),
+      textStyle: Theme.of(context).textTheme.headlineSmall?.copyWith(fontSize: 18),
       linkStyle: getLinkTextStyle().copyWith(fontSize: 18),
       boldStyle: Theme.of(context)
           .textTheme
-          .headline5
+          .headlineSmall
           ?.copyWith(fontSize: 18, fontWeight: FontWeight.bold),
     );
     // final title = MarkdownBody(

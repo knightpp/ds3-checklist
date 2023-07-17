@@ -21,7 +21,7 @@ class About extends StatelessWidget {
             title: SimpleRichMd(
               onTap: openLink,
               text: apploc.aboutUsedResource.replaceFirst("\$link", link),
-              textStyle: Theme.of(context).textTheme.bodyText2,
+              textStyle: Theme.of(context).textTheme.bodyMedium,
               linkStyle: TextStyle(
                   color: Colors.blue, decoration: TextDecoration.underline),
             ),

@@ -25,7 +25,7 @@ class Trade {
 
   @override
   String toString() {
-    return 'Trade{id: ${id}, what: ${what}, for_: ${for_}}';
+    return 'Trade{id: $id, what: $what, for_: $for_}';
   }
 }
 
@@ -83,12 +83,12 @@ class TradeObjectBuilder extends fb.ObjectBuilder {
   int finish(fb.Builder fbBuilder) {
     final int? whatOffset = _what == null ? null
         : fbBuilder.writeString(_what!);
-    final int? for_Offset = _for_ == null ? null
+    final int? forOffset = _for_ == null ? null
         : fbBuilder.writeString(_for_!);
     fbBuilder.startTable(3);
     fbBuilder.addUint32(0, _id);
     fbBuilder.addOffset(1, whatOffset);
-    fbBuilder.addOffset(2, for_Offset);
+    fbBuilder.addOffset(2, forOffset);
     return fbBuilder.endTable();
   }
 
@@ -116,7 +116,7 @@ class TradesRoot {
 
   @override
   String toString() {
-    return 'TradesRoot{items: ${items}}';
+    return 'TradesRoot{items: $items}';
   }
 }
 

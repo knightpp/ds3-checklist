@@ -25,7 +25,7 @@ class Achievement {
 
   @override
   String toString() {
-    return 'Achievement{name: ${name}, description: ${description}, tasks: ${tasks}}';
+    return 'Achievement{name: $name, description: $description, tasks: $tasks}';
   }
 }
 
@@ -121,7 +121,7 @@ class Task {
 
   @override
   String toString() {
-    return 'Task{id: ${id}, name: ${name}, description: ${description}, play: ${play}}';
+    return 'Task{id: $id, name: $name, description: $description, play: $play}';
   }
 }
 
@@ -220,7 +220,7 @@ class AchievementsRoot {
 
   @override
   String toString() {
-    return 'AchievementsRoot{items: ${items}}';
+    return 'AchievementsRoot{items: $items}';
   }
 }
 

@@ -67,7 +67,7 @@ class SoulCard extends StatelessWidget {
                 flex: 8,
                 child: Text(
                   soul.name!,
-                  style: Theme.of(context).primaryTextTheme.bodyText2,
+                  style: Theme.of(context).primaryTextTheme.bodyMedium,
                 )),
             Expanded(
               flex: 5,
@@ -78,7 +78,7 @@ class SoulCard extends StatelessWidget {
             Expanded(
               flex: 3,
               child: Text(soul.price.toString(),
-                  style: Theme.of(context).primaryTextTheme.bodyText2),
+                  style: Theme.of(context).primaryTextTheme.bodyMedium),
             )
           ],
         ),

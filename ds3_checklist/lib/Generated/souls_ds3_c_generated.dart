@@ -24,7 +24,7 @@ class Soul {
 
   @override
   String toString() {
-    return 'Soul{name: ${name}, price: ${price}}';
+    return 'Soul{name: $name, price: $price}';
   }
 }
 
@@ -105,7 +105,7 @@ class SoulsRoot {
 
   @override
   String toString() {
-    return 'SoulsRoot{items: ${items}}';
+    return 'SoulsRoot{items: $items}';
   }
 }
 

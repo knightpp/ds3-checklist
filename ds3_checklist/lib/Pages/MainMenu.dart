@@ -32,7 +32,7 @@ class MenuBlock extends StatelessWidget {
           child: Center(
             child: Text(
               title,
-              style: Theme.of(context).textTheme.button,
+              style: Theme.of(context).textTheme.labelLarge,
             ),
           ),
         ));

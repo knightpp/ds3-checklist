@@ -130,7 +130,7 @@ class _TradesState extends State<Trades> {
         text: trades[tradeIdx].for_!,
         onTap: openLink,
         linkStyle: getLinkTextStyle(),
-        textStyle: Theme.of(context).textTheme.bodyText2,
+        textStyle: Theme.of(context).textTheme.bodyMedium,
       ),
       // MarkdownBody(
       //   onTapLink: openLink,
@@ -147,7 +147,7 @@ class _TradesState extends State<Trades> {
       child: SimpleRichMd(
         text: trades[tradeIdx].what!,
         linkStyle: getLinkTextStyle(),
-        textStyle: Theme.of(context).textTheme.bodyText2,
+        textStyle: Theme.of(context).textTheme.bodyMedium,
         onTap: openLink,
       ),
       // MarkdownBody(
