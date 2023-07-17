@@ -2,7 +2,7 @@ name: dark_souls_checklist
 description: A new Flutter project.
 
 publish_to: "none"
-version: 2.1.1+13
+version: 2.1.2+14
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
@@ -10,14 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  path: ^1.8.0
-  path_provider: ^2.0.1
-  shared_preferences: ^2.0.3
-  sqflite: ^2.0.0+2
-  url_launcher: ^6.0.2
+  path: ^1.8.3
+  path_provider: ^2.0.15
+  shared_preferences: ^2.2.0
+  sqflite: ^2.2.8+4
+  url_launcher: ^6.1.12
   flat_buffers: ^2.0.5
-  flutter_svg: ^1.1.5
-  provider: ^6.0.3
+  flutter_svg: ^2.0.7
+  provider: ^6.0.5
   simple_rich_md:
     path: ../simple_rich_md
   flutter_localizations:
