@@ -23,6 +23,11 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
+dependency_overrides:
+  # Limiting to 6.0.34, since 6.0.35 introduced compatibility issues with
+  # AGP 8.0. See https://github.com/flutter/flutter/issues/128204.
+  url_launcher_android: 6.0.34
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

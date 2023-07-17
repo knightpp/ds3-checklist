@@ -39,7 +39,7 @@ android {
     defaultConfig {
         applicationId "io.knightpp.ds3_checklist"
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -58,6 +58,21 @@ android {
             signingConfig signingConfigs.release
         }
     }
+
+    // set until https://github.com/flutter/flutter/issues/128204 is resolved
+    buildFeatures {
+        buildConfig true
+    }
+
+    namespace 'io.knightpp.ds3_checklist'
+
+    compileOptions {
+            sourceCompatibility JavaVersion.VERSION_17
+            targetCompatibility JavaVersion.VERSION_17
+        }
+    kotlinOptions {
+            jvmTarget = '17'
+        }
 }
 
 flutter {
@@ -65,5 +80,5 @@ flutter {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
