@@ -138,6 +138,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
         onChanged: (newVal) {
           _updateChecked(catIdx, taskId, newVal!);
         },
+        isLast: taskId == cat.items!.length - 1,
         isChecked: isChecked,
         content: SimpleRichMd(
           text: cat.items![taskId].name!,

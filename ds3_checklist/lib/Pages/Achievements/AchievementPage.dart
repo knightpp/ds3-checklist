@@ -77,6 +77,7 @@ class _AchievementPageState extends State<AchievementPage> {
           return ItemTile(
               isChecked: isChecked,
               isVisible: !(_hideCompleted && isChecked),
+              isLast: index == widget.ach.tasks!.length,
               onChanged: (newVal) {
                 _updateChecked(widget.achId, taskIdx, newVal!);
               },

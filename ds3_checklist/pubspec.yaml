@@ -38,6 +38,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
+    - assets/sqlites/
     - assets/i18n/en/flatbuffers/
     - assets/i18n/fr/flatbuffers/
     - assets/i18n/it/flatbuffers/

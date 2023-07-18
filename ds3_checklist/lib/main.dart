@@ -150,37 +150,41 @@ class MyApp extends StatelessWidget {
         bodyMedium: optimus.copyWith(color: Colors.white.withOpacity(0.9)));
 
     return ThemeData(
-        dividerTheme: const DividerThemeData(
-            color: Colors.black, indent: 10, endIndent: 10),
-        scaffoldBackgroundColor: Colors.grey[200],
-        primaryColor: Colors.blueGrey,
-        appBarTheme: AppBarTheme(
-          toolbarTextStyle: textTheme
-              .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
-              .bodyMedium,
-          titleTextStyle: textTheme
-              .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
-              .titleLarge,
-        ),
-        tabBarTheme: TabBarTheme(
-            indicator: ShapeDecoration(
-                shape: Border(
-                    bottom: BorderSide(width: 3, color: Colors.blueGrey[50]!))),
-            labelColor: Colors.white,
-            unselectedLabelColor: Colors.white.withOpacity(0.3),
-            labelStyle: optimus,
-            unselectedLabelStyle: optimus),
-        cardTheme: const CardTheme(
-            color: Colors.blueGrey,
-            elevation: 3,
-            margin:
-                const EdgeInsets.only(top: 8, bottom: 8, right: 20, left: 20)),
-        primaryIconTheme: const IconThemeData(size: 25, color: Colors.white70),
-        textTheme: textTheme,
-        primaryTextTheme: primaryTextTheme,
-        iconTheme: IconThemeData(color: Colors.blueGrey),
-        colorScheme:
-            ColorScheme.fromSwatch().copyWith(secondary: Colors.grey[800]));
+      dividerTheme: const DividerThemeData(
+          color: Colors.black, indent: 10, endIndent: 10),
+      scaffoldBackgroundColor: Colors.grey[200],
+      primaryColor: Colors.blueGrey,
+      appBarTheme: AppBarTheme(
+        toolbarTextStyle: textTheme
+            .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
+            .bodyMedium,
+        titleTextStyle: textTheme
+            .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
+            .titleLarge,
+      ),
+      tabBarTheme: TabBarTheme(
+          indicator: ShapeDecoration(
+              shape: Border(
+                  bottom: BorderSide(width: 3, color: Colors.blueGrey[50]!))),
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.white.withOpacity(0.3),
+          labelStyle: optimus,
+          unselectedLabelStyle: optimus),
+      cardTheme: const CardTheme(
+          color: Colors.blueGrey,
+          elevation: 3,
+          margin:
+              const EdgeInsets.only(top: 8, bottom: 8, right: 20, left: 20)),
+      primaryIconTheme: const IconThemeData(size: 25, color: Colors.white70),
+      textTheme: textTheme,
+      primaryTextTheme: primaryTextTheme,
+      iconTheme: IconThemeData(color: Colors.blueGrey),
+      colorScheme: ColorScheme.fromSwatch(
+        primarySwatch: Colors.blueGrey,
+      ).copyWith(
+        secondary: Colors.grey[800],
+      ),
+    );
   }
 }
 

@@ -99,7 +99,6 @@ class _ArmorState extends State<Armor> {
               body: MyTabBarView(
                 categoriesLength: armors.length,
                 categoryBuilder: (context, catIndex) {
-                  // return ListView();
                   return ListView.builder(
                     itemCount: armors[catIndex].gears!.length,
                     itemBuilder: (context, taskIdx) {
