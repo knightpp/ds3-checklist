@@ -39,6 +39,10 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/i18n/en/flatbuffers/
+    - assets/i18n/fr/flatbuffers/
+    - assets/i18n/it/flatbuffers/
+    - assets/i18n/pl/flatbuffers/
+    - assets/i18n/uk/flatbuffers/
   fonts:
     - family: OptimusPrinceps
       fonts:
