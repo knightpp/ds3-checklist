@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "Master of Expression",
+    "tasks": [
+      {
+        "item_name": "Beckon",
+        "description": "Talk to <a href=\"http://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a> not far from the Foot of the High Wall bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Call Over",
+        "description": "Received after trading a <a href=\"http://darksouls3.wiki.fextralife.com/Homeward+Bone\">Homeward Bone</a> with <a href=\"http://darksouls3.wiki.fextralife.com/Pickle+Pee,+Pump-a-Rum+Crow\">Pickle Pee, Pump-a-Rum Crow</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Welcome",
+        "description": "Talk to the <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> in the Undead Settlement, and accept his services. Talk to him again at Firelink Shrine to get the gesture",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Applause",
+        "description": "Received by talking to <a href=\"http://darksouls3.wiki.fextralife.com/Leonhard\">Leonhard</a> after defeating the Darkwraith in <a href=\"http://darksouls3.wiki.fextralife.com/High+Wall+of+Lothric\">High Wall of Lothric</a> at his request",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Quiet Resolve",
+        "description": "Finish <a href=\"http://darksouls3.wiki.fextralife.com/Anri+of+Astora\">Anri of Astora</a>'s questline up to Irithyll of the Boreal Valley. They will grant you the gesture when speaking to them at the Church of Yorshka Bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Rejoice",
+        "description": "Received during the <a href=\"http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a> questline",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Hurrah!",
+        "description": "Talk to <a href=\"http://darksouls3.wiki.fextralife.com/Blacksmith+Andre\">Blacksmith Andre</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Praise the Sun",
+        "description": "Received from praying at the Altar of Sunlight in <a href=\"http://darksouls3.wiki.fextralife.com/Lothric+Castle\">Lothric Castle</a>, near the <a href=\"http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour\">Dragonslayer Armour</a> boss fight",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "My Thanks!",
+        "description": "Obtained from <a href=\"http://darksouls3.wiki.fextralife.com/Knight+Slayer+Tsorig\">Knight Slayer Tsorig</a> deep in the Demon Ruins, regardless of who wins the fight",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Proper Bow",
+        "description": "Kill <a href=\"http://darksouls3.wiki.fextralife.com/Yellowfinger+Heysel\">Yellowfinger Heysel</a>, the NPC invader in Farron Keep. Then give a pale tongue to the Rosaria's Fingers covenant. Yellowfinger Heysel's summon sign appears next to the tower full of slugs near the Keep Ruins bonfire. Summon her to receive the gesture. Abyss Watchers must be alive",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Dignified Bow",
+        "description": "Received from meeting <a href=\"http://darksouls3.wiki.fextralife.com/Yuria+of+Londor\">Yuria of Londor</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Duel Bow",
+        "description": "Received after summoning <a href=\"http://darksouls3.wiki.fextralife.com/Londor+Pale+Shade\">Londor Pale Shade</a> before <a href=\"http://darksouls3.wiki.fextralife.com/Abyss+Watchers\">Abyss Watchers</a> or <a href=\"http://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn\">Pontiff Sulyvahn</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Legion Etiquette",
+        "description": "Pray to the Old Wolf of Farron in the Farron Swamp",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Darkmoon Loyalty",
+        "description": "Received from speaking with <a href=\"http://darksouls3.wiki.fextralife.com/Sirris+of+the+Sunless+Realms\">Sirris of the Sunless Realms</a> in Firelink Shrine after she arrives",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "By My Sword",
+        "description": "Received from summoning <a href=\"http://darksouls3.wiki.fextralife.com/Black+Hand+Gotthard\">Black Hand Gotthard</a>. He will perform the gesture as he is summoned",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Prayer",
+        "description": "Received from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Silent Ally",
+        "description": "Given by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+of+Vinheim\">Orbeck of Vinheim</a> once you buy Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Rest",
+        "description": "Received after resting at a bonfire for the first time",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Collapse",
+        "description": "Received from meeting <a href=\"http://darksouls3.wiki.fextralife.com/Hawkwood\">Hawkwood</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Patches Squat",
+        "description": "Talk to <a href=\"http://darksouls3.wiki.fextralife.com/Unbreakable+Patches\">Patches</a> while he's sitting in Firelink Shrine",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Prostration",
+        "description": "Received from <a href=\"http://darksouls3.wiki.fextralife.com/Unbreakable+Patches\">Patches</a> after replying no when he asks for forgiveness, or after confronting him in the Cathedral of the Deep after he lowers the bridge with \"You know who I am\"",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Toast",
+        "description": "Received by talking to <a href=\"http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a> after defeating the demon in Undead Settlement",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Sleep",
+        "description": "After receiving the Toast gesture from <a href=\"http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a>, wait for him to go to sleep. Then talk to him again",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Curl Up",
+        "description": "Talk to <a href=\"http://darksouls3.wiki.fextralife.com/Greirat+of+the+Undead+Settlement\">Greirat of the Undead Settlement</a> after giving him <a href=\"http://darksouls3.wiki.fextralife.com/Loretta's+bone\">Loretta's bone</a> and resting at the bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Stretch Out",
+        "description": "Found on the corpse of Laddersmith Gilligan on the first bonfire in <a href=\"http://darksouls3.wiki.fextralife.com/Profaned+Capital\">Profaned Capital</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Path of The Dragon",
+        "description": "Received from corpse after <a href=\"http://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King\">Oceiros, the Consumed King</a>",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Master of Sorceries",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Soul+Arrow\">Soul Arrow</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a>/<a href=\"http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor\">Yuria of Londor</a> / <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 1000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Soul+Arrow\">Great Soul Arrow</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 3000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Heavy+Soul+Arrow\">Heavy Soul Arrow</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a>/<a href=\"http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor\">Yuria of Londor</a> / <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 2000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Heavy+Soul+Arrow\">Great Heavy Soul Arrow</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 4000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Farron+Dart\">Farron Dart</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 500 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Farron+Dart\">Great Farron Dart</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 2000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Sage's+Scroll\">Sage's Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Farron+Hail\">Farron Hail</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 5000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Sage's+Scroll\">Sage's Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Homing+Soulmass\">Homing Soulmass</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 6000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Logan's+Scroll\">Logan's Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Homing+Crystal+Soulmass\">Homing Crystal Soulmass</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 18,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Scroll\">Crystal Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Hail\">Crystal Hail</a>",
+        "description": "Obtained by <a href=\"http://darksouls3.wiki.fextralife.com/Soul%20of+a+Crystal+Sage\">Soul of a Crystal Sage</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Soul+Spear\">Soul Spear</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 5000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Logan's+Scroll\">Logan's Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Soul+Spear\">Crystal Soul Spear</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 15,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Scroll\">Crystal Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/White+Dragon+Breath\">White Dragon Breath</a>",
+        "description": "Obtained by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+Consumed+Oceiros\">Soul of Consumed Oceiros</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Soul+Stream\">Soul Stream</a>",
+        "description": "Found in the Grand Archive behind an illusory wall near the Boreal Outrider Knight",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Soul+Greatsword\">Soul Greatsword</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a>/<a href=\"http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor\">Yuria of Londor</a> / <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 5000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Farron+Flashsword\">Farron Flashsword</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 3000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Weapon\">Magic Weapon</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a>/<a href=\"http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor\">Yuria of Londor</a> for 4500 and <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 3000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Magic+Weapon\">Great Magic Weapon</a>",
+        "description": "From the Farron Keep Perimeter bonfire, turn around 180 and head towards the shortcut gate to Road of Sacrifices. The spell will be on a corpse at the gate",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Magic+Weapon\">Crystal Magic Weapon</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Scroll\">Crystal Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Shield\">Magic Shield</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Yoel+of+Londor\">Yoel of Londor</a>/<a href=\"http://darksouls3.wiki.fextralife.com/Yuria%20of+Londor\">Yuria of Londor</a> for 4500 and <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 3000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Magic+Shield\">Great Magic Shield</a>",
+        "description": "Found in <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon\">Irithyll Dungeon</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Spook\">Spook</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 2000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Aural+Decoy\">Aural Decoy</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 2000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Pestilent+Mist\">Pestilent Mist</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 1000 souls. Requires any scroll",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Cast%20Light\">Cast Light</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 1000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Golden+Scroll\">Golden Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Repair\">Repair</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 2000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Golden+Scroll\">Golden Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Hidden+Weapon\">Hidden Weapon</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 1500 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Golden+Scroll\">Golden Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Hidden+Body\">Hidden Body</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 3000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Golden+Scroll\">Golden Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chameleon\">Chameleon</a>",
+        "description": "Found in the Church of Yorshka bonfire in <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley\">Irithyll of the Boreal Valley</a> during Anri's questline. The spell will drop from an assassin disguised as a statue. Found in Darkmoon Tomb on the pilgrim's corpse",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Twisted+Wall+of+Light\">Twisted Wall of Light</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Orbeck+Of+Vinheim\">Orbeck Of Vinheim</a> for 6000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Golden+Scroll\">Golden Scroll</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Deep+Soul\">Deep Soul</a>",
+        "description": "Obtained by <a href=\"http://darksouls3.wiki.fextralife.com/Soul%20of+Deacons+of+the+Deep\">Soul of Deacons of the Deep</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Deep+Soul\">Great Deep Soul</a>",
+        "description": "<a href=\"http://darksouls3.wiki.fextralife.com/Aldrich+Faithful\">Aldrich Faithful</a> Rank 1 reward",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Affinity\">Affinity</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 15,000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dark+Edge\">Dark Edge</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 8000 souls",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Master of Pyromancies",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fireball\">Fireball</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 1000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fire+Orb\">Fire Orb</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 3000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome\">Great Swamp Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Bursting+Fireball\">Bursting Fireball</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 5000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome\">Great Swamp Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great%20Chaos+Fire+Orb\">Great Chaos Fire Orb</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Izalith+Pyromancy+Tome\">Izalith Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chaos+Bed+Vestiges\">Chaos Bed Vestiges</a>",
+        "description": "Acquired from <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+the+Old+Demon+King\">Soul of the Old Demon King</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fire+Surge\">Fire Surge</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 1000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fire+Whip\">Fire Whip</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome\">Quelana Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Firestorm\">Firestorm</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 15,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome\">Quelana Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chaos+Storm\">Chaos Storm</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 12,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Izalith+Pyromancy+Tome\">Izalith Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Combustion\">Great Combustion</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 3,000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sacred+Flame\">Sacred Flame</a>",
+        "description": "Found within the lava area of <a href=\"http://darksouls3.wiki.fextralife.com/Smouldering+Lake\">Smouldering Lake</a> where you fight Knight Slayer Tsorig",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Profaned+Flame\">Profaned Flame</a>",
+        "description": "Found at the foot of the Giant in <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon\">Irithyll Dungeon</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Poison+Mist\">Poison Mist</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 2,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome\">Great Swamp Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Toxic+Mist\">Toxic Mist</a>",
+        "description": "Found on corpse in lava area of the <a href=\"http://darksouls3.wiki.fextralife.com/Catacombs+of+Carthus\">Catacombs of Carthus</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Acid+Surge\">Acid Surge</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 6,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome\">Carthus Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Flash+Sweat\">Flash Sweat</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 1,000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Profuse+Sweat\">Profuse Sweat</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 2,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Great+Swamp+Pyromancy+Tome\">Great Swamp Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Iron+Flesh\">Iron Flesh</a>",
+        "description": "Found in the <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Keep\">Farron Keep</a> swamp",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Power%20Within\">Power Within</a>",
+        "description": "Found on a corpse behind a hidden wall in <a href=\"http://darksouls3.wiki.fextralife.com/Grand+Archives\">Grand Archives</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Beacon\">Carthus Beacon</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 8,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome\">Carthus Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Flame+Arc\">Carthus Flame Arc</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Cornyx+of+the+Great+Swamp\">Cornyx of the Great Swamp</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Pyromancy+Tome\">Carthus Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Warmth\">Warmth</a>",
+        "description": "<a href=\"http://darksouls3.wiki.fextralife.com/Mound-Maker\">Mound Makers</a> Rank 2 reward",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Rapport\">Rapport</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 7000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Quelana+Pyromancy+Tome\">Quelana Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Boulder%20Heave\">Boulder Heave</a>",
+        "description": "Acquired from <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+a+Stray+Demon\">Soul of a Stray Demon</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Black+Flame\">Black Flame</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Grave+Warden+Pyromancy+Tome\">Grave Warden Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Black+Fire+Orb\">Black Fire Orb</a>",
+        "description": "Sold by <a href=\"http://darksouls3.wiki.fextralife.com/Karla\">Karla</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Grave+Warden+Pyromancy+Tome\">Grave Warden Pyromancy Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Black+Serpent\">Black Serpent</a>",
+        "description": "Acquired from <a href=\"http://darksouls3.wiki.fextralife.com/High+Lord+Wolnir\">Soul of High Lord Wolnir</a> Transposition",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Master of Miracles",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Heal+Aid\">Heal Aid</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Shrine+Handmaid\">Shrine Handmaid</a> for 500 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Heal\">Heal</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 1000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Med+Heal\">Med Heal</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 3500 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim\">Braille Divine Tome of Carim</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Heal\">Great Heal</a>",
+        "description": "Found on corpse in the <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+of+the+Boreal+Valley\">Irithyll of the Boreal Valley</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Soothing+Sunlight\">Soothing Sunlight</a>",
+        "description": "Acquired by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+the+Dancer\">Soul of the Dancer</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Replenishment\">Replenishment</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 1000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Bountiful+Light\">Bountiful Light</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 5000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric\">Braille Divine Tome of Lothric</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Bountiful+Sunlight\">Bountiful Sunlight</a>",
+        "description": "Acquired by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+Rosaria\">Soul of Rosaria</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Caressing%20Tears\">Caressing Tears</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 1500 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Tears+of+Denial\">Tears of Denial</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim\">Braille Divine Tome of Carim</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Homeward\">Homeward</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 3000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Seek+Guidance\">Seek Guidance</a>",
+        "description": "Looted from a corpse in Cathedral of the Deep. Just past the first giant and down the stairs to the left. It's a sort of dark ish room above the Cathedral Knight with the mace",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sacred+Oath\">Sacred Oath</a>",
+        "description": "<a href=\"http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight\">Warriors of Sunlight</a> Rank 1 reward",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Force\">Force</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 1000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Carim\">Braille Divine Tome of Carim</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Emit+Force\">Emit Force</a>",
+        "description": "Acquired by <a href=\"http://darksouls3.wiki.fextralife.com/Siegward+of+Catarina\">Siegward of Catarina</a> during third encounter. Below Irithyll of the Boreal Valley in a kitchen just after a sewer area",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wrath+of+the+Gods\">Wrath of the Gods</a>",
+        "description": "Acquired by dropping from the ledge near the spellcaster on the roof in Profaned Capital",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Spear\">Lightning Spear</a>",
+        "description": "Use the elevator near the Old Wolf of Farron and take the stairs up. Turn to the right and run to the closed gate. On the right side of the gate drop down and follow the path, one of the items there is Lightning Spear",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Lightning+Spear\">Great Lightning Spear</a>",
+        "description": "<a href=\"http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight\">Warriors of Sunlight</a> Rank 2 reward",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sunlight+Spear\">Sunlight Spear</a>",
+        "description": "Acquired by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+the+Lords\">Soul of the Lords</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Stake\">Lightning Stake</a>",
+        "description": "Dropped by the <a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Sandworm\">Carthus Sandworm</a> before the <a href=\"http://darksouls3.wiki.fextralife.com/Old+Demon+King\">Old Demon King</a> boss fight",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Storm\">Lightning Storm</a>",
+        "description": "Acquired by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+the+Nameless+King\">Soul of the Nameless King</a> Transposition",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Divine+Pillars+of+Light\">Divine Pillars of Light</a>",
+        "description": "Found at the top of <a href=\"http://darksouls3.wiki.fextralife.com/Lothric+Castle\">Lothric Castle</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Blessed+Weapon\">Blessed Weapon</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 8,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric\">Braille Divine Tome of Lothric</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Blade\">Lightning Blade</a>",
+        "description": "Located in <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon\">Irithyll Dungeon</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Darkmoon%20Blade\">Darkmoon Blade</a>",
+        "description": "<a href=\"http://darksouls3.wiki.fextralife.com/Blades+of+the+Darkmoon\">Blade of the Darkmoon</a> covenant Rank 2 reward",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Barrier\">Magic Barrier</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 5000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Braille+Divine+Tome+of+Lothric\">Braille Divine Tome of Lothric</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Magic+Barrier\">Great Magic Barrier</a>",
+        "description": "Archdragon Peak found off a ledge where you find Havel and a dead dragon",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dark+Blade\">Dark Blade</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 10,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome\">Londor Braille Divine Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Vow+of+Silence\">Vow of Silence</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 15,000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome\">Londor Braille Divine Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dead+Again\">Dead Again</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 5000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Londor+Braille+Divine+Tome\">Londor Braille Divine Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Atonement\">Atonement</a>",
+        "description": "Farron Keep Perimeter bonfire. Turn around 180 degrees and follow the path until you reach a hole in the wall on your right. Drop down on the ledge below. The spell will be on a corpse",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Deep+Protection\">Deep Protection</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 4000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Deep+Braille+Divine+Tome\">Deep Braille Divine Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Gnaw\">Gnaw</a>",
+        "description": "Purchased from <a href=\"http://darksouls3.wiki.fextralife.com/Irina+of+Carim\">Irina of Carim</a> for 2000 souls. Requires <a href=\"http://darksouls3.wiki.fextralife.com/Deep+Braille+Divine+Tome\">Deep Braille Divine Tome</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dorhy's+Gnawing\">Dorhys' Gnawing</a>",
+        "description": "Guaranteed kill reward for the screaming Evangelist in Irithyll of the Boreal Valley, found behind an illusionary fence",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lifehunt+Scythe\">Lifehunt Scythe</a>",
+        "description": "Acquired from <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+Aldrich\">Soul of Aldrich</a> Transposition",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Master of Infusion",
+    "tasks": [
+      {
+        "item_name": "Refined",
+        "description": "Available from start, requires <a href=\"http://darksouls3.wiki.fextralife.com/Refined+Gem\">Refined Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Raw",
+        "description": "Available from start, requires <a href=\"http://darksouls3.wiki.fextralife.com/Raw+Gem\">Raw Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Fire",
+        "description": "Available from start, requires <a href=\"http://darksouls3.wiki.fextralife.com/Fire+Gem\">Fire Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Heavy",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Coal\">Farron Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices\">Road of Sacrifices</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Heavy+Gem\">Heavy Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Sharp",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Coal\">Farron Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices\">Road of Sacrifices</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Sharp+Gem\">Sharp Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Poison",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Coal\">Farron Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Road+of+Sacrifices\">Road of Sacrifices</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Poison+Gem\">Poison Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Crystal",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Sage's+Coal\">Sage's Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Keep\">Farron Keep</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Gem\">Crystal Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Blessed",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Sage's+Coal\">Sage's Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Keep\">Farron Keep</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Blessed+Gem\">Blessed Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Deep",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Sage's+Coal\">Sage's Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Farron+Keep\">Farron Keep</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Deep+Gem\">Deep Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Dark",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Profaned+Coal\">Profaned Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon\">Irithyll Dungeon</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Dark+Gem\">Dark Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Blood",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Profaned+Coal\">Profaned Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon\">Irithyll Dungeon</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Blood+Gem\">Blood Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Hollow",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Profaned+Coal\">Profaned Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Irithyll+Dungeon\">Irithyll Dungeon</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Hollow+Gem\">Hollow Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Lightning",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Giant's+Coal\">Giant's Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Anor+Londo\">Anor Londo</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Gem\">Lightning Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Simple",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Giant's+Coal\">Giant's Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Anor+Londo\">Anor Londo</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Simple+Gem\">Simple Gem</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Chaos",
+        "description": "Available after acquiring <a href=\"http://darksouls3.wiki.fextralife.com/Giant's+Coal\">Giant's Coal</a> from <a href=\"http://darksouls3.wiki.fextralife.com/Anor+Londo\">Anor Londo</a>, requires <a href=\"http://darksouls3.wiki.fextralife.com/Chaos+Gem\">Chaos Gem</a>",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Ending Achievements",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Endings\">To Link the First Flame</a>",
+        "description": "Reach \"To Link the First Flame\" ending",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Endings\">The End of Fire</a>",
+        "description": "Reach \"The End of Fire\" ending",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Endings\">The Usurpation of Fire</a>",
+        "description": "Reach \"The Usurpation of Fire\" ending",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Boss Achievements",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Iudex+Gundyr\">Iudex Gundyr</a>",
+        "description": "Defeat \"Heir of Fire\" Iudex Gundyr",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Vordt+of+the+Boreal+Valley\">Vordt of the Boreal Valley</a>",
+        "description": "Defeat Vordt of the Boreal Valley",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Curse-Rotted+Greatwood\">Curse-rotted Greatwood</a>",
+        "description": "Defeat the Curse-rotted Greatwood",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Crystal+Sage\">Crystal Sage</a>",
+        "description": "Defeat Crystal Sage",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Abyss+Watchers\">Lords of Cinder",
+        "description": "Abyss Watchers</a>: Defeat the Abyss Watchers, Lords of Cinder",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Deacons+of+the+Deep\">Deacons of the Deep</a>",
+        "description": "Defeat the Deacons of the Deep",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/High+Lord+Wolnir\">High Lord Wolnir</a>",
+        "description": "Defeat High Lord Wolnir",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Old+Demon+King\">Old Demon King</a>",
+        "description": "Defeat Old Demon King",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Pontiff+Sulyvahn\">Pontiff Sulyvahn</a>",
+        "description": "Defeat Pontiff Sulyvahn",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Yhorm+the+Giant\">Lord of Cinder",
+        "description": "Yhorm the Giant</a>: Defeat Yhorm the Giant, Lord of Cinder",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Aldrich,+Devourer+of+Gods\">Lord of Cinder",
+        "description": "Aldrich, Devourer of Gods</a>: Defeat Aldrich, Devourer of Gods, Lord of Cinder",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dancer+of+the+Boreal+Valley\">Dancer of the Boreal Valley</a>",
+        "description": "Defeat Dancer of the Boreal Valley",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dragonslayer+Armour\">Dragonslayer Armour</a>",
+        "description": "Defeat Dragonslayer Armour",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Oceiros,+the+Consumed+King\">Oceiros, the Consumed King</a>",
+        "description": "Defeat Oceiros, the Consumed King",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Champion+Gundyr\">Champion Gundyr</a>",
+        "description": "Defeat Champion Gundyr",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lothric,+Younger+Prince\">Lord of Cinder",
+        "description": "Lothric, Younger Prince</a>: Defeat Lothric, Younger Prince, Lord of Cinder",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ancient+Wyvern\">Ancient Wyvern</a>",
+        "description": "Defeat Ancient Wyvern",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Nameless+King\">The Nameless King</a>",
+        "description": "Defeat Nameless King",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Misc Achievements",
+    "tasks": [
+      {
+        "item_name": "Supreme Weapon Reinforcement",
+        "description": "Reinforce any weapon to the highest level",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Ultimate Bonfire",
+        "description": "Reinforce a bonfire to the highest level",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Ultimate Estus",
+        "description": "Reinforce the Estus Flask to the highest level",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Untended Graves",
+        "description": "Reach the Untended Graves",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Archdragon Peak",
+        "description": "Reach Archdragon Peak",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Enkindle",
+        "description": "Light a bonfire flame for the first time",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "Embrace the Flame",
+        "description": "Become a Host of Embers for the first time",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Covenant Achievements",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Warrior+of+Sunlight\">Warrior of Sunlight</a>",
+        "description": "Discover Warrior of Sunlight covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Way+of+Blue\">Way of Blue</a>",
+        "description": "Discover Way of Blue covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Blue+Sentinels\">Blue Sentinels</a>",
+        "description": "Discover Blue Sentinels covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Blades+of+the+Darkmoon\">Blade of the Darkmoon</a>",
+        "description": "Discover Blade of the Darkmoon covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Rosaria's+Fingers\">Rosaria's Fingers</a>",
+        "description": "Discover Rosaria's Fingers covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Mound-Makers\">Mound-makers </a>",
+        "description": "Discover Mound-makers covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Watchdogs+of+Farron\">Watchdogs of Farron</a>",
+        "description": "Discover Watchdogs of Farron covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Aldrich+Faithful\">Aldrich Faithful</a>",
+        "description": "Discover Aldrich Faithful covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Spears+of+the+Church\">Spears of the Church</a> (No Achievement)",
+        "description": "Discover Spears of the Church covenant (The Ringed City DLC)",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "Master of Rings",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Life+Ring\">Life Ring</a>",
+        "description": "Starting gift or sold by the <a href=\"http://darksouls3.wiki.fextralife.com/Shrine+Handmaid\">Shrine Handmaid</a> in Firelink Shrine for 1500 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sun+Princess+Ring\">Sun Princess Ring</a>",
+        "description": "Found in Gwynevere's Chamber above the Aldrich, Devourer of Gods bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Estus+Ring\">Estus Ring</a>",
+        "description": "Behind the locked door on the left side of Firelink Shrine accessible by going through the locked door on the right side of the area (which requires the 20k souls key from the <a href=\"http://darksouls3.wiki.fextralife.com/Shrine+Handmaid\">Shrine Handmaid</a> to unlock) and dropping down via coffins sticking out of the wall",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ashen+Estus+Ring\">Ashen Estus Ring</a>",
+        "description": "Proceed from the Untended Graves bonfire and take left path. The ring is on a corpse behind some crow enemies",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chloranthy+Ring\">Chloranthy Ring</a>",
+        "description": "Under breakable crates/barrels in the bottom of the tower that you go through to exit the Siegward/Fire Demon area in Undead Settlement",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Havel's+Ring\">Havel's Ring</a>",
+        "description": "Trade with Ludleth of Courland for the Soul of a Stray Demon",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Favor\">Ring of Favor</a>",
+        "description": "Defeat the guard dogs near <a href=\"http://darksouls3.wiki.fextralife.com/Archdeacon+McDonnell\">Archdeacon McDonnell</a>",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Prisoner's+Chain\">Prisoner's Chain</a>",
+        "description": "Trade with Ludleth of Courland for the Soul of Champion Gundyr",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection\">Ring of Steel Protection</a>",
+        "description": "In the Ancient Wyvern area, take the right path to the end and go around a railing",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring\">Magic Stoneplate Ring</a>",
+        "description": "Dropped by one of the knights outside Oceiros' boss door",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring\">Flame Stoneplate Ring</a>",
+        "description": "On a corpse hanging from a tree in the Undead Settlement by the Mound Makers cage guy. It may drop all the way down to in front of the building with the lift that leads to the giant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring\">Thunder Stoneplate Ring</a>",
+        "description": "Proceed from the Dragon-Kin Mausoleum bonfire until you reach an outside area with some scaffolding. Climb a ladder in this area to reach the platform where the ring is located",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring\">Dark Stoneplate Ring</a>",
+        "description": "In the lower area to the left of the open area with giants just past the Pontiff Sulyvahn bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Speckled+Stoneplate+Ring\">Speckled Stoneplate Ring</a>",
+        "description": "Behind a breakable wall in the Smoldering Lake area of the Catacombs of Carthus (must be broken by ballista fire)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Bloodbite+Ring\">Bloodbite Ring</a>",
+        "description": "Obtained by killing the large rat in the area across the bridge from the Dilapidated Bridge bonfire in the Undead Settlement",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Poisonbite+Ring\">Poisonbite Ring</a>",
+        "description": "From the cleansing Chapel bonfire, head outside and turn right from where the four enemies are praying, Drop down and follow the path around until you reach an area with a large crystal enemy among some blue crystals. There will be an entrance to a grey stone area nearby where the ring is inside on a corpse",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Cursebite+Ring\">Cursebite Ring</a>",
+        "description": "From the Profaned Capital bonfire, work your way to the area with the toxic swamp. The ring is on a corpse in the cave that you can drop into via the building above",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fleshbite+Ring\">Fleshbite Ring</a>",
+        "description": "In the Grand Archives, cross the bridge and proceed past the shortcut ladder by four Mage enemies and some bookshelves. The ring is on a corpse one level up next in an area with a bunch of books and cursed hands",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Knight's+Ring\">Knight's Ring</a>",
+        "description": "In Lothric Caste in a room before the Sunlight Altar",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Hunter's+Ring\">Hunter's Ring</a>",
+        "description": "Climb high onto the roof of the Grand Archives where three flying knights engage you. The ring is on a corpse at the top of the central tower in this area",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Scholar+Ring\">Scholar Ring</a>",
+        "description": "You can pull a lever next to the bridge in the center of the Grand Archives to lower an adjacent bookshelf revealing a corpse with the ring",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Priestess+Ring\">Priestess Ring</a>",
+        "description": "Sold by the Handmaid in Dark Firelink",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring\">Covetous Gold Serpent Ring</a>",
+        "description": "In the locked cell with Siegward in Irithyll Dungeons. The key to the cell is in the right side chest at the end of a hallway leading away from the area with the giant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring\">Covetous Silver Serpent Ring</a>",
+        "description": "Behind an illusory wall above the main Firelink bonfire, requires key from Handmaid for 20k souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Saint%27s+Ring\">Saint's Ring</a>",
+        "description": "Sold by Irina of Carim in Firelink",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Deep+Ring\">Deep Ring</a>",
+        "description": "Dropped by an enemy in a tower accessible by a lift near the Cleansing Chapel bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Darkmoon%20Ring\">Darkmoon Ring</a>",
+        "description": "Reward for reaching rank 1 in the Blade of the Darkmoon covenant. The Silver Knights in Anor Londo can drop the covenant item (very rare), and you need 10 to reach rank 1",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Young+Dragon+Ring\">Young Dragon Ring</a>",
+        "description": "Given by Orbeck of Vinheim after returning a scroll and buying 3 sorceries",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Bellowing+Dragoncrest+Ring\">Bellowing Dragoncrest Ring</a>",
+        "description": "From the Irithyll Dungeon bonfire, proceed into the large room and follow the hallway to the right to a locked door. Open this door with the key from a cell upstairs on the other side of the large room and drop to a platform where this ring is on a corpse",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Swamp+Ring\">Great Swamp Ring</a>",
+        "description": "Dropped by a large crab in the Crucifixion Woods",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Witch's+ring\">Witch's Ring</a>",
+        "description": "On an alter at the end of the hallway just before the Abandoned Tomb bonfire in the Catacombs of Carthus",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Morne's+Ring\">Morne's Ring</a>",
+        "description": "Backtrack from the Halfway Keep bonfire in Crucifixion Woods to a bridge. You can drop to a ledge below and the ring is on a corpse nearby",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+the+Sun's+First+Born\">Ring of the Sun's First Born</a>",
+        "description": "Backtrack from the Pontiff Sulhvahn bonfire and fall off the ledge to a platform below",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring\">Lingering Dragoncrest Ring</a>",
+        "description": "Obtained upon killing one of the giant crabs in Farron Keep",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sage+Ring\">Sage Ring</a>",
+        "description": "From the Crucifixion Woods bonfire, drop into the water and follow the wall until you see an opening. The ring is on a corpse in this area",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dusk+Crown+Ring\">Dusk Crown Ring</a>",
+        "description": "On a corpse in a cell in the lowest level of Irithyll Dungeon",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Leo+Ring\">Leo Ring</a>",
+        "description": "In a chest on the second level of the large room just beyond the kitchen area in Irithyll of the Boreal Valley somehwat close to the Distant Manor bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wolf+Ring\">Wolf Ring</a>",
+        "description": "Obtained by reaching rank 2 in Watchdogs of Farron covenant",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Hawk+Ring\">Hawk Ring</a>",
+        "description": "Dropped by the giant atop the tower in the Undead Settlement",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Hornet+Ring\">Hornet Ring</a>",
+        "description": "On a path to the right of Dark Firelink shrine",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Knight+Slayer's+Ring\">Knight Slayer's Ring</a>",
+        "description": "Obtained by killing the phantom invader <a href=\"http://darksouls3.wiki.fextralife.com/Knight%20Slayer+Tsorig\">Knight Slayer Tsorig</a> near the bridge in the Catacombs of Carthus",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye</a>",
+        "description": "Given by Anri of Astora either in the Catacombs of Carthus (if you tell of Horace's location) or at the Church of Yorshka bonfire. You must have first talked to Anri at the Halfway Fortress bonfire, then at Firelink, then in two places in the Catacombs of Carthus",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Farron+Ring\">Farron Ring</a>",
+        "description": "Acquired by talking to Hawkwood after defeating the Abyss Watchers",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dragonscale+Ring\">Dragonscale Ring</a>",
+        "description": "Take the shortcut lift down to the toxic swamp before Oceiros' room but jump off early to access the path where the ring is on a corpse",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Horsehoof+Ring\">Horsehoof Ring</a>",
+        "description": "Sold by Patches in Firelink",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring\">Wood Grain Ring</a>",
+        "description": "Sold by the Handmaid in Firelink (requires Easterner's Ashes from the area just past the Pontiff Sulyvahn bonfire)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Flynn's+Ring\">Flynn's Ring</a>",
+        "description": "On the highest roof in the area where you fight the Fire Demon with Siegward in the Undead Settlement",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Clutch+Ring\">Magic Clutch Ring</a>",
+        "description": "Behind an illusory wall near the Church of Yorshka bonfire (sort of under the Pontiff Sulyvahn fog door)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Clutch+Ring\">Lightning Clutch Ring</a>",
+        "description": "In an alcove to the left of the Ancient Wyvern area",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fire+Clutch+Ring\">Fire Clutch Ring</a>",
+        "description": "In the Undead Settlement near the Cliff Underside bonfire. It's on a wooden structure dangling off a cliff",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dark+Clutch+Ring\">Dark Clutch Ring</a>",
+        "description": "In a Mimic chest at the end of a sewer hallway that connects to the large lower level of Irithyll Dungeon",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Red+Tearstone+Ring\">Red Tearstone Ring</a>",
+        "description": "Backtrack from the Dragonslayer Armour boss room and go into the building on the left (with a lift). You can access a ledge via a hole in the wall where the ring is on a corpse",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Blue+Tearstone+Ring\">Blue Tearstone Ring</a>",
+        "description": "Given by Greirat in High Wall",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lloyd's+Sword+Ring\">Lloyd's Sword Ring</a>",
+        "description": "On a corpse on the ledge that you run around to get past the giant in the Cathedral of the Deep",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lloyd's+Shield+Ring\">Lloyd's Shield Ring</a>",
+        "description": "Sold by the Handmaid in Firelink after the Paladin's Ashes are returned",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Milkring\">Carthus Milkring</a>",
+        "description": "In an area with many breakable pots just before the Catacombs of Carthus bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Carthus+Bloodring\">Carthus Bloodring</a>",
+        "description": "Head left from the Catacombs of Carthus bonfire, then take two rights and follow a path that leads to some wheel skeleton guys. The ring is on a corpse at the end of this path",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Pontiff's+Right+Eye\">Pontiff's Right Eye</a>",
+        "description": "Obtained by killing the <a href=\"http://darksouls3.wiki.fextralife.com/Sulyvahn's+Beast\">Sulyvahn's Beast</a> on the bridge upon entering Itithyll of the Boreal Valley",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Pontiff's+Left+Eye\">Pontiff's Left Eye</a>",
+        "description": "Trade with Ludleth of Courland for the Soul of Boreal Valley Vordt",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Aldrich's+Ruby\">Aldrich's Ruby</a>",
+        "description": "Dropped by the <a href=\"http://darksouls3.wiki.fextralife.com/Deep+Accursed\">Deep Accursed</a> behind the main gate in Anor Londo",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Aldrich's+Sapphire\">Aldrich's Sapphire</a>",
+        "description": "Dropped by the <a href=\"http://darksouls3.wiki.fextralife.com/Deep+Accursed\">Deep Accursed</a> in Cathedral of the Deep",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Silvercat+Ring\">Silvercat Ring</a>",
+        "description": "Given by Sirris in Firelink after using her summon sign on the Boreal Valley bridge and defeating the enemy",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Slumbering+Dragoncrest+Ring\">Slumbering Dragoncrest Ring</a>",
+        "description": "Given by Orbeck of Vinheim after buying Aural Decoy, Farron Flashsword, Pestilent Mist, and Spook",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Obscuring+Ring\">Obscuring Ring</a>",
+        "description": "Reward for reaching rank 1 in Rosaria's Fingers",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Untrue+Dark+Ring\">Untrue Dark Ring</a>",
+        "description": "Sold by Yuriel of Londor for 5000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Untrue%20White+Ring\">Untrue White Ring</a>",
+        "description": "Sold by Yuriel of Londor for 5000 souls",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Reversal+Ring\">Reversal Ring</a>",
+        "description": "In the Darkmoon Tomb right before entering Anor Londo",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Skull+Ring\">Skull Ring</a>",
+        "description": "Appears on Ludleth's corpse in Firelink after killing the four lords of cinder, placing their remains on their thrones, and interacting with the bonfire",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Calamity+Ring\">Calamity Ring</a>",
+        "description": "Use the Path of the Dragon gesture by the altar right next to the Dragon-Kin Mausoleum bonfire in Archdragon Peak",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Sacrifice\">Ring of Sacrifice</a>",
+        "description": "Found on an ledge/awning above a courtyard in High Wall of Lothric. Found in the watery area between the Church of Yorshka and Distant Manor Bonfires. Sold by Yuria in Firelink",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Life+Ring\">Life Ring+1</a>",
+        "description": "On a ledge where you meet Siegward in the Undead Settlement that is accessed by jumping off the lift before it reaches the top",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Life+Ring\">Life Ring+2</a>",
+        "description": "From the Dragon Barracks bonfire, cross the bridge and enter the room on the right. Climb a ladder and then exit through the door on the left. Once outside, head around to the right and look for the ring on a ledge below",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chloranthy+Ring\">Chloranthy Ring+1</a>",
+        "description": "From the Pontiff Sulyvahn bonfire, leave through the initial entrance and drop off a ledge straight ahead to land on a structure below. The ring in on ground level behind this structure",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Havel's+Ring\">Havel's Ring+1</a>",
+        "description": "From the Great Belfry bonfire in Archdragon Peak, head outside and follow the path towards the altar. It's on the left side in a corner just through the second stone arch",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Favor\">Ring of Favor+1</a>",
+        "description": "In a walkway above the Pontiff Sulyvahn bonfire",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection\">Ring of Steel Protection+1</a>",
+        "description": "At Dark Firelink Shrine behind the tower on the far right",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring\">Magic Stoneplate Ring+1</a>",
+        "description": "Head to the right from the Farron Keep bonfire to an area with curse frogs. It's on a corpse in this area",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring\">Flame Stoneplate Ring+1</a>",
+        "description": "Near the Profaned Capital bonfire, in an alcove on the roof of the front of building with the three big rhino/hand guys in the toxic water area",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring\">Thunder Stoneplate Ring+1</a>",
+        "description": "In an area with many breakable pots just before the Catacombs of Carthus bonfire",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring\">Dark Stoneplate Ring+1</a>",
+        "description": "Backtrack from the Dragonslayer Armour bonfire and drop through a break in the railing on the right side of the area to access a room. The ring is on a ledge outside of this room",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Speckled+Stoneplate+Ring\">Speckled Stoneplate Ring+1</a>",
+        "description": "From where you start each playthrough, proceed straight ahead and then to the right to an area with a crystal enemy. The ring is in this area",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Bloodbite+Ring\">Bloodbite Ring+1</a>",
+        "description": "Near the giant ballista above Smoldering Lake deep in the Catacombs of Carthus",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Poisonbite+Ring\">Poisonbite Ring+1</a>",
+        "description": "Behind a well in the cemetery area of the Undead Settlement (where arrows rain down on you)",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Fleshbite+Ring\">Fleshbite Ring+1</a>",
+        "description": "On a roof not far from the Tower on the Wall bonfire. Head out onto a large roof with one of the transforming monsters and go to the ladder where you will see the ring on the next roof over",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring\">Covetous Gold Serpent Ring+1</a>",
+        "description": "From the Church of Yorshka bonfire in Irithyll of the Boreal Valley, proceed beyond the graveyard to the dark room with all the ghosts inside. Just outside the exit, take a right and drop down to a small rocky ledge below",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring\">Covetous Silver Serpent Ring+1</a>",
+        "description": "Take the shortcut door to next to the Irithyll Dungeon bonfire to a lift. Jump off early to reach a platform where the ring is on a corpse",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring\">Lingering Dragoncrest Ring+1</a>",
+        "description": "On a corpse in the water area of Crucifixion Woods near the giant crabs",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sage+Ring\">Sage Ring+1</a>",
+        "description": "Climb out onto the roof of the Grand Archives where three flying knights engage you. High atop this roof, you can drop into the inside of the building and then work your way down some rafters. The ring is on a corpse on one of the rafters",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wolf+Ring\">Wolf Ring+1</a>",
+        "description": "From the Keep Ruins bonfire, exit and circle the building",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye+1</a>",
+        "description": "Behind the large structure right before the Deacons of the Deep boss room",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring\">Wood Grain Ring+1</a>",
+        "description": "From the Dancer of the Boreal Valley bonfire, climb the stairs and head left. Continue to the lift and go down. The ring is behind the lift at the bottom",
+        "available_from": "NGp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Life+Ring\">Life Ring+3</a>",
+        "description": "Behind the large throne in Dark Firelink",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chloranthy+Ring\">Chloranthy Ring+2</a>",
+        "description": "On a ledge under a bridge that you cross as you progress from the Road of Sacrifices bonfire",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Havel's+Ring\">Havel's Ring+2</a>",
+        "description": "On a wooden beam below the Prison Tower bonfire in Anor Londo",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Favor\">Ring of Favor+2</a>",
+        "description": "From the Cleansing Chapel bonfire, head through the door on the left and take a lift up to a tower. Go around the outside of the tower and climb a ladder to the top and then drop down to a slanted platform that leads up to a roof. Turn left and an axe wielding enemy will come out of an alcove. The ring is in this alcove",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection\">Ring of Steel Protection+2</a>",
+        "description": "Visible on a platform in the catacombs off the left side of the first long bridge",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Magic+Stoneplate+Ring\">Magic Stoneplate Ring+2</a>",
+        "description": "From the Profaned Capital bonfire, climb down the interior ladder, exit through the hole in the wall, and turn right. The ring will be towards the end of this path",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Flame+Stoneplate+Ring\">Flame Stoneplate Ring+2</a>",
+        "description": "Located in the <a href=\"http://darksouls3.wiki.fextralife.com/Smouldering%20Lake\">Smouldering Lake</a>, near Demon Ruins bonfire. Behind a hidden wall where the Black Knight with axe is found. Right beside the Black Knight Sword",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Thunder+Stoneplate+Ring\">Thunder Stoneplate Ring+2</a>",
+        "description": "Backtrack from Dragonslayer Armour bonfire and go left into the building with a lift. Go through an opening on the left to get outside on a ledge. Drop down from that ledge onto a roof and the ring is on the right side",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Dark+Stoneplate+Ring\">Dark Stoneplate Ring+2</a>",
+        "description": "From the Keep Ruins bonfire, look behind the building beyond the three enemies on the bridge",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring\">Covetous Gold Serpent Ring+2</a>",
+        "description": "In the area accessible after defeating the Nameless King",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring\">Covetous Silver Serpent Ring+2</a>",
+        "description": "Visible on a ledge just below Flynn's Ring in the Siegward/Fire Demon area of the Undead Settlement",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lingering+Dragoncrest+Ring\">Lingering Dragoncrest Ring+2</a>",
+        "description": "Climb high onto the roof of the Grand Archives where three flying knights engage you. The ring is in an alcove on the roof immediately above the area where the knights land",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Sage+Ring\">Sage Ring+2</a>",
+        "description": "From the Dancer of the Boreal Valley bonfire, climb the ladder and head left. Once outside, follow the path to a lift and jump off halfway down. Head left and fall onto a platform, then jump to an adjacent platform where the ring is",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wolf+Ring\">Wolf Ring+2</a>",
+        "description": "On the left immediately outside the first boss door",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye+2</a>",
+        "description": "In a corner behind some barrels in the room in High Wall of Lothric where Greirat's cell key and the first Estus Shard is found",
+        "available_from": "NGpp"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wood+Grain+Ring\">Wood Grain Ring+2</a>",
+        "description": "In Irithyll of the Boreal Valley, after exiting the building with a Silver Knight shooting you with a greatbow, there are stairs to the left but instead turn right and look around the corner for the ring",
+        "available_from": "NGpp"
+      }
+    ]
+  },
+  {
+    "name": "DLC Spells (No Achievement)",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Way+of+White+Corona\">Way of White Corona</a>",
+        "description": "Found on a corpse in the Corvian settlement church (Ashes of Ariandel DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Floating+Chaos\">Floating Chaos</a>",
+        "description": "Acquired after defeating Livid Pyromancer Dunnel on a tower behind an illusory wall (Ashes of Ariandel DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Frozen+Weapon\">Frozen Weapon</a>",
+        "description": "In the red pit near the Drop Bridge Cave bonfire (Ashes of Ariandel DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Snap+Freeze\">Snap Freeze</a>",
+        "description": "Guarded by a mad tree near the Depths of the Painting bonfire (Ashes of Ariandel DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Lightning+Arrow\">Lightning Arrow</a>",
+        "description": "After fighting the dragon after the Shared Grave bonfire, it's just inside the building next to the stairs with crystal lizard, behind 3 illusory walls (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Projected+Heal\">Projected Heal</a>",
+        "description": "A hidden area just shortly after you meet Lapp for the first time before Earthen Peak Ruins bonfire (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Flame+Fan\">Flame Fan</a>",
+        "description": "Acquired after defeating Desert Pyromancer Zoey (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Seething+Chaos\">Seething Chaos</a>",
+        "description": "Obtained by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+the+Demon+Prince\">Soul of the Demon Prince</a> Transposition (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Great+Soul+Dregs\">Great Soul Dregs</a>",
+        "description": "After you see the first Cursed Angel, proceed forward through the arched doorway ahead. Looking towards the 2 knights at the end of the room take the arched doorway to the right. Turn right and head up to the back of the area and through another arched doorway. Proceed up the stairs and into through the doorway into a dead end room. Attack the wall on the left to reveal an illusionary wall. Proceed up the stairs until you come to the final room. The sorcery is at the back of the room next to the Murkman (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Old+Moonlight\">Old Moonlight</a>",
+        "description": "Obtained by <a href=\"http://darksouls3.wiki.fextralife.com/Soul+of+Darkeater+Midir\">Soul of Darkeater Midir</a> Transposition (The Ringed City DLC)",
+        "available_from": "NG"
+      }
+    ]
+  },
+  {
+    "name": "DLC Rings (No Achievement)",
+    "tasks": [
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chillbite+Ring\">Chillbite Ring</a>",
+        "description": "Given by Sister Friede after talking to her twice (Ashes of Ariandel DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Chloranthy+Ring\">Chloranthy Ring+3</a>",
+        "description": "From the Shared Grave Bonfire follow the path up past the bridge and into the Church. Take a left up the stairs. On the right theres should be an invisible wall/ path to an elevator. Take it up and on your right is a alcove you roll/walk into. Make a right from there and fall through the hole and pick up the ring (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Steel+Protection\">Ring of Steel Protection+3</a>",
+        "description": "Immediately after The Dreg Heap bonfire, head forward and past the horde of enemies to a corpse. When you try to grab it you will fall and the ceiling will break, and you will fall. Once at the bottom, out the only door, there will be an angel-like hollow firing projectiles at you. Drop down and run past it and take cover behind the building. Now circle around to the other side of the building along the planks (leaving yourself exposed to the Angel's beams) to find a corpse with the ring (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Wolf+Ring\">Wolf Ring+3</a>",
+        "description": "Dropped by Seeker of the Spurned (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+Favor\">Ring of Favor+3</a>",
+        "description": "Can be found on a corpse in The Dreg Heap, up a large root in the swamp just after the Earthen Peak Ruins bonfire (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Gold+Serpent+Ring\">Covetous Gold Serpent Ring+3</a>",
+        "description": "All the way down the stairs from the Shira and and left and up the ladder immediately on your left in the swamp. Double back across the bridge, defeating the two Ringed Knights. On a corpse in a room past them with Lapp inside (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Covetous+Silver+Serpent+Ring\">Covetous Silver Serpent Ring+3</a>",
+        "description": "After meeting the first angel that shoots at you fall down onto the perch and continue into the open door archway. From there you should see 2 Knight enemies and on the right hand side there is an area you enter. You make a right and you should be in some small quarter areas. Proceed all the way to the furthest wall north of you. Turn to the left and hit it to reveal a fog wall. Climb the stairs there and just before you obtain Great Soul Dreg on your left, is a balcony. From that balcony you must drop down and there is your ring (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Havel's+Ring\">Havel's Ring+3</a>",
+        "description": "Just below where you get invaded by Dark Spirit Ledo, on the ledges above the swamp (The Ringed City DLC)",
+        "available_from": "NG"
+      },
+      {
+        "item_name": "<a href=\"http://darksouls3.wiki.fextralife.com/Ring+of+the+Evil+Eye\">Ring of the Evil Eye+3</a>",
+        "description": "Dropped from a mimic inside the spiral crypt across the bridge from the Ringed City Streets bonfire shortcut (The Ringed City DLC)",
+        "available_from": "NG"
+      }
+    ]
+  }
+]
