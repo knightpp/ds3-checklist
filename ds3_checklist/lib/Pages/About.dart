@@ -47,6 +47,17 @@ class About extends StatelessWidget {
                   color: Colors.blue, decoration: TextDecoration.underline),
             ),
           ),
+          makeHeader("Authors"),
+          ListTile(
+            leading: Icon(Icons.people),
+            title: SimpleRichMd(
+              text: "[@Lawliet18](https://github.com/Lawliet18)\n\n" +
+                  "[@knightpp](https://github.com/knightpp)",
+              onTap: openLink,
+              linkStyle: TextStyle(
+                  color: Colors.blue, decoration: TextDecoration.underline),
+            ),
+          ),
           makeHeader("MIT License"),
         ],
       ),
