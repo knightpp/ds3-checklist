@@ -15,6 +15,9 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v4
       - uses: DeterminateSystems/magic-nix-cache-action@main
+      
+      - name: Pull cache
+        run: nix develop
         
       - name: Build apk
         run: nix develop --command buildApk
