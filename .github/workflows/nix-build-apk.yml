@@ -1,4 +1,4 @@
-name: build apk in nix shell
+name: build apk in nix develop shell
 
 on:
   workflow_dispatch:
@@ -19,7 +19,7 @@ jobs:
         
       - name: Run `nix build`
         run: |
-          nix shell
+          nix develop
           cd ds3_checklist
           dart pub get
           dart analyze
