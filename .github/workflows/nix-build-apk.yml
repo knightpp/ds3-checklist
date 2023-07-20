@@ -1,6 +1,7 @@
 name: build apk in nix shell
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "master" ]
     tags: [ "v2.*" ]
