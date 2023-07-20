@@ -17,13 +17,8 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v4
       - uses: DeterminateSystems/magic-nix-cache-action@main
         
-      - name: Run `nix build`
-        run: |
-          nix develop
-          cd ds3_checklist
-          dart pub get
-          dart analyze
-          flutter build apk --release
+      - name: Build apk
+        run: nix develop --command buildApk
   
       - name: Upload apk
         uses: actions/upload-artifact@v3
