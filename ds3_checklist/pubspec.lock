@@ -315,7 +315,7 @@ packages:
       path: "../simple_rich_md"
       relative: true
     source: path
-    version: "0.0.1-nullsafety.0"
+    version: "0.0.3"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -402,13 +402,13 @@ packages:
     source: hosted
     version: "6.1.12"
   url_launcher_android:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: url_launcher_android
-      sha256: "15f5acbf0dce90146a0f5a2c4a002b1814a6303c4c5c075aa2623b2d16156f03"
+      sha256: "1a5848f598acc5b7d8f7c18b8cb834ab667e59a13edc3c93e9d09cf38cc6bc87"
       url: "https://pub.dev"
     source: hosted
-    version: "6.0.36"
+    version: "6.0.34"
   url_launcher_ios:
     dependency: transitive
     description:

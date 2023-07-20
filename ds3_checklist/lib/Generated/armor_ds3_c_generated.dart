@@ -24,7 +24,7 @@ class ArmorCategory {
 
   @override
   String toString() {
-    return 'ArmorCategory{category: ${category}, gears: ${gears}}';
+    return 'ArmorCategory{category: $category, gears: $gears}';
   }
 }
 
@@ -108,7 +108,7 @@ class Gear {
 
   @override
   String toString() {
-    return 'Gear{id: ${id}, name: ${name}}';
+    return 'Gear{id: $id, name: $name}';
   }
 }
 
@@ -189,7 +189,7 @@ class ArmorRoot {
 
   @override
   String toString() {
-    return 'ArmorRoot{items: ${items}}';
+    return 'ArmorRoot{items: $items}';
   }
 }
 

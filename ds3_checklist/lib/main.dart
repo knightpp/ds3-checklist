@@ -39,7 +39,7 @@ class MyHome extends StatelessWidget {
           elevation: 5,
           title: Text(loc.mainMenuTitle,
               overflow: TextOverflow.visible,
-              style: Theme.of(context).appBarTheme.textTheme?.headline6),
+              style: Theme.of(context).appBarTheme.titleTextStyle),
           actions: <Widget>[
             Padding(
               padding: const EdgeInsets.all(10.0),
@@ -141,41 +141,50 @@ class MyApp extends StatelessWidget {
       // letterSpacing: 1
     );
     final textTheme = Typography.blackHelsinki.copyWith(
-        button: optimus.copyWith(fontSize: 20, color: Colors.white),
-        headline5: optimus.copyWith(fontSize: 18),
-        subtitle1: optimus,
-        bodyText2: montserrat,
-        bodyText1: montserrat);
+        labelLarge: optimus.copyWith(fontSize: 20, color: Colors.white),
+        headlineSmall: optimus.copyWith(fontSize: 18),
+        titleMedium: optimus,
+        bodyMedium: montserrat,
+        bodyLarge: montserrat);
     final primaryTextTheme = Typography.blackHelsinki.copyWith(
-        bodyText2: optimus.copyWith(color: Colors.white.withOpacity(0.9)));
+        bodyMedium: optimus.copyWith(color: Colors.white.withOpacity(0.9)));
 
     return ThemeData(
-        dividerTheme: const DividerThemeData(
-            color: Colors.black, indent: 10, endIndent: 10),
-        scaffoldBackgroundColor: Colors.grey[200],
-        primaryColor: Colors.blueGrey,
-        appBarTheme: AppBarTheme(
-          textTheme:
-              textTheme.copyWith(headline6: optimus.copyWith(fontSize: 18)),
-        ),
-        tabBarTheme: TabBarTheme(
-            indicator: ShapeDecoration(
-                shape: Border(
-                    bottom: BorderSide(width: 3, color: Colors.blueGrey[50]!))),
-            labelColor: Colors.white,
-            unselectedLabelColor: Colors.white.withOpacity(0.3),
-            labelStyle: optimus,
-            unselectedLabelStyle: optimus),
-        accentColor: Colors.grey[800],
-        cardTheme: const CardTheme(
-            color: Colors.blueGrey,
-            elevation: 3,
-            margin:
-                const EdgeInsets.only(top: 8, bottom: 8, right: 20, left: 20)),
-        primaryIconTheme: const IconThemeData(size: 25, color: Colors.white70),
-        textTheme: textTheme,
-        primaryTextTheme: primaryTextTheme,
-        iconTheme: IconThemeData(color: Colors.blueGrey));
+      dividerTheme: const DividerThemeData(
+          color: Colors.black, indent: 10, endIndent: 10),
+      scaffoldBackgroundColor: Colors.grey[200],
+      primaryColor: Colors.blueGrey,
+      appBarTheme: AppBarTheme(
+        toolbarTextStyle: textTheme
+            .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
+            .bodyMedium,
+        titleTextStyle: textTheme
+            .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
+            .titleLarge,
+      ),
+      tabBarTheme: TabBarTheme(
+          indicator: ShapeDecoration(
+              shape: Border(
+                  bottom: BorderSide(width: 3, color: Colors.blueGrey[50]!))),
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.white.withOpacity(0.3),
+          labelStyle: optimus,
+          unselectedLabelStyle: optimus),
+      cardTheme: const CardTheme(
+          color: Colors.blueGrey,
+          elevation: 3,
+          margin:
+              const EdgeInsets.only(top: 8, bottom: 8, right: 20, left: 20)),
+      primaryIconTheme: const IconThemeData(size: 25, color: Colors.white70),
+      textTheme: textTheme,
+      primaryTextTheme: primaryTextTheme,
+      iconTheme: IconThemeData(color: Colors.blueGrey),
+      colorScheme: ColorScheme.fromSwatch(
+        primarySwatch: Colors.blueGrey,
+      ).copyWith(
+        secondary: Colors.grey[800],
+      ),
+    );
   }
 }
 

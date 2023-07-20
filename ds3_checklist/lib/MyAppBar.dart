@@ -54,7 +54,7 @@ class _MyAppBarState extends State<MyAppBar> {
           fit: BoxFit.fitWidth,
           child: Text(
             widget.title!,
-            style: Theme.of(context).appBarTheme.textTheme?.headline6,
+            style: Theme.of(context).appBarTheme.titleTextStyle,
           ));
     }
     return AppBar(

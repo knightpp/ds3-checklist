@@ -74,7 +74,7 @@ class _AchievementsState extends State<Achievements> {
         appBar: AppBar(
           title: Text(
             AppLocalizations.of(context)!.achievementsPageTitle,
-            style: Theme.of(context).appBarTheme.textTheme?.headline6,
+            style: Theme.of(context).appBarTheme.titleTextStyle,
           ),
         ),
         body: FutureBuilder(
@@ -186,7 +186,7 @@ class AchButton extends StatelessWidget {
                           textAlign: TextAlign.center,
                           style: Theme.of(context)
                               .textTheme
-                              .button
+                              .labelLarge
                               ?.copyWith(fontSize: 12),
                           maxLines: 2,
                         ),

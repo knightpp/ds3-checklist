@@ -5,7 +5,6 @@ import 'package:dark_souls_checklist/Pages/WeaponsAndShields.dart';
 import 'package:dark_souls_checklist/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'Trades.dart';
 import 'package:provider/provider.dart';
 
@@ -30,36 +29,33 @@ class Settings extends StatelessWidget {
 }
 
 class LangButton extends StatelessWidget {
-  final String asset;
-  final String? semanticLabel;
+  final String countryCode;
   final bool selected;
-  final void Function() onTap;
+  final VoidCallback onTap;
 
-  const LangButton(
-      {Key? key,
-      required this.asset,
-      this.semanticLabel,
-      required this.onTap,
-      this.selected = false})
-      : super(key: key);
+  const LangButton({
+    Key? key,
+    required this.countryCode,
+    required this.onTap,
+    this.selected = false,
+  }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-        child: Container(
-          decoration: BoxDecoration(
-              boxShadow: selected
-                  ? [BoxShadow(offset: Offset(0, 0), blurRadius: 2.0)]
-                  : null),
-          child: SvgPicture.asset(
-            asset,
-            height: 64,
-            semanticsLabel: semanticLabel,
-            color: selected ? null : Color.fromARGB(255, 64, 64, 64),
-            colorBlendMode: selected ? BlendMode.srcIn : BlendMode.modulate,
-          ),
-        ),
-        onTap: onTap);
+      onTap: onTap,
+      child: Text(
+        _getFlagEmoji(countryCode),
+        style: TextStyle(fontSize: selected ? 48 : 24),
+      ),
+    );
   }
+
+  String _getFlagEmoji(String countryCode) =>
+      countryCode.toUpperCase().replaceAllMapped(
+          RegExp(r'[A-Z]'),
+          (match) =>
+              String.fromCharCode(match.group(0)!.codeUnitAt(0) + 127397));
 }
 
 class SettingsPage extends StatelessWidget {
@@ -159,12 +155,28 @@ class _LanguageSelectorState extends State<LanguageSelector> {
       children: [
         LangButton(
           selected: value.currentLocale?.languageCode.startsWith("en") ?? false,
-          asset: "assets/icons/gb.svg",
-          onTap: () async {
-            value.currentLocale = Locale('en', '');
-            // final apploc = await AppLocalizations.delegate.load(Locale("en"));
-            // Intl.defaultLocale = "en";
-          },
+          countryCode: "us",
+          onTap: () => value.currentLocale = Locale('en', ''),
+        ),
+        LangButton(
+          selected: value.currentLocale?.languageCode.startsWith("uk") ?? false,
+          countryCode: "ua",
+          onTap: () => value.currentLocale = Locale('uk', ''),
+        ),
+        LangButton(
+          selected: value.currentLocale?.languageCode.startsWith("fr") ?? false,
+          countryCode: "fr",
+          onTap: () => value.currentLocale = Locale('fr', ''),
+        ),
+        LangButton(
+          selected: value.currentLocale?.languageCode.startsWith("pl") ?? false,
+          countryCode: "pl",
+          onTap: () => value.currentLocale = Locale('pl', ''),
+        ),
+        LangButton(
+          selected: value.currentLocale?.languageCode.startsWith("it") ?? false,
+          countryCode: "it",
+          onTap: () => value.currentLocale = Locale('it', ''),
         ),
       ],
     );

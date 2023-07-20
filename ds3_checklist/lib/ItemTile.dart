@@ -8,12 +8,14 @@ class ItemTile extends StatelessWidget {
     required this.isChecked,
     required this.onChanged,
     this.isVisible = true,
+    this.isLast = false,
   }) : super(key: key);
   final Widget? content;
   final Widget? title;
   final bool isChecked;
   final void Function(bool? newVal)? onChanged;
   final bool isVisible;
+  final bool isLast;
 
   @override
   Widget build(BuildContext context) {
@@ -27,11 +29,12 @@ class ItemTile extends StatelessWidget {
             onChanged: onChanged,
             value: isChecked,
           ),
-          Divider(
-            endIndent: 10,
-            indent: 10,
-            color: Colors.grey,
-          )
+          if (!isLast)
+            Divider(
+              endIndent: 10,
+              indent: 10,
+              color: Colors.grey,
+            )
         ],
       ),
     );

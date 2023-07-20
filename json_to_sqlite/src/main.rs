@@ -2,11 +2,11 @@ use rusqlite::{params, Connection, Result};
 use serde_json::Value;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    //achievements::transmute("./jsons/achievements.json")?;
-    //weapshields::transmute("./jsons/weapons_and_shields.json")?;
-    //armor::transmute("./jsons/armor.json")?;
+    achievements::transmute("./jsons/achievements.json")?;
+    weapshields::transmute("./jsons/weapons_and_shields.json")?;
+    armor::transmute("./jsons/armor.json")?;
     trades::transmute("./jsons/trades.json")?;
-    //playthrough::transmute("jsons/playthrough.json");
+    playthrough::transmute("jsons/playthrough.json");
     Ok(())
 }
 
@@ -36,7 +36,7 @@ mod trades {
             .unwrap();
 
         let trades = root.as_array().unwrap();
-        for (trade_idx, _trade) in trades.into_iter().enumerate() {
+        for (trade_idx, _trade) in trades.iter().enumerate() {
             insert_trade
                 .execute(params![trade_idx as u32, false])
                 .unwrap();
@@ -71,13 +71,8 @@ mod armor {
             .unwrap();
 
         let categories = root.as_array().unwrap();
-        for (cat_idx, cat) in categories.into_iter().enumerate() {
-            for (task_idx, _val) in cat["gear_names"]
-                .as_array()
-                .unwrap()
-                .into_iter()
-                .enumerate()
-            {
+        for (cat_idx, cat) in categories.iter().enumerate() {
+            for (task_idx, _val) in cat["gear_names"].as_array().unwrap().iter().enumerate() {
                 insert_tasks
                     .execute(params![task_idx as u32, cat_idx as u32, false])
                     .unwrap();
@@ -113,13 +108,8 @@ mod weapshields {
             .unwrap();
 
         let categories = root.as_array().unwrap();
-        for (cat_idx, cat) in categories.into_iter().enumerate() {
-            for (task_idx, _val) in cat["item_names"]
-                .as_array()
-                .unwrap()
-                .into_iter()
-                .enumerate()
-            {
+        for (cat_idx, cat) in categories.iter().enumerate() {
+            for (task_idx, _val) in cat["item_names"].as_array().unwrap().iter().enumerate() {
                 insert_tasks
                     .execute(params![task_idx as u32, cat_idx as u32, false])
                     .unwrap();
@@ -157,8 +147,8 @@ mod achievements {
             .unwrap();
 
         let categories = root.as_array().unwrap();
-        for (ach_idx, cat) in categories.into_iter().enumerate() {
-            for (task_idx, _val) in cat["tasks"].as_array().unwrap().into_iter().enumerate() {
+        for (ach_idx, cat) in categories.iter().enumerate() {
+            for (task_idx, _val) in cat["tasks"].as_array().unwrap().iter().enumerate() {
                 insert_tasks
                     .execute(params![task_idx as u32, ach_idx as u32, false])
                     .unwrap();
@@ -194,8 +184,8 @@ mod playthrough {
             .unwrap();
 
         let categories = root.as_array().unwrap();
-        for (loc_idx, cat) in categories.into_iter().enumerate() {
-            for (task_idx, _task) in cat["actions"].as_array().unwrap().into_iter().enumerate() {
+        for (loc_idx, cat) in categories.iter().enumerate() {
+            for (task_idx, _task) in cat["actions"].as_array().unwrap().iter().enumerate() {
                 insert_tasks
                     .execute(params![task_idx as u32, loc_idx as u32, false])
                     .unwrap();

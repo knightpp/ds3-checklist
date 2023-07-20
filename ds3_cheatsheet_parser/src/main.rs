@@ -2,22 +2,10 @@ use anyhow::{Context, Result};
 use ds3_cheatsheet_parser::{
     achievements, armor, playthrough, souls, trades, utils::Utils, weapons_and_shields,
 };
-use std::path::Path;
+use std::path::{Path, PathBuf};
 use tracing::instrument;
 use tracing::{trace, Level};
 use tracing_subscriber::FmtSubscriber;
-#[derive(Debug, Clone, Copy)]
-enum Lang {
-    English,
-}
-
-impl Lang {
-    fn code(&self) -> &'static str {
-        match self {
-            Lang::English => "en",
-        }
-    }
-}
 
 fn setup() {
     let subscriber = FmtSubscriber::builder()
@@ -55,7 +43,9 @@ fn main() -> Result<()> {
     //     select::document::Document::from(html.as_str())
     // };
     // parse_html("achievements", &html, achievements::Achievements)?;
-    for lang in &[Lang::English] {
+
+    const SUPPORTED_LANGS: &[&'static str] = &["en", "fr", "it", "pl", "uk"];
+    for lang in SUPPORTED_LANGS {
         gen_fb_for_json("achievements", achievements::Achievements, lang)?;
         gen_fb_for_json("armor", armor::Armors, lang)?;
         gen_fb_for_json("playthrough", playthrough::Playthroughs, lang)?;
@@ -70,19 +60,21 @@ fn main() -> Result<()> {
 
     Ok(())
 }
+
 #[instrument]
-fn gen_fb_for_json<T: Utils>(basename: &str, _: T, lang: &Lang) -> Result<()> {
+fn gen_fb_for_json<T: Utils>(basename: &str, _: T, lang: &str) -> Result<()> {
     let mut builder = flatbuffers::FlatBufferBuilder::with_capacity(512 * 1024); // 512 KiB
-    let input_path = format!("../i18n/{}/{}.json", lang.code(), basename);
-    let output_path = format!("../i18n/{}/flatbuffers/{}.fb", lang.code(), basename);
+    let input_path = format!("../i18n/{}/{}.json", lang, basename);
+    let output_path = PathBuf::from(format!("../i18n/{}/flatbuffers/{}.fb", lang, basename));
+    std::fs::create_dir_all(output_path.parent().unwrap())?;
     let json = std::fs::read_to_string(input_path.as_str())
         .with_context(|| format!("file not found: {}", input_path.as_str()))?;
     trace!("parsing json from file: {:?}", &input_path);
     let input = T::parse_json(json.as_str())?;
     trace!("generating flatbuffer: {:?}", &output_path);
     let flat = T::gen_fb(input.as_slice(), &mut builder);
-    std::fs::write(output_path.as_str(), flat)
-        .with_context(|| format!("cannot create file: {}", output_path.as_str()))?;
+    std::fs::write(&output_path, flat)
+        .with_context(|| format!("cannot create file: {}", output_path.display()))?;
     Ok(())
 }
 

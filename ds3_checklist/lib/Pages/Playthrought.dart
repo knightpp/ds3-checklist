@@ -137,6 +137,7 @@ class _PtScaffoldState extends State<PtScaffold> {
                   widget.flat[locationId].tasks![taskIdx].text!;
               return PtTile(
                 isChecked: isChecked,
+                isLast: taskIdx == widget.flat[locationId].tasks!.length - 1,
                 isVisible: !(_hideCompleted && isChecked),
                 text: taskText,
                 onChanged: (newVal) {
@@ -155,12 +156,14 @@ class PtTile extends StatelessWidget {
   final void Function(bool?)? onChanged;
   final bool isVisible;
   final bool isChecked;
+  final bool isLast;
   final String text;
   const PtTile(
       {Key? key,
       required this.onChanged,
       required this.isChecked,
       required this.isVisible,
+      required this.isLast,
       required this.text})
       : super(key: key);
 
@@ -169,11 +172,12 @@ class PtTile extends StatelessWidget {
     return ItemTile(
       isVisible: isVisible,
       isChecked: isChecked,
+      isLast: isLast,
       title: SimpleRichMd(
         text: text,
         onTap: openLink,
         linkStyle: getLinkTextStyle(),
-        textStyle: Theme.of(context).textTheme.bodyText2,
+        textStyle: Theme.of(context).textTheme.bodyMedium,
       ),
       // MarkdownBody(
       //   data: text,

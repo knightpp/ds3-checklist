@@ -24,7 +24,7 @@ class Location {
 
   @override
   String toString() {
-    return 'Location{name: ${name}, note: ${note}}';
+    return 'Location{name: $name, note: $note}';
   }
 }
 
@@ -109,7 +109,7 @@ class Task {
 
   @override
   String toString() {
-    return 'Task{id: ${id}, tags: ${tags}, text: ${text}}';
+    return 'Task{id: $id, tags: $tags, text: $text}';
   }
 }
 
@@ -201,7 +201,7 @@ class Playthrough {
 
   @override
   String toString() {
-    return 'Playthrough{location: ${location}, tasks: ${tasks}}';
+    return 'Playthrough{location: $location, tasks: $tasks}';
   }
 }
 
@@ -283,7 +283,7 @@ class PlaythroughRoot {
 
   @override
   String toString() {
-    return 'PlaythroughRoot{items: ${items}}';
+    return 'PlaythroughRoot{items: $items}';
   }
 }
 

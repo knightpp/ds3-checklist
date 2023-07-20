@@ -1,22 +1,14 @@
 name: simple_rich_md
 description: A new Flutter package project.
-version: 0.0.1-nullsafety.0
-author: Danil Kondratiev <knightpp@protonmail.com>
-homepage:
+version: 0.0.3
 
 environment:
-  sdk: ">=2.12.0-0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  characters: ^1.1.0-nullsafety.5
-
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  characters: ^1.3.0
 
 flutter:
-

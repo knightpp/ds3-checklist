@@ -138,12 +138,13 @@ class _ExpandableTileState extends State<ExpandableTile> {
         onChanged: (newVal) {
           _updateChecked(catIdx, taskId, newVal!);
         },
+        isLast: taskId == cat.items!.length - 1,
         isChecked: isChecked,
         content: SimpleRichMd(
           text: cat.items![taskId].name!,
           onTap: openLink,
           linkStyle: getLinkTextStyle(),
-          textStyle: Theme.of(context).textTheme.bodyText2,
+          textStyle: Theme.of(context).textTheme.bodyMedium,
         ),
         // MarkdownBody(
         //   onTapLink: openLink,
@@ -166,7 +167,7 @@ class _ExpandableTileState extends State<ExpandableTile> {
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       title: Text(
         widget.cat.name!,
-        style: Theme.of(context).textTheme.headline5,
+        style: Theme.of(context).textTheme.headlineSmall,
         textAlign: TextAlign.center,
       ),
       // Center(

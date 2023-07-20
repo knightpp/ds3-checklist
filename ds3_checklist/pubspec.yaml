@@ -5,7 +5,7 @@ publish_to: "none"
 version: 2.1.2+14
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -23,6 +23,11 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
+dependency_overrides:
+  # Limiting to 6.0.34, since 6.0.35 introduced compatibility issues with
+  # AGP 8.0. See https://github.com/flutter/flutter/issues/128204.
+  url_launcher_android: 6.0.34
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -35,6 +40,10 @@ flutter:
     - assets/images/
     - assets/sqlites/
     - assets/i18n/en/flatbuffers/
+    - assets/i18n/fr/flatbuffers/
+    - assets/i18n/it/flatbuffers/
+    - assets/i18n/pl/flatbuffers/
+    - assets/i18n/uk/flatbuffers/
   fonts:
     - family: OptimusPrinceps
       fonts:

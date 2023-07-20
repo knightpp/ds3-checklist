@@ -21,7 +21,7 @@ class About extends StatelessWidget {
             title: SimpleRichMd(
               onTap: openLink,
               text: apploc.aboutUsedResource.replaceFirst("\$link", link),
-              textStyle: Theme.of(context).textTheme.bodyText2,
+              textStyle: Theme.of(context).textTheme.bodyMedium,
               linkStyle: TextStyle(
                   color: Colors.blue, decoration: TextDecoration.underline),
             ),
@@ -42,6 +42,17 @@ class About extends StatelessWidget {
             leading: Icon(Icons.source),
             title: SimpleRichMd(
               text: "[Github link](https://github.com/knightpp/ds3-checklist)",
+              onTap: openLink,
+              linkStyle: TextStyle(
+                  color: Colors.blue, decoration: TextDecoration.underline),
+            ),
+          ),
+          makeHeader("Authors"),
+          ListTile(
+            leading: Icon(Icons.people),
+            title: SimpleRichMd(
+              text: "[@Lawliet18](https://github.com/Lawliet18)\n\n" +
+                  "[@knightpp](https://github.com/knightpp)",
               onTap: openLink,
               linkStyle: TextStyle(
                   color: Colors.blue, decoration: TextDecoration.underline),
