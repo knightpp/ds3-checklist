@@ -21,9 +21,18 @@ jobs:
         
       - name: Build apk
         run: nix develop --command buildApk
-  
-      - name: Upload apk
-        uses: actions/upload-artifact@v3
+        
+#       - name: Upload apk
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: ds3-checklist.apk
+#           path: ds3_checklist/build/app/outputs/flutter-apk/app-release.apk
+
+      - name: Upload binaries to release    
+        uses: svenstaro/upload-release-action@v2
         with:
-          name: ds3-checklist.apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ds3_checklist/build/app/outputs/flutter-apk/app-release.apk
+          asset_name: ds3-checklist.apk
+          tag: ${{ github.ref }}
+          overwrite: true
