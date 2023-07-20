@@ -3,7 +3,6 @@ name: build apk in nix develop shell
 on:
   workflow_dispatch:
   push:
-    branches: [ "master" ]
     tags: [ "v2.*" ]
 
 jobs:
@@ -24,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ds3-checklist.apk
-          path: build/app/outputs/apk/release/app-release.apk
+          path: build/app/outputs/flutter-apk/app-release.apk
