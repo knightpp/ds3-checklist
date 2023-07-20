@@ -24,26 +24,38 @@
     in
     {
       # Development environment output
-      devShells = forAllSystems ({ pkgs }: {
-        default =
-          let
-            androidComposition = pkgs.androidenv.composeAndroidPackages {
-              buildToolsVersions = [ "30.0.3" ];
-              platformVersions = [ "33" ];
-              abiVersions = [ "armeabi-v7a" "arm64-v8a" ];
-            };
-            androidSdk = androidComposition.androidsdk;
-          in
-          pkgs.mkShell {
-            ANDROID_SDK_ROOT = "${androidSdk}/libexec/android-sdk";
+      devShells = forAllSystems
+        ({ pkgs }: {
+          default =
+            let
+              androidComposition = pkgs.androidenv.composeAndroidPackages {
+                buildToolsVersions = [ "30.0.3" ];
+                platformVersions = [ "33" ];
+                abiVersions = [ "armeabi-v7a" "arm64-v8a" ];
+              };
+              androidSdk = androidComposition.androidsdk;
+              buildApk = pkgs.writeShellScriptBin "buildApk" ''
+                set -euo pipefail
+                export ANDROID_SDK_ROOT="${androidSdk}/libexec/android-sdk"
 
-            buildInputs = with pkgs; [
-              flutter
-              androidSdk
-              jdk17
-              flatbuffers
-            ];
-          };
-      });
+                cd ds3_checklist
+                flutter pub get
+                flutter analyze --no-fatal-infos
+                flutter build apk --release
+              '';
+            in
+            pkgs.mkShell {
+              ANDROID_SDK_ROOT = "${androidSdk}/libexec/android-sdk";
+
+              buildInputs = [
+                buildApk
+                androidSdk
+
+                pkgs.flutter
+                pkgs.jdk17
+                pkgs.flatbuffers
+              ];
+            };
+        });
     };
 }
