@@ -1,0 +1,32 @@
+name: build apk in nix shell
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "master" ]
+    tags: [ "v2.*" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v4
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+        
+      - name: Run `nix build`
+        run: |
+          nix shell
+          cd ds3_checklist
+          dart pub get
+          dart analyze
+          flutter build apk --release
+  
+      - name: Upload apk
+        uses: actions/upload-artifact@v3
+        with:
+          name: ds3-checklist.apk
+          path: build/app/outputs/apk/release/app-release.apk
