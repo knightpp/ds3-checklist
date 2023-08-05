@@ -17,7 +17,7 @@ jobs:
       - uses: DeterminateSystems/magic-nix-cache-action@main
       
       - name: Pull cache
-        run: nix develop
+        run: nix flake prefetch
         
       - name: Build apk
         run: nix develop --command buildApk
