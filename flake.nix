@@ -37,21 +37,21 @@
             abiVersions = ["armeabi-v7a" "arm64-v8a"];
           };
           androidSdk = androidComposition.androidsdk;
-          buildApk = pkgs.writeShellScriptBin "buildApk" ''
+          buildFlutter = pkgs.writeShellScriptBin "buildFlutter" ''
             set -euo pipefail
             export ANDROID_SDK_ROOT="${androidSdk}/libexec/android-sdk"
 
             cd ds3_checklist
             flutter pub get
             flutter analyze --no-fatal-infos
-            flutter build apk --release
+            flutter build "$@" --release
           '';
         in
           pkgs.mkShell {
             ANDROID_SDK_ROOT = "${androidSdk}/libexec/android-sdk";
 
             buildInputs = [
-              buildApk
+              buildFlutter
               androidSdk
 
               pkgs.flutter
