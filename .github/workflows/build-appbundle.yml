@@ -2,8 +2,6 @@ name: build appbundle in nix develop shell
 
 on:
   workflow_dispatch:
-  push:
-    tags: [ "v2.*" ]
 
 jobs:
   build:
