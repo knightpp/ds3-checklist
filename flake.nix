@@ -32,7 +32,7 @@
       ({pkgs}: {
         default = let
           androidComposition = pkgs.androidenv.composeAndroidPackages {
-            buildToolsVersions = ["35.0.1"];
+            buildToolsVersions = ["34.0.0"];
             platformVersions = ["34"];
             abiVersions = ["armeabi-v7a" "arm64-v8a"];
           };
@@ -57,6 +57,9 @@
               pkgs.flutter
               pkgs.jdk
               pkgs.flatbuffers
+              # it does not use system tools by default
+              # pkgs.gradle
+              # pkgs.aapt
             ];
           };
       });
