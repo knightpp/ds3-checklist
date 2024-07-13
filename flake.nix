@@ -32,8 +32,8 @@
       ({pkgs}: {
         default = let
           androidComposition = pkgs.androidenv.composeAndroidPackages {
-            buildToolsVersions = ["30.0.3"];
-            platformVersions = ["33"];
+            buildToolsVersions = ["35.0.1"];
+            platformVersions = ["34"];
             abiVersions = ["armeabi-v7a" "arm64-v8a"];
           };
           androidSdk = androidComposition.androidsdk;
@@ -55,7 +55,7 @@
               androidSdk
 
               pkgs.flutter
-              pkgs.jdk17
+              pkgs.jdk
               pkgs.flatbuffers
             ];
           };
