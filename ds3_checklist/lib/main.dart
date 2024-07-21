@@ -155,6 +155,7 @@ class MyApp extends StatelessWidget {
       scaffoldBackgroundColor: Colors.grey[200],
       primaryColor: Colors.blueGrey,
       appBarTheme: AppBarTheme(
+        backgroundColor: Colors.blueGrey,
         toolbarTextStyle: textTheme
             .copyWith(titleLarge: optimus.copyWith(fontSize: 18))
             .bodyMedium,
